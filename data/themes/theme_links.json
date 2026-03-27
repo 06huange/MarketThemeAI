@@ -1,0 +1,68 @@
+[
+  {
+    "from_week": "2026-W09",
+    "to_week": "2026-W10",
+    "from_theme_id": "2026-W09_theme_4",
+    "to_theme_id": "2026-W10_theme_14",
+    "from_label": "nvidia | ai | quarter",
+    "to_label": "buy | stock | ai",
+    "from_size": 29,
+    "to_size": 12,
+    "similarity": 0.891
+  },
+  {
+    "from_week": "2026-W09",
+    "to_week": "2026-W10",
+    "from_theme_id": "2026-W09_theme_3",
+    "to_theme_id": "2026-W10_theme_12",
+    "from_label": "billion | openai | funding",
+    "to_label": "oracle | stargate | openai",
+    "from_size": 13,
+    "to_size": 6,
+    "similarity": 0.7225
+  },
+  {
+    "from_week": "2026-W10",
+    "to_week": "2026-W11",
+    "from_theme_id": "2026-W10_theme_14",
+    "to_theme_id": "2026-W11_theme_3",
+    "from_label": "buy | stock | ai",
+    "to_label": "buy | stock | ai",
+    "from_size": 12,
+    "to_size": 110,
+    "similarity": 0.962
+  },
+  {
+    "from_week": "2026-W11",
+    "to_week": "2026-W12",
+    "from_theme_id": "2026-W11_theme_3",
+    "to_theme_id": "2026-W12_theme_12",
+    "from_label": "buy | stock | ai",
+    "to_label": "stocks | artificial | artificial intelligence",
+    "from_size": 110,
+    "to_size": 8,
+    "similarity": 0.9358
+  },
+  {
+    "from_week": "2026-W11",
+    "to_week": "2026-W12",
+    "from_theme_id": "2026-W11_theme_4",
+    "to_theme_id": "2026-W12_theme_7",
+    "from_label": "iran | market | stock market",
+    "to_label": "oil | oil prices | prices",
+    "from_size": 8,
+    "to_size": 15,
+    "similarity": 0.724
+  },
+  {
+    "from_week": "2026-W12",
+    "to_week": "2026-W13",
+    "from_theme_id": "2026-W12_theme_12",
+    "to_theme_id": "2026-W13_theme_0",
+    "from_label": "stocks | artificial | artificial intelligence",
+    "to_label": "ai | nvidia | stock",
+    "from_size": 8,
+    "to_size": 61,
+    "similarity": 0.8685
+  }
+]
