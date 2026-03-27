@@ -1,0 +1,71 @@
+name: Weekly Theme Update
+
+on:
+  schedule:
+    - cron: "0 16 * * 1"   # Monday 16:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-themes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python src/filter_articles.py
+          python src/themes/build_weekly_themes.py
+          python src/track/link_themes_over_time.py
+          python src/themes/build_weekly_index.py
+
+      - name: Copy generated files into frontend public directory
+        run: |
+          mkdir -p frontend/public/data/themes
+          rm -rf frontend/public/data/themes/weekly
+          cp -R data/themes/weekly frontend/public/data/themes/weekly
+          cp data/themes/theme_links.json frontend/public/data/themes/theme_links.json
+          cp data/themes/weekly_index.json frontend/public/data/themes/weekly_index.json
+
+      - name: Commit updated outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/themes frontend/public/data/themes
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Weekly theme update"
+            git push
+          fi
