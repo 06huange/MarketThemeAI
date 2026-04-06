@@ -11,7 +11,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 
-ARTICLES_PATH = Path("data/processed/articles_filtered.json")
+ARTICLES_PATH = Path("data/raw/articles.json")
 OUT_DIR = Path("data/themes/weekly")
 
 EMBED_MODEL_NAME = "all-MiniLM-L6-v2"
@@ -29,9 +29,17 @@ def load_articles() -> list[dict]:
 
 
 def get_week(date_str: str) -> str:
-    dt = datetime.strptime(date_str, "%Y%m%dT%H%M%SZ")
-    year, week, _ = dt.isocalendar()
-    return f"{year}-W{week:02d}"
+    date_str = (date_str or "").strip()
+
+    for fmt in ("%Y%m%dT%H%M%SZ", "%Y%m%d%H%M%S", "%Y%m%d"):
+        try:
+            dt = datetime.strptime(date_str, fmt)
+            year, week, _ = dt.isocalendar()
+            return f"{year}-W{week:02d}"
+        except ValueError:
+            pass
+
+    raise ValueError(f"Unrecognized date format: {date_str!r}")
 
 
 def group_by_week(articles: list[dict]) -> dict[str, list[dict]]:
