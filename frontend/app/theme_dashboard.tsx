@@ -158,8 +158,10 @@ function buildTrajectory(theme: Theme, themeMap: Map<string, Theme>) {
 
   while (current && guard < 20) {
     chain.unshift(current);
-    const prevId = current.previous_theme_id || undefined;
-    current = prevId ? themeMap.get(prevId) : undefined;
+
+    const prevId: string | undefined = current.previous_theme_id ?? undefined;
+    current = prevId !== undefined ? themeMap.get(prevId) : undefined;
+
     guard += 1;
   }
 
