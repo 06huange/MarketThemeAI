@@ -1,9 +1,13 @@
-numpy>=1.26
-scikit-learn>=1.4
-sentence-transformers>=2.6
-hdbscan>=0.8.33
-torch>=2.2
-tqdm>=4.66
-pandas>=2.2
-requests>=2.31
-trafilatura>=1.9
+# torch 2.2.2 is the last release with Intel-Mac wheels, which pins the rest of the
+# ML stack: newer transformers releases require torch >= 2.5.
+torch==2.2.2
+numpy==1.26.4
+transformers==4.46.3
+sentence-transformers==3.4.1
+scikit-learn==1.9.1
+hdbscan==0.8.44
+trafilatura==2.3.0
+google-cloud-bigquery==3.46.1
+
+# dev
+pytest==9.1.1

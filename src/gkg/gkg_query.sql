@@ -10,7 +10,7 @@ WITH filtered AS (
   FROM
     `gdelt-bq.gdeltv2.gkg_partitioned`
   WHERE
-    DATE(_PARTITIONTIME) BETWEEN DATE_SUB(CURRENT_DATE(), INTERVAL 90 DAY) AND CURRENT_DATE()
+    DATE(_PARTITIONTIME) BETWEEN DATE_SUB(CURRENT_DATE(), INTERVAL @days DAY) AND CURRENT_DATE()
     AND (
       TranslationInfo IS NULL
       OR REGEXP_CONTAINS(TranslationInfo, r'(^|;)srclc:eng(;|$)')

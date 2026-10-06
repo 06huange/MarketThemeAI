@@ -12,6 +12,42 @@ from pathlib import Path
 
 import trafilatura
 
+from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
+
+TRACKING_PARAMS = {
+    "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
+    "utm_id", "gclid", "fbclid", "mc_cid", "mc_eid", "ref", "ref_src",
+    "igshid", "cmpid"
+}
+
+def canonicalize_url(url: str) -> str:
+    url = (url or "").strip()
+    if not url:
+        return ""
+
+    try:
+        parts = urlsplit(url)
+    except Exception:
+        return url
+
+    scheme = (parts.scheme or "https").lower()
+    netloc = parts.netloc.lower()
+
+    if netloc.startswith("www."):
+        netloc = netloc[4:]
+
+    path = parts.path or "/"
+    if path != "/" and path.endswith("/"):
+        path = path[:-1]
+
+    filtered_query = [
+        (k, v)
+        for k, v in parse_qsl(parts.query, keep_blank_values=True)
+        if k.lower() not in TRACKING_PARAMS
+    ]
+    filtered_query.sort()
+
+    return urlunsplit((scheme, netloc, path, urlencode(filtered_query), ""))
 
 BQ_CSV_PATH = Path("data/raw/gdelt_bq_articles.csv")
 OUT_PATH = Path("data/raw/articles.json")
@@ -61,7 +97,7 @@ def parse_args() -> argparse.Namespace:
 
 
 def make_article_id(url: str) -> str:
-    return hashlib.md5(url.encode("utf-8")).hexdigest()
+    return hashlib.md5(canonicalize_url(url).encode("utf-8")).hexdigest()
 
 
 def load_existing_articles(path: Path) -> list[dict]:
@@ -82,9 +118,12 @@ def dedupe_by_url(items: list[dict]) -> list[dict]:
     out = []
 
     for item in items:
-        url = (item.get("url") or "").strip()
+        raw_url = (item.get("url") or "").strip()
+        url = canonicalize_url(raw_url)
         if not url or url in seen:
             continue
+
+        item["url"] = url
         seen.add(url)
         out.append(item)
 
@@ -92,6 +131,7 @@ def dedupe_by_url(items: list[dict]) -> list[dict]:
 
 
 def normalize_bq_date(raw_date: str) -> str:
+    
     raw_date = (raw_date or "").strip()
     if not raw_date:
         return ""
@@ -163,7 +203,7 @@ def normalize_bq_article(
     title: str,
     text: str,
 ) -> Article:
-    url = (raw.get("url") or "").strip()
+    url = canonicalize_url(raw.get("url") or "")
     source = (raw.get("domain") or "").strip()
     date = (raw.get("seendate") or "").strip()
     language = raw.get("sourceLanguage")
@@ -232,7 +272,7 @@ def main() -> None:
 
     existing = load_existing_articles(OUT_PATH)
     existing_urls = {
-        (item.get("url") or "").strip()
+        canonicalize_url(item.get("url") or "")
         for item in existing
         if item.get("url")
     }

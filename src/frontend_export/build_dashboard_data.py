@@ -11,12 +11,16 @@ WEEKLY_INDEX_PATH = THEMES_DIR / "weekly_index.json"
 THEME_LINKS_PATH = THEMES_DIR / "theme_links.json"
 WEEKLY_DIR = THEMES_DIR / "weekly"
 
-OUT_DIR = Path("public/data")
+OUT_DIR = Path("frontend/public/data")
 OUT_WEEKS_DIR = OUT_DIR / "weeks"
 DASHBOARD_OUT_PATH = OUT_DIR / "dashboard.json"
 
 EMERGING_GROWTH_THRESHOLD = 0.25
 MIN_SIMILARITY_FOR_CONTINUATION = 0.60
+
+# Per-theme fields the dashboard never reads. Centroids alone are 384 floats per
+# theme and made up most of dashboard.json, so they stay in data/themes only.
+BACKEND_ONLY_FIELDS = ("centroid", "article_ids")
 
 
 def load_json(path: Path) -> Any:
@@ -136,7 +140,10 @@ def build_theme_records(
                 previous_size = int(incoming.get("from_size", 0))
                 growth_rate = compute_growth_rate(previous_size, size)
 
-            is_new = (
+            # The first week has nothing to compare against, so none of its
+            # themes can be called "new"; they are the baseline.
+            is_baseline_week = week == weeks[0]
+            is_new = not is_baseline_week and (
                 incoming is None
                 or similarity is None
                 or similarity < MIN_SIMILARITY_FOR_CONTINUATION
@@ -190,6 +197,10 @@ def build_theme_records(
         themes_by_week_out[week] = enriched_week_themes
 
     return all_theme_records, themes_by_week_out
+
+
+def strip_backend_fields(theme: dict) -> dict:
+    return {k: v for k, v in theme.items() if k not in BACKEND_ONLY_FIELDS}
 
 
 def build_stats(themes: list[dict], weeks: list[str]) -> dict:
@@ -257,15 +268,15 @@ def main() -> None:
     for week in weeks:
         payload = {
             "week": week,
-            "themes": themes_by_week_out.get(week, []),
+            "themes": [strip_backend_fields(t) for t in themes_by_week_out.get(week, [])],
         }
         save_json(OUT_WEEKS_DIR / f"{week}.json", payload)
 
     dashboard_payload = {
         "weeks": weeks,
         "stats": stats,
-        "themes": all_themes,
-        "emerging": emerging,
+        "themes": [strip_backend_fields(t) for t in all_themes],
+        "emerging": [strip_backend_fields(t) for t in emerging],
         "links": links,
     }
     save_json(DASHBOARD_OUT_PATH, dashboard_payload)
