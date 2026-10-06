@@ -5,7 +5,7 @@
       "theme_id": "2026-W08_theme_11",
       "week": "2026-W08",
       "cluster_id": 11,
-      "label": "bln | bln raise | raise",
+      "label": "100 bln | bln | bln raise",
       "size": 34,
       "top_companies": [
         "NVIDIA",
@@ -76,7 +76,7 @@
       ],
       "previous_theme_id": "2026-W07_theme_3",
       "previous_week": "2026-W07",
-      "previous_label": "india | ai | impact summit",
+      "previous_label": "india | ai | impact",
       "previous_size": 11,
       "similarity_to_previous": 0.9082,
       "growth_rate": 1.3636,
@@ -90,7 +90,7 @@
       "theme_id": "2026-W08_theme_4",
       "week": "2026-W08",
       "cluster_id": 4,
-      "label": "marred | marred controversy | controversy",
+      "label": "controversy | controversy robotic | launch marred",
       "size": 18,
       "top_companies": [
         "Google",
@@ -125,7 +125,7 @@
       "theme_id": "2026-W08_theme_5",
       "week": "2026-W08",
       "cluster_id": 5,
-      "label": "world labs | world | spatial ai",
+      "label": "ai | ai push | billion",
       "size": 16,
       "top_companies": [
         "AMD",
@@ -158,7 +158,7 @@
       "theme_id": "2026-W08_theme_14",
       "week": "2026-W08",
       "cluster_id": 14,
-      "label": "value tech | value | erase value",
+      "label": "ai investment | erase | erase value",
       "size": 13,
       "top_companies": [
         "Amazon",
@@ -200,7 +200,7 @@
       "theme_id": "2026-W08_theme_3",
       "week": "2026-W08",
       "cluster_id": 3,
-      "label": "shares advance | advance japan | advance",
+      "label": "advance | advance japan | ahead",
       "size": 11,
       "top_companies": [
         "NVIDIA",
@@ -234,7 +234,7 @@
       "theme_id": "2026-W08_theme_1",
       "week": "2026-W08",
       "cluster_id": 1,
-      "label": "wealth | rich pass | rich",
+      "label": "pass | pass wealth | rich",
       "size": 9,
       "top_companies": [
         "NVIDIA"
@@ -263,7 +263,7 @@
       "theme_id": "2026-W08_theme_13",
       "week": "2026-W08",
       "cluster_id": 13,
-      "label": "higher | market higher | nvidia",
+      "label": "higher | market higher | leads",
       "size": 8,
       "top_companies": [
         "Cadence Design Systems",
@@ -344,7 +344,7 @@
       "theme_id": "2026-W08_theme_9",
       "week": "2026-W08",
       "cluster_id": 9,
-      "label": "ai | qualcomm | qualcomm ceo",
+      "label": "ai | qualcomm | ceo",
       "size": 6,
       "top_companies": [
         "Qualcomm"
@@ -379,7 +379,7 @@
       "theme_id": "2026-W08_theme_0",
       "week": "2026-W08",
       "cluster_id": 0,
-      "label": "wealth | rich | rich pass",
+      "label": "pass | pass wealth | rich",
       "size": 5,
       "top_companies": [
         "NVIDIA"
@@ -408,7 +408,7 @@
       "theme_id": "2026-W08_theme_6",
       "week": "2026-W08",
       "cluster_id": 6,
-      "label": "fei | li lands | startup",
+      "label": "fei | billion startup | lands",
       "size": 5,
       "top_companies": [
         "AMD",
@@ -442,7 +442,7 @@
       "theme_id": "2026-W08_theme_7",
       "week": "2026-W08",
       "cluster_id": 7,
-      "label": "worries ai | worries | swinging worries",
+      "label": "ai | ai economy | economy",
       "size": 5,
       "top_companies": [
         "Google",
@@ -518,7 +518,7 @@
       "theme_id": "2026-W08_theme_2",
       "week": "2026-W08",
       "cluster_id": 2,
-      "label": "earnings | transcript | earnings transcript",
+      "label": "earnings | earnings transcript | transcript",
       "size": 7,
       "top_companies": [
         "NVIDIA",
@@ -553,7 +553,7 @@
       "theme_id": "2026-W08_theme_10",
       "week": "2026-W08",
       "cluster_id": 10,
-      "label": "stocks | close | macro",
+      "label": "stocks | close | better",
       "size": 5,
       "top_companies": [
         "Apple",
@@ -574,7 +574,7 @@
       ],
       "previous_theme_id": "2026-W07_theme_12",
       "previous_week": "2026-W07",
-      "previous_label": "stocks | gold silver | silver",
+      "previous_label": "stocks | gold | gold silver",
       "previous_size": 20,
       "similarity_to_previous": 0.7715,
       "growth_rate": -0.75,

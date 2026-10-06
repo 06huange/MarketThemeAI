@@ -69,6 +69,11 @@ type DashboardData = {
   links: Link[];
 };
 
+// Served by the API when NEXT_PUBLIC_API_URL is set; otherwise the static export
+// bundled in public/data.
+const API_URL = process.env.NEXT_PUBLIC_API_URL?.replace(/\/$/, "");
+const DASHBOARD_URL = API_URL ? `${API_URL}/dashboard` : "/data/dashboard.json";
+
 function formatPct(value?: number | null) {
   if (value == null || Number.isNaN(value)) return "—";
   return `${Math.round(value * 100)}%`;
@@ -413,9 +418,9 @@ export default function ThemeDashboard() {
       try {
         setLoading(true);
         setError(null);
-        const res = await fetch("/data/dashboard.json", { cache: "no-store" });
+        const res = await fetch(DASHBOARD_URL, { cache: "no-store" });
         if (!res.ok) {
-          throw new Error(`Failed to load dashboard.json (${res.status})`);
+          throw new Error(`Failed to load dashboard data (${res.status})`);
         }
         const data = (await res.json()) as DashboardData;
         if (!cancelled) {

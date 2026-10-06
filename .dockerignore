@@ -1,0 +1,11 @@
+# Keep build context small: only source and requirements are copied in.
+.git
+.github
+.venv*
+**/__pycache__
+.pytest_cache
+data/*
+!data/company_universe.csv
+frontend
+tests
+*.md

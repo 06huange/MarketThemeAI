@@ -49,7 +49,7 @@
       "theme_id": "2026-W04_theme_0",
       "week": "2026-W04",
       "cluster_id": 0,
-      "label": "ex60 | rival | mercedes",
+      "label": "ex60 | bmw | bmw ix3",
       "size": 18,
       "top_companies": [
         "Google",
@@ -85,7 +85,7 @@
       "theme_id": "2026-W04_theme_6",
       "week": "2026-W04",
       "cluster_id": 6,
-      "label": "test ads | revenue | test",
+      "label": "ads openai | chatgpt test | looks",
       "size": 13,
       "top_companies": [
         "Google",
@@ -156,7 +156,7 @@
       "theme_id": "2026-W04_theme_2",
       "week": "2026-W04",
       "cluster_id": 2,
-      "label": "trump plans | trump | surrounded billionaires",
+      "label": "affordable | billionaires | billionaires davos",
       "size": 10,
       "top_companies": [
         "Dell Technologies",
@@ -221,7 +221,7 @@
       "theme_id": "2026-W04_theme_13",
       "week": "2026-W04",
       "cluster_id": 13,
-      "label": "warns | warns higher | tariffs countries",
+      "label": "countries | countries greenland | futures",
       "size": 10,
       "top_companies": [
         "Intel",
@@ -375,7 +375,7 @@
       "theme_id": "2026-W04_theme_16",
       "week": "2026-W04",
       "cluster_id": 16,
-      "label": "motley fool | fool | motley",
+      "label": "fool | motley | motley fool",
       "size": 17,
       "top_companies": [
         "NVIDIA",
@@ -403,7 +403,7 @@
       ],
       "previous_theme_id": "2026-W03_theme_13",
       "previous_week": "2026-W03",
-      "previous_label": "motley fool | motley | fool",
+      "previous_label": "fool | motley | motley fool",
       "previous_size": 13,
       "similarity_to_previous": 0.9591,
       "growth_rate": 0.3077,
@@ -419,7 +419,7 @@
       "theme_id": "2026-W04_theme_7",
       "week": "2026-W04",
       "cluster_id": 7,
-      "label": "openai | make | says",
+      "label": "openai | make | 2026",
       "size": 5,
       "top_companies": [
         "NVIDIA",
@@ -462,7 +462,7 @@
       "theme_id": "2026-W04_theme_11",
       "week": "2026-W04",
       "cluster_id": 11,
-      "label": "ai | unexpected | stocks hiding",
+      "label": "ai | ai stocks | fool",
       "size": 5,
       "top_companies": [
         "NVIDIA",
@@ -501,7 +501,7 @@
       "theme_id": "2026-W04_theme_4",
       "week": "2026-W04",
       "cluster_id": 4,
-      "label": "unease | unease rising | inequality",
+      "label": "business | business trump | inequality",
       "size": 7,
       "top_companies": [
         "Microsoft",
@@ -517,7 +517,7 @@
       ],
       "previous_theme_id": "2026-W03_theme_0",
       "previous_week": "2026-W03",
-      "previous_label": "leaders | davos | 2026",
+      "previous_label": "davos | leaders | 2026",
       "previous_size": 5,
       "similarity_to_previous": 0.7823,
       "growth_rate": 0.4,
@@ -531,7 +531,7 @@
       "theme_id": "2026-W04_theme_3",
       "week": "2026-W04",
       "cluster_id": 3,
-      "label": "annual | know annual | meeting davos",
+      "label": "annual | annual world | know annual",
       "size": 8,
       "top_companies": [
         "Google",
@@ -548,7 +548,7 @@
       ],
       "previous_theme_id": "2026-W03_theme_1",
       "previous_week": "2026-W03",
-      "previous_label": "world economic | world | week",
+      "previous_label": "davos | davos week | delegation",
       "previous_size": 6,
       "similarity_to_previous": 0.7823,
       "growth_rate": 0.3333,
@@ -589,7 +589,7 @@
       ],
       "previous_theme_id": "2026-W03_theme_10",
       "previous_week": "2026-W03",
-      "previous_label": "conditions | chip | ai",
+      "previous_label": "chip | conditions | ai",
       "previous_size": 14,
       "similarity_to_previous": 0.8668,
       "growth_rate": -0.1429,
@@ -605,7 +605,7 @@
       "theme_id": "2026-W04_theme_8",
       "week": "2026-W04",
       "cluster_id": 8,
-      "label": "wall street | wall | tumbles gold",
+      "label": "drifts | drifts intel | gold",
       "size": 5,
       "top_companies": [
         "Intel"
@@ -638,7 +638,7 @@
       "theme_id": "2026-W04_theme_10",
       "week": "2026-W04",
       "cluster_id": 10,
-      "label": "selling | chip | selling nuclear",
+      "label": "selling | chip | ai",
       "size": 5,
       "top_companies": [
         "NVIDIA",
@@ -663,7 +663,7 @@
       ],
       "previous_theme_id": "2026-W03_theme_11",
       "previous_week": "2026-W03",
-      "previous_label": "h200 | nvidia h200 | nvidia",
+      "previous_label": "blocks | china | china blocks",
       "previous_size": 5,
       "similarity_to_previous": 0.7555,
       "growth_rate": 0.0,

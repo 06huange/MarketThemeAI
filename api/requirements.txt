@@ -1,0 +1,5 @@
+# Runtime dependencies for the API only; kept separate so its container stays
+# small (no torch).
+fastapi==0.120.0
+uvicorn==0.38.0
+boto3==1.40.55

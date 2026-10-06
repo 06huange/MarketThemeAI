@@ -5,7 +5,7 @@
       "theme_id": "2026-W05_theme_5",
       "week": "2026-W05",
       "cluster_id": 5,
-      "label": "stays stalled | stays | stalled",
+      "label": "companies | companies hiring | hiring",
       "size": 20,
       "top_companies": [
         "Amazon",
@@ -69,7 +69,7 @@
       ],
       "previous_theme_id": "2026-W04_theme_16",
       "previous_week": "2026-W04",
-      "previous_label": "motley fool | fool | motley",
+      "previous_label": "fool | motley | motley fool",
       "previous_size": 17,
       "similarity_to_previous": 0.9657,
       "growth_rate": 1.5882,
@@ -85,7 +85,7 @@
       "theme_id": "2026-W05_theme_6",
       "week": "2026-W05",
       "cluster_id": 6,
-      "label": "q4 | earnings | q4 cy2025",
+      "label": "q4 | earnings | cy2025",
       "size": 22,
       "top_companies": [
         "NVIDIA",
@@ -156,7 +156,7 @@
       ],
       "previous_theme_id": "2026-W04_theme_7",
       "previous_week": "2026-W04",
-      "previous_label": "openai | make | says",
+      "previous_label": "openai | make | 2026",
       "previous_size": 5,
       "similarity_to_previous": 0.7956,
       "growth_rate": 3.8,
@@ -212,7 +212,7 @@
       "theme_id": "2026-W05_theme_7",
       "week": "2026-W05",
       "cluster_id": 7,
-      "label": "use ai | use | streamline",
+      "label": "ai streamline | filings | firms",
       "size": 8,
       "top_companies": [
         "Microsoft",
@@ -245,7 +245,7 @@
       "theme_id": "2026-W05_theme_14",
       "week": "2026-W05",
       "cluster_id": 14,
-      "label": "stocks rise | rise gold | stocks",
+      "label": "gold | gold hits | hits",
       "size": 8,
       "top_companies": [
         "Apple",
@@ -282,7 +282,7 @@
       "theme_id": "2026-W05_theme_0",
       "week": "2026-W05",
       "cluster_id": 0,
-      "label": "trump | 000 | trump account",
+      "label": "trump | 000 | 000 trump",
       "size": 7,
       "top_companies": [
         "Intel",
@@ -314,7 +314,7 @@
       "theme_id": "2026-W05_theme_2",
       "week": "2026-W05",
       "cluster_id": 2,
-      "label": "worker anxiety | worker | recently",
+      "label": "anxiety | anxiety biggest | biggest",
       "size": 7,
       "top_companies": [
         "Amazon",
@@ -385,7 +385,7 @@
       "theme_id": "2026-W05_theme_3",
       "week": "2026-W05",
       "cluster_id": 3,
-      "label": "worker anxiety | worker | layoffs",
+      "label": "anxiety | anxiety biggest | biggest",
       "size": 6,
       "top_companies": [
         "Amazon",
@@ -416,7 +416,7 @@
       "theme_id": "2026-W05_theme_1",
       "week": "2026-W05",
       "cluster_id": 1,
-      "label": "review australian | review | polestar 2026",
+      "label": "2026 | 2026 review | australian",
       "size": 5,
       "top_companies": [
         "Apple",
@@ -450,7 +450,7 @@
       "theme_id": "2026-W05_theme_4",
       "week": "2026-W05",
       "cluster_id": 4,
-      "label": "tech food | tech | rises",
+      "label": "anxiety | anxiety rises | food",
       "size": 5,
       "top_companies": [
         "Amazon",
@@ -481,7 +481,7 @@
       "theme_id": "2026-W05_theme_9",
       "week": "2026-W05",
       "cluster_id": 9,
-      "label": "ai | jim cramer | cramer",
+      "label": "ai | cramer | jim",
       "size": 10,
       "top_companies": [
         "Amazon",
@@ -520,7 +520,7 @@
       "theme_id": "2026-W05_theme_13",
       "week": "2026-W05",
       "cluster_id": 13,
-      "label": "time high | time | high",
+      "label": "high | high dollar | hold",
       "size": 9,
       "top_companies": [
         "ASML",
@@ -542,7 +542,7 @@
       ],
       "previous_theme_id": "2026-W04_theme_8",
       "previous_week": "2026-W04",
-      "previous_label": "wall street | wall | tumbles gold",
+      "previous_label": "drifts | drifts intel | gold",
       "previous_size": 5,
       "similarity_to_previous": 0.7589,
       "growth_rate": 0.8,
@@ -594,7 +594,7 @@
       "theme_id": "2026-W05_theme_12",
       "week": "2026-W05",
       "cluster_id": 12,
-      "label": "stock | intel stock | intel",
+      "label": "intel stock | stock | intel",
       "size": 5,
       "top_companies": [
         "Intel",

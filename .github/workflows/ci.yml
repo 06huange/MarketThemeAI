@@ -18,7 +18,7 @@ jobs:
 
       - name: Install dependencies
         # CPU-only torch wheels; the default index pulls multi-GB CUDA builds.
-        run: pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+        run: pip install -r requirements-dev.txt --extra-index-url https://download.pytorch.org/whl/cpu
 
       - name: Run tests
         run: python -m pytest -q
@@ -40,3 +40,74 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run build
+
+  # Runs only on main, only after both test jobs pass, and only once the AWS
+  # infrastructure exists (AWS_DEPLOY_ROLE_ARN repo variable is set).
+  deploy:
+    needs: [pipeline-tests, frontend-build]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && vars.AWS_DEPLOY_ROLE_ARN != ''
+    runs-on: ubuntu-latest
+    concurrency: deploy-prod
+    permissions:
+      id-token: write # OIDC token for AWS; no stored keys
+      contents: read
+    env:
+      AWS_REGION: us-west-2
+      NAME: marketthemeai-prod
+      TAG: ${{ github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_DEPLOY_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - id: ecr
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - uses: docker/setup-buildx-action@v3
+
+      - name: Build and push API image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: api.Dockerfile
+          push: true
+          provenance: false # Lambda rejects multi-manifest image indexes
+          tags: ${{ steps.ecr.outputs.registry }}/${{ env.NAME }}-api:${{ env.TAG }}
+          cache-from: type=gha,scope=api
+          cache-to: type=gha,mode=max,scope=api
+
+      - name: Build and push pipeline image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: pipeline.Dockerfile
+          push: true
+          provenance: false
+          tags: ${{ steps.ecr.outputs.registry }}/${{ env.NAME }}-pipeline:${{ env.TAG }}
+          cache-from: type=gha,scope=pipeline
+          cache-to: type=gha,mode=max,scope=pipeline
+
+      - name: Deploy API
+        run: |
+          aws lambda update-function-code --function-name "$NAME-api" \
+            --image-uri "${{ steps.ecr.outputs.registry }}/$NAME-api:$TAG" > /dev/null
+          aws lambda wait function-updated-v2 --function-name "$NAME-api"
+
+      - name: Deploy pipeline (new task revision; the schedule runs the latest)
+        run: |
+          aws ecs describe-task-definition --task-definition "$NAME-pipeline" --query taskDefinition > current.json
+          jq --arg image "${{ steps.ecr.outputs.registry }}/$NAME-pipeline:$TAG" '
+            .containerDefinitions[0].image = $image
+            | {family, containerDefinitions, executionRoleArn, taskRoleArn, networkMode,
+               requiresCompatibilities, cpu, memory, runtimePlatform}' current.json > next.json
+          aws ecs register-task-definition --cli-input-json file://next.json \
+            --query 'taskDefinition.taskDefinitionArn' --output text
+
+      - name: Smoke test
+        run: |
+          url=$(aws lambda get-function-url-config --function-name "$NAME-api" --query FunctionUrl --output text)
+          curl --fail --silent --show-error --retry 5 --retry-all-errors "${url}health"
+          curl --fail --silent --show-error "${url}stats" > /dev/null

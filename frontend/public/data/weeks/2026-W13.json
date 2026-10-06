@@ -5,7 +5,7 @@
       "theme_id": "2026-W13_theme_8",
       "week": "2026-W13",
       "cluster_id": 8,
-      "label": "10 | high | enters correction",
+      "label": "10 | 10 october | dropping",
       "size": 15,
       "top_companies": [
         "NVIDIA",
@@ -122,7 +122,7 @@
       "theme_id": "2026-W13_theme_4",
       "week": "2026-W13",
       "cluster_id": 4,
-      "label": "supplies | energy supplies | disrupts energy",
+      "label": "disrupts energy | energy supplies | supplies",
       "size": 9,
       "top_companies": [
         "Google",
@@ -156,7 +156,7 @@
       "theme_id": "2026-W13_theme_3",
       "week": "2026-W13",
       "cluster_id": 3,
-      "label": "musk | elon musk | elon",
+      "label": "musk | elon | elon musk",
       "size": 8,
       "top_companies": [
         "Tesla",
@@ -281,7 +281,7 @@
       "theme_id": "2026-W13_theme_2",
       "week": "2026-W13",
       "cluster_id": 2,
-      "label": "worry locking | worry | tech climate",
+      "label": "ai arrival | arrival | arrival complicates",
       "size": 6,
       "top_companies": [
         "Amazon",
@@ -318,7 +318,7 @@
       "theme_id": "2026-W13_theme_1",
       "week": "2026-W13",
       "cluster_id": 1,
-      "label": "trump | council | science",
+      "label": "trump | council | names",
       "size": 5,
       "top_companies": [
         "Google",
@@ -393,7 +393,7 @@
       "theme_id": "2026-W13_theme_11",
       "week": "2026-W13",
       "cluster_id": 11,
-      "label": "iran | wall street | war",
+      "label": "iran | street | wall",
       "size": 10,
       "top_companies": [
         "Amazon",
@@ -412,7 +412,7 @@
       ],
       "previous_theme_id": "2026-W12_theme_6",
       "previous_week": "2026-W12",
-      "previous_label": "street hopes | wall | wall street",
+      "previous_label": "cut rates | erase | erase wall",
       "previous_size": 13,
       "similarity_to_previous": 0.7997,
       "growth_rate": -0.2308,
@@ -426,7 +426,7 @@
       "theme_id": "2026-W13_theme_12",
       "week": "2026-W13",
       "cluster_id": 12,
-      "label": "worst iran | worst | week worst",
+      "label": "5th straight | drops | drops close",
       "size": 8,
       "top_companies": [
         "Amazon",
@@ -443,7 +443,7 @@
       ],
       "previous_theme_id": "2026-W12_theme_7",
       "previous_week": "2026-W12",
-      "previous_label": "prices | oil prices | oil",
+      "previous_label": "oil prices | prices | oil",
       "previous_size": 8,
       "similarity_to_previous": 0.7621,
       "growth_rate": 0.0,
@@ -457,7 +457,7 @@
       "theme_id": "2026-W13_theme_6",
       "week": "2026-W13",
       "cluster_id": 6,
-      "label": "ai | super micro | super",
+      "label": "ai | micro | super",
       "size": 5,
       "top_companies": [
         "NVIDIA",
@@ -482,7 +482,7 @@
       ],
       "previous_theme_id": "2026-W12_theme_10",
       "previous_week": "2026-W12",
-      "previous_label": "smuggle artificial | smuggle | men charged",
+      "previous_label": "artificial | artificial intelligence | charged",
       "previous_size": 7,
       "similarity_to_previous": 0.8383,
       "growth_rate": -0.2857,
