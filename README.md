@@ -1,200 +1,135 @@
 # MarketThemeAI
 
-## Project Objective
-The goal of this project is to detect **emerging AI / semiconductor market themes** from news articles and track how those themes evolve over time.
+**Discovering emerging AI and semiconductor market themes from the news, without telling the model what to look for.**
 
-Instead of manually defining themes in advance, the project uses a news pipeline to:
-1. collect relevant articles,
-2. filter out noisy or irrelevant ones,
-3. enrich articles with company and group information,
-4. embed articles into semantic vectors,
-5. cluster similar articles into themes,
-6. compare themes week by week.
-
-This makes the project a **theme discovery system**, not just a keyword search tool.
+🔗 **Live dashboard:** [market-theme-ai.vercel.app](https://market-theme-ai.vercel.app/)
 
 ---
 
-## Progress So Far
+## Why I built this
 
-### 1. Defined the company universe
-We created `data/company_universe.csv` with fields such as:
+Anyone following the AI and chip industry is buried in news. Every week brings hundreds of articles about NVIDIA, TSMC, export controls, HBM memory, datacenter buildouts, and the stories that actually matter tend to show up as a *cluster* of coverage before they become an obvious headline.
 
-- `company`
-- `ticker`
-- `group`
-- `keywords`
+Most tools for tracking this are keyword searches: you decide in advance that "advanced packaging" is a theme, and the tool counts mentions. That only finds what you already knew to look for.
 
-Example groups include categories like:
-- AI compute
-- foundry
-- memory
-- equipment
-- networking
+MarketThemeAI takes the opposite approach. It reads each week's news, groups articles by **meaning** rather than keywords, and lets the themes emerge from the data. It then follows those themes week to week to answer:
 
-#### Why
-This gives the project a structured universe of companies to anchor analysis around.  
-The company list is later used for:
-- query construction,
-- company mention detection,
-- group-level interpretation of themes.
+- **What's new?** Themes that didn't exist last week.
+- **What's growing?** Themes getting more coverage than before.
+- **What's continuing or fading?** Stories that persist or lose attention.
 
----
+## What it does
 
-### 2. Built a news ingestion pipeline
-We implemented `src/ingest/fetch_news.py` to retrieve articles from GDELT.
+| | |
+|---|---|
+| **Corpus** | 8,000+ English news articles from global coverage via GDELT |
+| **Coverage** | 60 companies across 13 industry groups (AI compute, foundry, memory, equipment, networking, EDA, packaging, …) |
+| **Output** | 244 themes discovered across 14 weeks, each linked to its history and scored for "emergingness" |
+| **Dashboard** | Summary stats, the hottest theme, filters for emerging / new / continuing themes, and theme trajectories over time |
 
-The ingestion pipeline:
-- builds a query using company names and relevant semiconductor / AI phrases,
-- retrieves articles in daily windows,
-- downloads article pages,
-- extracts article text,
-- stores raw results in `data/raw/articles.json`.
+## How it works
 
-#### Why
-GDELT provides broad global news coverage and is suitable for collecting large numbers of candidate articles.  
-The purpose of this step is to create a **raw corpus** of potentially relevant news articles for later filtering and modeling.
+```
+GDELT news index (BigQuery)
+        │  query: English articles mentioning tracked companies or chip/AI topics
+        ▼
+Article download + text extraction        src/ingest/fetch_news.py
+        │  parallel fetching, URL de-duplication, failure logging
+        ▼
+Relevance filter + company tagging        src/preprocess/filter_articles.py
+        │  keep articles tied to the company universe; tag companies & groups
+        ▼
+Weekly embeddings + clustering            src/themes/build_weekly_themes.py
+        │  sentence embeddings → HDBSCAN clusters → auto-generated labels
+        ▼
+Link themes across weeks                  src/track/link_themes_over_time.py
+        │  match each theme to last week's by embedding similarity
+        ▼
+Score + export                            src/frontend_export/build_dashboard_data.py
+        │  growth rate, new vs. continuing, emerging score
+        ▼
+Next.js dashboard (Vercel)                frontend/
+```
 
----
+## Key decisions
 
-### 3. Added rate-limit handling and English filtering
-During ingestion, we encountered:
-- GDELT rate limits,
-- non-English articles,
-- noisy matches from broad keyword search.
+**GDELT through BigQuery instead of a news API.**
+I started with GDELT's public API, but kept hitting rate limits and pulling in large amounts of noise. Its full index is available in BigQuery, so I query it there. That gives one SQL query with filtering by company, topic, and language before anything is downloaded, plus far more coverage than commercial news APIs offer for free.
 
-We updated the ingestion logic to:
-- throttle requests,
-- retry conservatively,
-- constrain the query to English-language articles.
+**English-only.**
+Embedding a mixed-language corpus risks clusters that split by *language* rather than *topic*. Restricting to English keeps clusters about the story, not the language it was written in.
 
-#### Why
-Without this, the corpus contained too much noise and too many unusable articles.  
-English-only filtering improves downstream embedding and clustering quality, since mixed-language corpora can produce clusters based on language rather than topic.
+**A curated company universe, but themes are not predefined.**
+`data/company_universe.csv` lists the companies I care about, grouped into industry segments. It's used to filter out irrelevant articles and to explain each theme ("this cluster is mostly NVIDIA + TSMC → AI compute + foundry"). The groups never *define* the themes, though. Themes come purely from clustering, so the system can surface stories I didn't anticipate.
 
----
+**Small, fast embeddings (`all-MiniLM-L6-v2`).**
+Each article is embedded from its title plus the opening of the body. MiniLM runs on a laptop CPU for thousands of articles without a GPU, which keeps the pipeline cheap enough to rerun every week. A larger model is an easy swap later if topic separation needs to improve.
 
-### 4. Collected a 30-day raw corpus
-Using the current ingestion query, we collected roughly **2100 raw articles** over a 30-day window.
+**HDBSCAN instead of k-means.**
+The number of themes changes every week, and many articles don't belong to any theme. k-means would force me to pick *k* and assign every article somewhere. HDBSCAN finds however many dense clusters actually exist and labels the rest as noise, which matches how news really behaves.
 
-#### Why
-A theme-discovery project needs a sufficiently large corpus for clustering to be meaningful.  
-A few dozen articles are enough for debugging, but not for extracting recurring weekly themes.
+**Cluster week by week, then link.**
+Clustering all articles at once would blur time. Instead, each week is clustered independently, and themes are connected across weeks when their centroid embeddings have cosine similarity ≥ 0.72. This makes "new", "growing", and "fading" concrete, measurable ideas instead of guesses.
 
----
+**A static frontend with no backend.**
+The pipeline exports JSON and the dashboard reads it directly, so hosting is free and there's nothing to keep running. That was the right trade-off for a prototype. It's also the main thing I'm changing next (see below).
 
-### 5. Built article filtering
-We implemented `src/preprocess/filter_articles.py` to remove clearly irrelevant articles.
+## Tech stack
 
-Current filtering logic keeps an article if it:
-- mentions at least one company from the company universe, **or**
-- contains at least two domain-relevant keywords.
+**Data & ML:** Python, BigQuery (GDELT), trafilatura, sentence-transformers, HDBSCAN, scikit-learn (TF-IDF labeling), NumPy, pandas
+**Frontend:** Next.js, React, TypeScript, Tailwind CSS, deployed on Vercel
 
-The filtered dataset is saved to:
+## Current limitations
 
-- `data/processed/articles_filtered.json`
+Being honest about what isn't solved yet:
 
-#### Why
-Raw keyword-based retrieval inevitably includes false positives.  
-Filtering improves the signal-to-noise ratio before embeddings and clustering, while still preserving broad coverage of relevant tech and semiconductor news.
+- **Theme labels are rough.** Labels come from TF-IDF over article titles, which sometimes produces awkward phrases. An LLM-generated summary per cluster is the obvious improvement.
+- **The weekly clustering step reads the unfiltered corpus.** It should consume the filtered, company-tagged articles; until that's wired up, clusters include off-topic articles and themes are missing their company tags. This is the first fix on my list.
+- **The emerging score is generous.** 201 of 244 themes are flagged as emerging, largely because 165 don't match any theme from the prior week and so count as "new". The linking and scoring thresholds need tuning against a hand-labeled sample.
+- **Ingestion starts from a manual BigQuery export,** so the data isn't refreshed automatically yet.
 
----
+## What's next: moving to cloud infrastructure
 
-### 6. Added metadata enrichment during filtering
-The filtered articles now include additional fields such as:
+I'm turning the prototype into an automatically running service:
 
-- `matched_companies`
-- `matched_keywords`
-- `mentioned_groups`
-- `company_count`
-- `group_count`
-- `keyword_count`
+- **Containerize** the pipeline and a new query API with Docker
+- **Run the pipeline weekly on AWS** (ECS Fargate scheduled tasks), storing results in S3
+- **Serve the data through an API** (FastAPI on AWS Lambda) instead of static files
+- **Define all infrastructure in Terraform** and deploy through **GitHub Actions** CI/CD
+- **Monitor** runs with CloudWatch logs and alarms
 
-#### Why
-These fields are not the final themes themselves.  
-Instead, they provide structured metadata that helps later with:
-- interpreting clusters,
-- labeling discovered themes,
-- analyzing which company groups are associated with each theme.
+The design goal is a system that refreshes itself every week and costs only a few dollars a month to run.
 
-For example, if a cluster contains many articles mentioning NVIDIA and TSMC, the associated groups might be:
-- AI compute
-- foundry
+## Running it locally
 
-That makes the cluster easier to interpret.
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
 
----
+# 1. Run src/gkg/gkg_query.sql in BigQuery and export the result to
+#    data/raw/gdelt_bq_articles.csv
+# 2. Run the pipeline
+python src/ingest/fetch_news.py
+python src/preprocess/filter_articles.py
+python src/themes/build_weekly_themes.py
+python src/track/link_themes_over_time.py
+python src/themes/build_weekly_index.py
+python src/frontend_export/build_dashboard_data.py
 
-## Current Status
-At this point, we have:
+# 3. Start the dashboard
+cp -R public/data frontend/public/
+cd frontend && npm install && npm run dev
+```
 
-- a company universe,
-- a working ingestion pipeline,
-- a 30-day raw article corpus,
-- a filtered and enriched article dataset.
+## Repository layout
 
-This means the project is now ready for the first true modeling step:
-
-### Next Step: Embeddings
-We will convert each article into a semantic vector representation so that similar articles can later be clustered into themes.
-
----
-
-## Planned Next Steps
-
-### 7. Build embeddings
-Generate one embedding per article using a sentence-transformer model.
-
-#### Why
-Embeddings allow semantic similarity comparisons beyond simple keyword matching.
-
----
-
-### 8. Cluster articles into themes
-Cluster the article embeddings so that each cluster represents a theme.
-
-Examples of discovered themes might include:
-- advanced packaging bottlenecks
-- HBM / memory demand
-- AI datacenter buildout
-- export controls
-
-#### Why
-Themes should emerge from article similarity rather than being hardcoded manually.
-
----
-
-### 9. Track themes over time
-Count cluster frequency by week and compare theme activity across time windows.
-
-#### Why
-This is how the project identifies which themes are **emerging**, **stable**, or **fading**.
-
----
-
-## Important Clarification
-The `group` field in `company_universe.csv` is **not** the same as a theme.
-
-- **Groups** are predefined metadata categories for companies.
-- **Themes** are discovered later by clustering semantically similar articles.
-
-So the groups help explain themes, but they do not define them.
-
----
-
-## File Structure So Far
-
-```text
-MarketThemeAI/
-├── data/
-│   ├── company_universe.csv
-│   ├── raw/
-│   │   └── articles.json
-│   └── processed/
-│       └── articles_filtered.json
-├── src/
-│   ├── ingest/
-│   │   └── fetch_news.py
-│   └── preprocess/
-│       └── filter_articles.py
-└── README.md
+```
+data/company_universe.csv   companies, tickers, industry groups, keywords
+src/gkg/                    BigQuery query against the GDELT index
+src/ingest/                 article download and text extraction
+src/preprocess/             relevance filtering and company tagging
+src/themes/                 weekly embedding, clustering, labeling
+src/track/                  linking themes across weeks
+src/frontend_export/        scoring and dashboard data export
+frontend/                   Next.js dashboard
+```
