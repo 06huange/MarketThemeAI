@@ -21,7 +21,7 @@ OUT_PATH = Path("data/raw/gdelt_bq_articles.csv")
 DEFAULT_DAYS = 8
 # The GKG table is large and billed by bytes scanned. Refuse to run a query that
 # would scan more than this, so a typo in --days can't burn the free tier.
-DEFAULT_MAX_GB = 150
+DEFAULT_MAX_GB = 25
 
 COLUMNS = ["DATE", "SourceCommonName", "url", "V2Organizations", "V2Themes", "TranslationInfo"]
 

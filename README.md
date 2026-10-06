@@ -157,7 +157,7 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements-dev.txt
 
 # BigQuery access for the query step (bills to your GCP project; the
-# script dry-runs first and refuses queries over 150 GB)
+# script dry-runs first and refuses queries over 25 GB)
 gcloud auth application-default login
 export GOOGLE_CLOUD_PROJECT=your-project-id
 
