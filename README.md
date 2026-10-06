@@ -24,7 +24,7 @@ MarketThemeAI takes the opposite approach. It reads each week's news, groups art
 |---|---|
 | **Corpus** | 8,000+ English news articles from global coverage via GDELT |
 | **Coverage** | 60 companies across 13 industry groups (AI compute, foundry, memory, equipment, networking, EDA, packaging, …) |
-| **Output** | 244 themes discovered across 14 weeks, each linked to its history and scored for "emergingness" |
+| **Output** | 224 themes discovered across 14 weeks, each linked to its history and scored for "emergingness" |
 | **Dashboard** | Summary stats, the hottest theme, filters for emerging / new / continuing themes, and theme trajectories over time |
 
 ## How it works
@@ -84,9 +84,9 @@ The pipeline exports JSON and the dashboard reads it directly, so hosting is fre
 Being honest about what isn't solved yet:
 
 - **Theme labels are rough.** Labels come from TF-IDF over article titles, which sometimes produces awkward phrases. An LLM-generated summary per cluster is the obvious improvement.
-- **The weekly clustering step reads the unfiltered corpus.** It should consume the filtered, company-tagged articles; until that's wired up, clusters include off-topic articles and themes are missing their company tags. This is the first fix on my list.
-- **The emerging score is generous.** 201 of 244 themes are flagged as emerging, largely because 165 don't match any theme from the prior week and so count as "new". The linking and scoring thresholds need tuning against a hand-labeled sample.
-- **Ingestion starts from a manual BigQuery export,** so the data isn't refreshed automatically yet.
+- **The emerging score is generous.** 185 of 224 themes are flagged as emerging, largely because 150 don't match any theme from the prior week and so count as "new". The linking and scoring thresholds need tuning against a hand-labeled sample.
+- **The filter is permissive.** It keeps ~93% of articles, so market-wide stories that merely mention NVIDIA (e.g. geopolitics, stock-picking columns) still form their own themes.
+- **Runs aren't scheduled yet.** `python -m src.pipeline` does everything from the BigQuery query to the dashboard export, but it still runs on demand; the cloud work below puts it on a weekly schedule.
 
 ## What's next: moving to cloud infrastructure
 
@@ -106,25 +106,28 @@ The design goal is a system that refreshes itself every week and costs only a fe
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-# 1. Run src/gkg/gkg_query.sql in BigQuery and export the result to
-#    data/raw/gdelt_bq_articles.csv
-# 2. Run the pipeline
-python src/ingest/fetch_news.py
-python src/preprocess/filter_articles.py
-python src/themes/build_weekly_themes.py
-python src/track/link_themes_over_time.py
-python src/themes/build_weekly_index.py
-python src/frontend_export/build_dashboard_data.py
+# BigQuery access for the query step (bills to your GCP project; the
+# script dry-runs first and refuses queries over 150 GB)
+gcloud auth application-default login
+export GOOGLE_CLOUD_PROJECT=your-project-id
 
-# 3. Start the dashboard
-cp -R public/data frontend/public/
+python -m src.pipeline                  # query → ingest → filter → themes → link → export
+python -m src.pipeline --skip query     # reuse the last BigQuery result
+python -m src.pipeline --from themes    # rerun clustering onward only
+
+python -m pytest                        # tests
+
 cd frontend && npm install && npm run dev
 ```
+
+Article embeddings are cached in `data/embeddings/`, so after the first run each
+weekly update only embeds the new articles.
 
 ## Repository layout
 
 ```
-data/company_universe.csv   companies, tickers, industry groups, keywords
+src/pipeline.py             runs every step in order
+data/company_universe.csv   companies, aliases, industry groups, keywords
 src/gkg/                    BigQuery query against the GDELT index
 src/ingest/                 article download and text extraction
 src/preprocess/             relevance filtering and company tagging
@@ -132,4 +135,5 @@ src/themes/                 weekly embedding, clustering, labeling
 src/track/                  linking themes across weeks
 src/frontend_export/        scoring and dashboard data export
 frontend/                   Next.js dashboard
+tests/                      unit tests, including the dashboard data contract
 ```

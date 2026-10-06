@@ -38,10 +38,14 @@ def load_articles(path: Path) -> list[dict]:
         return json.load(f)
 
 
-def load_company_data(path: Path) -> tuple[list[str], dict[str, str]]:
-    company_terms = []
+def load_company_data(path: Path) -> tuple[dict[str, list[str]], dict[str, str]]:
+    """Return {company: [search terms]} and {company: group}.
+
+    Search terms are the company name plus any `aliases` (semicolon-separated),
+    so "Samsung" counts as a mention of "Samsung Electronics".
+    """
+    company_terms: dict[str, list[str]] = {}
     company_to_group = {}
-    seen = set()
 
     with open(path, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -49,11 +53,9 @@ def load_company_data(path: Path) -> tuple[list[str], dict[str, str]]:
             company = (row.get("company") or "").strip()
             group = (row.get("group") or "").strip()
 
-            if company:
-                key = company.lower()
-                if key not in seen:
-                    seen.add(key)
-                    company_terms.append(company)
+            if company and company not in company_terms:
+                aliases = [a.strip() for a in (row.get("aliases") or "").split(";")]
+                company_terms[company] = [company] + [a for a in aliases if a]
 
                 if group:
                     company_to_group[company] = group
@@ -82,14 +84,19 @@ def count_matches(text: str, terms: list[str]) -> tuple[int, list[str]]:
 
 def is_relevant_article(
     article: dict,
-    company_terms: list[str],
+    company_terms: dict[str, list[str]],
     company_to_group: dict[str, str],
 ) -> tuple[bool, dict]:
     title = article.get("title", "")
     body = article.get("text", "")
     combined = normalize_text(f"{title} {body}")
 
-    company_count, matched_companies = count_matches(combined, company_terms)
+    matched_companies = [
+        company
+        for company, terms in company_terms.items()
+        if any(contains_term(combined, term) for term in terms)
+    ]
+    company_count = len(matched_companies)
     keyword_count, matched_keywords = count_matches(combined, DOMAIN_KEYWORDS)
 
     matched_companies = sorted(set(matched_companies))

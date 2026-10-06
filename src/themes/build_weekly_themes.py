@@ -4,15 +4,19 @@ import json
 from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
+from typing import TYPE_CHECKING
 
 import hdbscan
 import numpy as np
-from sentence_transformers import SentenceTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
 
+if TYPE_CHECKING:
+    from sentence_transformers import SentenceTransformer
 
-ARTICLES_PATH = Path("data/raw/articles.json")
+
+ARTICLES_PATH = Path("data/processed/articles_filtered.json")
 OUT_DIR = Path("data/themes/weekly")
+EMBED_CACHE_PATH = Path("data/embeddings/embedding_cache.npz")
 
 EMBED_MODEL_NAME = "all-MiniLM-L6-v2"
 MIN_CLUSTER_SIZE = 5
@@ -158,22 +162,52 @@ def cluster_embeddings(embeddings: np.ndarray) -> np.ndarray:
     return clusterer.fit_predict(embeddings)
 
 
+def load_embedding_cache(path: Path) -> dict[str, np.ndarray]:
+    if not path.exists():
+        return {}
+    data = np.load(path, allow_pickle=False)
+    if str(data["model"]) != EMBED_MODEL_NAME:
+        return {}
+    return dict(zip(data["ids"].tolist(), data["vectors"]))
+
+
+def save_embedding_cache(path: Path, cache: dict[str, np.ndarray]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    ids = list(cache)
+    np.savez(
+        path,
+        model=np.array(EMBED_MODEL_NAME),
+        ids=np.array(ids),
+        vectors=np.stack([cache[i] for i in ids]),
+    )
+
+
+def embed_articles(
+    articles: list[dict],
+    model: SentenceTransformer,
+    cache: dict[str, np.ndarray],
+) -> np.ndarray:
+    """Embed articles, reusing cached vectors so weekly runs only embed new articles."""
+    missing = [a for a in articles if a["article_id"] not in cache]
+    if missing:
+        print(f"Embedding {len(missing)} new articles ({len(articles) - len(missing)} cached)")
+        vectors = model.encode(
+            [make_embedding_text(a) for a in missing],
+            convert_to_numpy=True,
+            show_progress_bar=True,
+            normalize_embeddings=True,
+        )
+        cache.update(zip((a["article_id"] for a in missing), vectors))
+    return np.stack([cache[a["article_id"]] for a in articles])
+
+
 def process_week(
     week: str,
     articles: list[dict],
-    model: SentenceTransformer,
+    embeddings: np.ndarray,
 ) -> list[dict]:
-    texts = [make_embedding_text(a) for a in articles]
-    embeddings = model.encode(
-        texts,
-        convert_to_numpy=True,
-        show_progress_bar=False,
-        normalize_embeddings=True,
-    )
-
     cluster_labels = cluster_embeddings(embeddings)
-    themes = build_theme_objects(week, articles, embeddings, cluster_labels)
-    return themes
+    return build_theme_objects(week, articles, embeddings, cluster_labels)
 
 
 def main() -> None:
@@ -182,12 +216,19 @@ def main() -> None:
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
+    # Imported here so the rest of this module (and its tests) loads without torch.
+    from sentence_transformers import SentenceTransformer
+
     model = SentenceTransformer(EMBED_MODEL_NAME)
+    cache = load_embedding_cache(EMBED_CACHE_PATH)
+    embed_articles(articles, model, cache)
+    save_embedding_cache(EMBED_CACHE_PATH, cache)
 
     for week, articles_in_week in sorted(weekly_articles.items()):
         print(f"{week}: {len(articles_in_week)} articles")
 
-        themes = process_week(week, articles_in_week, model)
+        embeddings = embed_articles(articles_in_week, model, cache)
+        themes = process_week(week, articles_in_week, embeddings)
 
         out_path = OUT_DIR / f"{week}.json"
         with open(out_path, "w", encoding="utf-8") as f:
