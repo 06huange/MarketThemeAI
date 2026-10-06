@@ -5,7 +5,7 @@
       "theme_id": "2026-W12_theme_1",
       "week": "2026-W12",
       "cluster_id": 1,
-      "label": "unveils national | unveils | trump unveils",
+      "label": "ai legislative | framework | framework limit",
       "size": 14,
       "top_companies": [
         "NVIDIA",
@@ -68,7 +68,7 @@
       ],
       "previous_theme_id": "2026-W11_theme_16",
       "previous_week": "2026-W11",
-      "previous_label": "motley | motley fool | fool",
+      "previous_label": "fool | motley | motley fool",
       "previous_size": 23,
       "similarity_to_previous": 0.9511,
       "growth_rate": 0.6087,
@@ -84,7 +84,7 @@
       "theme_id": "2026-W12_theme_9",
       "week": "2026-W12",
       "cluster_id": 9,
-      "label": "men | intelligence | intelligence china",
+      "label": "accused | accused conspiring | artificial",
       "size": 13,
       "top_companies": [
         "NVIDIA",
@@ -123,7 +123,7 @@
       "theme_id": "2026-W12_theme_12",
       "week": "2026-W12",
       "cluster_id": 12,
-      "label": "stage | phase ai | phase",
+      "label": "ai boom | bets | bets inference",
       "size": 10,
       "top_companies": [
         "Google",
@@ -161,7 +161,7 @@
       "theme_id": "2026-W12_theme_6",
       "week": "2026-W12",
       "cluster_id": 6,
-      "label": "street hopes | wall | wall street",
+      "label": "cut rates | erase | erase wall",
       "size": 13,
       "top_companies": [
         "NVIDIA",
@@ -228,7 +228,7 @@
       "theme_id": "2026-W12_theme_7",
       "week": "2026-W12",
       "cluster_id": 7,
-      "label": "prices | oil prices | oil",
+      "label": "oil prices | prices | oil",
       "size": 8,
       "top_companies": [
         "Meta",
@@ -304,7 +304,7 @@
       "theme_id": "2026-W12_theme_8",
       "week": "2026-W12",
       "cluster_id": 8,
-      "label": "oil | rise | oil prices",
+      "label": "oil | oil prices | prices",
       "size": 7,
       "top_companies": [
         "NVIDIA"
@@ -333,7 +333,7 @@
       "theme_id": "2026-W12_theme_10",
       "week": "2026-W12",
       "cluster_id": 10,
-      "label": "smuggle artificial | smuggle | men charged",
+      "label": "artificial | artificial intelligence | charged",
       "size": 7,
       "top_companies": [
         "NVIDIA",
@@ -368,7 +368,7 @@
       "theme_id": "2026-W12_theme_0",
       "week": "2026-W12",
       "cluster_id": 0,
-      "label": "earnings | analyst | questions",
+      "label": "analyst | earnings | analyst questions",
       "size": 6,
       "top_companies": [
         "NVIDIA",
@@ -405,7 +405,7 @@
       "theme_id": "2026-W12_theme_2",
       "week": "2026-W12",
       "cluster_id": 2,
-      "label": "memes backlash | subject memes | subject",
+      "label": "backlash gamers | dlss glossy | gamers",
       "size": 6,
       "top_companies": [
         "NVIDIA"
@@ -434,7 +434,7 @@
       "theme_id": "2026-W12_theme_4",
       "week": "2026-W12",
       "cluster_id": 4,
-      "label": "broadcom | avgo | nasdaq avgo",
+      "label": "avgo | broadcom | broadcom nasdaq",
       "size": 7,
       "top_companies": [
         "Broadcom",
@@ -458,7 +458,7 @@
       ],
       "previous_theme_id": "2026-W11_theme_9",
       "previous_week": "2026-W11",
-      "previous_label": "qualcomm | llc | qualcomm incorporated",
+      "previous_label": "qualcomm | llc | incorporated",
       "previous_size": 5,
       "similarity_to_previous": 0.7547,
       "growth_rate": 0.4,
@@ -472,7 +472,7 @@
       "theme_id": "2026-W12_theme_13",
       "week": "2026-W12",
       "cluster_id": 13,
-      "label": "trillion orders | trillion | phase ai",
+      "label": "ai boom | backed | backed trillion",
       "size": 6,
       "top_companies": [
         "Google",

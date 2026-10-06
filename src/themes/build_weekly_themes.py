@@ -88,7 +88,8 @@ def build_label(theme_articles: list[dict]) -> str:
         X = tfidf.fit_transform(titles)
         scores = np.asarray(X.sum(axis=0)).ravel()
         vocab = np.array(tfidf.get_feature_names_out())
-        ranked = vocab[np.argsort(scores)[::-1]]
+        # Highest score first; ties broken alphabetically so labels are identical across machines.
+        ranked = vocab[np.lexsort((vocab, -scores))]
         title_terms = ranked[:TOP_K_TITLE_TERMS].tolist()
 
     label_parts = []

@@ -5,14 +5,19 @@
     python -m src.pipeline --from themes    # rerun clustering onward
 
 Run from the repo root; every step reads and writes paths under data/.
+With DATA_BUCKET set (as in AWS), state is pulled from S3 before the run and
+the results are pushed back afterwards.
 """
 
 from __future__ import annotations
 
 import argparse
 import importlib
+import os
 import sys
 import time
+
+from src import storage
 
 STEPS = [
     ("query", "src.gkg.run_query", "Query GDELT in BigQuery for candidate article URLs"),
@@ -38,6 +43,10 @@ def main() -> None:
     to_run = STEPS[STEP_NAMES.index(args.start):]
     to_run = [step for step in to_run if step[0] not in args.skip]
 
+    bucket = os.environ.get("DATA_BUCKET")
+    if bucket:
+        storage.pull_state(bucket)
+
     total_start = time.monotonic()
     for name, module_path, description in to_run:
         print(f"\n=== [{name}] {description}", flush=True)
@@ -48,6 +57,9 @@ def main() -> None:
         print(f"=== [{name}] done in {time.monotonic() - step_start:.1f}s", flush=True)
 
     print(f"\nPipeline finished in {time.monotonic() - total_start:.1f}s")
+
+    if bucket:
+        storage.push_state(bucket)
 
 
 if __name__ == "__main__":

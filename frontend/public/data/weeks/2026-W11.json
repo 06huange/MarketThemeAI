@@ -5,7 +5,7 @@
       "theme_id": "2026-W11_theme_6",
       "week": "2026-W11",
       "cluster_id": 6,
-      "label": "sues | administration national | anthropic sues",
+      "label": "administration national | anthropic sues | designation",
       "size": 18,
       "top_companies": [
         "NVIDIA",
@@ -43,7 +43,7 @@
       "theme_id": "2026-W11_theme_8",
       "week": "2026-W11",
       "cluster_id": 8,
-      "label": "ties ceo | revenue goals | ties",
+      "label": "bonus revenue | ceo | ceo jensen",
       "size": 15,
       "top_companies": [
         "NVIDIA"
@@ -58,7 +58,7 @@
       ],
       "previous_theme_id": "2026-W10_theme_14",
       "previous_week": "2026-W10",
-      "previous_label": "target | target cash | plan",
+      "previous_label": "2027 | 2027 plan | bonus ceo",
       "previous_size": 6,
       "similarity_to_previous": 0.9602,
       "growth_rate": 1.5,
@@ -72,7 +72,7 @@
       "theme_id": "2026-W11_theme_3",
       "week": "2026-W11",
       "cluster_id": 3,
-      "label": "tesla mega | mega | mega ai",
+      "label": "mega | mega ai | tesla mega",
       "size": 10,
       "top_companies": [
         "Intel",
@@ -110,7 +110,7 @@
       "theme_id": "2026-W11_theme_7",
       "week": "2026-W11",
       "cluster_id": 7,
-      "label": "ultra | core ultra | core",
+      "label": "core ultra | ultra | core",
       "size": 9,
       "top_companies": [
         "Intel",
@@ -226,7 +226,7 @@
       "theme_id": "2026-W11_theme_14",
       "week": "2026-W11",
       "cluster_id": 14,
-      "label": "stock | stock market | market",
+      "label": "market | stock | stock market",
       "size": 8,
       "top_companies": [
         "Intel",
@@ -261,7 +261,7 @@
       "theme_id": "2026-W11_theme_15",
       "week": "2026-W11",
       "cluster_id": 15,
-      "label": "ai | cramer | jim cramer",
+      "label": "ai | cramer | jim",
       "size": 7,
       "top_companies": [
         "NVIDIA",
@@ -299,7 +299,7 @@
       "theme_id": "2026-W11_theme_0",
       "week": "2026-W11",
       "cluster_id": 0,
-      "label": "transcript | earnings transcript | earnings",
+      "label": "earnings | earnings transcript | transcript",
       "size": 12,
       "top_companies": [
         "NVIDIA",
@@ -320,7 +320,7 @@
       ],
       "previous_theme_id": "2026-W10_theme_5",
       "previous_week": "2026-W10",
-      "previous_label": "transcript | q4 | earnings transcript",
+      "previous_label": "earnings | earnings transcript | q4",
       "previous_size": 7,
       "similarity_to_previous": 0.9369,
       "growth_rate": 0.7143,
@@ -409,7 +409,7 @@
       "theme_id": "2026-W11_theme_5",
       "week": "2026-W11",
       "cluster_id": 5,
-      "label": "million | yann | ami pioneer",
+      "label": "million | yann | 30",
       "size": 5,
       "top_companies": [
         "Amazon",
@@ -442,7 +442,7 @@
       "theme_id": "2026-W11_theme_11",
       "week": "2026-W11",
       "cluster_id": 11,
-      "label": "nvidia corporation | nvda | nvidia",
+      "label": "corporation | corporation nvda | nvda",
       "size": 5,
       "top_companies": [
         "NVIDIA",
@@ -516,7 +516,7 @@
       "theme_id": "2026-W11_theme_16",
       "week": "2026-W11",
       "cluster_id": 16,
-      "label": "motley | motley fool | fool",
+      "label": "fool | motley | motley fool",
       "size": 23,
       "top_companies": [
         "NVIDIA",
@@ -581,7 +581,7 @@
       ],
       "previous_theme_id": "2026-W10_theme_21",
       "previous_week": "2026-W10",
-      "previous_label": "summer 2024 | summer | stocks drop",
+      "previous_label": "2024 | 800 | 800 points",
       "previous_size": 5,
       "similarity_to_previous": 0.7691,
       "growth_rate": 0.4,
@@ -597,7 +597,7 @@
       "theme_id": "2026-W11_theme_2",
       "week": "2026-W11",
       "cluster_id": 2,
-      "label": "social | security | social security",
+      "label": "security | social | social security",
       "size": 7,
       "top_companies": [
         "NVIDIA",
@@ -613,7 +613,7 @@
       ],
       "previous_theme_id": "2026-W10_theme_2",
       "previous_week": "2026-W10",
-      "previous_label": "social security | social | security",
+      "previous_label": "security | social | social security",
       "previous_size": 8,
       "similarity_to_previous": 0.9571,
       "growth_rate": -0.125,
@@ -627,7 +627,7 @@
       "theme_id": "2026-W11_theme_9",
       "week": "2026-W11",
       "cluster_id": 9,
-      "label": "qualcomm | llc | qualcomm incorporated",
+      "label": "qualcomm | llc | incorporated",
       "size": 5,
       "top_companies": [
         "Qualcomm",
@@ -649,7 +649,7 @@
       ],
       "previous_theme_id": "2026-W10_theme_13",
       "previous_week": "2026-W10",
-      "previous_label": "avgo | broadcom avgo | broadcom",
+      "previous_label": "avgo | broadcom | broadcom avgo",
       "previous_size": 5,
       "similarity_to_previous": 0.8392,
       "growth_rate": 0.0,

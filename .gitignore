@@ -1,5 +1,5 @@
-.venv*/
-.venv*/
+.venv*
+.venv*
 __pycache__/
 *.pyc
 .DS_Store
@@ -10,3 +10,9 @@ data/*
 !data/company_universe.csv
 
 .pytest_cache/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan

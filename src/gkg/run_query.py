@@ -1,15 +1,17 @@
 """Run the GDELT GKG query in BigQuery and save the hits as the CSV that ingestion reads.
 
 Replaces the manual "run gkg_query.sql in the console and export a CSV" step.
-Needs Google Cloud credentials (`gcloud auth application-default login` locally,
-or GOOGLE_APPLICATION_CREDENTIALS in automation) and a GCP project to bill
-queries to (GOOGLE_CLOUD_PROJECT).
+Needs Google Cloud credentials and a project to bill queries to:
+  - locally: `gcloud auth application-default login` and GOOGLE_CLOUD_PROJECT
+  - in AWS: GCP_SERVICE_ACCOUNT_JSON (injected by ECS from SSM Parameter Store);
+    the project defaults to the service account's own project
 """
 
 from __future__ import annotations
 
 import argparse
 import csv
+import json
 import os
 from pathlib import Path
 
@@ -32,11 +34,25 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def make_client():
+    from google.cloud import bigquery
+
+    project = os.environ.get("GOOGLE_CLOUD_PROJECT")
+    key_json = os.environ.get("GCP_SERVICE_ACCOUNT_JSON")
+    if key_json:
+        from google.oauth2 import service_account
+
+        info = json.loads(key_json)
+        credentials = service_account.Credentials.from_service_account_info(info)
+        return bigquery.Client(project=project or info["project_id"], credentials=credentials)
+    return bigquery.Client(project=project)
+
+
 def main() -> None:
     from google.cloud import bigquery
 
     args = parse_args()
-    client = bigquery.Client(project=os.environ.get("GOOGLE_CLOUD_PROJECT"))
+    client = make_client()
     sql = QUERY_PATH.read_text(encoding="utf-8")
     params = [bigquery.ScalarQueryParameter("days", "INT64", args.days)]
 

@@ -8,6 +8,5 @@ scikit-learn==1.9.1
 hdbscan==0.8.44
 trafilatura==2.3.0
 google-cloud-bigquery==3.46.1
+boto3==1.40.55
 
-# dev
-pytest==9.1.1

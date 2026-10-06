@@ -5,7 +5,7 @@
       "theme_id": "2026-W01_theme_8",
       "week": "2026-W01",
       "cluster_id": 8,
-      "label": "warned big | warned | tech elitism",
+      "label": "big | big tech | bubble",
       "size": 21,
       "top_companies": [
         "AMD",
@@ -38,7 +38,7 @@
       "theme_id": "2026-W01_theme_11",
       "week": "2026-W01",
       "cluster_id": 11,
-      "label": "race | pour billions | pour",
+      "label": "ai capacity | capacity | capacity race",
       "size": 18,
       "top_companies": [
         "AMD",
@@ -82,7 +82,7 @@
       "theme_id": "2026-W01_theme_3",
       "week": "2026-W01",
       "cluster_id": 3,
-      "label": "group | group warns | industry group",
+      "label": "group | group warns | industry",
       "size": 14,
       "top_companies": [
         "Amazon",
@@ -104,7 +104,7 @@
       ],
       "previous_theme_id": "2025-W52_theme_1",
       "previous_week": "2025-W52",
-      "previous_label": "tech sector | tech | sector",
+      "previous_label": "sector | tech | tech sector",
       "previous_size": 6,
       "similarity_to_previous": 0.9686,
       "growth_rate": 1.3333,
@@ -118,7 +118,7 @@
       "theme_id": "2026-W01_theme_4",
       "week": "2026-W01",
       "cluster_id": 4,
-      "label": "year great | year | revolution actually",
+      "label": "2026 | 2026 year | actually",
       "size": 12,
       "top_companies": [
         "Google",
@@ -151,7 +151,7 @@
       "theme_id": "2026-W01_theme_15",
       "week": "2026-W01",
       "cluster_id": 15,
-      "label": "wobbly start | wobbly | wall street",
+      "label": "2026 | edges | edges higher",
       "size": 12,
       "top_companies": [
         "Microsoft",
@@ -187,7 +187,7 @@
       "theme_id": "2026-W01_theme_12",
       "week": "2026-W01",
       "cluster_id": 12,
-      "label": "2025 | stock | 2026",
+      "label": "2025 | 2026 | stock",
       "size": 11,
       "top_companies": [
         "NVIDIA",
@@ -316,7 +316,7 @@
       "theme_id": "2026-W01_theme_2",
       "week": "2026-W01",
       "cluster_id": 2,
-      "label": "level best | level | desktop computer",
+      "label": "best | best dell | computer",
       "size": 8,
       "top_companies": [
         "Dell Technologies",
@@ -350,7 +350,7 @@
       "theme_id": "2026-W01_theme_0",
       "week": "2026-W01",
       "cluster_id": 0,
-      "label": "year | old | year old",
+      "label": "old | year | year old",
       "size": 7,
       "top_companies": [
         "Intel",
@@ -382,7 +382,7 @@
       "theme_id": "2026-W01_theme_13",
       "week": "2026-W01",
       "cluster_id": 13,
-      "label": "2025 | final | wall street",
+      "label": "2025 | final | 2025 banner",
       "size": 7,
       "top_companies": [
         "Broadcom",
@@ -414,7 +414,7 @@
       "theme_id": "2026-W01_theme_16",
       "week": "2026-W01",
       "cluster_id": 16,
-      "label": "winds | wall street | wall",
+      "label": "2025 | 2025 winds | slip",
       "size": 7,
       "top_companies": [
         "Broadcom",
@@ -446,7 +446,7 @@
       "theme_id": "2026-W01_theme_1",
       "week": "2026-W01",
       "cluster_id": 1,
-      "label": "2025 | year stories | stories",
+      "label": "2025 | 2025 politics | politics",
       "size": 6,
       "top_companies": [
         "Intel",
@@ -483,7 +483,7 @@
       "theme_id": "2026-W01_theme_7",
       "week": "2026-W01",
       "cluster_id": 7,
-      "label": "world stage | world | stage",
+      "label": "ai hype | ces gadgetfest | gadgetfest",
       "size": 6,
       "top_companies": [
         "Lenovo",
@@ -523,7 +523,7 @@
       "theme_id": "2026-W01_theme_14",
       "week": "2026-W01",
       "cluster_id": 14,
-      "label": "silver | rise | stocks",
+      "label": "gold | gold silver | rise",
       "size": 6,
       "top_companies": [
         "Apple",
@@ -595,7 +595,7 @@
       "theme_id": "2026-W01_theme_9",
       "week": "2026-W01",
       "cluster_id": 9,
-      "label": "nvidia | fool | motley fool",
+      "label": "nvidia | fool | motley",
       "size": 10,
       "top_companies": [
         "NVIDIA",

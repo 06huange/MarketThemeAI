@@ -1,0 +1,24 @@
+# Local stack: the API serves the dashboard export; the pipeline (opt-in) rebuilds it.
+#
+#   docker compose up api                       # API on http://localhost:8080
+#   docker compose run --rm pipeline --skip query ingest   # rerun from existing data
+services:
+  api:
+    build:
+      context: .
+      dockerfile: api.Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      DATA_URI: /data
+    volumes:
+      - ./frontend/public/data:/data:ro
+
+  pipeline:
+    build:
+      context: .
+      dockerfile: pipeline.Dockerfile
+    profiles: ["pipeline"]
+    volumes:
+      - ./data:/app/data
+      - ./frontend/public/data:/app/frontend/public/data
