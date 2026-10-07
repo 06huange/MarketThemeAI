@@ -2,7 +2,9 @@
 
 **Discovering emerging AI and semiconductor market themes from the news, without telling the model what to look for.**
 
-🔗 **Live dashboard:** [market-theme-ai.vercel.app](https://market-theme-ai.vercel.app/)
+🔗 **Live dashboard:** [market-theme-ai.vercel.app](https://market-theme-ai.vercel.app/) · **API:** [`/health`](https://bgijyqkoldokts5mrzp5fqnfku0voche.lambda-url.us-west-2.on.aws/health), [`/stats`](https://bgijyqkoldokts5mrzp5fqnfku0voche.lambda-url.us-west-2.on.aws/stats)
+
+![CI/CD](https://github.com/06huange/MarketThemeAI/actions/workflows/ci.yml/badge.svg?branch=main)
 
 ---
 
@@ -29,27 +31,21 @@ MarketThemeAI takes the opposite approach. It reads each week's news, groups art
 
 ## How it works
 
+```mermaid
+flowchart LR
+    Q["<b>Find articles</b><br/>BigQuery · GDELT"]
+    I["<b>Download text</b><br/>parallel, de-duplicated"]
+    F["<b>Filter + tag</b><br/>60 companies"]
+    T["<b>Weekly themes</b><br/>MiniLM → HDBSCAN"]
+    L["<b>Link weeks</b><br/>cosine ≥ 0.72"]
+    E["<b>Score + export</b><br/>emerging score"]
+    Q --> I --> F --> T --> L --> E
+
+    classDef step fill:#eef2ff,stroke:#6366f1,color:#1e1b4b
+    class Q,I,F,T,L,E step
 ```
-GDELT news index (BigQuery)
-        │  query: English articles mentioning tracked companies or chip/AI topics
-        ▼
-Article download + text extraction        src/ingest/fetch_news.py
-        │  parallel fetching, URL de-duplication, failure logging
-        ▼
-Relevance filter + company tagging        src/preprocess/filter_articles.py
-        │  keep articles tied to the company universe; tag companies & groups
-        ▼
-Weekly embeddings + clustering            src/themes/build_weekly_themes.py
-        │  sentence embeddings → HDBSCAN clusters → auto-generated labels
-        ▼
-Link themes across weeks                  src/track/link_themes_over_time.py
-        │  match each theme to last week's by embedding similarity
-        ▼
-Score + export                            src/frontend_export/build_dashboard_data.py
-        │  growth rate, new vs. continuing, emerging score
-        ▼
-Next.js dashboard (Vercel)                frontend/
-```
+
+`python -m src.pipeline` runs every step in order; embeddings are cached so each weekly run only processes new articles.
 
 ## Key decisions
 
@@ -71,8 +67,8 @@ The number of themes changes every week, and many articles don't belong to any t
 **Cluster week by week, then link.**
 Clustering all articles at once would blur time. Instead, each week is clustered independently, and themes are connected across weeks when their centroid embeddings have cosine similarity ≥ 0.72. This makes "new", "growing", and "fading" concrete, measurable ideas instead of guesses.
 
-**A static frontend with no backend.**
-The pipeline exports JSON and the dashboard reads it directly, so hosting is free and there's nothing to keep running. That was the right trade-off for a prototype. It's also the main thing I'm changing next (see below).
+**Start static, then add an API.**
+The first version exported JSON that the dashboard read directly: free to host, nothing to keep running, right for a prototype. Moving the data behind an API decoupled the two. The weekly refresh no longer needs a frontend redeploy, and the data can be queried by week, company, or status instead of shipped as one file.
 
 ## Tech stack
 
@@ -91,29 +87,73 @@ Being honest about what isn't solved yet:
 
 ## Cloud architecture
 
-```
-EventBridge Scheduler (Mondays)
-        │
-        ▼
-ECS Fargate task ── pipeline container (ECR) ──► BigQuery (GDELT), news sites
-        │   pulls/pushes state                      ▲
-        ▼                                           │ key from SSM Parameter Store
-S3 bucket   data/       article archive, embedding cache, themes
-            dashboard/  published export
-        ▲
-        │ read-only
-Lambda ── API container (ECR), public HTTPS Function URL ◄── Next.js dashboard (Vercel)
+### Runtime: weekly refresh and serving
 
-GitHub Actions: tests ─► build images ─► push to ECR ─► update Lambda + task ─► smoke test
-                (OIDC role; no AWS keys stored in GitHub)
-Terraform:      all of the above, plus IAM, logs, alerts, and a budget
-CloudWatch:     logs for both; email alerts on pipeline failure, API errors, cost
+```mermaid
+flowchart LR
+    BQ[("BigQuery<br/>GDELT index")]
+    NEWS["News websites"]
+
+    subgraph AWS["AWS · us-west-2"]
+        EB["EventBridge Scheduler<br/>Mondays 16:00 UTC"]
+        SSM["SSM Parameter Store<br/>BigQuery key"]
+        ECS["ECS Fargate task<br/>pipeline container"]
+        S3[("S3<br/>state + export")]
+        API["Lambda API<br/>FastAPI container"]
+    end
+
+    FE["Vercel<br/>Next.js dashboard"]
+    USER(["Visitor's browser"])
+
+    EB -- starts --> ECS
+    SSM -. secret .-> ECS
+    BQ -- article URLs --> ECS
+    NEWS -- article text --> ECS
+    ECS -- publishes --> S3
+    S3 -- reads --> API
+    API -- JSON --> USER
+    FE -- page --> USER
+
+    classDef aws fill:#fff4e5,stroke:#ff9900,color:#232f3e
+    classDef ext fill:#eef2ff,stroke:#6366f1,color:#1e1b4b
+    classDef person fill:#f3f4f6,stroke:#6b7280,color:#111827
+    class EB,ECS,SSM,S3,API aws
+    class BQ,NEWS,FE ext
+    class USER person
 ```
+
+### Delivery: from `git push` to production
+
+```mermaid
+flowchart LR
+    subgraph GHA["GitHub Actions · on push to main"]
+        TEST["Tests<br/>pytest, lint, build"]
+        BUILD["Build images<br/>OIDC, no keys"]
+    end
+
+    subgraph AWS["AWS · defined in Terraform"]
+        ECR[("ECR")]
+        LAMBDA["Lambda API<br/>+ smoke test"]
+        TASK["ECS task<br/>new revision"]
+        CW["CloudWatch<br/>alarms → email"]
+    end
+
+    TEST --> BUILD --> ECR
+    ECR --> LAMBDA --> CW
+    ECR --> TASK --> CW
+
+    classDef aws fill:#fff4e5,stroke:#ff9900,color:#232f3e
+    classDef ext fill:#eef2ff,stroke:#6366f1,color:#1e1b4b
+    class ECR,LAMBDA,TASK,CW aws
+    class TEST,BUILD ext
+```
+
+A failing test stops the run before anything is built or deployed. Infrastructure itself changes only through `terraform apply`; CI can push images and roll out new versions, nothing else.
 
 **Why these pieces**
 
 - **Fargate scheduled task for the pipeline.** It needs PyTorch and several GB of memory for ~10 minutes a week. A container that starts, runs, and exits costs cents; an always-on server would cost dollars for nothing.
-- **Lambda for the API.** Traffic is light and bursty, so scale-to-zero beats a 24/7 container plus load balancer (~$35/month). The API image is a plain uvicorn server; the [Lambda Web Adapter](https://github.com/awslabs/aws-lambda-web-adapter) runs it on Lambda unchanged, so the same image also runs with `docker run` or on ECS. The trade-off is a cold start of a second or two after idle periods.
+- **Lambda for the API.** Traffic is light and bursty, so scale-to-zero beats a 24/7 container plus load balancer (~$35/month). The API image is a plain uvicorn server; the [Lambda Web Adapter](https://github.com/awslabs/aws-lambda-web-adapter) runs it on Lambda unchanged, so the same image also runs with `docker run` or on ECS. The trade-off is a cold start of several seconds on the first request after an idle period; warm requests return in under 200 ms.
 - **S3 as the only datastore.** The data is a weekly snapshot read in one piece, so a database would add cost and operations without adding capability.
 - **Default VPC public subnets, no NAT Gateway.** The task only makes outbound calls and accepts no inbound traffic. Private subnets would need a NAT Gateway (~$32/month) to reach BigQuery and news sites.
 - **Least-privilege IAM, one role per job.** The pipeline can read/write only its two S3 prefixes, the API can only read the export, and CI can only push images and roll out new versions. Infrastructure changes go through `terraform apply`, not CI.
