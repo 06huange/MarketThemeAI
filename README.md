@@ -24,9 +24,9 @@ MarketThemeAI takes the opposite approach. It reads each week's news, groups art
 
 | | |
 |---|---|
-| **Corpus** | 8,000+ English news articles from global coverage via GDELT |
+| **Corpus** | 8,000+ English news articles from global coverage via GDELT, filtered to ~2,900 industry-news articles |
 | **Coverage** | 60 companies across 13 industry groups (AI compute, foundry, memory, equipment, networking, EDA, packaging, …) |
-| **Output** | 224 themes discovered across 14 weeks, each linked to its history and scored for "emergingness" |
+| **Output** | 163 themes across 14 weeks, each titled by its most representative headline, linked to its history, and scored for "emergingness" |
 | **Dashboard** | Summary stats, the hottest theme, filters for emerging / new / continuing themes, and theme trajectories over time |
 
 ## How it works
@@ -35,8 +35,8 @@ MarketThemeAI takes the opposite approach. It reads each week's news, groups art
 flowchart LR
     Q["<b>Find articles</b><br/>BigQuery · GDELT"]
     I["<b>Download text</b><br/>parallel, de-duplicated"]
-    F["<b>Filter + tag</b><br/>60 companies"]
-    T["<b>Weekly themes</b><br/>MiniLM → HDBSCAN"]
+    F["<b>Filter + tag</b><br/>news only, de-duplicated"]
+    T["<b>Weekly themes</b><br/>MiniLM → UMAP → HDBSCAN"]
     L["<b>Link weeks</b><br/>cosine ≥ 0.72"]
     E["<b>Score + export</b><br/>emerging score"]
     Q --> I --> F --> T --> L --> E
@@ -61,8 +61,17 @@ Embedding a mixed-language corpus risks clusters that split by *language* rather
 **Small, fast embeddings (`all-MiniLM-L6-v2`).**
 Each article is embedded from its title plus the opening of the body. MiniLM runs on a laptop CPU for thousands of articles without a GPU, which keeps the pipeline cheap enough to rerun every week. A larger model is an easy swap later if topic separation needs to improve.
 
+**Industry news, not stock commentary.**
+Most of the raw corpus mentions the right companies without being about the industry: stock-picking columns, automated holdings filings, earnings-call transcripts, daily market wraps, and the same wire story syndicated across a dozen sites. Left in, they formed most of the "themes" (one site's "stocks to buy" format every week, 17 copies of one Dow headline). The filter drops those formats by headline pattern, catches investment-commentary publishers syndicated under other domains (mostly Yahoo) by their disclosure footers, removes duplicate headlines, and requires the company or a chip/AI term in the headline or opening paragraph, not just anywhere in the text. Every dropped article is counted by reason in the run logs.
+
 **HDBSCAN instead of k-means.**
 The number of themes changes every week, and many articles don't belong to any theme. k-means would force me to pick *k* and assign every article somewhere. HDBSCAN finds however many dense clusters actually exist and labels the rest as noise, which matches how news really behaves.
+
+**UMAP before HDBSCAN.**
+Density is close to meaningless in 384 dimensions. Run directly on the embeddings, HDBSCAN either discarded about 70% of articles as noise or, once duplicates were removed, merged a whole week into one 300-article blob. Reducing to 5 dimensions with UMAP first (the approach BERTopic popularized) puts about 80% of filtered articles into themes. A theme must also be covered by at least 3 different outlets, which rules out one site's recurring format.
+
+**Headlines as titles, keyphrases as tags.**
+Keyword labels ("beats · beats forecasts · expansion") were the least readable part of the dashboard. Each theme is now titled by the headline closest to its centroid, the way news aggregators do it. The tags come from class-based TF-IDF, which picks terms frequent in that theme but rare in the week's other themes ("musk, elon, terafab") instead of terms that are merely common.
 
 **Cluster week by week, then link.**
 Clustering all articles at once would blur time. Instead, each week is clustered independently, and themes are connected across weeks when their centroid embeddings have cosine similarity ≥ 0.72. This makes "new", "growing", and "fading" concrete, measurable ideas instead of guesses.
@@ -72,7 +81,7 @@ The first version exported JSON that the dashboard read directly: free to host, 
 
 ## Tech stack
 
-**Data & ML:** Python, BigQuery (GDELT), trafilatura, sentence-transformers, HDBSCAN, scikit-learn (TF-IDF labeling), NumPy  
+**Data & ML:** Python, BigQuery (GDELT), trafilatura, sentence-transformers, UMAP, HDBSCAN, scikit-learn (class-based TF-IDF), NumPy  
 **Frontend:** Next.js, React, TypeScript, Tailwind CSS, deployed on Vercel  
 **API:** FastAPI, uvicorn  
 **Infrastructure:** Docker, AWS (ECS Fargate, Lambda, S3, ECR, EventBridge Scheduler, IAM, SSM, CloudWatch, SNS), Terraform, GitHub Actions
@@ -81,9 +90,10 @@ The first version exported JSON that the dashboard read directly: free to host, 
 
 Being honest about what isn't solved yet:
 
-- **Theme labels are rough.** Labels come from TF-IDF over article titles, which sometimes produces awkward phrases. An LLM-generated summary per cluster is the obvious improvement.
-- **The emerging score is generous.** 185 of 224 themes are flagged as emerging, largely because 150 don't match any theme from the prior week and so count as "new". The linking and scoring thresholds need tuning against a hand-labeled sample.
-- **The filter is permissive.** It keeps ~93% of articles, so market-wide stories that merely mention NVIDIA (e.g. geopolitics, stock-picking columns) still form their own themes.
+- **Some stock commentary still forms themes.** Headline rules and publisher detection remove most of it, but loosely worded investor pieces ("Here's What Could Send Nvidia Stock to New All-Time Highs") still cluster together. Rules have hit diminishing returns here; the next step is a small classifier (or an LLM call per article) that labels news vs. commentary.
+- **The relevance filter trades recall for precision.** Requiring the subject in the headline or lead removes most off-topic stories but also a few genuine ones, and a handful of off-topic themes (oil, consumer gadgets) still pass.
+- **The emerging score is still generous.** 65% of themes are flagged as emerging (down from 83%). The linking and scoring thresholds need tuning against a hand-labeled sample.
+- **The query only searches for four companies.** The BigQuery query filters GDELT on NVIDIA, Intel, Qualcomm, and Broadcom plus chip topics, so coverage skews toward NVIDIA. Building the query from the full company list would balance it.
 
 ## Cloud architecture
 
