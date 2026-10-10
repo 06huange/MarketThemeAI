@@ -6,6 +6,11 @@ transformers==4.46.3
 sentence-transformers==3.4.1
 scikit-learn==1.9.1
 hdbscan==0.8.44
+# UMAP needs numba; 0.60 / llvmlite 0.43 are the last with Intel-Mac wheels.
+umap-learn==0.5.9.post2
+numba==0.60.0
+llvmlite==0.43.0
+pynndescent==0.5.13
 trafilatura==2.3.0
 google-cloud-bigquery==3.46.1
 boto3==1.40.55

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
@@ -8,7 +9,7 @@ from typing import TYPE_CHECKING
 
 import hdbscan
 import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS, CountVectorizer
 
 if TYPE_CHECKING:
     from sentence_transformers import SentenceTransformer
@@ -22,9 +23,43 @@ EMBED_MODEL_NAME = "all-MiniLM-L6-v2"
 MIN_CLUSTER_SIZE = 5
 MIN_SAMPLES = 3
 TOP_K_COMPANIES = 5
-TOP_K_KEYWORDS = 8
-TOP_K_TITLE_TERMS = 5
-MAX_LABEL_TERMS = 3
+TOP_K_KEYPHRASES = 5
+EXAMPLE_TITLES = 5
+
+# HDBSCAN on raw 384-d embeddings either discards most articles as noise or merges
+# a week into one blob (density is meaningless in high dimensions). Reducing to a
+# few dimensions with UMAP first is the standard fix.
+UMAP_COMPONENTS = 5
+UMAP_NEIGHBORS = 15
+RANDOM_STATE = 42
+
+# A theme is a story several outlets cover, not one site's recurring format.
+MIN_SOURCES = 3
+
+# Themes whose centroid is far from every scope description are off-topic
+# (consumer finance, oil, politics). Deliberately a low floor: centroid similarity
+# is noisy, so this only removes the clearly unrelated.
+SCOPE_ANCHORS = [
+    "semiconductor chip manufacturing, foundries, and fabs",
+    "AI accelerators and GPUs for training and inference",
+    "AI data center construction, power, and infrastructure spending",
+    "memory chips: HBM, DRAM, and NAND supply",
+    "chip export controls and semiconductor trade policy",
+    "AI model companies, funding rounds, and partnerships",
+    "networking, optical interconnects, and servers for AI",
+    "consumer devices powered by new processors and chips",
+]
+MIN_SCOPE_SIMILARITY = 0.30
+
+# Words that appear in nearly every headline in this corpus and say nothing
+# about what distinguishes one theme from another.
+LABEL_STOPWORDS = ENGLISH_STOP_WORDS | {
+    "ai", "artificial", "intelligence", "stock", "stocks", "shares", "share",
+    "company", "companies", "new", "says", "said", "report", "reports", "year",
+    "week", "today", "inc", "corp", "corporation", "nasdaq", "nyse", "news",
+    "update", "billion", "million", "market", "markets", "tech", "technology",
+    "com", "www", "going", "know", "just", "really", "heres", "here",
+}
 
 
 def load_articles() -> list[dict]:
@@ -66,40 +101,57 @@ def get_top_items(items: list[str], k: int) -> list[str]:
     return [x for x, _ in counter.most_common(k)]
 
 
-def build_label(theme_articles: list[dict]) -> str:
-    titles = [(a.get("title") or "").strip() for a in theme_articles if a.get("title")]
-    matched_companies = []
-    matched_keywords = []
+def headline(title: str) -> str:
+    """Article title without a trailing " | Site Name" / " - Site Name"."""
+    return re.split(r"\s[|\-–]\s(?=[^|\-–]*$)", (title or "").strip())[0].strip()
 
-    for a in theme_articles:
-        matched_companies.extend(a.get("matched_companies", []))
-        matched_keywords.extend(a.get("matched_keywords", []))
 
-    top_companies = get_top_items(matched_companies, TOP_K_COMPANIES)
-    top_keywords = get_top_items(matched_keywords, TOP_K_KEYWORDS)
+def is_usable_headline(title: str) -> bool:
+    # Scraped titles are occasionally page furniture ("Date Posted") or a bare URL.
+    return len(title.split()) >= 4 and not title.lower().startswith("http")
 
-    title_terms = []
-    if titles:
-        tfidf = TfidfVectorizer(
-            stop_words="english",
-            ngram_range=(1, 2),
-            max_features=200,
-        )
-        X = tfidf.fit_transform(titles)
-        scores = np.asarray(X.sum(axis=0)).ravel()
-        vocab = np.array(tfidf.get_feature_names_out())
-        # Highest score first; ties broken alphabetically so labels are identical across machines.
-        ranked = vocab[np.lexsort((vocab, -scores))]
-        title_terms = ranked[:TOP_K_TITLE_TERMS].tolist()
 
-    label_parts = []
-    for token in title_terms + top_companies + top_keywords:
-        if token not in label_parts:
-            label_parts.append(token)
-        if len(label_parts) >= MAX_LABEL_TERMS:
-            break
+def rank_by_centrality(embeddings: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
+    """Indices ordered most-to-least representative, plus the normalized centroid."""
+    centroid = embeddings.mean(axis=0)
+    centroid = centroid / (np.linalg.norm(centroid) or 1.0)
+    return np.argsort(-(embeddings @ centroid), kind="stable"), centroid
 
-    return " | ".join(label_parts) if label_parts else "misc theme"
+
+def keyphrases_by_cluster(titles_by_cluster: list[list[str]], k: int = TOP_K_KEYPHRASES) -> list[list[str]]:
+    """Class-based TF-IDF: terms frequent in one theme's headlines but rare in the week's other themes."""
+    docs = [" ".join(headline(t) for t in titles) for titles in titles_by_cluster]
+    if not any(docs):
+        return [[] for _ in docs]
+    vectorizer = CountVectorizer(
+        stop_words=list(LABEL_STOPWORDS),
+        ngram_range=(1, 2),
+        token_pattern=r"(?u)\b[a-zA-Z][a-zA-Z0-9\-]+\b",
+    )
+    try:
+        counts = vectorizer.fit_transform(docs).toarray().astype(float)
+    except ValueError:  # every word was a stopword
+        return [[] for _ in docs]
+    vocab = vectorizer.get_feature_names_out()
+
+    tf = counts / np.maximum(counts.sum(axis=1, keepdims=True), 1.0)
+    avg_words = counts.sum() / len(docs)
+    idf = np.log(1.0 + avg_words / np.maximum(counts.sum(axis=0), 1.0))
+    scores = tf * idf
+
+    phrases = []
+    for row in scores:
+        # Highest score first; ties broken alphabetically so output is identical across machines.
+        order = np.lexsort((vocab, -row))
+        picked: list[str] = []
+        for term in vocab[order]:
+            if row[vectorizer.vocabulary_[term]] <= 0 or len(picked) == k:
+                break
+            if any(term in p or p in term for p in picked):
+                continue
+            picked.append(term)
+        phrases.append(picked)
+    return phrases
 
 
 def build_theme_objects(
@@ -107,42 +159,47 @@ def build_theme_objects(
     articles: list[dict],
     embeddings: np.ndarray,
     cluster_labels: np.ndarray,
+    scope_embeddings: np.ndarray | None = None,
 ) -> list[dict]:
-    themes = []
-
-    unique_clusters = sorted(set(cluster_labels.tolist()))
-    for cluster_id in unique_clusters:
-        if cluster_id == -1:
+    clusters = []
+    for cluster_id in sorted(c for c in set(cluster_labels.tolist()) if c != -1):
+        idxs = np.where(cluster_labels == cluster_id)[0]
+        sources = {articles[i].get("source") for i in idxs}
+        if len(sources) < MIN_SOURCES:
             continue
 
-        idxs = np.where(cluster_labels == cluster_id)[0]
-        cluster_articles = [articles[i] for i in idxs]
-        cluster_embs = embeddings[idxs]
+        order, centroid = rank_by_centrality(embeddings[idxs])
+        relevance = float((scope_embeddings @ centroid).max()) if scope_embeddings is not None else None
+        if relevance is not None and relevance < MIN_SCOPE_SIMILARITY:
+            continue
 
-        centroid = cluster_embs.mean(axis=0)
+        ranked = [articles[idxs[j]] for j in order]
+        clusters.append((cluster_id, ranked, embeddings[idxs].mean(axis=0), len(sources), relevance))
 
-        matched_companies = []
-        matched_keywords = []
-        for a in cluster_articles:
-            matched_companies.extend(a.get("matched_companies", []))
-            matched_keywords.extend(a.get("matched_keywords", []))
+    keyphrases = keyphrases_by_cluster([[a.get("title", "") for a in ranked] for _, ranked, *_ in clusters])
 
+    themes = []
+    for (cluster_id, ranked, centroid, n_sources, relevance), phrases in zip(clusters, keyphrases):
+        titles: list[str] = []
+        for a in ranked:
+            t = headline(a.get("title", ""))
+            if is_usable_headline(t) and t not in titles:
+                titles.append(t)
+
+        companies = [c for a in ranked for c in a.get("matched_companies", [])]
         theme = {
             "theme_id": f"{week}_theme_{cluster_id}",
             "week": week,
             "cluster_id": int(cluster_id),
-            "size": int(len(cluster_articles)),
-            "label": build_label(cluster_articles),
-            "top_companies": get_top_items(matched_companies, TOP_K_COMPANIES),
-            "top_keywords": get_top_items(matched_keywords, TOP_K_KEYWORDS),
-            "example_titles": [
-                (a.get("title") or "").strip()
-                for a in cluster_articles[:5]
-            ],
-            "article_ids": [
-                a.get("article_id") or a.get("id") or f"{week}_{i}"
-                for i, a in enumerate(cluster_articles)
-            ],
+            "size": len(ranked),
+            # The most representative headline reads better than any keyword list.
+            "label": titles[0] if titles else " · ".join(phrases[:3]) or "untitled theme",
+            "top_companies": get_top_items(companies, TOP_K_COMPANIES),
+            "top_keywords": phrases,
+            "example_titles": titles[:EXAMPLE_TITLES],
+            "source_count": n_sources,
+            "relevance": None if relevance is None else round(relevance, 3),
+            "article_ids": [a.get("article_id") for a in ranked],
             "centroid": centroid.tolist(),
         }
         themes.append(theme)
@@ -151,8 +208,18 @@ def build_theme_objects(
 
 
 def cluster_embeddings(embeddings: np.ndarray) -> np.ndarray:
-    if len(embeddings) < MIN_CLUSTER_SIZE:
+    if len(embeddings) < max(MIN_CLUSTER_SIZE, UMAP_COMPONENTS + 2):
         return np.full(len(embeddings), -1, dtype=int)
+
+    import umap  # heavy import (numba); only needed when clustering
+
+    reduced = umap.UMAP(
+        n_components=UMAP_COMPONENTS,
+        n_neighbors=min(UMAP_NEIGHBORS, len(embeddings) - 1),
+        min_dist=0.0,
+        metric="cosine",
+        random_state=RANDOM_STATE,
+    ).fit_transform(embeddings)
 
     clusterer = hdbscan.HDBSCAN(
         min_cluster_size=MIN_CLUSTER_SIZE,
@@ -160,7 +227,7 @@ def cluster_embeddings(embeddings: np.ndarray) -> np.ndarray:
         metric="euclidean",
         prediction_data=False,
     )
-    return clusterer.fit_predict(embeddings)
+    return clusterer.fit_predict(reduced)
 
 
 def load_embedding_cache(path: Path) -> dict[str, np.ndarray]:
@@ -206,9 +273,10 @@ def process_week(
     week: str,
     articles: list[dict],
     embeddings: np.ndarray,
+    scope_embeddings: np.ndarray | None = None,
 ) -> list[dict]:
     cluster_labels = cluster_embeddings(embeddings)
-    return build_theme_objects(week, articles, embeddings, cluster_labels)
+    return build_theme_objects(week, articles, embeddings, cluster_labels, scope_embeddings)
 
 
 def main() -> None:
@@ -224,12 +292,17 @@ def main() -> None:
     cache = load_embedding_cache(EMBED_CACHE_PATH)
     embed_articles(articles, model, cache)
     save_embedding_cache(EMBED_CACHE_PATH, cache)
+    scope = model.encode(SCOPE_ANCHORS, convert_to_numpy=True, normalize_embeddings=True)
+
+    # Rebuild every week from scratch so files for weeks that no longer have themes don't linger.
+    for stale in OUT_DIR.glob("*.json"):
+        stale.unlink()
 
     for week, articles_in_week in sorted(weekly_articles.items()):
         print(f"{week}: {len(articles_in_week)} articles")
 
         embeddings = embed_articles(articles_in_week, model, cache)
-        themes = process_week(week, articles_in_week, embeddings)
+        themes = process_week(week, articles_in_week, embeddings, scope)
 
         out_path = OUT_DIR / f"{week}.json"
         with open(out_path, "w", encoding="utf-8") as f:

@@ -2,11 +2,11 @@
   "week": "2026-W04",
   "themes": [
     {
-      "theme_id": "2026-W04_theme_15",
+      "theme_id": "2026-W04_theme_0",
       "week": "2026-W04",
-      "cluster_id": 15,
-      "label": "intel | stock | intel stock",
-      "size": 20,
+      "cluster_id": 0,
+      "label": "Intel Stock Plummets: What Led to the Sharp Decline?",
+      "size": 35,
       "top_companies": [
         "Intel",
         "NVIDIA",
@@ -15,663 +15,501 @@
         "AMD"
       ],
       "top_keywords": [
-        "data center",
-        "chip",
-        "semiconductor",
-        "foundry",
-        "server",
-        "chips",
-        "memory",
-        "wafer"
+        "intel",
+        "earnings",
+        "expectations",
+        "guidance",
+        "supply"
       ],
       "example_titles": [
-        "Intel CEO Lip-Bu Tan gives shareholders the ‘disappointing’ news: We are not able to… - The Times of India",
-        "Intel Q4 earnings reveal rocky path to recovery following weakest full-year revenue since 2010 — Intel Foundry losses continue as 18A begins ramp, but supply challenges set to ease in Q2 2026",
         "Intel Stock Plummets: What Led to the Sharp Decline?",
-        "Intel Stock Gets Slammed. Is This a Buy-the-Dip Moment?",
-        "Why Is Intel Stock Sinking Friday? - Intel (NASDAQ:INTC)"
+        "Why Is Intel Stock Sinking Friday?",
+        "Intel stock sinks as company's Q1 outlook falls short of Wall Street expectations",
+        "Intel’s Reality Check: Q1 Guidance Miss Sparks Sell-Off Amid Semiconductor Sector Volatility",
+        "Intel's revival hits a bump in the road as its guidance falls short of expectations"
       ],
-      "previous_theme_id": "2026-W03_theme_6",
+      "source_count": 23,
+      "relevance": 0.432,
+      "previous_theme_id": "2026-W03_theme_9",
       "previous_week": "2026-W03",
-      "previous_label": "stock | intel | intc",
-      "previous_size": 5,
-      "similarity_to_previous": 0.8711,
-      "growth_rate": 3.0,
+      "previous_label": "Wall St Week Ahead-Investors bank on US earnings strength as policy noise grows louder",
+      "previous_size": 9,
+      "similarity_to_previous": 0.7962,
+      "growth_rate": 2.8889,
       "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W05_theme_12"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.9742
-    },
-    {
-      "theme_id": "2026-W04_theme_0",
-      "week": "2026-W04",
-      "cluster_id": 0,
-      "label": "ex60 | bmw | bmw ix3",
-      "size": 18,
-      "top_companies": [
-        "Google",
-        "Qualcomm",
-        "Tesla",
-        "NVIDIA",
-        "Apple"
-      ],
-      "top_keywords": [
-        "chip",
-        "chips"
-      ],
-      "example_titles": [
-        "Volvo’s High-Stakes Reboot: Inside the EX90’s Bid to Out-Engineer Tesla with a Silicon Valley Playbook",
-        "2027 Volvo EX60 Debuts with 400 Miles Range and New Architecture",
-        "New Zeekr 7X smasher with 800km+ range revealed: 2026 Volvo EX60 electric SUV debuts as a premium rival to Mercedes-Benz GLC EV, Tesla Model Y and BMW iX3 with a rough road ready EX60 Cross Country to follow",
-        "New Zeekr 7X smasher with 800km+ range revealed: 2026 Volvo EX60 electric SUV debuts as a premium rival to Mercedes-Benz GLC EV, Tesla Model Y and BMW iX3 with a rough road ready EX60 Cross Country to follow",
-        "Revealed! The 2027 Volvo EX60 Breaks Cover with up to 670 HP and 400 Miles of Range"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.955
-    },
-    {
-      "theme_id": "2026-W04_theme_6",
-      "week": "2026-W04",
-      "cluster_id": 6,
-      "label": "ads openai | chatgpt test | looks",
-      "size": 13,
-      "top_companies": [
-        "Google",
-        "Meta",
-        "NVIDIA",
-        "Apple"
-      ],
-      "top_keywords": [
-        "chips"
-      ],
-      "example_titles": [
-        "ChatGPT to test ads as OpenAI looks for revenue",
-        "ChatGPT to test ads as OpenAI looks for revenue",
-        "ChatGPT to test ads as OpenAI looks for revenue",
-        "ChatGPT to test ads as OpenAI looks for revenue",
-        "ChatGPT to test ads as OpenAI looks for revenue"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.8425
-    },
-    {
-      "theme_id": "2026-W04_theme_1",
-      "week": "2026-W04",
-      "cluster_id": 1,
-      "label": "q4 | earnings | cy2025",
-      "size": 10,
-      "top_companies": [
-        "NVIDIA",
-        "Apple",
-        "Intel",
-        "Cadence Design Systems"
-      ],
-      "top_keywords": [
-        "semiconductor",
-        "compute"
-      ],
-      "example_titles": [
-        "Booz Allen Hamilton Holding Corporation (NYSE:BAH) Q3 2026 Earnings Call Transcript",
-        "S&T Bancorp (STBA) Q4 2025 Earnings Transcript",
-        "PFBC Q4 Deep Dive: Deposit Costs, Credit Quality, and Loan Growth Shape Outlook",
-        "Travelers (TRV) Q4 2025 Earnings Call Transcript",
-        "Capital One’s (NYSE:COF) Q4 CY2025 Sales Beat Estimates"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W05_theme_6"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.775
-    },
-    {
-      "theme_id": "2026-W04_theme_2",
-      "week": "2026-W04",
-      "cluster_id": 2,
-      "label": "affordable | billionaires | billionaires davos",
-      "size": 10,
-      "top_companies": [
-        "Dell Technologies",
-        "NVIDIA"
-      ],
-      "top_keywords": [],
-      "example_titles": [
-        "Surrounded by billionaires in Davos, Trump plans to lay out how he’ll make housing more affordable",
-        "Surrounded by billionaires in Davos, Trump plans to lay out how he’ll make housing more affordable",
-        "Surrounded by billionaires in Davos, Trump plans to lay out how he'll make housing more affordable",
-        "Surrounded by billionaires in Davos, Trump plans to lay out how he’ll make housing more affordable",
-        "Surrounded by billionaires in Davos, Trump plans to lay out how he’ll make housing more affordable"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.775
-    },
-    {
-      "theme_id": "2026-W04_theme_12",
-      "week": "2026-W04",
-      "cluster_id": 12,
-      "label": "trump | greenland | european",
-      "size": 10,
-      "top_companies": [
-        "NVIDIA",
-        "Apple",
-        "Intel",
-        "ASML",
-        "SK hynix"
-      ],
-      "top_keywords": [
-        "chip"
-      ],
-      "example_titles": [
-        "Stocks rally as Trump drops Greenland tariff threats",
-        "Wall Street sinks as Trump threatens 8 European countries with tariffs over Greenland",
-        "Wall Street sinks as Trump threatens 8 European countries with tariffs over Greenland",
-        "Stocks Slide as Trump Tariff Threats Rattle Markets",
-        "Wall Street sinks as Trump threatens 8 European countries with tariffs over Greenland - WTOP News"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.775
-    },
-    {
-      "theme_id": "2026-W04_theme_13",
-      "week": "2026-W04",
-      "cluster_id": 13,
-      "label": "countries | countries greenland | futures",
-      "size": 10,
-      "top_companies": [
-        "Intel",
-        "SK hynix"
-      ],
-      "top_keywords": [
-        "chip"
-      ],
-      "example_titles": [
-        "US futures sink after Trump warns of higher tariffs for 8 countries over Greenland issue",
-        "US futures sink after Trump warns of higher tariffs for 8 countries over Greenland issue",
-        "US futures sink after Trump warns of higher tariffs for 8 countries over Greenland issue",
-        "US futures sink after Trump warns of higher tariffs for 8 countries over Greenland issue",
-        "U.S. futures sink after Trump warns of higher tariffs for 8 countries over Greenland issue"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.775
-    },
-    {
-      "theme_id": "2026-W04_theme_5",
-      "week": "2026-W04",
-      "cluster_id": 5,
-      "label": "16 | laptop | rtx",
-      "size": 8,
-      "top_companies": [
-        "NVIDIA",
-        "AMD",
-        "Intel",
-        "Amazon",
-        "Lenovo"
-      ],
-      "top_keywords": [
-        "gpu",
-        "memory",
-        "chips",
-        "chip",
-        "training"
-      ],
-      "example_titles": [
-        "You Pay $3,000+ for NVIDIA’s RTX 5090… and Amazon Delivers Rocks and a Towel Instead; A Costly Reminder That High-End GPUs Are Scam Targets Right Now",
-        "MSI CROSSHAIR A16 Gaming Laptop - 16\" QHD+ 240hz - AMD Ryzen 9-8940HX - GeForce RTX 5060 - 32GB DDR5 RAM - 1TB SSD (D8WFKG-015US) - Newegg.com",
-        "Laptops to look forward to in 2026 | Mint",
-        "MSI CROSSHAIR A16 Gaming Laptop - 16\" QHD+ 240hz - AMD Ryzen 9-8940HX - GeForce RTX 5060 - 32GB DDR5 RAM - 1TB SSD (D8WFKG-015US) - Newegg.com",
-        "MSI Vector - LCD 16\" QHD+ GeForce RTX 5080 Laptop GPU - Intel Core Ultra 9 275HX - 16GB Memory - 1 TB SSD - Windows 11 Home Gaming Laptop - 240 Hz (Vector 16 HX AI A2XWIG-050US ) - Newegg.com"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W05_theme_8"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.73
-    },
-    {
-      "theme_id": "2026-W04_theme_17",
-      "week": "2026-W04",
-      "cluster_id": 17,
-      "label": "nvidia | ai | ceo",
-      "size": 7,
-      "top_companies": [
-        "NVIDIA",
-        "Amazon",
-        "Microsoft",
-        "AMD",
-        "Broadcom"
-      ],
-      "top_keywords": [
-        "chips",
-        "chip",
-        "gpu",
-        "training",
-        "compute",
-        "inference",
-        "server",
-        "semiconductor"
-      ],
-      "example_titles": [
-        "NVIDIA (NVDA) CEO Jensen Huang Frames AI as the Largest Infrastructure Buildout in Human History",
-        "What Bubble? Nvidia CEO Says AI Needs Trillions More in Investments",
-        "Nvidia CEO: Trump-backed AI boom has launched ‘largest infrastructure buildout in human history’",
-        "Nvidia CEO Huang Dismisses AI Bubble Fears, Eyes Trillion-Dollar Boom",
-        "Huang's Davos Defiance: AI's Massive Buildout Trumps Bubble Warnings"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.7075
-    },
-    {
-      "theme_id": "2026-W04_theme_9",
-      "week": "2026-W04",
-      "cluster_id": 9,
-      "label": "uber | best | stocks",
-      "size": 6,
-      "top_companies": [
-        "Amazon",
-        "Google",
-        "NVIDIA",
-        "Tesla",
-        "Microsoft"
-      ],
-      "top_keywords": [
-        "chips",
-        "data center",
-        "training"
-      ],
-      "example_titles": [
-        "Is QUALCOMM (QCOM) One of the Best 5G Stocks to Invest In?",
-        "Jim Cramer Discusses President Trump & CoreWeave (CRWV)",
-        "The 4 Best AI Stocks to Buy as Trillion-Dollar Tech Shapes a Once-in-a-Lifetime Investment Opportunity | The Motley Fool",
-        "Jefferies Raises PT on NVIDIA Corporation From $250 to $275, Keeps Buy Rating",
-        "BofA Analysts Highlight Uber’s (UBER) Autonomous Vehicle Potential"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
       "is_emerging": true,
       "next_theme_ids": [
         "2026-W05_theme_9"
       ],
       "out_degree": 1,
-      "emerging_score": 0.685
-    },
-    {
-      "theme_id": "2026-W04_theme_16",
-      "week": "2026-W04",
-      "cluster_id": 16,
-      "label": "fool | motley | motley fool",
-      "size": 17,
-      "top_companies": [
-        "NVIDIA",
-        "TSMC",
-        "Google",
-        "Microsoft",
-        "Broadcom"
-      ],
-      "top_keywords": [
-        "chips",
-        "chip",
-        "semiconductor",
-        "data center",
-        "gpu",
-        "training",
-        "foundry",
-        "compute"
-      ],
-      "example_titles": [
-        "Prediction: These 2 Stocks Will Be the Biggest Winners From $500 Billion AI Spending in 2026 | The Motley Fool",
-        "The AI Computing Stock That Big Money Managers Are Quietly Buying | The Motley Fool",
-        "Motley Fool: Powering artificial intelligence",
-        "Prediction: This Will Be the Next Artificial Intelligence (AI) Chip Stock to Join Nvidia, Taiwan Semiconductor, and Broadcom in the Trillion-Dollar Club (Hint: It's Not AMD) | The Motley Fool",
-        "Prediction: This Will Be the Next Artificial Intelligence (AI) Chip Stock to Join Nvidia, Taiwan Semiconductor, and Broadcom in the Trillion-Dollar Club (Hint: It's Not AMD)"
-      ],
-      "previous_theme_id": "2026-W03_theme_13",
-      "previous_week": "2026-W03",
-      "previous_label": "fool | motley | motley fool",
-      "previous_size": 13,
-      "similarity_to_previous": 0.9591,
-      "growth_rate": 0.3077,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W05_theme_16"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.682
-    },
-    {
-      "theme_id": "2026-W04_theme_7",
-      "week": "2026-W04",
-      "cluster_id": 7,
-      "label": "openai | make | 2026",
-      "size": 5,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "Microsoft",
-        "Cerebras Systems",
-        "Amazon"
-      ],
-      "top_keywords": [
-        "compute",
-        "inference",
-        "chip",
-        "chips",
-        "data center",
-        "gpu",
-        "training"
-      ],
-      "example_titles": [
-        "This year could be 'make or break' for OpenAI as investors turn their eyes to profit",
-        "OpenAI in Advanced Talks for $10 Billion Amazon Investment: A Shift in the AI Power Balance",
-        "OpenAI is still figuring out how to make money",
-        "OpenAI finance chief says the company will focus on ‘practical adoption’ in 2026",
-        "OpenAI to focus on 'practical adoption' in 2026, says finance chief Sarah Friar"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W05_theme_17"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.6625
-    },
-    {
-      "theme_id": "2026-W04_theme_11",
-      "week": "2026-W04",
-      "cluster_id": 11,
-      "label": "ai | ai stocks | fool",
-      "size": 5,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "Meta",
-        "Microsoft",
-        "Amazon"
-      ],
-      "top_keywords": [
-        "compute",
-        "data center",
-        "semiconductor",
-        "chip",
-        "chips"
-      ],
-      "example_titles": [
-        "Beyond the Hype: 3 Unexpected AI Stocks Hiding in Plain Sight | The Motley Fool",
-        "Beyond the Hype: 3 Unexpected AI Stocks Hiding in Plain Sight | The Motley Fool",
-        "Magnificent Seven Profits Seen Climbing to $181bn as AI Spending Accelerates",
-        "My 6 Highest Conviction Stock Picks for 2026 and Beyond",
-        "This Could Be 1 of the Best Financial Stock Buying Opportunities I've Seen in Years"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.6625
-    },
-    {
-      "theme_id": "2026-W04_theme_4",
-      "week": "2026-W04",
-      "cluster_id": 4,
-      "label": "business | business trump | inequality",
-      "size": 7,
-      "top_companies": [
-        "Microsoft",
-        "NVIDIA"
-      ],
-      "top_keywords": [],
-      "example_titles": [
-        "Inequality and unease are rising as Davos opens with pro-business Trump attending",
-        "Inequality and unease are rising as elite Davos event opens with pro-business Trump set to attend",
-        "Inequality and unease are rising as elite Davos event opens with pro-business Trump set to attend",
-        "Inequality and unease are rising as elite Davos event opens with pro-business Trump set to attend",
-        "Inequality and unease are rising as elite Davos event opens with pro-business Trump set to attend"
-      ],
-      "previous_theme_id": "2026-W03_theme_0",
-      "previous_week": "2026-W03",
-      "previous_label": "davos | leaders | 2026",
-      "previous_size": 5,
-      "similarity_to_previous": 0.7823,
-      "growth_rate": 0.4,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.454
+      "emerging_score": 0.9592
     },
     {
       "theme_id": "2026-W04_theme_3",
       "week": "2026-W04",
       "cluster_id": 3,
-      "label": "annual | annual world | know annual",
-      "size": 8,
-      "top_companies": [
-        "Google",
-        "Microsoft",
-        "NVIDIA"
-      ],
-      "top_keywords": [],
-      "example_titles": [
-        "What to know about the annual World Economic Forum meeting in Davos",
-        "What to know about the annual World Economic Forum meeting in Davos",
-        "What to know about the annual World Economic Forum meeting in Davos",
-        "What to know about the annual World Economic Forum meeting in Davos",
-        "What to know about the annual World Economic Forum meeting in Davos"
-      ],
-      "previous_theme_id": "2026-W03_theme_1",
-      "previous_week": "2026-W03",
-      "previous_label": "davos | davos week | delegation",
-      "previous_size": 6,
-      "similarity_to_previous": 0.7823,
-      "growth_rate": 0.3333,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.4531
-    },
-    {
-      "theme_id": "2026-W04_theme_14",
-      "week": "2026-W04",
-      "cluster_id": 14,
-      "label": "china | nvidia | shanghai",
-      "size": 12,
+      "label": "Nvidia CEO: Trump-backed AI boom has launched ‘largest infrastructure buildout in human history’",
+      "size": 20,
       "top_companies": [
         "NVIDIA",
-        "Intel",
-        "TSMC",
-        "AMD",
-        "Google"
+        "Microsoft",
+        "Google",
+        "Meta",
+        "Amazon"
       ],
       "top_keywords": [
-        "chip",
-        "chips",
-        "semiconductor",
-        "data center",
-        "gpu",
-        "ai accelerator",
-        "advanced packaging"
+        "davos",
+        "nvidia ceo",
+        "cm",
+        "jobs",
+        "ceo needs"
       ],
       "example_titles": [
-        "China Opens Door to Nvidia H200 Chips But Questions Outnumber Answers",
-        "China Opens Door to Nvidia H200 Chips But Questions Outnumber Answers",
-        "Jensen Huang celebrates Lunar New Year with Nvidia employees in Shanghai",
-        "Huang’s Shanghai Gambit: Nvidia’s High-Stakes Push for H200 Chip Sales in China",
-        "Weekend Tech Roundup: Nvidia's China Strategy, Taiwan Semiconductor's Shift, Intel's Q4 Earnings And More"
+        "Nvidia CEO: Trump-backed AI boom has launched ‘largest infrastructure buildout in human history’",
+        "DAVOS : Nvidia CEO Says AI Needs More Investment, in Defiance of Bubble Fears -- Update",
+        "Tech Execs at Davos Highlight AI’s Power as a Geopolitical Tool",
+        "Davos Highlights Physical AI as Key Trend, 51 WORLD (6651.HK) Emerges as Industry Implementer",
+        "Nvidia CEO says AI will create jobs for electricians and plumbers"
       ],
-      "previous_theme_id": "2026-W03_theme_10",
+      "source_count": 19,
+      "relevance": 0.631,
+      "previous_theme_id": "2026-W03_theme_13",
       "previous_week": "2026-W03",
-      "previous_label": "chip | conditions | ai",
+      "previous_label": "‘We could hit a wall’: why trillions of dollars of risk is no guarantee of AI reward",
       "previous_size": 14,
-      "similarity_to_previous": 0.8668,
-      "growth_rate": -0.1429,
+      "similarity_to_previous": 0.8833,
+      "growth_rate": 0.4286,
       "is_new_theme": false,
-      "is_emerging": false,
+      "is_emerging": true,
       "next_theme_ids": [
-        "2026-W05_theme_15"
+        "2026-W05_theme_8"
       ],
       "out_degree": 1,
-      "emerging_score": 0.4434
+      "emerging_score": 0.7767
     },
     {
-      "theme_id": "2026-W04_theme_8",
+      "theme_id": "2026-W04_theme_11",
       "week": "2026-W04",
-      "cluster_id": 8,
-      "label": "drifts | drifts intel | gold",
-      "size": 5,
+      "cluster_id": 11,
+      "label": "Jefferies Raises PT on NVIDIA Corporation From $250 to $275, Keeps Buy Rating",
+      "size": 9,
       "top_companies": [
-        "Intel"
+        "Google",
+        "NVIDIA",
+        "Amazon",
+        "Microsoft",
+        "Tesla"
       ],
       "top_keywords": [
-        "chip"
+        "secures",
+        "uber",
+        "invest",
+        "anthropic",
+        "alumni"
       ],
       "example_titles": [
-        "Wall Street drifts as Intel tumbles and gold's price rises to another record",
-        "Wall Street drifts as Intel tumbles and gold’s price rises to another record",
-        "Wall Street drifts as Intel tumbles and gold’s price rises to another record",
-        "Wall Street drifts as Intel tumbles and gold’s price rises to another record",
-        "Wall Street drifts as Intel tumbles and gold’s price rises to another record"
+        "Jefferies Raises PT on NVIDIA Corporation From $250 to $275, Keeps Buy Rating",
+        "Jim Cramer Discusses President Trump & CoreWeave (CRWV)",
+        "RBC Initiates Broadcom (AVGO) at Sector Perform, Flags Margin and Valuation Risks Despite AI Upside",
+        "BofA Analysts Highlight Uber’s (UBER) Autonomous Vehicle Potential",
+        "Is QUALCOMM (QCOM) One of the Best 5G Stocks to Invest In?"
       ],
-      "previous_theme_id": "2026-W03_theme_5",
+      "source_count": 5,
+      "relevance": 0.554,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W05_theme_11"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.7525
+    },
+    {
+      "theme_id": "2026-W04_theme_12",
+      "week": "2026-W04",
+      "cluster_id": 12,
+      "label": "OpenAI finance chief says the company will focus on ‘practical adoption’ in 2026",
+      "size": 9,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Meta",
+        "Amazon",
+        "Microsoft"
+      ],
+      "top_keywords": [
+        "openai",
+        "chatgpt",
+        "ads",
+        "chief",
+        "focus practical"
+      ],
+      "example_titles": [
+        "OpenAI finance chief says the company will focus on ‘practical adoption’ in 2026",
+        "OpenAI to focus on 'practical adoption' in 2026, says finance chief Sarah Friar",
+        "OpenAI to introduce advertising on free ChatGPT",
+        "OpenAI plans ads on ChatGPT for free users",
+        "ChatGPT to test ads as OpenAI looks for revenue"
+      ],
+      "source_count": 7,
+      "relevance": 0.481,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W05_theme_1"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.7525
+    },
+    {
+      "theme_id": "2026-W04_theme_5",
+      "week": "2026-W04",
+      "cluster_id": 5,
+      "label": "Intel India calls for privacy-driven AI growth as Centre advances data protection laws",
+      "size": 5,
+      "top_companies": [
+        "Intel",
+        "Google",
+        "NVIDIA",
+        "Amazon",
+        "Microsoft"
+      ],
+      "top_keywords": [
+        "btech",
+        "india",
+        "advances",
+        "calls privacy-driven",
+        "career"
+      ],
+      "example_titles": [
+        "Intel India calls for privacy-driven AI growth as Centre advances data protection laws",
+        "iTWire - Lenovo Talks Hybrid Ai plus end-to-end product provision for the enterprise and F1",
+        "Edge AI: The future of AI inference is smarter local compute",
+        "Smartphone AI tax is looming",
+        "BTech in AI & ML vs BTech in Cyber Security: Which specialisation offers career stability in India?"
+      ],
+      "source_count": 5,
+      "relevance": 0.57,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W05_theme_12"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.6625
+    },
+    {
+      "theme_id": "2026-W04_theme_7",
+      "week": "2026-W04",
+      "cluster_id": 7,
+      "label": "Laptops to look forward to in 2026",
+      "size": 18,
+      "top_companies": [
+        "Intel",
+        "NVIDIA",
+        "AMD",
+        "Qualcomm",
+        "Dell Technologies"
+      ],
+      "top_keywords": [
+        "laptop",
+        "gaming",
+        "rtx",
+        "amd",
+        "asus"
+      ],
+      "example_titles": [
+        "Laptops to look forward to in 2026",
+        "MSI CROSSHAIR A16 Gaming Laptop - 16\" QHD+ 240hz - AMD Ryzen 9-8940HX - GeForce RTX 5060 - 32GB DDR5 RAM - 1TB SSD (D8WFKG-015US)",
+        "Nvidia may finally be coming for Intel and Qualcomm with gaming-ready Arm laptop chips",
+        "ASUS Unveils Groundbreaking Ultrasmall-Form-Factor PCs at CES 2026",
+        "Laptops featuring Nvidia’s ARM-based chips may finally hit stores near you in Q1 2026"
+      ],
+      "source_count": 15,
+      "relevance": 0.509,
+      "previous_theme_id": "2026-W03_theme_3",
       "previous_week": "2026-W03",
-      "previous_label": "stocks | street | wall street",
-      "previous_size": 17,
-      "similarity_to_previous": 0.836,
-      "growth_rate": -0.7059,
+      "previous_label": "Intel Core Ultra 9 290HX Plus Outperforms 285HX by Up to 12%",
+      "previous_size": 18,
+      "similarity_to_previous": 0.9009,
+      "growth_rate": 0.0,
       "is_new_theme": false,
       "is_emerging": false,
       "next_theme_ids": [
-        "2026-W05_theme_13"
+        "2026-W05_theme_6"
       ],
       "out_degree": 1,
-      "emerging_score": 0.2797
+      "emerging_score": 0.5852
+    },
+    {
+      "theme_id": "2026-W04_theme_6",
+      "week": "2026-W04",
+      "cluster_id": 6,
+      "label": "The Surprising Reason Nvidia Looks Recession-Proof in 2026",
+      "size": 14,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Amazon",
+        "Intel",
+        "Microsoft"
+      ],
+      "top_keywords": [
+        "nvidia",
+        "accused",
+        "anna",
+        "archive",
+        "board"
+      ],
+      "example_titles": [
+        "The Surprising Reason Nvidia Looks Recession-Proof in 2026",
+        "Nvidia Bets On AI Inference With $150 Million Baseten Stake",
+        "Nvidia Dethrones Apple As Taiwan Semiconductor's Largest Customer",
+        "Goldman Reaffirms Preference for Nvidia (NVDA) in AI Compute Ecosystem",
+        "Jensen Huang says Nvidia has dethroned Apple as TSMC’s largest customer — rumor suggests that the chip fab is increasing its prices for Cupertino"
+      ],
+      "source_count": 9,
+      "relevance": 0.372,
+      "previous_theme_id": "2026-W03_theme_14",
+      "previous_week": "2026-W03",
+      "previous_label": "NVIDIA (NVDA) 2026 Deep-Dive: Analyst Sentiment and the Road to Rubin",
+      "previous_size": 26,
+      "similarity_to_previous": 0.8802,
+      "growth_rate": -0.4615,
+      "is_new_theme": false,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W05_theme_2"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.491
     },
     {
       "theme_id": "2026-W04_theme_10",
       "week": "2026-W04",
       "cluster_id": 10,
-      "label": "selling | chip | ai",
-      "size": 5,
+      "label": "Hyundai Motor Shares Rise at Fastest Pace in Five Years on AI, Robotics Push",
+      "size": 8,
       "top_companies": [
         "NVIDIA",
-        "AMD",
+        "Tesla",
         "Google",
-        "Intel",
+        "SK hynix",
+        "Samsung Electronics"
+      ],
+      "top_keywords": [
+        "robotics",
+        "ex60",
+        "hyundai",
+        "model",
+        "motor"
+      ],
+      "example_titles": [
+        "Hyundai Motor Shares Rise at Fastest Pace in Five Years on AI, Robotics Push",
+        "Hyundai Motor shares rally on humanoid robot prowess in era of physical AI",
+        "Flash: The Surprise Winner from CES 2026",
+        "Volvo’s High-Stakes Reboot: Inside the EX90’s Bid to Out-Engineer Tesla with a Silicon Valley Playbook",
+        "Elon Musk 'Wasn't Sure If Nobody Would Buy It'—But Had A Backup Plan To Ditch Cybertruck Design and Build One That 'Looks Like The Others'"
+      ],
+      "source_count": 8,
+      "relevance": 0.398,
+      "previous_theme_id": "2026-W03_theme_12",
+      "previous_week": "2026-W03",
+      "previous_label": "CES 2026 Spotlights Nvidia AI and Tesla Cybercab for Autonomous Future",
+      "previous_size": 6,
+      "similarity_to_previous": 0.7891,
+      "growth_rate": 0.3333,
+      "is_new_theme": false,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.4545
+    },
+    {
+      "theme_id": "2026-W04_theme_8",
+      "week": "2026-W04",
+      "cluster_id": 8,
+      "label": "Broadcom (AVGO): The Architect of the AI Era and the VMware Transformation",
+      "size": 13,
+      "top_companies": [
+        "Broadcom",
+        "NVIDIA",
+        "Apple",
+        "Google",
         "Amazon"
       ],
       "top_keywords": [
-        "chip",
-        "chips",
-        "data center",
-        "chipmaking",
-        "training"
+        "broadcom",
+        "deep",
+        "dive",
+        "glass",
+        "vmware"
       ],
       "example_titles": [
-        "Anthropic's CEO calls out Nvidia for selling AI chips to China. 'I think it's a bit like selling nuclear weapons to North Korea and bragging'",
-        "AI boss says chip sales to China ‘like selling nuclear weapons to North Korea’",
-        "Anthropic CEO Slams U.S. Chip Export Decision as “Crazy,” Comparing It to Selling Nukes",
-        "AI boss says chip sales to China ‘like selling nuclear weapons to North Korea’",
-        "Anthropic's CEO stuns Davos with Nvidia criticism | TechCrunch"
+        "Broadcom (AVGO): The Architect of the AI Era and the VMware Transformation",
+        "Silicon Spin-off: Alibaba Prepares to List T-Head Unit Amid Global AI Chip Race",
+        "The Invisible Giant: A Deep Dive into Teradyne (TER) Amidst AI Shifts and Robotics Headwinds",
+        "Connectivity in the Age of AI: A Deep Dive into Skyworks Solutions (SWKS)",
+        "Taiwan Semiconductor (TSM) Q4 2025 Earnings: AI Boom Drives Historic 2026 Outlook"
       ],
-      "previous_theme_id": "2026-W03_theme_11",
+      "source_count": 7,
+      "relevance": 0.43,
+      "previous_theme_id": "2026-W03_theme_10",
       "previous_week": "2026-W03",
-      "previous_label": "blocks | china | china blocks",
-      "previous_size": 5,
-      "similarity_to_previous": 0.7555,
-      "growth_rate": 0.0,
+      "previous_label": "AI demand drives TSMC to record profit, boosts US plans",
+      "previous_size": 19,
+      "similarity_to_previous": 0.8078,
+      "growth_rate": -0.3158,
       "is_new_theme": false,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.2636
+      "emerging_score": 0.4541
+    },
+    {
+      "theme_id": "2026-W04_theme_1",
+      "week": "2026-W04",
+      "cluster_id": 1,
+      "label": "Nvidia’s CEO plans to visit China as he works to reopen market",
+      "size": 12,
+      "top_companies": [
+        "NVIDIA",
+        "AMD",
+        "TSMC",
+        "Intel",
+        "Google"
+      ],
+      "top_keywords": [
+        "china",
+        "nvidia",
+        "ceo",
+        "selling",
+        "shanghai"
+      ],
+      "example_titles": [
+        "Nvidia’s CEO plans to visit China as he works to reopen market",
+        "Nvidia CEO in Shanghai amid China regulatory headwinds",
+        "Nvidia CEO Jensen Huang in Shanghai amid China regulatory headwinds",
+        "Huang’s Shanghai Gambit: Nvidia’s High-Stakes Push for H200 Chip Sales in China",
+        "China Opens Door to Nvidia H200 Chips But Questions Outnumber Answers"
+      ],
+      "source_count": 9,
+      "relevance": 0.491,
+      "previous_theme_id": "2026-W03_theme_0",
+      "previous_week": "2026-W03",
+      "previous_label": "US approves Nvidia H200 chip exports to China with some conditions",
+      "previous_size": 19,
+      "similarity_to_previous": 0.902,
+      "growth_rate": -0.3684,
+      "is_new_theme": false,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W05_theme_0"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.4504
+    },
+    {
+      "theme_id": "2026-W04_theme_9",
+      "week": "2026-W04",
+      "cluster_id": 9,
+      "label": "Magnificent Seven Profits Seen Climbing to $181bn as AI Spending Accelerates",
+      "size": 12,
+      "top_companies": [
+        "NVIDIA",
+        "Amazon",
+        "Meta",
+        "Google",
+        "Apple"
+      ],
+      "top_keywords": [
+        "magnificent",
+        "seven",
+        "profits",
+        "investors",
+        "power"
+      ],
+      "example_titles": [
+        "Magnificent Seven Profits Seen Climbing to $181bn as AI Spending Accelerates",
+        "Buying AI Stocks? Why Big Tech Is Splitting, And Nvidia, Google Are Winning; What Indian Investors Should Know",
+        "I Predicted AI Stocks Would Power Stock Market Gains in 2025, and They Did. Here's What May Happen Next in 2026. (And It May Surprise You.)",
+        "Meta Platforms Surges 4% to Lead 'Magnificent Seven' as AI Monetization and Geopolitical Relief Ignite Market Rally",
+        "Why Power, Not Capital Will Decide Who Wins the AI Wars"
+      ],
+      "source_count": 7,
+      "relevance": 0.52,
+      "previous_theme_id": "2026-W03_theme_11",
+      "previous_week": "2026-W03",
+      "previous_label": "$4T milestone proves Google’s AI bet with Apple was the right move",
+      "previous_size": 21,
+      "similarity_to_previous": 0.8698,
+      "growth_rate": -0.4286,
+      "is_new_theme": false,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W05_theme_10"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.444
+    },
+    {
+      "theme_id": "2026-W04_theme_4",
+      "week": "2026-W04",
+      "cluster_id": 4,
+      "label": "Edge AI solutions accelerated by NVIDIA Jetson Thor unveiled",
+      "size": 9,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Dell Technologies",
+        "Cisco",
+        "Microsoft"
+      ],
+      "top_keywords": [
+        "platform",
+        "accelerated",
+        "edge solutions",
+        "jetson",
+        "research"
+      ],
+      "example_titles": [
+        "Edge AI solutions accelerated by NVIDIA Jetson Thor unveiled",
+        "Advantech unveils edge AI solutions accelerated by NVIDIA Jetson Thor for robotics, medical AI, and data intelligence",
+        "Alset AI Announces Full Commercial Launch of Lyken.AI",
+        "Research Insights: Nvidia unveils Alpamayo platform for L4 self-driving",
+        "PPPL Launches STELLAR-AI Platform to Accelerate Fusion Energy Research"
+      ],
+      "source_count": 9,
+      "relevance": 0.525,
+      "previous_theme_id": "2026-W03_theme_6",
+      "previous_week": "2026-W03",
+      "previous_label": "OpenAI Bets $10 Billion on Cerebras to Challenge Nvidia’s Grip on AI Computing",
+      "previous_size": 18,
+      "similarity_to_previous": 0.808,
+      "growth_rate": -0.5,
+      "is_new_theme": false,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.3641
     }
   ]
 }

@@ -164,6 +164,8 @@ def build_theme_records(
                 "top_companies": theme.get("top_companies", []),
                 "top_keywords": theme.get("top_keywords", []),
                 "example_titles": theme.get("example_titles", []),
+                "source_count": theme.get("source_count"),
+                "relevance": theme.get("relevance"),
                 "article_ids": theme.get("article_ids", []),
                 "centroid": theme.get("centroid", []),
                 "previous_theme_id": previous_theme_id,
