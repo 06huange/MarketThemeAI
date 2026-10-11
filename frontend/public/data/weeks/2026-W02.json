@@ -2,324 +2,120 @@
   "week": "2026-W02",
   "themes": [
     {
-      "theme_id": "2026-W02_theme_8",
-      "week": "2026-W02",
-      "cluster_id": 8,
-      "label": "oil | venezuelan | capture",
-      "size": 19,
-      "top_companies": [
-        "NVIDIA",
-        "Applied Materials",
-        "Microsoft",
-        "Tesla",
-        "AMD"
-      ],
-      "top_keywords": [
-        "chip",
-        "semiconductor",
-        "chips",
-        "memory",
-        "ai server",
-        "server",
-        "hbm",
-        "training"
-      ],
-      "example_titles": [
-        "Trump’s Venezuelan oil rush is doomed from the start",
-        "ASX finishes flat despite big gains from oil companies",
-        "ASX finishes flat despite big gains from oil companies",
-        "North American Morning Briefing : Stock Futures Edge Down After Strong Start to the Week",
-        "Wall Street gains ground as crude prices and oil company stocks rise after the US raid on Venezuela - Boston News, Weather, Sports | WHDH 7News"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.9775
-    },
-    {
       "theme_id": "2026-W02_theme_0",
       "week": "2026-W02",
       "cluster_id": 0,
-      "label": "black | black friday | friday",
-      "size": 18,
+      "label": "Asus' Zenbook lineup gets 2026 refresh — ZenBook 14, Duo return with new AMD, Intel, and Snapdragon chips",
+      "size": 51,
       "top_companies": [
-        "Broadcom"
-      ],
-      "top_keywords": [],
-      "example_titles": [
-        "Hopes Black Friday could sustain spending growth",
-        "Hopes Black Friday could sustain spending growth",
-        "Hopes Black Friday could sustain spending growth",
-        "Hopes Black Friday could sustain spending growth",
-        "Hopes Black Friday could sustain spending growth"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.955
-    },
-    {
-      "theme_id": "2026-W02_theme_15",
-      "week": "2026-W02",
-      "cluster_id": 15,
-      "label": "ai push | huang unveils | nvidia readies",
-      "size": 16,
-      "top_companies": [
-        "NVIDIA",
-        "Groq",
-        "Amazon",
-        "Google",
-        "Microsoft"
-      ],
-      "top_keywords": [
-        "chip",
-        "chips",
-        "inference",
-        "training",
-        "memory",
-        "server",
-        "data center",
-        "gpu"
-      ],
-      "example_titles": [
-        "Morgan Stanley Is Bullish on Nvidia After CES 2026. Should You Buy NVDA Stock Here?",
-        "Huang unveils Vera Rubin platform as Nvidia readies AI push",
-        "Nvidia ramps up chip output as competition heats up",
-        "Huang unveils Vera Rubin platform as Nvidia readies AI push",
-        "Huang unveils Vera Rubin platform as Nvidia readies AI push"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.91
-    },
-    {
-      "theme_id": "2026-W02_theme_3",
-      "week": "2026-W02",
-      "cluster_id": 3,
-      "label": "million | shares | stock",
-      "size": 14,
-      "top_companies": [
+        "Intel",
+        "AMD",
+        "Qualcomm",
         "Apple",
-        "NVIDIA",
-        "Cadence Design Systems",
-        "Amazon",
-        "Google"
+        "NVIDIA"
       ],
       "top_keywords": [
-        "semiconductor",
-        "data center"
+        "ces",
+        "laptop",
+        "intel",
+        "amd",
+        "asus"
       ],
       "example_titles": [
-        "Cogent Insider Sells $2.5 Million in Stock Amid Staggering 300% Price Surge",
-        "Xometry Shares Beat the S&P 500 as Insider Sells $1.7 Million",
-        "What Investors Should Know About a Viking Therapeutics Insider's $2 Million Stock Sale",
-        "Is nLIGHT Stock a Buy or Sell After the CEO Sold Shares Worth $1.2 Million?",
-        "Is Applied Optoelectronics Stock a Buy or Sell After the Chief Legal Officer Dumped Over 12,000 Shares?"
+        "Asus' Zenbook lineup gets 2026 refresh — ZenBook 14, Duo return with new AMD, Intel, and Snapdragon chips",
+        "The most ultraportable laptop I tested at CES wasn't made by Dell or Lenovo",
+        "Asus unveils second generation Zenbook Duo at CES 2026 with latest Intel Core chips",
+        "AMD at CES 2026: Ryzen Max and 9850X3D Cement High-End Gaming Dominance",
+        "This HP laptop just set a new record for battery life at CES 2026"
       ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.865
-    },
-    {
-      "theme_id": "2026-W02_theme_14",
-      "week": "2026-W02",
-      "cluster_id": 14,
-      "label": "nvidia | stock | 2026",
-      "size": 17,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "Meta",
-        "Microsoft",
-        "Amazon"
-      ],
-      "top_keywords": [
-        "chips",
-        "chip",
-        "data center",
-        "inference",
-        "semiconductor",
-        "gpu",
-        "compute",
-        "training"
-      ],
-      "example_titles": [
-        "Nvidia Stock in 2026: Turning £10,000 into Significant Gains",
-        "2 Ways Nvidia Will Make History in 2026 (Hint: You're Going to Want to Buy Now)",
-        "Should You Invest in Nvidia Stock for 2026?",
-        "Where Will Nvidia Stock Be in 5 Years?",
-        "Is Nvidia Stock a Buy for 2026?"
-      ],
-      "previous_theme_id": "2026-W01_theme_9",
+      "source_count": 40,
+      "relevance": 0.467,
+      "previous_theme_id": "2026-W01_theme_2",
       "previous_week": "2026-W01",
-      "previous_label": "nvidia | fool | motley",
-      "previous_size": 10,
-      "similarity_to_previous": 0.9551,
-      "growth_rate": 0.7,
+      "previous_label": "Apple’s ‘affordable’ MacBook arrival rumors heat up",
+      "previous_size": 16,
+      "similarity_to_previous": 0.8997,
+      "growth_rate": 2.1875,
       "is_new_theme": false,
       "is_emerging": true,
       "next_theme_ids": [
-        "2026-W03_theme_13"
+        "2026-W03_theme_3"
       ],
       "out_degree": 1,
-      "emerging_score": 0.8185
-    },
-    {
-      "theme_id": "2026-W02_theme_2",
-      "week": "2026-W02",
-      "cluster_id": 2,
-      "label": "music | ai | universal",
-      "size": 7,
-      "top_companies": [
-        "NVIDIA"
-      ],
-      "top_keywords": [],
-      "example_titles": [
-        "Universal Music Group New Partnership to Create \"Responsible AI\" Music",
-        "Universal Music Group New Partnership to Create \"Responsible AI\" Music",
-        "Universal Music Group New Partnership to Create \"Responsible AI\" Music",
-        "Universal Music Group New Partnership to Create \"Responsible AI\" Music",
-        "Universal partners with Nvidia on AI music creation, discovery"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.7075
+      "emerging_score": 0.9799
     },
     {
       "theme_id": "2026-W02_theme_4",
       "week": "2026-W02",
       "cluster_id": 4,
-      "label": "biztoc | Amazon | Apple",
-      "size": 7,
+      "label": "Trump's Intel Seal Of Approval Lifts Broadcom, Micron",
+      "size": 41,
       "top_companies": [
-        "Amazon",
-        "Apple",
-        "Google",
-        "Intel",
-        "Marvell Technology"
-      ],
-      "top_keywords": [
-        "chip",
-        "data center",
-        "datacenter",
-        "training"
-      ],
-      "example_titles": [
-        "BizToc",
-        "BizToc",
-        "BizToc",
-        "BizToc",
-        "BizToc"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.7075
-    },
-    {
-      "theme_id": "2026-W02_theme_16",
-      "week": "2026-W02",
-      "cluster_id": 16,
-      "label": "day | ces | day ces",
-      "size": 11,
-      "top_companies": [
-        "AMD",
-        "Intel",
         "NVIDIA",
-        "Tesla"
+        "Google",
+        "TSMC",
+        "Intel",
+        "Samsung Electronics"
       ],
       "top_keywords": [
-        "chip",
-        "chips"
+        "tsmc",
+        "intel",
+        "trump",
+        "nvidia",
+        "samsung"
       ],
       "example_titles": [
-        "‘Physical AI’ in spotlight",
-        "The coolest technology from Day 1 of the Consumer Electronics Show 2026",
-        "The coolest technology from Day 1 of CES 2026",
-        "Robots and AI dominate on first day of Las Vegas tech show",
-        "Robots and AI dominate on first day of Las Vegas tech show"
+        "Trump's Intel Seal Of Approval Lifts Broadcom, Micron",
+        "The Silicon Sovereign: How Nvidia’s 'Rubin' Era is Rewriting the Market Playbook in 2026",
+        "Samsung Eyes $66B Record Profits in 2026 Amid AI Chip Boom",
+        "AI memory prices may shoot up by 55% in 2026 as RAM market struggles to meet demand from Nvidia, Google, others",
+        "TSMC fourth-quarter revenue jumps 20%, beats forecasts"
       ],
-      "previous_theme_id": "2026-W01_theme_7",
+      "source_count": 22,
+      "relevance": 0.424,
+      "previous_theme_id": "2026-W01_theme_0",
       "previous_week": "2026-W01",
-      "previous_label": "ai hype | ces gadgetfest | gadgetfest",
-      "previous_size": 6,
-      "similarity_to_previous": 0.7807,
-      "growth_rate": 0.8333,
+      "previous_label": "China AI chipmaker Biren soars over 100% on Hong Kong debut as IPO wave builds",
+      "previous_size": 14,
+      "similarity_to_previous": 0.8645,
+      "growth_rate": 1.9286,
       "is_new_theme": false,
       "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.6953
+      "next_theme_ids": [
+        "2026-W03_theme_10"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.9729
     },
     {
       "theme_id": "2026-W02_theme_6",
       "week": "2026-W02",
       "cluster_id": 6,
-      "label": "buy | cramer | jim",
-      "size": 6,
+      "label": "Musk Says Nvidia's AV Models Won't Threaten Tesla's FSD For Several Years",
+      "size": 18,
       "top_companies": [
-        "Amazon",
-        "Google",
-        "Microsoft",
         "NVIDIA",
-        "Tesla"
+        "Tesla",
+        "Qualcomm",
+        "Amazon",
+        "Google"
       ],
       "top_keywords": [
-        "chips",
-        "semiconductor"
+        "self-driving",
+        "nvidia",
+        "cars",
+        "tesla",
+        "av"
       ],
       "example_titles": [
-        "Jim Cramer Discusses CrowdStrike After Jensen Huang’s Endorsement",
-        "Why Evercore Expects Tesla (TSLA) Shares to Trade Sideways in the Near Term",
-        "BofA Maintains Buy on Nvidia (NVDA) Following CES AI Updates",
-        "Jim Cramer Reveals When You Can Buy Oracle (ORCL)",
-        "Analysts Are Bullish on Taiwan Semiconductor Manufacturing (TSM) – Here’s Why"
+        "Musk Says Nvidia's AV Models Won't Threaten Tesla's FSD For Several Years",
+        "Nvidia Unleashes Self-Driving Car Technology, Powered By AI - Trak.in",
+        "Uber shows off its robotaxi heading for San Francisco",
+        "Nvidia's CES Gambit: Validating Tesla's Autonomy Lead",
+        "Nvidia AI Steering Mercedes CLA in 2026"
       ],
+      "source_count": 16,
+      "relevance": 0.412,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -328,106 +124,41 @@
       "growth_rate": null,
       "is_new_theme": true,
       "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.685
+      "next_theme_ids": [
+        "2026-W03_theme_12"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.955
     },
     {
       "theme_id": "2026-W02_theme_11",
       "week": "2026-W02",
       "cluster_id": 11,
-      "label": "ai | lenovo | nvidia",
-      "size": 6,
+      "label": "‘Physical AI’ in spotlight",
+      "size": 10,
       "top_companies": [
-        "Lenovo",
         "NVIDIA",
-        "Samsung Electronics"
-      ],
-      "top_keywords": [
-        "chip",
-        "compute"
-      ],
-      "example_titles": [
-        "Lenovo teams up with Nvidia to slash AI data centre deployment time",
-        "Lenovo and Nvidia team up on AI 'gigafactories'",
-        "Lenovo, Nvidia unveil AI Cloud Gigafactory programme for enterprises",
-        "Lenovo, NVIDIA unveil AI Cloud Gigafactory programme to fuel enterprise AI scaling",
-        "Lenovo expands AI lineup with Nvidia tie-up, Qira platform"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.685
-    },
-    {
-      "theme_id": "2026-W02_theme_1",
-      "week": "2026-W02",
-      "cluster_id": 1,
-      "label": "best | best streaming | box",
-      "size": 5,
-      "top_companies": [
-        "Amazon",
-        "Apple",
-        "Google",
-        "NVIDIA",
-        "Western Digital"
-      ],
-      "top_keywords": [
-        "server"
-      ],
-      "example_titles": [
-        "Best streaming box",
-        "Best streaming box",
-        "Best streaming box",
-        "Best streaming box",
-        "Best streaming box"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.6625
-    },
-    {
-      "theme_id": "2026-W02_theme_5",
-      "week": "2026-W02",
-      "cluster_id": 5,
-      "label": "amd | 16 | laptop",
-      "size": 5,
-      "top_companies": [
+        "Tesla",
+        "AMD",
         "Intel",
-        "NVIDIA",
-        "AMD",
-        "Microsoft",
-        "Qualcomm"
+        "Google"
       ],
       "top_keywords": [
-        "gpu",
-        "memory",
-        "chip",
-        "chips",
-        "compute"
+        "day",
+        "coolest",
+        "build",
+        "ces",
+        "bring"
       ],
       "example_titles": [
-        "MSI Vector - LCD 16\" QHD+ GeForce RTX 5080 Laptop GPU - Intel Core Ultra 9 275HX - 16GB Memory - 1 TB SSD - Windows 11 Home Gaming Laptop - 240 Hz (Vector 16 HX AI A2XWIG-050US ) - Newegg.com",
-        "MSI Vector - LCD 16\" QHD+ GeForce RTX 5080 Laptop GPU - Intel Core Ultra 9 275HX - 16GB Memory - 1 TB SSD - Windows 11 Home Gaming Laptop - 240 Hz (Vector 16 HX AI A2XWIG-050US ) - Newegg.com",
-        "AMD is unfazed by Panther Lake's big integrated GPU — 'It's not even a fair fight' to compare the Arc B390 to Strix Halo, AMD exec claims",
-        "AMD's Latest Chips Are Betting Big on Gamers",
-        "Qualcomm Snapdragon X2 Plus leaked with a new GPU and improved performance | Mint"
+        "‘Physical AI’ in spotlight",
+        "The coolest technology from Day 1 of CES 2026",
+        "The coolest technology from Day 1 of CES 2026 | I-100",
+        "The coolest technology from Day 1 of the Consumer Electronics Show 2026",
+        "Robots and AI dominate on first day of Las Vegas tech show"
       ],
+      "source_count": 10,
+      "relevance": 0.501,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -438,35 +169,37 @@
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.6625
+      "emerging_score": 0.775
     },
     {
-      "theme_id": "2026-W02_theme_13",
+      "theme_id": "2026-W02_theme_8",
       "week": "2026-W02",
-      "cluster_id": 13,
-      "label": "ai performance | brings | brings enterprise",
-      "size": 5,
+      "cluster_id": 8,
+      "label": "Huang shrugs off California wealth tax debate",
+      "size": 8,
       "top_companies": [
         "NVIDIA",
-        "Super Micro Computer",
-        "AMD",
-        "Intel"
+        "Google",
+        "Tesla",
+        "Dell Technologies",
+        "Amazon"
       ],
       "top_keywords": [
-        "memory",
-        "server",
-        "gpu",
-        "data center",
-        "training",
-        "inference"
+        "tax",
+        "california",
+        "huang",
+        "billionaire",
+        "jensen"
       ],
       "example_titles": [
-        "Supermicro Announces Intelligent In-Store Retail Solutions in Collaboration with a Broad Range of Industry Partners",
-        "Supermicro Brings Enterprise-Class AI Performance to the Client, Edge, and Consumer Markets",
-        "Supermicro Brings Enterprise-Class AI Performance to the Client, Edge, and Consumer Markets - Thailand Business News",
-        "Supermicro Brings Enterprise-Class AI Performance to the Client, Edge, and Consumer Markets",
-        "Supermicro Announces Support for Upcoming NVIDIA Vera Rubin NVL72, HGX Rubin NVL8 and Expanded Rack-Scale Manufacturing Capacity for Liquid-Cooled AI Solutions"
+        "Huang shrugs off California wealth tax debate",
+        "'So be it': California billionaire tax a non-issue for Jensen Huang",
+        "Nvidia CEO 'perfectly fine' with billionaires tax",
+        "Tech titans divided over whether to pay billionaire tax or flee California",
+        "From dishwasher to world’s ninth-richest man: Nvidia boss faces his future"
       ],
+      "source_count": 8,
+      "relevance": 0.341,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -477,199 +210,345 @@
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.6625
+      "emerging_score": 0.73
     },
     {
       "theme_id": "2026-W02_theme_9",
       "week": "2026-W02",
       "cluster_id": 9,
-      "label": "intel | trump | ceo",
-      "size": 14,
+      "label": "Huang unveils Vera Rubin platform as Nvidia readies AI push",
+      "size": 8,
       "top_companies": [
         "NVIDIA",
-        "Intel",
-        "TSMC",
-        "AMD",
-        "Google"
+        "Microsoft",
+        "Amazon",
+        "Google",
+        "Broadcom"
       ],
       "top_keywords": [
+        "rubin",
+        "nvidia",
+        "vera",
         "chips",
-        "chip",
-        "semiconductor",
-        "memory",
-        "hbm",
-        "foundry",
-        "gpu",
-        "server"
+        "production"
       ],
       "example_titles": [
-        "AI memory prices may shoot up by 55% in 2026 as RAM market struggles to meet demand from Nvidia, Google, others | Mint",
-        "AI memory is sold out, causing an unprecedented surge in prices",
-        "Micron Technology Has Started 2026 With a Bang. The Stock Could Still Triple This Year",
-        "Intel CEO meets with Trump, who hails gain in US chipmaker stake",
-        "Samsung Eyes $66B Record Profits in 2026 Amid AI Chip Boom"
+        "Huang unveils Vera Rubin platform as Nvidia readies AI push",
+        "Nvidia ramps up chip output as competition heats up",
+        "Nvidia CEO Huang says next generation of chips is in full production",
+        "Nvidia announces Vera Rubin AI chip, claims it is 5X more powerful than Blackwell",
+        "Elon Musk makes a 'prediction' on Nvidia's Rubin chips; says: Won't be operational before ..."
       ],
-      "previous_theme_id": "2026-W01_theme_10",
-      "previous_week": "2026-W01",
-      "previous_label": "intel | nvidia | billion",
-      "previous_size": 9,
-      "similarity_to_previous": 0.7384,
-      "growth_rate": 0.5556,
-      "is_new_theme": false,
+      "source_count": 7,
+      "relevance": 0.444,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
       "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W03_theme_6"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.6571
-    },
-    {
-      "theme_id": "2026-W02_theme_17",
-      "week": "2026-W02",
-      "cluster_id": 17,
-      "label": "2026 robots | ai | ai companions",
-      "size": 11,
-      "top_companies": [
-        "AMD",
-        "Lenovo",
-        "NVIDIA",
-        "Intel"
-      ],
-      "top_keywords": [
-        "training"
-      ],
-      "example_titles": [
-        "CES 2026: Robots, AI companions and wearables among highlights on day two",
-        "CES 2026: Robots, AI companions and wearables among highlights on day two",
-        "CES 2026: Robots, AI companions and wearables among highlights on day two",
-        "CES 2026: Robots, AI companions and wearables among highlights on day two",
-        "CES 2026: Robots, AI companions and wearables among highlights on day two"
-      ],
-      "previous_theme_id": "2026-W01_theme_6",
-      "previous_week": "2026-W01",
-      "previous_label": "2026 | ces | ces 2026",
-      "previous_size": 9,
-      "similarity_to_previous": 0.7826,
-      "growth_rate": 0.2222,
-      "is_new_theme": false,
-      "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.4818
+      "emerging_score": 0.73
     },
     {
       "theme_id": "2026-W02_theme_12",
       "week": "2026-W02",
       "cluster_id": 12,
-      "label": "ai | xai | raises",
-      "size": 13,
+      "label": "CES 2026: Everything revealed, from Nvidia’s debuts to AMD’s new chips to Razer’s AI oddities",
+      "size": 16,
       "top_companies": [
         "NVIDIA",
-        "Google",
-        "Microsoft",
-        "Cisco",
-        "Tesla"
+        "AMD",
+        "Intel",
+        "Lenovo",
+        "Google"
       ],
       "top_keywords": [
-        "compute",
-        "chips",
-        "gpu",
-        "data center",
-        "semiconductor",
-        "training",
-        "memory",
-        "inference"
+        "ces",
+        "physical",
+        "robots",
+        "debuts",
+        "robotics"
       ],
       "example_titles": [
-        "Should You Be Worried About an AI Bubble in 2026? Here's What the Experts Have to Say. | The Motley Fool",
-        "xAI Cash Burn Highlights the High Cost of Competing in Generative AI - EconoTimes",
-        "AI winners and losers for 2026, according to AI investors",
-        "xAI Raises $20 Billion in Series E to Accelerate AI Expansion : TechMoran",
-        "Elon Musk’s xAI Valued At $230 Billion In Funding Round"
+        "CES 2026: Everything revealed, from Nvidia’s debuts to AMD’s new chips to Razer’s AI oddities",
+        "The most interesting tech we saw on day one of CES",
+        "What to expect from CES 2026, the annual show of all things tech",
+        "What to expect at CES 2026: AI, robots, and more",
+        "CES 2026: Robots, AI companions and wearables among highlights on day two"
       ],
-      "previous_theme_id": "2026-W01_theme_11",
+      "source_count": 16,
+      "relevance": 0.434,
+      "previous_theme_id": "2026-W01_theme_3",
       "previous_week": "2026-W01",
-      "previous_label": "ai capacity | capacity | capacity race",
-      "previous_size": 18,
-      "similarity_to_previous": 0.7583,
-      "growth_rate": -0.2778,
+      "previous_label": "Watch the NVIDIA CES 2026 keynote with CEO Jensen Huang live here: AI, robotics updates and more",
+      "previous_size": 11,
+      "similarity_to_previous": 0.8678,
+      "growth_rate": 0.4545,
       "is_new_theme": false,
-      "is_emerging": false,
+      "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.4442
+      "emerging_score": 0.6927
+    },
+    {
+      "theme_id": "2026-W02_theme_2",
+      "week": "2026-W02",
+      "cluster_id": 2,
+      "label": "Elon Musk’s xAI raises $20 billion in record funding round",
+      "size": 10,
+      "top_companies": [
+        "NVIDIA",
+        "Cisco",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "top_keywords": [
+        "xai",
+        "musk",
+        "elon",
+        "funding",
+        "raises"
+      ],
+      "example_titles": [
+        "Elon Musk’s xAI raises $20 billion in record funding round",
+        "xAI Raises $20 Billion in Series E to Accelerate AI Expansion : TechMoran",
+        "Elon Musk’s xAI Valued At $230 Billion In Funding Round",
+        "xAI Bags $20B As Elon Musk Celebrates a Funding Win that Could Reshape AI Power",
+        "xAI Cash Burn Highlights the High Cost of Competing in Generative AI"
+      ],
+      "source_count": 10,
+      "relevance": 0.496,
+      "previous_theme_id": "2026-W01_theme_10",
+      "previous_week": "2026-W01",
+      "previous_label": "Inside the AI-led resource race",
+      "previous_size": 7,
+      "similarity_to_previous": 0.7515,
+      "growth_rate": 0.4286,
+      "is_new_theme": false,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.5253
     },
     {
       "theme_id": "2026-W02_theme_10",
       "week": "2026-W02",
       "cluster_id": 10,
-      "label": "big | big tech | gains",
-      "size": 10,
+      "label": "Lenovo, Nvidia unveil AI Cloud Gigafactory programme for enterprises",
+      "size": 13,
       "top_companies": [
         "NVIDIA",
-        "Western Digital",
-        "Amazon",
-        "Apple",
-        "Micron"
+        "Lenovo",
+        "Super Micro Computer",
+        "Samsung Electronics",
+        "AMD"
       ],
       "top_keywords": [
-        "chip",
-        "semiconductor",
-        "memory"
+        "lenovo",
+        "cloud",
+        "gigafactory",
+        "nvidia unveil",
+        "supermicro"
       ],
       "example_titles": [
-        "S&P 500 hits record close as chip stocks rally",
-        "S&P 500, Nasdaq climb on tech boost, investors take labor data in stride",
-        "Wall Street's hot start to the year cools as stocks drift",
-        "Wall Street reaches more records on more gains by Big Tech - WSVN 7News | Miami News, Weather, Sports | Fort Lauderdale",
-        "Wall Street reaches more records on gains by Big Tech"
+        "Lenovo, Nvidia unveil AI Cloud Gigafactory programme for enterprises",
+        "Lenovo And NVIDIA Unveil AI Cloud Gigafactory To Accelerate Hybrid AI Adoption",
+        "Lenovo, NVIDIA unveil AI Cloud Gigafactory programme to fuel enterprise AI scaling",
+        "Lenovo expands AI lineup with Nvidia tie-up, Qira platform",
+        "Lenovo teams up with Nvidia to slash AI data centre deployment time"
       ],
-      "previous_theme_id": "2026-W01_theme_15",
+      "source_count": 12,
+      "relevance": 0.493,
+      "previous_theme_id": "2026-W01_theme_8",
       "previous_week": "2026-W01",
-      "previous_label": "2026 | edges | edges higher",
-      "previous_size": 12,
-      "similarity_to_previous": 0.8458,
-      "growth_rate": -0.1667,
+      "previous_label": "From chips to clouds, firms pour billions into AI capacity race",
+      "previous_size": 14,
+      "similarity_to_previous": 0.7918,
+      "growth_rate": -0.0714,
       "is_new_theme": false,
       "is_emerging": false,
       "next_theme_ids": [
-        "2026-W03_theme_5"
+        "2026-W03_theme_6"
       ],
       "out_degree": 1,
-      "emerging_score": 0.3942
+      "emerging_score": 0.4509
+    },
+    {
+      "theme_id": "2026-W02_theme_5",
+      "week": "2026-W02",
+      "cluster_id": 5,
+      "label": "Nvidia CEO says purchase orders, not formal declaration, will signal Chinese approval of H200",
+      "size": 11,
+      "top_companies": [
+        "NVIDIA",
+        "TSMC",
+        "Google",
+        "Groq",
+        "Meta"
+      ],
+      "top_keywords": [
+        "nvidia ceo",
+        "china",
+        "h200",
+        "chinese",
+        "highlights"
+      ],
+      "example_titles": [
+        "Nvidia CEO says purchase orders, not formal declaration, will signal Chinese approval of H200",
+        "NVIDIA CEO Doesn’t Rule Out ‘Rubin’ for China, Says Newer Chips Will Become Available Once U.S. Export Restrictions Ease",
+        "Nvidia's reportedly asking Chinese customers to pay upfront for its H200 AI chips",
+        "China to approve Nvidia H200 buying as soon as this quarter- Moneycontrol.com",
+        "Nvidia CEO Huang to take stage at CES in Las Vegas as competition mounts"
+      ],
+      "source_count": 10,
+      "relevance": 0.505,
+      "previous_theme_id": "2026-W01_theme_1",
+      "previous_week": "2026-W01",
+      "previous_label": "Nvidia scrambling to meet demand for new H200 chip",
+      "previous_size": 15,
+      "similarity_to_previous": 0.8829,
+      "growth_rate": -0.2667,
+      "is_new_theme": false,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W03_theme_0"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.4241
+    },
+    {
+      "theme_id": "2026-W02_theme_3",
+      "week": "2026-W02",
+      "cluster_id": 3,
+      "label": "In 2026, venture capital’s hunger for AI will be insatiable",
+      "size": 11,
+      "top_companies": [
+        "Microsoft",
+        "NVIDIA",
+        "Google",
+        "Meta",
+        "Broadcom"
+      ],
+      "top_keywords": [
+        "investors",
+        "altman",
+        "sam",
+        "biggest",
+        "openai"
+      ],
+      "example_titles": [
+        "In 2026, venture capital’s hunger for AI will be insatiable",
+        "Hot Picks: AI infrastructure seen as durable into 2026",
+        "Is the AI boom a bubble waiting to pop? History suggests caution, but not panic",
+        "AI winners and losers for 2026, according to AI investors",
+        "The AI Power List: The most influential people in artificial intelligence"
+      ],
+      "source_count": 10,
+      "relevance": 0.587,
+      "previous_theme_id": "2026-W01_theme_12",
+      "previous_week": "2026-W01",
+      "previous_label": "The $5 Trillion Engine: How the 'AI Trade' Defied Gravity and Redefined the Market in 2025",
+      "previous_size": 28,
+      "similarity_to_previous": 0.813,
+      "growth_rate": -0.6071,
+      "is_new_theme": false,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W03_theme_13"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.4101
     },
     {
       "theme_id": "2026-W02_theme_7",
       "week": "2026-W02",
       "cluster_id": 7,
-      "label": "close | stocks | stocks close",
-      "size": 5,
+      "label": "Nvidia Eyes RTX 3060 Revival with AI Boost to Tackle GPU Shortages",
+      "size": 10,
       "top_companies": [
-        "Intel",
         "NVIDIA",
-        "AMD"
+        "Google",
+        "AMD",
+        "Intel",
+        "Apple"
       ],
       "top_keywords": [
-        "semiconductor"
+        "rtx",
+        "geforce",
+        "super",
+        "huang",
+        "acquisition"
       ],
       "example_titles": [
-        "U.S. stocks close higher after latest jobs report",
-        "U.S. stocks close higher after latest jobs report",
-        "U.S. stocks close higher after latest jobs report",
-        "Dow Adds 270, Nasdaq Falls 104, S&P 500 Adds 1",
-        "U.S. stocks close mixed as November job openings fall below expectations"
+        "Nvidia Eyes RTX 3060 Revival with AI Boost to Tackle GPU Shortages",
+        "NVIDIA GeForce RTX 50 \"SUPER\" GPU Delay Linked To 3 Factors: AI Demand, Rising DRAM Costs, & No Competition From AMD",
+        "Nvidia’s DGX Spark Backlash: Huang’s Intervention and CES 2026 Upgrades",
+        "Is NVIDIA Still Planning A GeForce RTX 50 Super Refresh? Here's The Latest",
+        "Nvidia CEO Jensen Huang Says Blackwell Successor Vera Rubin Is In 'Full Production' At CES 2026: Here Is Everything You Need To Know"
       ],
-      "previous_theme_id": "2026-W01_theme_16",
+      "source_count": 9,
+      "relevance": 0.425,
+      "previous_theme_id": "2026-W01_theme_5",
       "previous_week": "2026-W01",
-      "previous_label": "2025 | 2025 winds | slip",
-      "previous_size": 7,
-      "similarity_to_previous": 0.7617,
+      "previous_label": "Nvidia & AMD GPU Price Hike 2026: AI Boom Drives Costs",
+      "previous_size": 14,
+      "similarity_to_previous": 0.8622,
       "growth_rate": -0.2857,
       "is_new_theme": false,
       "is_emerging": false,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.2648
+      "next_theme_ids": [
+        "2026-W03_theme_14"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.3974
+    },
+    {
+      "theme_id": "2026-W02_theme_1",
+      "week": "2026-W02",
+      "cluster_id": 1,
+      "label": "Analysts Are Bullish on Taiwan Semiconductor Manufacturing (TSM)",
+      "size": 7,
+      "top_companies": [
+        "Amazon",
+        "NVIDIA",
+        "Tesla",
+        "Google",
+        "Microsoft"
+      ],
+      "top_keywords": [
+        "buy",
+        "cramer",
+        "jim",
+        "ai-powered",
+        "analysts bullish"
+      ],
+      "example_titles": [
+        "Analysts Are Bullish on Taiwan Semiconductor Manufacturing (TSM)",
+        "Jim Cramer Discusses CrowdStrike After Jensen Huang’s Endorsement",
+        "Melius Research Upgrades Intel (INTC) to Buy with $50 PT on Long-Term 14A Node Prospects for Nvidia, Apple",
+        "Jim Cramer Reveals When You Can Buy Oracle (ORCL)",
+        "BofA Maintains Buy on Nvidia (NVDA) Following CES AI Updates"
+      ],
+      "source_count": 3,
+      "relevance": 0.497,
+      "previous_theme_id": "2026-W01_theme_11",
+      "previous_week": "2026-W01",
+      "previous_label": "Analysts Watch QUALCOMM Incorporated (QCOM)’s Expanding AI Data Center Footprint",
+      "previous_size": 11,
+      "similarity_to_previous": 0.9275,
+      "growth_rate": -0.3636,
+      "is_new_theme": false,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W03_theme_11"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.343
     }
   ]
 }

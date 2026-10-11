@@ -2,299 +2,120 @@
   "week": "2026-W07",
   "themes": [
     {
-      "theme_id": "2026-W07_theme_6",
+      "theme_id": "2026-W07_theme_5",
       "week": "2026-W07",
-      "cluster_id": 6,
-      "label": "deepseek | deepseek rivals | new",
-      "size": 26,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "Apple",
-        "Samsung Electronics",
-        "Amazon"
-      ],
-      "top_keywords": [
-        "chip",
-        "chips",
-        "inference",
-        "semiconductor",
-        "data center",
-        "training",
-        "memory",
-        "compute"
-      ],
-      "example_titles": [
-        "WebProNews",
-        "WebProNews",
-        "One year after DeepSeek, rivals race with new AI",
-        "One year after DeepSeek, rivals race with new AI",
-        "One year after DeepSeek, rivals race with new AI"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 1.0
-    },
-    {
-      "theme_id": "2026-W07_theme_7",
-      "week": "2026-W07",
-      "cluster_id": 7,
-      "label": "billion | anthropic doubles | billion fresh",
+      "cluster_id": 5,
+      "label": "New Snapdragon X2 Elite benchmarks surface — and Apple and Intel should be worried",
       "size": 20,
       "top_companies": [
-        "Amazon",
-        "Google",
-        "Microsoft",
-        "NVIDIA"
-      ],
-      "top_keywords": [
-        "training"
-      ],
-      "example_titles": [
-        "Anthropic doubles valuation to $380 billion in fresh funding",
-        "Anthropic doubles valuation to $380 billion in fresh funding",
-        "Anthropic doubles valuation to $380 billion in fresh funding",
-        "Anthropic doubles valuation to $380 billion in fresh funding",
-        "Anthropic doubles valuation to $380 billion in fresh funding"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 1.0
-    },
-    {
-      "theme_id": "2026-W07_theme_10",
-      "week": "2026-W07",
-      "cluster_id": 10,
-      "label": "ai | stock | buy",
-      "size": 95,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
+        "Apple",
         "Intel",
-        "Amazon",
-        "Microsoft"
+        "Google",
+        "Qualcomm",
+        "AMD"
       ],
       "top_keywords": [
-        "chips",
-        "data center",
-        "chip",
-        "semiconductor",
-        "training",
-        "memory",
-        "compute",
-        "gpu"
+        "pro",
+        "apple",
+        "m5",
+        "elite",
+        "gen"
       ],
       "example_titles": [
-        "Should You Buy Walmart Stock Before Feb. 19?",
-        "Is Quantum Computing Stock Going to $0?",
-        "The Smartest Growth ETF to Buy With $1,000 Right Now. (Hint: It Has Averaged Annual Gains of 18.6% Over the Past 10 Years.) | The Motley Fool",
-        "Is It Too Late to Buy Lemonade Stock?",
-        "If a Stock Market Crash Is Coming, This 1 Investing Move Is Critical Right Now"
+        "New Snapdragon X2 Elite benchmarks surface — and Apple and Intel should be worried",
+        "M5 Pro & M5 Max Rumors Double-Down On ‘Excellent’ Heat Dissipation Coupled With Slightly Higher Transistor Density Than M4 Pro, M4 Max",
+        "Snapdragon 8 Elite Gen 6 Pro Schematic Showing Samsung’s New Heatsink Solution Has Been Spotted In One Of The Biggest Leaks Of The Year",
+        "The Xiaomi 18 might miss out on the next-gen Snapdragon 8 Elite Gen 6 Pro",
+        "This Apple silicon theory has us even more excited for the M5 MacBook Pro"
       ],
-      "previous_theme_id": "2026-W06_theme_16",
+      "source_count": 14,
+      "relevance": 0.526,
+      "previous_theme_id": "2026-W06_theme_5",
       "previous_week": "2026-W06",
-      "previous_label": "stocks | fool | motley",
-      "previous_size": 8,
-      "similarity_to_previous": 0.9296,
-      "growth_rate": 10.875,
+      "previous_label": "After years of Apple’s dominance, Intel wants its mojo back",
+      "previous_size": 6,
+      "similarity_to_previous": 0.8187,
+      "growth_rate": 2.3333,
       "is_new_theme": false,
       "is_emerging": true,
       "next_theme_ids": [
-        "2026-W08_theme_15"
+        "2026-W08_theme_6"
       ],
       "out_degree": 1,
-      "emerging_score": 0.9859
+      "emerging_score": 0.9637
     },
     {
       "theme_id": "2026-W07_theme_4",
       "week": "2026-W07",
       "cluster_id": 4,
-      "label": "earnings | q4 | earnings transcript",
-      "size": 41,
+      "label": "GeForce NOW Expands to Amazon Fire TV, Adding ReAnimal, Kingdom Come: Deliverance, Mega Man 11 And 5 Other Titles This Week",
+      "size": 19,
       "top_companies": [
         "NVIDIA",
-        "Cadence Design Systems",
-        "Google",
-        "Microsoft",
-        "Meta"
-      ],
-      "top_keywords": [
-        "semiconductor",
-        "data center",
-        "compute",
-        "training",
-        "memory",
-        "chips",
-        "server",
-        "foundry"
-      ],
-      "example_titles": [
-        "PacBio (PACB) Q4 2025 Earnings Call Transcript",
-        "Q2 Holdings (QTWO) Q4 2024 Earnings Transcript",
-        "Palomar (PLMR) Q4 2025 Earnings Call Transcript",
-        "Sabra (SBRA) Q4 2025 Earnings Call Transcript",
-        "KNSL Q4 Deep Dive: Competitive Pressures Drive Property Slowdown, Expense Edge Remains Key"
-      ],
-      "previous_theme_id": "2026-W06_theme_5",
-      "previous_week": "2026-W06",
-      "previous_label": "q4 | cy2025 | q4 cy2025",
-      "previous_size": 11,
-      "similarity_to_previous": 0.8762,
-      "growth_rate": 2.7273,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W08_theme_2"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.9752
-    },
-    {
-      "theme_id": "2026-W07_theme_12",
-      "week": "2026-W07",
-      "cluster_id": 12,
-      "label": "stocks | gold | gold silver",
-      "size": 20,
-      "top_companies": [
-        "NVIDIA",
-        "Broadcom",
-        "Applied Materials",
         "Amazon",
-        "Google"
+        "AMD",
+        "Google",
+        "Samsung Electronics"
       ],
       "top_keywords": [
-        "chip",
-        "chips",
-        "semiconductor",
-        "memory"
+        "gaming",
+        "geforce",
+        "rtx",
+        "tv",
+        "amazon"
       ],
       "example_titles": [
-        "US Stock Market Falls: Dow, S&P 500, Nasdaq Decline; Gold, Silver Surge",
-        "Wall Street steadies after its AI-induced sell-off",
-        "Wall Street steadies after its AI-induced sell-off",
-        "Why US stock market suddenly surging after big crash today: Dow Jones, S&P 500 and Nasdaq turn green after sharp sell-off on inflation and AI fears",
-        "U.S. stocks fall sharply as investors punish companies seen as losers from AI"
+        "GeForce NOW Expands to Amazon Fire TV, Adding ReAnimal, Kingdom Come: Deliverance, Mega Man 11 And 5 Other Titles This Week",
+        "MSI GeForce RTX 5090 Lightning Z review: RTX 5090 Ti, anyone?",
+        "GIGABYTE Collaborates with NVIDIA GeForce RTX for Resident Evil Requiem Bundle",
+        "Nvidia rolls out new GPU game bundle with Resident Evil Requiem",
+        "Nvidia Launches GeForce Now Cloud Gaming India"
       ],
-      "previous_theme_id": "2026-W06_theme_10",
+      "source_count": 17,
+      "relevance": 0.326,
+      "previous_theme_id": "2026-W06_theme_3",
       "previous_week": "2026-W06",
-      "previous_label": "shares | asian | stocks",
-      "previous_size": 9,
-      "similarity_to_previous": 0.7891,
-      "growth_rate": 1.2222,
+      "previous_label": "NVIDIA’s Replacement for the RTX 50 SUPER Series Could Be a “Mega” RTX 5090 GPU, but It’s Unlikely to Change Anything for Gamers",
+      "previous_size": 10,
+      "similarity_to_previous": 0.887,
+      "growth_rate": 0.9,
       "is_new_theme": false,
       "is_emerging": true,
       "next_theme_ids": [
-        "2026-W08_theme_10"
+        "2026-W08_theme_7"
       ],
       "out_degree": 1,
-      "emerging_score": 0.9578
+      "emerging_score": 0.9199
     },
     {
-      "theme_id": "2026-W07_theme_0",
+      "theme_id": "2026-W07_theme_7",
       "week": "2026-W07",
-      "cluster_id": 0,
-      "label": "mortgage | 2026 | 2026 meet",
+      "cluster_id": 7,
+      "label": "AI Impact Summit: India gears up for global dialogue on Artificial Intelligence",
       "size": 15,
       "top_companies": [
         "NVIDIA",
-        "Tesla"
-      ],
-      "top_keywords": [],
-      "example_titles": [
-        "Want a mortgage for under 3% in 2026? Meet the 'assumable mortgage'",
-        "Want a mortgage for under 3% in 2026? Meet the 'assumable mortgage'",
-        "Want a mortgage for under 3% in 2026? Meet the 'assumable mortgage'",
-        "Want a mortgage for under 3% in 2026? Meet the 'assumable mortgage'",
-        "Want a mortgage for under 3% in 2026? Meet the 'assumable mortgage'"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.8875
-    },
-    {
-      "theme_id": "2026-W07_theme_11",
-      "week": "2026-W07",
-      "cluster_id": 11,
-      "label": "207 | 207 points | big",
-      "size": 17,
-      "top_companies": [
-        "Broadcom",
-        "NVIDIA"
-      ],
-      "top_keywords": [
-        "chip"
-      ],
-      "example_titles": [
-        "Big day again for Nasdaq Composite, gains 207 points",
-        "Big day again for Nasdaq Composite, gains 207 points",
-        "Big day again for Nasdaq Composite, gains 207 points",
-        "Opening day of week's trading sees surge in technology stocks",
-        "Big day again for Nasdaq Composite, gains 207 points"
-      ],
-      "previous_theme_id": "2026-W06_theme_21",
-      "previous_week": "2026-W06",
-      "previous_label": "000 | 000 level | 50",
-      "previous_size": 9,
-      "similarity_to_previous": 0.7944,
-      "growth_rate": 0.8889,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.8525
-    },
-    {
-      "theme_id": "2026-W07_theme_3",
-      "week": "2026-W07",
-      "cluster_id": 3,
-      "label": "india | ai | impact",
-      "size": 11,
-      "top_companies": [
-        "NVIDIA",
         "Google",
         "Microsoft",
-        "Qualcomm",
-        "Meta"
+        "Intel",
+        "Qualcomm"
       ],
       "top_keywords": [
-        "gpu",
-        "compute",
-        "chip",
-        "semiconductor",
-        "training",
-        "chips"
+        "india",
+        "impact",
+        "summit",
+        "huang",
+        "jensen"
       ],
       "example_titles": [
-        "Nvidia CEO Jensen Huang cancels India visit to attend India AI Impact Summit",
-        "Delhi to host first AI Film Festival during India AI Impact Summit - The Times of India",
         "AI Impact Summit: India gears up for global dialogue on Artificial Intelligence",
-        "Why Jensen Huang Is Skipping India AI Impact Summit? All About The Nvidia Chief As Tech Billionaire Cancels Visit To New Delhi",
-        "Nvidia CEO Jensen Huang cancels visit to India AI Impact Summit - OrissaPOST"
+        "Nvidia CEO Jensen Huang To Skip India AI Impact Summit Due To ‘Unforeseen Circumstances’",
+        "Nvidia CEO Jensen Huang cancels visit to India AI Impact Summit",
+        "India AI Impact Summit 2026: Why US companies are turning up in record numbers",
+        "Why Jensen Huang Is Skipping India AI Impact Summit? All About The Nvidia Chief As Tech Billionaire Cancels Visit To New Delhi"
       ],
+      "source_count": 12,
+      "relevance": 0.505,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -304,67 +125,40 @@
       "is_new_theme": true,
       "is_emerging": true,
       "next_theme_ids": [
-        "2026-W08_theme_8"
+        "2026-W08_theme_4"
       ],
       "out_degree": 1,
-      "emerging_score": 0.7975
-    },
-    {
-      "theme_id": "2026-W07_theme_5",
-      "week": "2026-W07",
-      "cluster_id": 5,
-      "label": "000 | 000 games | amazon launches",
-      "size": 10,
-      "top_companies": [
-        "Amazon",
-        "NVIDIA",
-        "Cadence Design Systems",
-        "Google"
-      ],
-      "top_keywords": [],
-      "example_titles": [
-        "Amazon launches new Fire TV app with more than 4,000 games on selected devices",
-        "Amazon launches new Fire TV app with more than 4,000 games on selected devices",
-        "Amazon launches new Fire TV app with more than 4,000 games on selected devices",
-        "Amazon launches new Fire TV app with more than 4,000 games on selected devices",
-        "Amazon launches new Fire TV app with more than 4,000 games on selected devices"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.775
+      "emerging_score": 0.8875
     },
     {
       "theme_id": "2026-W07_theme_2",
       "week": "2026-W07",
       "cluster_id": 2,
-      "label": "broadcom | challenge | challenge nvidia",
+      "label": "Low-cost AI models surge as Chinese firms compete",
       "size": 9,
       "top_companies": [
-        "Broadcom",
-        "Cisco",
         "NVIDIA",
-        "TSMC"
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Apple"
       ],
       "top_keywords": [
-        "chip",
-        "chips",
-        "semiconductor"
+        "firms",
+        "models",
+        "chinese",
+        "low-cost",
+        "china"
       ],
       "example_titles": [
-        "Cisco launches Silicon One G300 to challenge Nvidia, Broadcom",
-        "Cisco launches Silicon One G300 to challenge Nvidia, Broadcom",
-        "Cisco launches Silicon One G300 to challenge Nvidia, Broadcom",
-        "Cisco launches Silicon One G300 to challenge Nvidia, Broadcom",
-        "Cisco launches Silicon One G300 to challenge Nvidia, Broadcom"
+        "Low-cost AI models surge as Chinese firms compete",
+        "Chinese AI firms ready flurry of low-cost models",
+        "One year after DeepSeek, rivals race with new AI",
+        "Zhipu AI Throws Down the Gauntlet: GLM-5 Arrives as China’s Most Ambitious Challenge to OpenAI’s Frontier Models",
+        "All-in on AI: what TikTok creator ByteDance did next"
       ],
+      "source_count": 9,
+      "relevance": 0.492,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -373,151 +167,262 @@
       "growth_rate": null,
       "is_new_theme": true,
       "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
+      "next_theme_ids": [
+        "2026-W08_theme_1"
+      ],
+      "out_degree": 1,
       "emerging_score": 0.7525
     },
     {
-      "theme_id": "2026-W07_theme_8",
+      "theme_id": "2026-W07_theme_0",
       "week": "2026-W07",
-      "cluster_id": 8,
-      "label": "380b | 380b valuation | anthropic",
-      "size": 9,
+      "cluster_id": 0,
+      "label": "Anthropic’s $30 billion mega-funding catapults Claude AI maker to $380 billion valuation",
+      "size": 27,
       "top_companies": [
+        "NVIDIA",
         "Amazon",
         "Google",
         "Microsoft",
-        "NVIDIA"
+        "Tesla"
       ],
-      "top_keywords": [],
+      "top_keywords": [
+        "anthropic",
+        "openai",
+        "valuation",
+        "cramer",
+        "funding"
+      ],
       "example_titles": [
-        "Anthropic hits a $380B valuation as it heightens competition with OpenAI",
-        "Anthropic hits a $380B valuation as it heightens competition with OpenAI",
-        "Anthropic hits a $380B valuation as it heightens competition with OpenAI",
-        "Anthropic hits a $380B valuation as it heightens competition with OpenAI",
+        "Anthropic’s $30 billion mega-funding catapults Claude AI maker to $380 billion valuation",
+        "Anthropic clinches $380 billion valuation after $30 billion funding round",
+        "Anthropic doubles valuation to $380 billion in fresh funding",
+        "Anthropic secures $30 billion, boosting value to $380 billion",
         "Anthropic hits a $380B valuation as it heightens competition with OpenAI"
       ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
+      "source_count": 24,
+      "relevance": 0.598,
+      "previous_theme_id": "2026-W06_theme_6",
+      "previous_week": "2026-W06",
+      "previous_label": "Jim Cramer Discusses Key Factor For Advanced Micro Devices (AMD)",
+      "previous_size": 24,
+      "similarity_to_previous": 0.8315,
+      "growth_rate": 0.125,
+      "is_new_theme": false,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W08_theme_5"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.6601
+    },
+    {
+      "theme_id": "2026-W07_theme_6",
+      "week": "2026-W07",
+      "cluster_id": 6,
+      "label": "The Five-Trillion Dollar Titan: NVIDIA’s AI Hegemony and the Nokia Connectivity Revolution",
+      "size": 18,
+      "top_companies": [
+        "NVIDIA",
+        "TSMC",
+        "AMD",
+        "Google",
+        "Amazon"
+      ],
+      "top_keywords": [
+        "chips",
+        "nvidia",
+        "ashwini",
+        "cci",
+        "economy"
+      ],
+      "example_titles": [
+        "The Five-Trillion Dollar Titan: NVIDIA’s AI Hegemony and the Nokia Connectivity Revolution",
+        "Taiwan’s AI-powered economy soars in the shadow of bubble fears",
+        "The U.S. needs leading-edge chips. Can Intel deliver? Will it even try?",
+        "U.S. won't impede American companies' access to Nvidia chips, Lutnick says",
+        "‘Back office’ era is over, design will be focus of India’s Semiconductor Mission 2.0: Ashwini Vaishnaw"
+      ],
+      "source_count": 14,
+      "relevance": 0.576,
+      "previous_theme_id": "2026-W06_theme_1",
+      "previous_week": "2026-W06",
+      "previous_label": "Nvidia Set to Pour $20 Billion Into OpenAI in Massive AI Investment",
+      "previous_size": 56,
+      "similarity_to_previous": 0.8413,
+      "growth_rate": -0.6786,
+      "is_new_theme": false,
+      "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.7525
+      "emerging_score": 0.5733
     },
     {
       "theme_id": "2026-W07_theme_9",
       "week": "2026-W07",
       "cluster_id": 9,
-      "label": "deal lower | lower | lower taiwan",
-      "size": 6,
+      "label": "Nvidia shares go cold even as Big Tech spending on AI balloons",
+      "size": 15,
       "top_companies": [
-        "AMD",
         "NVIDIA",
-        "TSMC"
+        "Amazon",
+        "Google",
+        "Microsoft",
+        "Intel"
       ],
       "top_keywords": [
-        "chip",
-        "chips",
-        "semiconductor"
+        "nvidia",
+        "bitcoin",
+        "calls",
+        "check",
+        "opportunity"
       ],
       "example_titles": [
-        "Trump administration reaches a trade deal to lower Taiwan's tariff barriers",
-        "Trump administration reaches a trade deal to lower Taiwan's tariff barriers",
-        "Trump administration reaches trade deal to reduce 99 per cent of Taiwan's tariff barriers",
-        "Trump administration reaches a trade deal to lower Taiwan's tariff barriers",
-        "Trump administration reaches a trade deal to lower Taiwan's tariff barriers"
+        "Nvidia shares go cold even as Big Tech spending on AI balloons",
+        "Amazon, Google And Others Are Pouring $700 Billion Into AI CapEx, Top Analyst Explains Why This Makes It 'Hard' To Bet Against Nvidia",
+        "Takaichi’s Strong Win Boosts Tech Stocks",
+        "Will Nvidia Soar After Feb. 25? The Evidence is Piling Up, and Here's What It Shows.",
+        "Bitcoin's Latest Plunge Has Traders Panicking. Here's Why Long-Term Investors See Opportunity."
       ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.685
+      "source_count": 8,
+      "relevance": 0.474,
+      "previous_theme_id": "2026-W06_theme_9",
+      "previous_week": "2026-W06",
+      "previous_label": "Big Tech's $600 billion spending plans exacerbate investors' AI headache",
+      "previous_size": 20,
+      "similarity_to_previous": 0.8666,
+      "growth_rate": -0.25,
+      "is_new_theme": false,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W08_theme_9"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.5108
     },
     {
       "theme_id": "2026-W07_theme_1",
       "week": "2026-W07",
       "cluster_id": 1,
-      "label": "intel | gen | elite",
-      "size": 7,
-      "top_companies": [
-        "Intel",
-        "Google",
-        "Qualcomm",
-        "Apple",
-        "Dell Technologies"
-      ],
-      "top_keywords": [
-        "chips",
-        "chip",
-        "memory",
-        "compute",
-        "gpu"
-      ],
-      "example_titles": [
-        "We tested the Dell XPS 14 vs MacBook Pro M5 battery life — this is a close one",
-        "The Xiaomi 18 might miss out on the next-gen Snapdragon 8 Elite Gen 6 Pro",
-        "Intel’s Core Ultra 400 is going to be a beast",
-        "Intel Core Ultra 5 250K Plus Appears on Geekbench With 18 Cores and 5.3 GHz Boost",
-        "Intel Nova Lake Desktop CPUs With Dual Compute Tiles To Consume Over 700W Power"
-      ],
-      "previous_theme_id": "2026-W06_theme_3",
-      "previous_week": "2026-W06",
-      "previous_label": "intel | lake | panther",
-      "previous_size": 6,
-      "similarity_to_previous": 0.7792,
-      "growth_rate": 0.1667,
-      "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.3717
-    },
-    {
-      "theme_id": "2026-W07_theme_13",
-      "week": "2026-W07",
-      "cluster_id": 13,
-      "label": "500 ends | cools | dips",
-      "size": 5,
+      "label": "Tech stocks surge again Monday, Dow hits new high",
+      "size": 8,
       "top_companies": [
         "NVIDIA",
+        "Broadcom",
+        "Meta",
         "Apple",
-        "Applied Materials",
-        "Arista Networks",
         "Google"
       ],
       "top_keywords": [
-        "chipmaking",
-        "chip"
+        "day",
+        "surge",
+        "adrs",
+        "ahead",
+        "amazon microsoft"
       ],
       "example_titles": [
-        "S&P 500 ends up slightly as tech dips, inflation cools",
-        "S&P 500 ends up slightly as tech dips, inflation cools",
-        "S&P 500 ends up slightly as tech dips, inflation cools",
-        "US: S&P 500 ends up slightly as tech dips, inflation cools",
-        "S&P 500, Nasdaq fall as communication services, tech stocks weigh"
+        "Tech stocks surge again Monday, Dow hits new high",
+        "Opening day of week's trading sees surge in technology stocks",
+        "Big day again for Nasdaq Composite, gains 207 points",
+        "Infosys ADRs plunge over 7%, Wipro down 5% as tech turbulence deepens on Wall Street",
+        "Amazon and Microsoft Enter Bear Markets: What's Breaking the Magnificent 7?"
       ],
-      "previous_theme_id": "2026-W06_theme_20",
+      "source_count": 7,
+      "relevance": 0.317,
+      "previous_theme_id": "2026-W06_theme_12",
       "previous_week": "2026-W06",
-      "previous_label": "soar | soar best | stocks",
-      "previous_size": 13,
-      "similarity_to_previous": 0.7622,
-      "growth_rate": -0.6154,
+      "previous_label": "Tech stocks pull Wall Street lower as gold and silver prices bounce back",
+      "previous_size": 11,
+      "similarity_to_previous": 0.8633,
+      "growth_rate": -0.2727,
       "is_new_theme": false,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.2649
+      "emerging_score": 0.3527
+    },
+    {
+      "theme_id": "2026-W07_theme_3",
+      "week": "2026-W07",
+      "cluster_id": 3,
+      "label": "ByteDance Advances AI Chip Development With Samsung Manufacturing Talks",
+      "size": 8,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Samsung Electronics",
+        "AMD",
+        "Intel"
+      ],
+      "top_keywords": [
+        "chip",
+        "bytedance",
+        "samsung",
+        "global",
+        "pc"
+      ],
+      "example_titles": [
+        "ByteDance Advances AI Chip Development With Samsung Manufacturing Talks",
+        "ByteDance Eyes Homegrown AI Chip Deal With Samsung Amid Global Tech Rivalry",
+        "AI boom set to push memory revenues far beyond foundry market by 2026",
+        "World’s largest PC maker Lenovo’s CEO Yang Yuanqin has a memory chip shortage warning: We expect sales to …",
+        "Investor Outlook: Applied Materials shares surge 12% after earnings beat"
+      ],
+      "source_count": 8,
+      "relevance": 0.477,
+      "previous_theme_id": "2026-W06_theme_7",
+      "previous_week": "2026-W06",
+      "previous_label": "AMD suffers worst rout since 2018 on disappointing forecast",
+      "previous_size": 11,
+      "similarity_to_previous": 0.8174,
+      "growth_rate": -0.2727,
+      "is_new_theme": false,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W08_theme_8"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.3435
+    },
+    {
+      "theme_id": "2026-W07_theme_8",
+      "week": "2026-W07",
+      "cluster_id": 8,
+      "label": "On theCUBE Pod: AI shakes software investors",
+      "size": 5,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Amazon",
+        "Intel",
+        "Microsoft"
+      ],
+      "top_keywords": [
+        "antitrust",
+        "cisco",
+        "acqui-hires",
+        "acquisition",
+        "agentic"
+      ],
+      "example_titles": [
+        "On theCUBE Pod: AI shakes software investors",
+        "'Acqui-Hires' In AI Drawing Antitrust Scrutiny, Tech Attys Say",
+        "EU antitrust authority approves Google acquisition of Israeli cybersecurity company Wiz for $32B",
+        "Cisco Systems, Inc.: Cisco Redefines Security for the Agentic Era with AI Defense Expansion and AI-Aware SASE"
+      ],
+      "source_count": 5,
+      "relevance": 0.535,
+      "previous_theme_id": "2026-W06_theme_13",
+      "previous_week": "2026-W06",
+      "previous_label": "Selloff wipes out nearly $1 trillion from software and services stocks as investors debate AI's existential threat",
+      "previous_size": 9,
+      "similarity_to_previous": 0.7613,
+      "growth_rate": -0.4444,
+      "is_new_theme": false,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.2648
     }
   ]
 }

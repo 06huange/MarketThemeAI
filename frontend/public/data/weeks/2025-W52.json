@@ -2,35 +2,34 @@
   "week": "2025-W52",
   "themes": [
     {
-      "theme_id": "2025-W52_theme_0",
+      "theme_id": "2025-W52_theme_1",
       "week": "2025-W52",
-      "cluster_id": 0,
-      "label": "2026 | ai | nvidia",
-      "size": 54,
+      "cluster_id": 1,
+      "label": "trump: From AI to chips, Big Tech is getting what it wants from Trump",
+      "size": 15,
       "top_companies": [
         "NVIDIA",
         "Google",
         "Amazon",
         "Microsoft",
-        "Apple"
+        "Meta"
       ],
       "top_keywords": [
-        "chips",
-        "chip",
-        "semiconductor",
-        "data center",
-        "gpu",
-        "training",
-        "inference",
-        "memory"
+        "nvidia",
+        "data",
+        "gpus",
+        "trump",
+        "academic-industrial"
       ],
       "example_titles": [
-        "Are These 2 Quantum Computing Stocks the Key to Decades of Wealth?",
-        "Vanguard ETF Set to Outperform S&P 500 Again in 2026",
-        "3 Supercharged Growth Stocks to Buy and Hold Into the 2030s | The Motley Fool",
-        "The Next Stock-Split Stock That Could Make You Rich | The Motley Fool",
-        "Prediction: This AI Stock Could Be the First New $2 Trillion Company in 2026 | The Motley Fool"
+        "trump: From AI to chips, Big Tech is getting what it wants from Trump",
+        "Google Cloud’s TPU Strategy Powers AI Dominance and Sustainability",
+        "Nvidia Plans to Begin Shipping Powerful H200 AI Chip to China by Mid-February",
+        "Nvidia invests $5 billion in Intel as rivals forge surprise AI alliance",
+        "An AI pioneer says the technology is 'limited' and won't replace humans anytime soon"
       ],
+      "source_count": 13,
+      "relevance": 0.569,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -40,32 +39,40 @@
       "is_new_theme": false,
       "is_emerging": false,
       "next_theme_ids": [
-        "2026-W01_theme_9"
+        "2026-W01_theme_8"
       ],
       "out_degree": 1,
-      "emerging_score": 0.45
+      "emerging_score": 0.3375
     },
     {
-      "theme_id": "2025-W52_theme_1",
+      "theme_id": "2025-W52_theme_0",
       "week": "2025-W52",
-      "cluster_id": 1,
-      "label": "sector | tech | tech sector",
-      "size": 6,
+      "cluster_id": 0,
+      "label": "Silver overtakes Apple, Alphabet in market value, expected to surpass NVIDIA",
+      "size": 7,
       "top_companies": [
-        "Amazon",
+        "NVIDIA",
         "Apple",
-        "Intel",
-        "Meta",
-        "Microsoft"
+        "Google",
+        "Amazon",
+        "Meta"
       ],
-      "top_keywords": [],
+      "top_keywords": [
+        "nvidia",
+        "silver",
+        "apple",
+        "nvda",
+        "overtakes"
+      ],
       "example_titles": [
-        "Israel’s War Sparks Talent Exodus Fears in Tech Sector",
-        "Israel’s Tech Sector Says More Staff Seek Relocation Abroad-Report",
-        "Israeli tech sector saw rise in staff seeking relocation abroad due to war",
-        "Israels tech sector says more staff seek relocation abroad-report | Company Business News",
-        "Israel's tech sector says more staff seek relocation abroad"
+        "Silver overtakes Apple, Alphabet in market value, expected to surpass NVIDIA",
+        "Gold is world's most valuable assets, Silver chases Nvidia's market cap. What to expect in 2026?",
+        "Silver Overtakes Apple, Nears NVIDIA in Market Value Surge",
+        "NVIDIA Corporation (NVDA) Reorganizes Cloud Division",
+        "Bernstein Sees Strong AI Tailwinds Supporting Nvidia (NVDA) Into 2026"
       ],
+      "source_count": 6,
+      "relevance": 0.307,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -75,10 +82,10 @@
       "is_new_theme": false,
       "is_emerging": false,
       "next_theme_ids": [
-        "2026-W01_theme_3"
+        "2026-W01_theme_12"
       ],
       "out_degree": 1,
-      "emerging_score": 0.135
+      "emerging_score": 0.1575
     }
   ]
 }

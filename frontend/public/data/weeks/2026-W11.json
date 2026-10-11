@@ -2,98 +2,161 @@
   "week": "2026-W11",
   "themes": [
     {
-      "theme_id": "2026-W11_theme_6",
+      "theme_id": "2026-W11_theme_0",
       "week": "2026-W11",
-      "cluster_id": 6,
-      "label": "administration national | anthropic sues | designation",
-      "size": 18,
+      "cluster_id": 0,
+      "label": "What's Going On With Nvidia Stock Thursday?",
+      "size": 151,
       "top_companies": [
         "NVIDIA",
         "Google",
-        "Apple",
         "Microsoft",
-        "Amazon"
+        "Amazon",
+        "Intel"
       ],
       "top_keywords": [
-        "chips",
-        "chip",
-        "data center",
-        "memory"
+        "nvidia",
+        "data",
+        "gtc",
+        "ceo",
+        "era"
       ],
       "example_titles": [
-        "The biggest AI stories of the year (so far) | TechCrunch",
-        "Trump administration's unprecedented attack on Anthropic sparks Silicon Valley chaos, and Big Tech is now showing signs of rebellion | Attack of the Fanboy",
-        "Software companies fight back against fears that AI will kill them",
-        "Anthropic’s Standoff With the Pentagon Is a Test of U.S. Credibility | Council on Foreign Relations",
-        "Anthropic Sues Trump Administration Over National Security Risk Designation | Newsradio 600 KOGO"
+        "What's Going On With Nvidia Stock Thursday?",
+        "AI startup Thinking Machines clinches capital and a major chip supply deal from Nvidia",
+        "Nbis Stock Faces a Strategic Reckoning After NVIDIA’s $2 Billion Bet on Full-Stack AI Cloud",
+        "Nvidia Just Gave Incredible News to Nebius Stock Investors",
+        "Nebius shares jump after Nvidia makes $2bn investment"
       ],
-      "previous_theme_id": "2026-W10_theme_15",
+      "source_count": 66,
+      "relevance": 0.515,
+      "previous_theme_id": "2026-W10_theme_17",
       "previous_week": "2026-W10",
-      "previous_label": "anthropic | pentagon | risk",
-      "previous_size": 7,
-      "similarity_to_previous": 0.8796,
-      "growth_rate": 1.5714,
+      "previous_label": "Astera Labs Stock Is Interesting, but Here's What I'd Buy Instead",
+      "previous_size": 14,
+      "similarity_to_previous": 0.892,
+      "growth_rate": 9.7857,
       "is_new_theme": false,
       "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.9309
+      "next_theme_ids": [
+        "2026-W12_theme_16"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.9784
     },
     {
-      "theme_id": "2026-W11_theme_8",
+      "theme_id": "2026-W11_theme_2",
       "week": "2026-W11",
-      "cluster_id": 8,
-      "label": "bonus revenue | ceo | ceo jensen",
-      "size": 15,
+      "cluster_id": 2,
+      "label": "Trump administration's unprecedented attack on Anthropic sparks Silicon Valley chaos, and Big Tech is now showing signs of rebellion",
+      "size": 21,
       "top_companies": [
-        "NVIDIA"
+        "NVIDIA",
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Apple"
       ],
-      "top_keywords": [],
+      "top_keywords": [
+        "anthropic",
+        "trump",
+        "administration",
+        "iran",
+        "sues"
+      ],
       "example_titles": [
-        "Nvidia ties CEO Jensen Huang’s $4 million bonus to revenue goals",
-        "Nvidia ties CEO Jensen Huang’s $4 million bonus to revenue goals",
-        "Nvidia ties CEO Jensen Huang’s $4 million bonus to revenue goals",
-        "Nvidia unveils FY2027 pay plan with $4 million bonus for Huang",
-        "Nvidia ties CEO Jensen Huang’s $4 million bonus to revenue goals"
+        "Trump administration's unprecedented attack on Anthropic sparks Silicon Valley chaos, and Big Tech is now showing signs of rebellion",
+        "The biggest AI stories of the year (so far)",
+        "Anthropic Sues Trump Administration Over National Security Risk Designation | WMMB-AM",
+        "Anthropic Sues Trump Administration Over National Security Risk Designation",
+        "Iran Puts Amazon, Google and Other Tech Firms on Target List as 'Enemy Technology Infrastructure'"
       ],
-      "previous_theme_id": "2026-W10_theme_14",
+      "source_count": 19,
+      "relevance": 0.448,
+      "previous_theme_id": "2026-W10_theme_9",
       "previous_week": "2026-W10",
-      "previous_label": "2027 | 2027 plan | bonus ceo",
-      "previous_size": 6,
-      "similarity_to_previous": 0.9602,
-      "growth_rate": 1.5,
+      "previous_label": "Anthropic says that the Pentagon has declared it a national security risk",
+      "previous_size": 10,
+      "similarity_to_previous": 0.8586,
+      "growth_rate": 1.1,
       "is_new_theme": false,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.8795
+      "emerging_score": 0.9717
     },
     {
-      "theme_id": "2026-W11_theme_3",
+      "theme_id": "2026-W11_theme_4",
       "week": "2026-W11",
-      "cluster_id": 3,
-      "label": "mega | mega ai | tesla mega",
+      "cluster_id": 4,
+      "label": "Intel reveals Core Ultra 200S Plus duo as its fastest desktop gaming processors ever",
+      "size": 16,
+      "top_companies": [
+        "Intel",
+        "AMD",
+        "Google",
+        "NVIDIA",
+        "Microsoft"
+      ],
+      "top_keywords": [
+        "intel",
+        "core",
+        "ultra",
+        "lake",
+        "plus"
+      ],
+      "example_titles": [
+        "Intel reveals Core Ultra 200S Plus duo as its fastest desktop gaming processors ever",
+        "Intel Core Ultra 200K Plus Processors Will Be Presented on March 17",
+        "Intel unveils its \"fastest gaming desktop processors ever,\" and prices start at just $199",
+        "Intel announces Arrow Lake Refresh CPUs, claims 15% higher gaming performance and multi-threaded boost — Core Ultra 7 270K and Core Ultra 5 250K come with more cores, faster memory, and a price cut",
+        "Intel announces Core Ultra 200 Plus desktop processors"
+      ],
+      "source_count": 11,
+      "relevance": 0.484,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W12_theme_12"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.91
+    },
+    {
+      "theme_id": "2026-W11_theme_1",
+      "week": "2026-W11",
+      "cluster_id": 1,
+      "label": "Musk unveils timeline for Tesla’s mega AI chip fab launch",
       "size": 10,
       "top_companies": [
         "Intel",
-        "Tesla",
+        "Samsung Electronics",
         "TSMC",
-        "Samsung Electronics"
+        "Tesla",
+        "Meta"
       ],
       "top_keywords": [
+        "tesla",
+        "launch",
+        "fab",
         "chip",
-        "chips",
-        "semiconductor",
-        "memory",
-        "advanced packaging"
+        "musk"
       ],
       "example_titles": [
-        "Elon Musk Announces Tesla Terafab AI Chip Launch Amid xAI Rebuild and SpaceX IPO Buzz",
+        "Musk unveils timeline for Tesla’s mega AI chip fab launch",
         "Musk says Tesla's mega AI chip fab project to launch in seven days",
-        "Musk says Tesla's mega AI chip fab project to launch in seven days",
-        "Tesla to Launch ‘Terafab’ AI Chip Factory Next Week",
-        "Musk says Tesla's mega AI chip fab project to launch in 7 days"
+        "Musk says Tesla’s mega AI chip fab project to launch in 7 days",
+        "Tesla set to launch ‘Gigantic’ Chip fab project in seven says: Elon Musk",
+        "Tesla to Launch ‘Terafab’ AI Chip Factory Next Week"
       ],
+      "source_count": 10,
+      "relevance": 0.439,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -107,292 +170,34 @@
       "emerging_score": 0.775
     },
     {
-      "theme_id": "2026-W11_theme_7",
+      "theme_id": "2026-W11_theme_3",
       "week": "2026-W11",
-      "cluster_id": 7,
-      "label": "core ultra | ultra | core",
-      "size": 9,
+      "cluster_id": 3,
+      "label": "Laptop Prices Expected To Rise By 40% As Memory And CPU Prices Continue To Soar",
+      "size": 6,
       "top_companies": [
         "Intel",
+        "NVIDIA",
         "AMD",
-        "Google",
-        "Apple",
-        "Microsoft"
+        "Amazon",
+        "Dell Technologies"
       ],
       "top_keywords": [
-        "chips",
+        "price",
         "memory",
-        "compute",
-        "chip"
+        "cpu",
+        "analysts",
+        "bloodbath coming"
       ],
       "example_titles": [
-        "Intel announces Core Ultra 200 Plus desktop processors",
-        "Intel Core Ultra 200S Plus series desktop processors announced: Check features, specifications and more- Moneycontrol.com",
-        "Intel reveals Core Ultra 200S Plus duo as its fastest desktop gaming processors ever",
-        "Intel Core Ultra 200 Plus CPUs Debut: More Cores, Faster Clocks, Better Gaming",
-        "Intel announces Arrow Lake Refresh CPUs, claims 15% higher gaming performance and multi-threaded boost — Core Ultra 7 270K and Core Ultra 5 250K come with more cores, faster memory, and a price cut"
+        "Laptop Prices Expected To Rise By 40% As Memory And CPU Prices Continue To Soar",
+        "Memory and CPU price hikes could push notebook prices up by 40%",
+        "Memory chip crunch fuels global phone price surge",
+        "Analysts predict bloodbath coming to the price of laptops, and you must clutch your wallet",
+        "8 Gadgets That Could Jump In Price Due To The RAM Shortage"
       ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.7525
-    },
-    {
-      "theme_id": "2026-W11_theme_17",
-      "week": "2026-W11",
-      "cluster_id": 17,
-      "label": "nvidia | stock | ai",
-      "size": 9,
-      "top_companies": [
-        "NVIDIA",
-        "Meta",
-        "Microsoft",
-        "Intel",
-        "Synopsys"
-      ],
-      "top_keywords": [
-        "chip",
-        "inference",
-        "training",
-        "chips",
-        "compute",
-        "data center",
-        "gpu"
-      ],
-      "example_titles": [
-        "1 Genius AI Stock Nvidia Owns That Investors Should Load Up On | The Motley Fool",
-        "Nvidia Just Gave Incredible News to Nebius Stock Investors",
-        "Nvidia invests US$2 billion in Nebius to build next-generation hyperscale AI cloud",
-        "This AI Infrastructure Stock Is Surging After a $2 Billion Investment From Nvidia",
-        "Nebius Group stock surges 15% — here’s what’s fueling the sudden rally"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W12_theme_13"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.7525
-    },
-    {
-      "theme_id": "2026-W11_theme_4",
-      "week": "2026-W11",
-      "cluster_id": 4,
-      "label": "iran | tech | acts",
-      "size": 8,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "Microsoft",
-        "Amazon",
-        "Cisco"
-      ],
-      "top_keywords": [
-        "server"
-      ],
-      "example_titles": [
-        "Iran Puts Amazon, Google and Other Tech Firms on Target List as 'Enemy Technology Infrastructure'",
-        "Dubai Financial & Tech Hub Acts on Iran Threat",
-        "Iran Israel US War | Iran signals it will hit U.S., Israeli economic and tech targets",
-        "Dubai Financial & Tech Hub Acts on Iran Threat",
-        "Iran to Target Tech Companies Like Google, Microsoft, and Nvidia"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.73
-    },
-    {
-      "theme_id": "2026-W11_theme_14",
-      "week": "2026-W11",
-      "cluster_id": 14,
-      "label": "market | stock | stock market",
-      "size": 8,
-      "top_companies": [
-        "Intel",
-        "NVIDIA",
-        "Apple",
-        "Meta",
-        "Microsoft"
-      ],
-      "top_keywords": [
-        "semiconductor"
-      ],
-      "example_titles": [
-        "We're Exactly 2 Months Away From a Major Shake-Up at the Federal Reserve -- and There's a Lot on the Line for Wall Street",
-        "Is the iShares MSCI USA Quality GARP ETF the Smartest Investment You Can Make in March?",
-        "The Trump-Led Iran War Can Lead to a Triple Whammy for the Federal Reserve -- and the Stock Market May End Up Paying the Price",
-        "The Stock Market Has Crossed This Dubious Threshold 6 Times in 155 Years -- and History Couldn't Be Clearer What Comes Next",
-        "Is This ETF the Best Way to Invest in the S&P 500 Right Now?"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.73
-    },
-    {
-      "theme_id": "2026-W11_theme_15",
-      "week": "2026-W11",
-      "cluster_id": 15,
-      "label": "ai | cramer | jim",
-      "size": 7,
-      "top_companies": [
-        "NVIDIA",
-        "Amazon",
-        "Google",
-        "Microsoft",
-        "Tesla"
-      ],
-      "top_keywords": [
-        "chips",
-        "data center",
-        "memory",
-        "training"
-      ],
-      "example_titles": [
-        "Together AI Leverages NVIDIA-Powered GPUs as It Eyes $7.5B Valuation in New Round",
-        "Sandisk (SNDK) Rockets 25.5%, Investors Makes Use of Market Bloodbath for Gains",
-        "Qualcomm (QCOM), Wayve Partner to Accelerate AI-Driven Autonomous Driving",
-        "Buy, Sell, or Hold? Jim Cramer Evaluates 5 Stocks and the Fragile Food Market",
-        "This Artificial Intelligence (AI) Stock Has a $66 Billion Backlog. Here's Why It Could Soar in 2026."
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.7075
-    },
-    {
-      "theme_id": "2026-W11_theme_0",
-      "week": "2026-W11",
-      "cluster_id": 0,
-      "label": "earnings | earnings transcript | transcript",
-      "size": 12,
-      "top_companies": [
-        "NVIDIA",
-        "Cadence Design Systems",
-        "Amazon",
-        "Intel"
-      ],
-      "top_keywords": [
-        "training",
-        "data center"
-      ],
-      "example_titles": [
-        "Surf Air Mobility (SRFM) Earnings Call Transcript",
-        "The Joint (JYNT) Q4 2025 Earnings Call Transcript",
-        "Dollar General (DG) Q4 2025 Earnings Transcript",
-        "Nature's Sunshine (NATR) Earnings Transcript",
-        "Stitch Fix (SFIX) Q2 2026 Earnings Call Transcript"
-      ],
-      "previous_theme_id": "2026-W10_theme_5",
-      "previous_week": "2026-W10",
-      "previous_label": "earnings | earnings transcript | q4",
-      "previous_size": 7,
-      "similarity_to_previous": 0.9369,
-      "growth_rate": 0.7143,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.7074
-    },
-    {
-      "theme_id": "2026-W11_theme_1",
-      "week": "2026-W11",
-      "cluster_id": 1,
-      "label": "wayve | nissan | uber",
-      "size": 6,
-      "top_companies": [
-        "NVIDIA",
-        "Qualcomm",
-        "Microsoft",
-        "Google"
-      ],
-      "top_keywords": [
-        "compute",
-        "chips"
-      ],
-      "example_titles": [
-        "Nissan, Uber, & Wayve Team Up On Robotaxis - CleanTechnica",
-        "Uber, Nissan, Wayve Team Up to Offer Robotaxi Services in Tokyo",
-        "Nissan, Uber, Wayve unveil robotaxi tie-up",
-        "FAE Technology unveils new industrial AI modules with Qualcomm",
-        "Qualcomm and Wayve hook up for pre-integrated HW/SW ADAS tech | Electronics Weekly"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.685
-    },
-    {
-      "theme_id": "2026-W11_theme_13",
-      "week": "2026-W11",
-      "cluster_id": 13,
-      "label": "oracle | stock | cnbc",
-      "size": 6,
-      "top_companies": [
-        "NVIDIA",
-        "Broadcom",
-        "Microsoft",
-        "Intel",
-        "Amazon"
-      ],
-      "top_keywords": [
-        "data center",
-        "chip",
-        "training",
-        "chips",
-        "inference",
-        "gpu"
-      ],
-      "example_titles": [
-        "Oracle Just Delivered Incredible News for Artificial Intelligence (AI) Investors | The Motley Fool",
-        "Oracle Price Prediction: One Wall Street Analyst Says ORCL Could Hit $240 This Year",
-        "Why Oracle Stock Is Ripping Higher in After-Hours Trading",
-        "CNBC’s Deirdre Bosa Warns Oracle Investors: A $523 Billion Backlog May Not Be What It Seems",
-        "Jim Cramer: Oracle Is the King of Data Centers and Fastest Growing"
-      ],
+      "source_count": 6,
+      "relevance": 0.454,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -409,257 +214,85 @@
       "theme_id": "2026-W11_theme_5",
       "week": "2026-W11",
       "cluster_id": 5,
-      "label": "million | yann | 30",
-      "size": 5,
-      "top_companies": [
-        "Amazon",
-        "Meta",
-        "NVIDIA",
-        "Google",
-        "Intel"
-      ],
-      "top_keywords": [],
-      "example_titles": [
-        "BookAI Transforms Global IP Economy: Secures AIoT Partnership at CES and Opens Seed Round for Global Scalability",
-        "SBVA Invests 30 Million in Yann LeCun-Founded AMI to Pioneer the Era of World Models",
-        "SBVA Invests 30 Million in Yann LeCun-Founded AMI to Pioneer the Era of World Models",
-        "SBVA Invests 30 Million in Yann LeCun-Founded AMI to Pioneer the Era of World Models",
-        "Yann Le Cun raises €900 million for his France-based AI start-up"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.6625
-    },
-    {
-      "theme_id": "2026-W11_theme_11",
-      "week": "2026-W11",
-      "cluster_id": 11,
-      "label": "corporation | corporation nvda | nvda",
-      "size": 5,
+      "label": "NVIDIA vs AMD 2026: Ultimate GPU Showdown for Gaming, AI, and Performance",
+      "size": 18,
       "top_companies": [
         "NVIDIA",
-        "Amazon",
-        "Cerebras Systems"
-      ],
-      "top_keywords": [
-        "chip",
-        "compute",
-        "data center",
-        "inference",
-        "training",
-        "chips",
-        "gpu"
-      ],
-      "example_titles": [
-        "NVIDIA Corporation $NVDA Stock Holdings Boosted by California Public Employees Retirement System",
-        "NVIDIA Corporation $NVDA is 1248 Management LLC’s 7th Largest Position",
-        "First Trust Advisors LP Has $1.48 Billion Stock Holdings in NVIDIA Corporation $NVDA",
-        "Headwater Capital Co Ltd Makes New Investment in NVIDIA Corporation $NVDA",
-        "NVIDIA Corporation $NVDA Shares Purchased by Mitsubishi UFJ Asset Management Co. Ltd."
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.6625
-    },
-    {
-      "theme_id": "2026-W11_theme_12",
-      "week": "2026-W11",
-      "cluster_id": 12,
-      "label": "etf | buy | dividend",
-      "size": 5,
-      "top_companies": [
+        "AMD",
         "Intel",
-        "NVIDIA",
-        "Microsoft",
         "Amazon",
         "Apple"
       ],
       "top_keywords": [
-        "chip"
+        "gaming",
+        "rtx",
+        "graphics",
+        "path",
+        "tracing"
       ],
       "example_titles": [
-        "Want Decades of Passive Income? Buy This Index Fund and Hold It Forever",
-        "Is the iShares Core High Dividend ETF a Buy, Sell, or Hold in 2026?",
-        "The Surprising Vanguard ETF That Is Soaring Past Tech Funds This Year",
-        "The Best Dividend ETF to Buy Now for Passive Income",
-        "Contrarian Take: Vanguard's 3 Worst-Performing Equity ETFs in 2026 Are All Buys in March"
+        "NVIDIA vs AMD 2026: Ultimate GPU Showdown for Gaming, AI, and Performance",
+        "Best Budget Graphics Cards for Gaming in 2026: Top GPUs for 1080p & 1440p Performance",
+        "Nvidia claims 1 million times better path tracing performance is coming in future gaming GPUs — says current GPUs are already 10,000x faster than Pascal",
+        "Microsoft aims to close the PC-console optimisation gap with new DirectX features",
+        "The MSI Codex Z2C RTX 5070 Gaming PC with 32GB of DDR5-6,000MHz RAM Drops to $1,499"
       ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.6625
-    },
-    {
-      "theme_id": "2026-W11_theme_16",
-      "week": "2026-W11",
-      "cluster_id": 16,
-      "label": "fool | motley | motley fool",
-      "size": 23,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "Broadcom",
-        "Meta",
-        "TSMC"
-      ],
-      "top_keywords": [
-        "chip",
-        "chips",
-        "semiconductor",
-        "data center",
-        "training",
-        "gpu",
-        "inference",
-        "memory"
-      ],
-      "example_titles": [
-        "2 No-Brainer AI Stocks to Buy Right Now | The Motley Fool",
-        "Meet the Monster Stock That Continues to Crush the Market",
-        "Meet the Next Member of the $2 Trillion Club. It's Up 97% in the Past Year, and It Can Still Climb Higher in 2026. | The Motley Fool",
-        "Here Are My Top 5 Artificial Intelligence (AI) Stocks to Buy Right Now | The Motley Fool",
-        "Prediction: This Artificial Intelligence (AI) Chip Stock Will Become the Next Nvidia by 2030 | The Motley Fool"
-      ],
-      "previous_theme_id": "2026-W10_theme_22",
+      "source_count": 16,
+      "relevance": 0.405,
+      "previous_theme_id": "2026-W10_theme_1",
       "previous_week": "2026-W10",
-      "previous_label": "buy | stock | ai",
-      "previous_size": 30,
-      "similarity_to_previous": 0.9683,
-      "growth_rate": -0.2333,
+      "previous_label": "MSI Gaming Desktop PC Codex Z2 A8NVM-485US AMD Ryzen 7 8700F 16GB DDR5 2TB NVMe SSD GeForce RTX 5060 Ti Windows 11 Home",
+      "previous_size": 14,
+      "similarity_to_previous": 0.877,
+      "growth_rate": 0.2857,
       "is_new_theme": false,
-      "is_emerging": false,
+      "is_emerging": true,
       "next_theme_ids": [
         "2026-W12_theme_11"
       ],
       "out_degree": 1,
-      "emerging_score": 0.6437
+      "emerging_score": 0.6804
     },
     {
-      "theme_id": "2026-W11_theme_10",
+      "theme_id": "2026-W11_theme_6",
       "week": "2026-W11",
-      "cluster_id": 10,
-      "label": "iran | iran war | war",
-      "size": 7,
+      "cluster_id": 6,
+      "label": "ASUS CEO Calls MacBook Neo a 'Shock to the Entire PC Industry'",
+      "size": 8,
       "top_companies": [
-        "NVIDIA",
-        "Broadcom",
         "Apple",
-        "Western Digital"
+        "Intel",
+        "AMD",
+        "Dell Technologies",
+        "Google"
       ],
       "top_keywords": [
-        "chips",
-        "semiconductor"
+        "macbook",
+        "neo",
+        "review",
+        "apple",
+        "pc"
       ],
       "example_titles": [
-        "Wall St Week Ahead-Investors await Fed rate outlook as Iran war keeps markets on edge | Stock Market News",
-        "Will Oil and Nvidia decide how the US stock market moves next week? S&P 500 falls to 2026 low as Dow Jones and Nasdaq slide last week — here’s the Wall Street outlook",
-        "Wall Street Week Ahead: Investors await Fed rate outlook as Iran war keeps markets on edge",
-        "EMEA Morning Briefing : Economic Risks of Iran War Build",
-        "Wall St closes mixed on ramped-up Middle East tensions"
+        "ASUS CEO Calls MacBook Neo a 'Shock to the Entire PC Industry'",
+        "MacBook Neo Review: No Other Budget Laptop Can Compete",
+        "The MacBook Neo Is Putting PC Makers Into Panic Mode",
+        "Apple MacBook Pro 16-Inch (2026, M5 Max) Review: A Monster Hiding in Plain Sight",
+        "The MacBook Neo Is Apple's First MacBook To Use A MediaTek Networking Chip"
       ],
-      "previous_theme_id": "2026-W10_theme_21",
+      "source_count": 7,
+      "relevance": 0.377,
+      "previous_theme_id": "2026-W10_theme_4",
       "previous_week": "2026-W10",
-      "previous_label": "2024 | 800 | 800 points",
-      "previous_size": 5,
-      "similarity_to_previous": 0.7691,
-      "growth_rate": 0.4,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W12_theme_6"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.4513
-    },
-    {
-      "theme_id": "2026-W11_theme_2",
-      "week": "2026-W11",
-      "cluster_id": 2,
-      "label": "security | social | social security",
-      "size": 7,
-      "top_companies": [
-        "NVIDIA",
-        "Intel"
-      ],
-      "top_keywords": [],
-      "example_titles": [
-        "Should the Higher-Earning Spouse Always Delay Social Security? What the Math Shows.",
-        "This Possible Social Security Change Could Make Saving for Retirement Even Harder",
-        "Social Security Retirees Who Claim at 62 Face a $1,100 Monthly Gap That Never Closes",
-        "Did You Miss These 2026 Medicare Changes?",
-        "Planning to Retire in 2035? Read This Before You Collect Your First Social Security Check."
-      ],
-      "previous_theme_id": "2026-W10_theme_2",
-      "previous_week": "2026-W10",
-      "previous_label": "security | social | social security",
-      "previous_size": 8,
-      "similarity_to_previous": 0.9571,
-      "growth_rate": -0.125,
+      "previous_label": "Apple launches new MacBooks with M5 chips, bigger base storage",
+      "previous_size": 14,
+      "similarity_to_previous": 0.8609,
+      "growth_rate": -0.4286,
       "is_new_theme": false,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.3489
-    },
-    {
-      "theme_id": "2026-W11_theme_9",
-      "week": "2026-W11",
-      "cluster_id": 9,
-      "label": "qualcomm | llc | incorporated",
-      "size": 5,
-      "top_companies": [
-        "Qualcomm",
-        "NVIDIA",
-        "Broadcom",
-        "Apple"
-      ],
-      "top_keywords": [
-        "chip",
-        "semiconductor",
-        "chips"
-      ],
-      "example_titles": [
-        "Broadcom Inc. $AVGO Position Trimmed by Allium Financial Advisors LLC",
-        "Capitolis Liquid Global Markets LLC Sells 322,000 Shares of Qualcomm Incorporated $QCOM",
-        "CSM Advisors LLC Has $33.28 Million Position in Qualcomm Incorporated $QCOM",
-        "Qualcomm Incorporated $QCOM Shares Bought by Banco Bilbao Vizcaya Argentaria S.A.",
-        "Qualcomm Drops 21% in 2026 — Is BofA Right to Call It a Sell?"
-      ],
-      "previous_theme_id": "2026-W10_theme_13",
-      "previous_week": "2026-W10",
-      "previous_label": "avgo | broadcom | broadcom avgo",
-      "previous_size": 5,
-      "similarity_to_previous": 0.8392,
-      "growth_rate": 0.0,
-      "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W12_theme_4"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.2803
+      "emerging_score": 0.3522
     }
   ]
 }

@@ -2,258 +2,118 @@
   "week": "2026-W09",
   "themes": [
     {
-      "theme_id": "2026-W09_theme_2",
+      "theme_id": "2026-W09_theme_1",
       "week": "2026-W09",
-      "cluster_id": 2,
-      "label": "2025 | 2025 earnings | q4",
-      "size": 19,
-      "top_companies": [
-        "NVIDIA",
-        "Cadence Design Systems",
-        "Google",
-        "Dell Technologies",
-        "AMD"
-      ],
-      "top_keywords": [
-        "training",
-        "data center",
-        "chips",
-        "compute",
-        "gpu",
-        "inference",
-        "advanced packaging",
-        "hbm"
-      ],
-      "example_titles": [
-        "nLIGHT (LASR) Q4 2025 Earnings Call Transcript",
-        "ADMA Biologics (ADMA) Q4 2025 Earnings Transcript",
-        "Ligand Pharma (LGND) Earnings Call Transcript",
-        "Playtika (PLTK) Q4 2025 Earnings Call Transcript",
-        "Dorman (DORM) Q4 2025 Earnings Call Transcript"
-      ],
-      "previous_theme_id": "2026-W08_theme_2",
-      "previous_week": "2026-W08",
-      "previous_label": "earnings | earnings transcript | transcript",
-      "previous_size": 7,
-      "similarity_to_previous": 0.9143,
-      "growth_rate": 1.7143,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W10_theme_5"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.9604
-    },
-    {
-      "theme_id": "2026-W09_theme_7",
-      "week": "2026-W09",
-      "cluster_id": 7,
-      "label": "16 | 16 years | biggest",
-      "size": 16,
-      "top_companies": [
-        "NVIDIA",
-        "Meta",
-        "Microsoft",
-        "Amazon",
-        "Intel"
-      ],
-      "top_keywords": [],
-      "example_titles": [
-        "$104 Billion Is Flowing to International Stocks. Should You Join in?",
-        "Wall Street sees biggest U.S. outflows in 16 years",
-        "Wall Street sees biggest U.S. outflows in 16 years",
-        "Wall Street sees biggest U.S. outflows in 16 years",
-        "Wall Street sees biggest U.S. outflows in 16 years"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.91
-    },
-    {
-      "theme_id": "2026-W09_theme_10",
-      "week": "2026-W09",
-      "cluster_id": 10,
-      "label": "deal | amd | meta",
-      "size": 15,
+      "cluster_id": 1,
+      "label": "Meta to buy AI chips from AMD in deal worth up to $100bn",
+      "size": 18,
       "top_companies": [
         "AMD",
         "NVIDIA",
         "Meta",
         "Google",
-        "Microsoft"
+        "Intel"
       ],
       "top_keywords": [
+        "amd",
+        "deal",
+        "meta",
         "chip",
-        "chips",
-        "data center",
-        "inference",
-        "compute",
-        "gpu",
-        "training",
-        "memory"
+        "agree"
       ],
       "example_titles": [
-        "1 Reason to Buy Advanced Micro Devices Stock",
-        "Meta strikes up to $100B AMD chip deal as it chases ‘personal superintelligence’",
+        "Meta to buy AI chips from AMD in deal worth up to $100bn",
         "AMD Just Won Another Massive AI Chip Deal. Its Stock Is Soaring.",
-        "The Silicon Shift: How AMD’s Landmark Meta Partnership Is Rewriting the AI Power Balance",
+        "AMD clinches second mega chip supply deal, this time with Meta",
+        "AMD shares surge 9% on $60 billion GPU deal with Meta",
         "Meta, AMD agree to major AI chips deal"
       ],
-      "previous_theme_id": "2026-W08_theme_12",
-      "previous_week": "2026-W08",
-      "previous_label": "meta | nvidia | millions",
-      "previous_size": 7,
-      "similarity_to_previous": 0.7344,
-      "growth_rate": 1.1429,
-      "is_new_theme": false,
+      "source_count": 15,
+      "relevance": 0.398,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.8344
+      "emerging_score": 0.955
     },
     {
-      "theme_id": "2026-W09_theme_6",
+      "theme_id": "2026-W09_theme_8",
       "week": "2026-W09",
-      "cluster_id": 6,
-      "label": "anthropic | ai | military",
-      "size": 10,
+      "cluster_id": 8,
+      "label": "Could AI Crash the Economy in 2 Years? One Research Firm Says Yes.",
+      "size": 14,
       "top_companies": [
         "NVIDIA",
         "Google",
-        "Meta",
+        "Microsoft",
+        "Intel",
+        "Amazon"
+      ],
+      "top_keywords": [
+        "economy",
+        "work",
+        "trillion",
+        "anthropic tool",
+        "appears"
+      ],
+      "example_titles": [
+        "Could AI Crash the Economy in 2 Years? One Research Firm Says Yes.",
+        "Heavyweights take centre stage",
+        "The AI Economy May Be Built on Hype, Not Hard Data — And Researchers Say That Should Worry Everyone",
+        "Skittish investors spooked as dystopian AI outlooks go viral",
+        "The $2 Trillion Software Boom: Why Dan Ives Believes AI’s Next Chapter Will Mint a New Class of Tech Giants"
+      ],
+      "source_count": 9,
+      "relevance": 0.578,
+      "previous_theme_id": "2026-W08_theme_1",
+      "previous_week": "2026-W08",
+      "previous_label": "World Labs secures $1 billion for spatial AI push",
+      "previous_size": 7,
+      "similarity_to_previous": 0.7542,
+      "growth_rate": 1.0,
+      "is_new_theme": false,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W10_theme_17"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.8158
+    },
+    {
+      "theme_id": "2026-W09_theme_2",
+      "week": "2026-W09",
+      "cluster_id": 2,
+      "label": "Hegseth warns Anthropic to let the military use the company’s AI tech as it sees fit, AP sources say",
+      "size": 8,
+      "top_companies": [
+        "Google",
+        "NVIDIA",
         "Amazon",
+        "Meta",
         "Microsoft"
       ],
       "top_keywords": [
-        "chips",
-        "chip",
-        "training",
-        "compute",
-        "data center",
-        "gpu",
-        "inference",
-        "memory"
+        "anthropic",
+        "pentagon",
+        "hegseth",
+        "military",
+        "sources"
       ],
       "example_titles": [
-        "AI for warfare: West Asia’s flare-up should focus attention on red lines for autonomous weapons | Mint",
-        "Pentagon assault on Anthropic sends shockwaves across Silicon Valley - The Boston Globe",
-        "Trump Slams Anthropic as 'Leftwing Nut Jobs' for Refusing Pentagon's AI Demands",
-        "Trump administration orders military contractors and federal agencies to cease business with Anthropic",
-        "It would take the Pentagon months to replace Anthropic’s AI tools: sources"
+        "Hegseth warns Anthropic to let the military use the company’s AI tech as it sees fit, AP sources say",
+        "Pentagon assault on Anthropic sends shockwaves across Silicon Valley",
+        "Hegseth and Anthropic CEO set to meet as debate intensifies over the military's use of AI",
+        "Tech stocks today: Anthropic says Pentagon ban could cost it billions, Meta announces new AI chips",
+        "AI for warfare: West Asia’s flare-up should focus attention on red lines for autonomous weapons"
       ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W10_theme_15"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.775
-    },
-    {
-      "theme_id": "2026-W09_theme_0",
-      "week": "2026-W09",
-      "cluster_id": 0,
-      "label": "ai | ai headsets | burger",
-      "size": 9,
-      "top_companies": [
-        "Google",
-        "NVIDIA"
-      ],
-      "top_keywords": [],
-      "example_titles": [
-        "Burger King is testing AI headsets that will know if employees say ‘welcome’ or ‘thank you’",
-        "Burger King is testing AI headsets that will know if employees say 'welcome' or 'thank you'",
-        "Burger King is testing AI headsets that will know if employees say 'welcome' or 'thank you'",
-        "Burger King is testing AI headsets that will know if employees say ‘welcome’ or ‘thank you’",
-        "Burger King is testing AI headsets that will know if employees say ‘welcome’ or ‘thank you’"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.7525
-    },
-    {
-      "theme_id": "2026-W09_theme_12",
-      "week": "2026-W09",
-      "cluster_id": 12,
-      "label": "ai | ai inflation | hit",
-      "size": 9,
-      "top_companies": [
-        "Amazon",
-        "Google",
-        "NVIDIA"
-      ],
-      "top_keywords": [
-        "chip"
-      ],
-      "example_titles": [
-        "US stocks sink and oil prices rise as worries about AI, inflation and possible war hit Wall Street",
-        "Dow Drops 521, Nasdaq Sinks 210, S&P 500 Falls 30",
-        "US stocks sink as worries about AI, inflation and possible war hit Wall Street",
-        "US stocks sink and oil prices rise as worries about AI, inflation and possible war hit Wall Street",
-        "US stocks sink and oil prices rise as worries about AI, inflation and possible war hit Wall Street - WWAYTV3"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W10_theme_16"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.7525
-    },
-    {
-      "theme_id": "2026-W09_theme_3",
-      "week": "2026-W09",
-      "cluster_id": 3,
-      "label": "s26 | samsung | galaxy",
-      "size": 8,
-      "top_companies": [
-        "Qualcomm",
-        "Samsung Electronics",
-        "Google"
-      ],
-      "top_keywords": [
-        "chip",
-        "memory",
-        "gpu",
-        "chips",
-        "data center"
-      ],
-      "example_titles": [
-        "Snapdragon 8 Elite Gen 5 for Galaxy Phones Debuts in S26 Lineup, but Qualcomm Stock Remains a 'Strong Sell'",
-        "Everything Samsung Announced at Unpacked 2026 - TechStory",
-        "Everything announced at Samsung's Galaxy Unpacked event, including S26 smartphones, privacy screen, and more | TechCrunch",
-        "The Galaxy S26 Ultra is here, and its biggest upgrade isn't the camera - Phandroid",
-        "Samsung Galaxy S26 vs. S25: Comparing price, specs, and features"
-      ],
+      "source_count": 8,
+      "relevance": 0.407,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -269,30 +129,34 @@
       "emerging_score": 0.73
     },
     {
-      "theme_id": "2026-W09_theme_4",
+      "theme_id": "2026-W09_theme_3",
       "week": "2026-W09",
-      "cluster_id": 4,
-      "label": "aussie | aussie shares | boon",
+      "cluster_id": 3,
+      "label": "OpenAI Raises $110 Billion to Build Global AI Infrastructure",
       "size": 7,
       "top_companies": [
         "NVIDIA",
         "Amazon",
-        "Apple",
         "Google",
-        "Meta"
+        "Microsoft",
+        "AMD"
       ],
       "top_keywords": [
-        "chip",
-        "memory",
-        "semiconductor"
+        "infrastructure",
+        "global",
+        "acceleration",
+        "address",
+        "amazon invest"
       ],
       "example_titles": [
-        "The Overnight Report: AI's Twists And Turns - FNArena.com",
-        "Aussie shares reset records as earnings boon rolls on",
-        "Aussie shares reset records as earnings boon rolls on",
-        "Aussie shares reset records as earnings boon rolls on",
-        "Aussie shares reset records as earnings boon rolls on"
+        "OpenAI Raises $110 Billion to Build Global AI Infrastructure",
+        "Neoclouds: Meeting demand for AI acceleration",
+        "Amazon to invest $50 billion in OpenAI under new AI partnership",
+        "Brookfield Launches Radiant as first vertically integrated AI Infrastructure Company Through Merger with Ori Industries",
+        "ORNL Forms Institute to Address AI's Energy Demands"
       ],
+      "source_count": 7,
+      "relevance": 0.68,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -301,284 +165,351 @@
       "growth_rate": null,
       "is_new_theme": true,
       "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
+      "next_theme_ids": [
+        "2026-W10_theme_3"
+      ],
+      "out_degree": 1,
       "emerging_score": 0.7075
-    },
-    {
-      "theme_id": "2026-W09_theme_1",
-      "week": "2026-W09",
-      "cluster_id": 1,
-      "label": "honor | mwc | ai",
-      "size": 5,
-      "top_companies": [
-        "Qualcomm",
-        "Google",
-        "Intel",
-        "Apple",
-        "Samsung Electronics"
-      ],
-      "top_keywords": [
-        "chip",
-        "chips",
-        "memory"
-      ],
-      "example_titles": [
-        "HONOR Magic V6 launches with massive battery and IP69 durability",
-        "This company's new AI gadgets feel like they're from the future",
-        "Honor launches Magic V6 foldable phone, MagicPad 4, MagicBook Pro 14",
-        "Watch Honor’s MWC event livestream here",
-        "What to Expect at MWC 2026: Robots, AI, and Phones We'll Never See in the US"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.6625
-    },
-    {
-      "theme_id": "2026-W09_theme_5",
-      "week": "2026-W09",
-      "cluster_id": 5,
-      "label": "dividend stocks | dividend | stocks",
-      "size": 5,
-      "top_companies": [
-        "NVIDIA",
-        "Intel",
-        "Broadcom",
-        "Microsoft",
-        "Texas Instruments"
-      ],
-      "top_keywords": [
-        "chip",
-        "chips",
-        "semiconductor",
-        "training"
-      ],
-      "example_titles": [
-        "The Best High-Yield Dividend Stocks to Buy With $1,000 Right Now",
-        "The Best Stocks to Invest $1,000 in Right Now: 3 High-Quality, Long-Term Dividend Ideas",
-        "Just Set It and Forget It With These Dividend Stocks",
-        "Stock Market Crash: The Best Dividend Stocks to Buy Right Now",
-        "The Best Dividend Stocks to Buy and Hold Forever | The Motley Fool"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.6625
-    },
-    {
-      "theme_id": "2026-W09_theme_8",
-      "week": "2026-W09",
-      "cluster_id": 8,
-      "label": "stocks | technology | technology stocks",
-      "size": 5,
-      "top_companies": [
-        "Microsoft",
-        "NVIDIA",
-        "Apple",
-        "Micron",
-        "Google"
-      ],
-      "top_keywords": [
-        "compute",
-        "gpu",
-        "memory",
-        "semiconductor",
-        "chip",
-        "data center"
-      ],
-      "example_titles": [
-        "Top Technology Stocks To Research – February 27th",
-        "Large Cap Stocks To Watch Now – March 1st",
-        "Top Technology Stocks Worth Watching – March 1st",
-        "Best Large Cap Stocks To Follow Now – February 25th",
-        "Best Technology Stocks To Watch Now – February 22nd"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.6625
     },
     {
       "theme_id": "2026-W09_theme_9",
       "week": "2026-W09",
       "cluster_id": 9,
-      "label": "billion | openai | 110",
-      "size": 24,
+      "label": "Ahead of MWC Barcelona, Nvidia bets AI-native platforms will carry telecom into 6G",
+      "size": 7,
       "top_companies": [
         "NVIDIA",
-        "Amazon",
-        "Microsoft",
-        "Cerebras Systems",
-        "Groq"
+        "Cisco",
+        "Apple",
+        "Google",
+        "Meta"
       ],
       "top_keywords": [
-        "chip",
-        "compute",
-        "inference",
-        "training",
-        "chips",
-        "gpu",
-        "semiconductor",
-        "data center"
+        "telecom",
+        "mwc",
+        "ai-native platforms",
+        "ai-ran",
+        "nvidia"
       ],
       "example_titles": [
-        "OpenAI Becomes Top Buyer for New NVIDIA-Groq AI Chip, Securing 3GW Capacity",
-        "OpenAI gets $110 billion in funding from a trio of tech powerhouses, led by Amazon",
-        "OpenAI raises $110 billion in largest-ever private tech funding round, Nvidia throws in $30 billion — AI startup now valued at $730 billion",
-        "Nvidia developing new chip to boost AI speed | News.az",
-        "OpenAI to get $110 billion investment from SoftBank and others"
+        "Ahead of MWC Barcelona, Nvidia bets AI-native platforms will carry telecom into 6G",
+        "NVIDIA partners with telecom leaders globally to develop open AI-native platforms for 6G",
+        "Nvidia teams up with telecom firms for AI driven 6G",
+        "Lanner Unveils AstraEdge™ Servers Purpose-Built for AI-RAN at MWC 2026",
+        "Rohde & Schwarz, NVIDIA Unveil Digital Twin Testbed for AI-RAN at MWC 2026"
       ],
-      "previous_theme_id": "2026-W08_theme_11",
-      "previous_week": "2026-W08",
-      "previous_label": "100 bln | bln | bln raise",
-      "previous_size": 34,
-      "similarity_to_previous": 0.948,
-      "growth_rate": -0.2941,
-      "is_new_theme": false,
-      "is_emerging": false,
+      "source_count": 7,
+      "relevance": 0.522,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "is_emerging": true,
       "next_theme_ids": [
-        "2026-W10_theme_23"
+        "2026-W10_theme_7"
       ],
       "out_degree": 1,
-      "emerging_score": 0.6396
+      "emerging_score": 0.7075
     },
     {
-      "theme_id": "2026-W09_theme_13",
+      "theme_id": "2026-W09_theme_12",
       "week": "2026-W09",
-      "cluster_id": 13,
-      "label": "nvidia | ai | fool",
-      "size": 15,
+      "cluster_id": 12,
+      "label": "Nvidia earnings report collides with Wall Street skepticism over AI spending",
+      "size": 5,
       "top_companies": [
         "NVIDIA",
         "Meta",
         "Amazon",
         "Google",
-        "Microsoft"
+        "Groq"
       ],
       "top_keywords": [
-        "chips",
-        "data center",
-        "chip",
-        "compute",
-        "inference",
-        "gpu",
-        "training",
-        "semiconductor"
+        "forecast",
+        "nvidia",
+        "earnings",
+        "better latest",
+        "blowout"
       ],
       "example_titles": [
-        "3 Reasons Why Nvidia Stock Is Still Undervalued and Worth Buying in March | The Motley Fool",
-        "Is This 1 Number Nvidia's Biggest Risk?",
+        "Nvidia earnings report collides with Wall Street skepticism over AI spending",
         "Nvidia shares slide after sales forecast underwhelms investors",
-        "Nvidia’s Performance Surge: Record $68.1B Quarter and $215.9B Fiscal Year Recast Financial Benchmarks",
-        "Nvidia delivers another quarter of stellar growth amid growing concern over AI economy"
+        "Nvidia forecast: market hunting for a fresh, decisive signal",
+        "Gene Munster Questions Nvidia Selloff After Blowout Earnings: 'Will Fundamentals Ever Be Enough?'",
+        "The NVIDIA Shield is still getting better with the latest update"
       ],
-      "previous_theme_id": "2026-W08_theme_15",
-      "previous_week": "2026-W08",
-      "previous_label": "nvidia | stock | nvidia stock",
-      "previous_size": 12,
-      "similarity_to_previous": 0.9531,
-      "growth_rate": 0.25,
-      "is_new_theme": false,
+      "source_count": 5,
+      "relevance": 0.311,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
       "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W10_theme_22"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.6156
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.6625
     },
     {
       "theme_id": "2026-W09_theme_14",
       "week": "2026-W09",
       "cluster_id": 14,
-      "label": "street | wall | wall street",
-      "size": 11,
+      "label": "NVIDIA (NVDA) Set to Report Q4 FY2026 Earnings After Bell on February 25, 2026: Wall Street Eyes AI Demand",
+      "size": 20,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Microsoft",
+        "Meta",
+        "Apple"
+      ],
+      "top_keywords": [
+        "nvidia",
+        "earnings",
+        "nvda",
+        "quarter",
+        "ceo jensen"
+      ],
+      "example_titles": [
+        "NVIDIA (NVDA) Set to Report Q4 FY2026 Earnings After Bell on February 25, 2026: Wall Street Eyes AI Demand",
+        "Nvidia keeps the AI party alive with a booming quarter and even better outlook",
+        "Nvidia Earnings: Updates and Commentary February 2026",
+        "CEO Jensen Huang Just Handed Down Incredible News for Nvidia Stock Investors",
+        "Jim Cramer Calls Nvidia's After-Hours Dip Is A 'Mistake,' Analyst Says Investors Now Expect Outsized Results Each Quarter"
+      ],
+      "source_count": 12,
+      "relevance": 0.304,
+      "previous_theme_id": "2026-W08_theme_9",
+      "previous_week": "2026-W08",
+      "previous_label": "Nvidia, software reports pose next tests for AI-sensitive stock market",
+      "previous_size": 43,
+      "similarity_to_previous": 0.8723,
+      "growth_rate": -0.5349,
+      "is_new_theme": false,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W10_theme_14"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.6245
+    },
+    {
+      "theme_id": "2026-W09_theme_10",
+      "week": "2026-W09",
+      "cluster_id": 10,
+      "label": "Nvidia developing new chip to boost AI speed",
+      "size": 17,
+      "top_companies": [
+        "NVIDIA",
+        "Groq",
+        "Google",
+        "Meta",
+        "Cerebras Systems"
+      ],
+      "top_keywords": [
+        "nvidia",
+        "chip",
+        "speed",
+        "plans",
+        "processing"
+      ],
+      "example_titles": [
+        "Nvidia developing new chip to boost AI speed",
+        "Nvidia results are AI market's biggest test amid competitive worries",
+        "Nvidia plans new chip to speed AI processing: WSJ",
+        "Nvidia plans new chip to speed AI processing, WSJ reports",
+        "OpenAI Becomes Top Buyer for New NVIDIA-Groq AI Chip, Securing 3GW Capacity"
+      ],
+      "source_count": 15,
+      "relevance": 0.532,
+      "previous_theme_id": "2026-W08_theme_7",
+      "previous_week": "2026-W08",
+      "previous_label": "Meta integrates Nvidia GPUs, CPUs, and confidential computing tools",
+      "previous_size": 17,
+      "similarity_to_previous": 0.8922,
+      "growth_rate": 0.0,
+      "is_new_theme": false,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W10_theme_1"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.5609
+    },
+    {
+      "theme_id": "2026-W09_theme_4",
+      "week": "2026-W09",
+      "cluster_id": 4,
+      "label": "OpenAI announces $110 billion investment round at $730 billion pre-money valuation",
+      "size": 16,
       "top_companies": [
         "NVIDIA",
         "Amazon",
+        "Microsoft",
         "Google",
-        "Dell Technologies",
-        "Micron"
+        "AMD"
       ],
       "top_keywords": [
-        "chips",
-        "chip",
-        "compute",
-        "semiconductor"
+        "openai",
+        "funding",
+        "amazon",
+        "round",
+        "softbank"
       ],
       "example_titles": [
-        "Wall Street sees drop under weight of Nvidia losses | Arkansas Democrat Gazette",
-        "The worst day for Nvidia's stock since last spring drags Wall Street lower",
-        "The worst day for Nvidia’s stock since last spring drags Wall Street lower",
-        "Nvidia delivers another quarter of stellar growth amid growing concern over AI economy",
-        "Dow Gains 308, Nasdaq Climbs 288, S&P 500 Adds 56"
+        "OpenAI announces $110 billion investment round at $730 billion pre-money valuation",
+        "OpenAI's $110 billion funding round draws investment from Amazon, Nvidia, SoftBank",
+        "OpenAI valued at $840bn after record Amazon funding deal",
+        "OpenAI gets $110 billon in funding from a trio of tech powerhouses, led by Amazon",
+        "OpenAI raises $110 billion in largest-ever private tech funding round, Nvidia throws in $30 billion — AI startup now valued at $730 billion"
       ],
-      "previous_theme_id": "2026-W08_theme_13",
+      "source_count": 14,
+      "relevance": 0.55,
+      "previous_theme_id": "2026-W08_theme_5",
       "previous_week": "2026-W08",
-      "previous_label": "higher | market higher | leads",
-      "previous_size": 8,
-      "similarity_to_previous": 0.8788,
-      "growth_rate": 0.375,
+      "previous_label": "Nvidia poised to back OpenAI in $100 bln raise",
+      "previous_size": 16,
+      "similarity_to_previous": 0.9517,
+      "growth_rate": 0.0,
       "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.5545
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W10_theme_16"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.5503
     },
     {
-      "theme_id": "2026-W09_theme_11",
+      "theme_id": "2026-W09_theme_6",
       "week": "2026-W09",
-      "cluster_id": 11,
-      "label": "drop trump | drop | ramps",
-      "size": 7,
+      "cluster_id": 6,
+      "label": "AI is gobbling up the world’s memory chips, sending smartphone prices to record highs, report says",
+      "size": 9,
       "top_companies": [
-        "Amazon",
-        "Google",
-        "NVIDIA"
+        "Samsung Electronics",
+        "NVIDIA",
+        "Micron",
+        "SK hynix",
+        "AMD"
       ],
       "top_keywords": [
-        "chips",
-        "chip"
+        "memory",
+        "make",
+        "micron",
+        "boom",
+        "amid"
       ],
       "example_titles": [
-        "U.S. stocks drop after President Trump ramps up his tariffs and investors dump potential AI losers",
-        "US stocks drop after Trump ramps up new tariffs",
-        "US stocks drop after Trump ramps up new tariffs",
-        "US stocks drop after Trump ramps up new tariffs",
-        "U.S. stocks drop after Trump ramps up his tariffs and worries flare about potential AI losers"
+        "AI is gobbling up the world’s memory chips, sending smartphone prices to record highs, report says",
+        "AI driven RAM shortage may make sub-Rs 9,000 phones ‘permanently uneconomical’, says IDC",
+        "Samsung Electronics Stock Poised for $1 Trillion Valuation Amid AI and Memory Boom",
+        "Micron Technology (MU) Stock Climbs Near $420 Amid AI Memory Boom",
+        "SK Hynix’s $15 Billion HBM Gambit: Cementing Dominance in the Global AI Memory Arms Race"
       ],
-      "previous_theme_id": "2026-W08_theme_10",
+      "source_count": 9,
+      "relevance": 0.516,
+      "previous_theme_id": "2026-W08_theme_8",
       "previous_week": "2026-W08",
-      "previous_label": "stocks | close | better",
-      "previous_size": 5,
-      "similarity_to_previous": 0.7749,
-      "growth_rate": 0.4,
+      "previous_label": "Rampant AI demand for memory is fueling a growing chip crisis",
+      "previous_size": 7,
+      "similarity_to_previous": 0.8966,
+      "growth_rate": 0.2857,
       "is_new_theme": false,
       "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W10_theme_12"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.4818
+    },
+    {
+      "theme_id": "2026-W09_theme_7",
+      "week": "2026-W09",
+      "cluster_id": 7,
+      "label": "All the important news from the ongoing India AI Impact Summit",
+      "size": 9,
+      "top_companies": [
+        "NVIDIA",
+        "Microsoft",
+        "Qualcomm",
+        "Google",
+        "Intel"
+      ],
+      "top_keywords": [
+        "india",
+        "summit",
+        "adopt",
+        "amitians",
+        "awards"
+      ],
+      "example_titles": [
+        "All the important news from the ongoing India AI Impact Summit",
+        "Intel in talks to join DLI 2.0, backs India AI Mission with push to democratise AI- Moneycontrol.com",
+        "ET AI Conclave and Awards: India’s Biggest AI Night",
+        "India should adopt ‘Trustworthy’ AI tools to stay safe and transparent",
+        "GOI has a math problem to solve"
+      ],
+      "source_count": 8,
+      "relevance": 0.521,
+      "previous_theme_id": "2026-W08_theme_4",
+      "previous_week": "2026-W08",
+      "previous_label": "AI boom! What Nvidia wants from India to put New Delhi on the global manufacturing map",
+      "previous_size": 42,
+      "similarity_to_previous": 0.9271,
+      "growth_rate": -0.7857,
+      "is_new_theme": false,
+      "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.4525
+      "emerging_score": 0.3879
+    },
+    {
+      "theme_id": "2026-W09_theme_5",
+      "week": "2026-W09",
+      "cluster_id": 5,
+      "label": "Save $455 on the modern HP Omen 16 with a shiny new Intel Core Ultra 7 and an RTX 5060",
+      "size": 10,
+      "top_companies": [
+        "Intel",
+        "NVIDIA",
+        "AMD",
+        "Lenovo",
+        "Apple"
+      ],
+      "top_keywords": [
+        "intel",
+        "gaming",
+        "rtx",
+        "save",
+        "ultra"
+      ],
+      "example_titles": [
+        "Save $455 on the modern HP Omen 16 with a shiny new Intel Core Ultra 7 and an RTX 5060",
+        "Choose an Intel or AMD CPU and save up to $1200 on an RTX 5080-powered Omen Max 16 laptop — high-end gaming just got cheaper",
+        "HP Zbook Ultra G1a Review (Strix Halo)",
+        "Apple’s M5 Mac Lineup Poised to Eliminate Every Compromise That Has Plagued the Platform for Years",
+        "Xiaomi 17 series debuts ahead of MWC 2026 as company signals bigger AI and ecosystem push"
+      ],
+      "source_count": 8,
+      "relevance": 0.424,
+      "previous_theme_id": "2026-W08_theme_6",
+      "previous_week": "2026-W08",
+      "previous_label": "AMD Zen 6 and Intel Nova Lake CPUs reportedly arriving late, delayed to CES 2027 — next-gen chips rocked by industry turmoil",
+      "previous_size": 16,
+      "similarity_to_previous": 0.7956,
+      "growth_rate": -0.375,
+      "is_new_theme": false,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W10_theme_4"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.3841
     }
   ]
 }

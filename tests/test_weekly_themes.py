@@ -5,6 +5,8 @@ from src.themes.build_weekly_themes import (
     build_theme_objects,
     embed_articles,
     get_week,
+    headline,
+    keyphrases_by_cluster,
     group_by_week,
     load_embedding_cache,
     save_embedding_cache,
@@ -68,13 +70,23 @@ def test_embedding_cache_round_trip(tmp_path):
     np.testing.assert_array_equal(loaded["b"], cache["b"])
 
 
-def test_theme_objects_skip_noise_and_aggregate_companies():
+def make_articles(n, source_prefix="site", title="Nvidia HBM supply story"):
+    return [
+        {
+            "article_id": f"{source_prefix}{i}",
+            "title": f"{title} {i} | Site {i}",
+            "source": f"{source_prefix}{i}.com",
+            "matched_companies": ["NVIDIA"],
+        }
+        for i in range(n)
+    ]
+
+
+def test_theme_objects_skip_noise_and_use_most_central_headline():
     week = "2026-W02"
-    articles = [
-        {"article_id": str(i), "title": f"Nvidia HBM supply story {i}", "matched_companies": ["NVIDIA"], "matched_keywords": ["hbm"]}
-        for i in range(3)
-    ] + [{"article_id": "noise", "title": "Unrelated", "matched_companies": [], "matched_keywords": []}]
-    embeddings = np.eye(4)
+    articles = make_articles(3) + [{"article_id": "noise", "title": "Unrelated", "source": "x.com"}]
+    angles = np.radians([0, 20, 40, 90])  # article 1 sits in the middle of the cluster
+    embeddings = np.stack([np.cos(angles), np.sin(angles)], axis=1)
     labels = np.array([0, 0, 0, -1])
 
     themes = build_theme_objects(week, articles, embeddings, labels)
@@ -83,6 +95,42 @@ def test_theme_objects_skip_noise_and_aggregate_companies():
     theme = themes[0]
     assert theme["theme_id"] == "2026-W02_theme_0"
     assert theme["size"] == 3
+    assert theme["source_count"] == 3
     assert theme["top_companies"] == ["NVIDIA"]
     assert "noise" not in theme["article_ids"]
-    assert len(theme["centroid"]) == 4
+    # Site suffix stripped; the article nearest the centroid comes first.
+    assert theme["label"] == "Nvidia HBM supply story 1"
+    assert theme["example_titles"][0] == theme["label"]
+
+
+def test_single_source_cluster_is_not_a_theme():
+    articles = [{**a, "source": "fool.com"} for a in make_articles(5)]
+    labels = np.zeros(5, dtype=int)
+
+    assert build_theme_objects("W1", articles, np.eye(5), labels) == []
+
+
+def test_off_scope_cluster_is_dropped():
+    articles = make_articles(3)
+    embeddings = np.tile([1.0, 0.0], (3, 1))
+    labels = np.zeros(3, dtype=int)
+    in_scope = np.array([[1.0, 0.0]])
+    out_of_scope = np.array([[0.0, 1.0]])
+
+    assert len(build_theme_objects("W1", articles, embeddings, labels, in_scope)) == 1
+    assert build_theme_objects("W1", articles, embeddings, labels, out_of_scope) == []
+
+
+def test_keyphrases_favor_terms_distinct_to_each_theme():
+    phrases = keyphrases_by_cluster([
+        ["Nvidia invests in OpenAI", "OpenAI raises funding from Nvidia"],
+        ["AMD shares plunge on forecast", "AMD forecast disappoints investors"],
+    ])
+
+    assert "openai" in phrases[0] and "amd" not in phrases[0]
+    assert "forecast" in phrases[1] and "openai" not in phrases[1]
+
+
+def test_headline_strips_site_suffix():
+    assert headline("Nvidia to invest $20B in OpenAI | Reuters") == "Nvidia to invest $20B in OpenAI"
+    assert headline("Intel - AMD rivalry heats up - CNBC") == "Intel - AMD rivalry heats up"

@@ -2,338 +2,77 @@
   "week": "2026-W01",
   "themes": [
     {
-      "theme_id": "2026-W01_theme_8",
-      "week": "2026-W01",
-      "cluster_id": 8,
-      "label": "big | big tech | bubble",
-      "size": 21,
-      "top_companies": [
-        "AMD",
-        "Amazon",
-        "Apple",
-        "Broadcom",
-        "Google"
-      ],
-      "top_keywords": [],
-      "example_titles": [
-        "Be warned: big tech elitism beyond dot-com bubble peak",
-        "Be warned: big tech elitism beyond dot-com bubble peak",
-        "Be warned: big tech elitism beyond dot-com bubble peak",
-        "Be warned: big tech elitism beyond dot-com bubble peak",
-        "Be warned: big tech elitism beyond dot-com bubble peak"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 1.0
-    },
-    {
-      "theme_id": "2026-W01_theme_11",
-      "week": "2026-W01",
-      "cluster_id": 11,
-      "label": "ai capacity | capacity | capacity race",
-      "size": 18,
-      "top_companies": [
-        "AMD",
-        "Amazon",
-        "Broadcom",
-        "Google",
-        "Groq"
-      ],
-      "top_keywords": [
-        "chip",
-        "chips",
-        "compute",
-        "data center",
-        "gpu",
-        "inference",
-        "semiconductor",
-        "datacenter"
-      ],
-      "example_titles": [
-        "From OpenAI to Nvidia, firms channel billions into AI infrastructure as demand booms",
-        "From chips to clouds, firms pour billions into AI capacity race",
-        "From chips to clouds, firms pour billions into AI capacity race",
-        "From chips to clouds, firms pour billions into AI capacity race",
-        "From chips to clouds, firms pour billions into AI capacity race"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W02_theme_12"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.955
-    },
-    {
-      "theme_id": "2026-W01_theme_3",
-      "week": "2026-W01",
-      "cluster_id": 3,
-      "label": "group | group warns | industry",
-      "size": 14,
-      "top_companies": [
-        "Amazon",
-        "Intel",
-        "Microsoft",
-        "NVIDIA",
-        "Apple"
-      ],
-      "top_keywords": [
-        "training",
-        "chip"
-      ],
-      "example_titles": [
-        "Israel’s IDF-Silicon Valley Alliance: AI Warfare and Ethical Concerns",
-        "More Israeli tech workers seek overseas moves, industry group warns",
-        "More Israeli tech workers seek overseas moves, industry group warns",
-        "More Israeli tech workers seek overseas moves, industry group warns",
-        "More Israeli tech workers seek overseas moves, industry group warns"
-      ],
-      "previous_theme_id": "2025-W52_theme_1",
-      "previous_week": "2025-W52",
-      "previous_label": "sector | tech | tech sector",
-      "previous_size": 6,
-      "similarity_to_previous": 0.9686,
-      "growth_rate": 1.3333,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.8587
-    },
-    {
-      "theme_id": "2026-W01_theme_4",
-      "week": "2026-W01",
-      "cluster_id": 4,
-      "label": "2026 | 2026 year | actually",
-      "size": 12,
-      "top_companies": [
-        "Google",
-        "NVIDIA"
-      ],
-      "top_keywords": [
-        "chip",
-        "chips"
-      ],
-      "example_titles": [
-        "Will 2026 be the year when the great AI revolution actually happens?",
-        "Will 2026 be the year when the great AI revolution actually happens?",
-        "Will 2026 be the year when the great AI revolution actually happens?",
-        "Will 2026 be the year when the great AI revolution actually happens?",
-        "Will 2026 be the year when the great AI revolution actually happens?"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.82
-    },
-    {
-      "theme_id": "2026-W01_theme_15",
-      "week": "2026-W01",
-      "cluster_id": 15,
-      "label": "2026 | edges | edges higher",
-      "size": 12,
-      "top_companies": [
-        "Microsoft",
-        "NVIDIA",
-        "Tesla"
-      ],
-      "top_keywords": [
-        "chip",
-        "chips"
-      ],
-      "example_titles": [
-        "Wall Street edges higher in a wobbly start to 2026",
-        "Wall Street edges higher in a wobbly start to 2026",
-        "Shares are higher in Asia in an upbeat start to the new year",
-        "Wall Street edges higher in a wobbly start to 2026",
-        "Wall Street edges higher in a wobbly start to 2026"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W02_theme_10"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.82
-    },
-    {
       "theme_id": "2026-W01_theme_12",
       "week": "2026-W01",
       "cluster_id": 12,
-      "label": "2025 | 2026 | stock",
-      "size": 11,
+      "label": "The $5 Trillion Engine: How the 'AI Trade' Defied Gravity and Redefined the Market in 2025",
+      "size": 28,
       "top_companies": [
         "NVIDIA",
-        "Amazon",
         "Microsoft",
-        "Tesla",
-        "Apple"
-      ],
-      "top_keywords": [
-        "chip",
-        "semiconductor",
-        "data center",
-        "chips",
-        "inference",
-        "training",
-        "advanced packaging"
-      ],
-      "example_titles": [
-        "Another big year on Wall Street",
-        "AI, corporate profits, Fed rate cuts key to 2026 U.S. stock market | Honolulu Star-Advertiser",
-        "Big Tech Stumbles at the Finish Line: Nvidia and Tesla Lead Year-End Retreat as Santa Claus Rally Vanishes",
-        "2025’s Final Whimper: Why a Four-Day Slump Derailed the Santa Claus Rally but Not the Year’s Gains",
-        "The stock market surged in 2025. What do experts think could happen in 2026?"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.7975
-    },
-    {
-      "theme_id": "2026-W01_theme_6",
-      "week": "2026-W01",
-      "cluster_id": 6,
-      "label": "2026 | ces | ces 2026",
-      "size": 9,
-      "top_companies": [
-        "NVIDIA",
-        "AMD",
-        "Intel",
-        "Samsung Electronics",
-        "Lenovo"
-      ],
-      "top_keywords": [
-        "chips",
-        "chip",
-        "gpu",
-        "compute",
-        "memory",
-        "data center",
-        "inference",
-        "server"
-      ],
-      "example_titles": [
-        "CES 2026 LIVE — all the best new gadgets announced so far",
-        "How to Watch AMD's CES 2026 Keynote",
-        "Nvidia CES 2026 keynote LIVE — All the biggest announcements from Jensen Huang and what to expect from GeForce On",
-        "CES 2026: What to expect from tech's big January conference",
-        "CES 2026: What to expect from the tech industry’s biggest show of the year"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W02_theme_17"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.7525
-    },
-    {
-      "theme_id": "2026-W01_theme_10",
-      "week": "2026-W01",
-      "cluster_id": 10,
-      "label": "intel | nvidia | billion",
-      "size": 9,
-      "top_companies": [
-        "NVIDIA",
-        "Intel",
         "Google",
-        "Groq",
-        "Microsoft"
+        "Apple",
+        "Tesla"
       ],
       "top_keywords": [
-        "chips",
-        "semiconductor",
-        "chip",
-        "gpu",
-        "training",
-        "data center",
-        "inference",
-        "ai accelerator"
+        "big",
+        "year-end",
+        "engine",
+        "slide",
+        "tesla"
       ],
       "example_titles": [
-        "Why Is Intel (INTC) Stock Soaring Today",
-        "Partnership sealed: Nvidia buys Intel shares",
-        "Nvidia is getting creative as options to use its cash flood narrow | Mint",
-        "Nvidia Invests $5 Billion in Intel With Plans for Joint CPU Production",
-        "Nvidia secures major multi-billion dollar stake in Intel"
+        "The $5 Trillion Engine: How the 'AI Trade' Defied Gravity and Redefined the Market in 2025",
+        "Tech Titans Stumble: Nvidia and Tesla Lead Year-End Market Slide as 2025 Draws to a Close",
+        "Trump 2.0, stocks soar again, gold hits records, AI boom rolls on — Yahoo Finance's 2025 year in review",
+        "AI, corporate profits, Fed rate cuts key to 2026 U.S. stock market | Honolulu Star-Advertiser",
+        "Big Tech 2025: Alphabet and Nvidia dominate stock market, others lack momentum"
       ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
+      "source_count": 17,
+      "relevance": 0.352,
+      "previous_theme_id": "2025-W52_theme_0",
+      "previous_week": "2025-W52",
+      "previous_label": "Silver overtakes Apple, Alphabet in market value, expected to surpass NVIDIA",
+      "previous_size": 7,
+      "similarity_to_previous": 0.7878,
+      "growth_rate": 3.0,
+      "is_new_theme": false,
       "is_emerging": true,
       "next_theme_ids": [
-        "2026-W02_theme_9"
+        "2026-W02_theme_3"
       ],
       "out_degree": 1,
-      "emerging_score": 0.7525
+      "emerging_score": 0.9576
     },
     {
       "theme_id": "2026-W01_theme_2",
       "week": "2026-W01",
       "cluster_id": 2,
-      "label": "best | best dell | computer",
-      "size": 8,
+      "label": "Apple’s ‘affordable’ MacBook arrival rumors heat up",
+      "size": 16,
       "top_companies": [
-        "Dell Technologies",
+        "Qualcomm",
+        "Apple",
         "Intel",
-        "NVIDIA"
+        "Samsung Electronics",
+        "Google"
       ],
       "top_keywords": [
-        "gpu",
-        "memory"
+        "iphone",
+        "apple",
+        "adds",
+        "affordable",
+        "far"
       ],
       "example_titles": [
-        "Level up with the best Dell desktop computer",
-        "Level up with the best Dell desktop computer",
-        "Level up with the best Dell desktop computer",
-        "Level up with the best Dell desktop computer",
-        "Level up with the best Dell desktop computer"
+        "Apple’s ‘affordable’ MacBook arrival rumors heat up",
+        "Forget dual-screen gaming handhelds; it's foldable-screen time",
+        "The best tablets of 2025",
+        "Samsung Galaxy S26: What We Know So Far",
+        "Lenovo’s Next Wave of Snapdragon X2 PCs Just Leaked"
       ],
+      "source_count": 14,
+      "relevance": 0.43,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -342,92 +81,127 @@
       "growth_rate": null,
       "is_new_theme": true,
       "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.73
+      "next_theme_ids": [
+        "2026-W02_theme_0"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.91
+    },
+    {
+      "theme_id": "2026-W01_theme_1",
+      "week": "2026-W01",
+      "cluster_id": 1,
+      "label": "Nvidia scrambling to meet demand for new H200 chip",
+      "size": 15,
+      "top_companies": [
+        "NVIDIA",
+        "TSMC",
+        "Intel",
+        "AMD",
+        "Samsung Electronics"
+      ],
+      "top_keywords": [
+        "nvidia",
+        "chip",
+        "h200",
+        "demand",
+        "china"
+      ],
+      "example_titles": [
+        "Nvidia scrambling to meet demand for new H200 chip",
+        "Nvidia sounds out TSMC on new H200 chip order as China demand jumps",
+        "ByteDance to pour US$14 billion into Nvidia chips in 2026 as computing demand surges",
+        "Silicon Diplomacy: Nvidia’s H200 Surge in China Ignites a New Era for AI Semiconductors",
+        "ByteDance to invest $14 billion in Nvidia"
+      ],
+      "source_count": 15,
+      "relevance": 0.568,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W02_theme_5"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.8875
     },
     {
       "theme_id": "2026-W01_theme_0",
       "week": "2026-W01",
       "cluster_id": 0,
-      "label": "old | year | year old",
-      "size": 7,
+      "label": "China AI chipmaker Biren soars over 100% on Hong Kong debut as IPO wave builds",
+      "size": 14,
       "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Qualcomm",
+        "Amazon",
+        "TSMC"
+      ],
+      "top_keywords": [
+        "biren",
+        "hong",
+        "kong",
+        "debut",
+        "china"
+      ],
+      "example_titles": [
+        "China AI chipmaker Biren soars over 100% on Hong Kong debut as IPO wave builds",
+        "China AI chipmaker Biren soars in Hong Kong debut as IPO wave builds",
+        "AI chip designer Biren’s shares double on debut in Hong Kong",
+        "Asia’s First Trading Day of 2026: AI Chips Steal the Show While Bitcoin Flatlines",
+        "Top 5 AI Stocks to Invest in for 2026"
+      ],
+      "source_count": 9,
+      "relevance": 0.43,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W02_theme_4"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.865
+    },
+    {
+      "theme_id": "2026-W01_theme_5",
+      "week": "2026-W01",
+      "cluster_id": 5,
+      "label": "Nvidia & AMD GPU Price Hike 2026: AI Boom Drives Costs",
+      "size": 14,
+      "top_companies": [
+        "NVIDIA",
+        "AMD",
+        "Google",
         "Intel",
-        "NVIDIA",
-        "Tesla",
-        "Google"
+        "TSMC"
       ],
-      "top_keywords": [],
+      "top_keywords": [
+        "gpu",
+        "rtx",
+        "price",
+        "amd",
+        "graphics"
+      ],
       "example_titles": [
-        "'Sell Your Stupid Truck, Dude'— Dave Ramsey Tells Ohio Trucker With $65K Debt And $970 Car Payment He's In The 'Cray Cray Zone'",
-        "'I Was An Idiot,' 60-Year-Old Says As Dave Ramsey Confronts Her $29K Jetta Repo Fallout After Co-Signing For 43-Year-Old Ex",
-        "Wife Says Her Healthy In-Laws, 65, Want To Live In Retirement Home So They Can Be 'Waited On'—But Won't Sell Their House and Expect Her to Pay",
-        "Wife Says Her Healthy In-Laws, 65, Want To Live In Retirement Home So They Can Be 'Waited On'—But Won't Sell Their House and Expect Her to Pay",
-        "'Am I Signing Up For A Lifetime Of Resentment?' — Man Earning $85K Learns Girlfriend's Debt Exploded From $60K To $160K"
+        "Nvidia & AMD GPU Price Hike 2026: AI Boom Drives Costs",
+        "NVIDIA GeForce RTX 5090 Founders Edition GPU Jumps To $3695 At Newegg, Almost Double Its MSRP",
+        "RTX 5070 Ti price drop: save $130 on a modern PCIe 5.0 GPU",
+        "Graphics Card Market Stabilizes: GPU Pricing Trends and PC Hardware Outlook Explained",
+        "2026 GPU price rise: AMD, NVIDIA graphics card to get more expensive"
       ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.7075
-    },
-    {
-      "theme_id": "2026-W01_theme_13",
-      "week": "2026-W01",
-      "cluster_id": 13,
-      "label": "2025 | final | 2025 banner",
-      "size": 7,
-      "top_companies": [
-        "Broadcom",
-        "Micron",
-        "NVIDIA",
-        "Western Digital"
-      ],
-      "top_keywords": [],
-      "example_titles": [
-        "Stocks dip in final hours of 2025",
-        "Wall Street falls in light trading on the final day of 2025, another banner year for markets - WWAYTV3",
-        "Wall Street falls in light trading on the final day of 2025, another banner year for markets",
-        "Wall Street falls in light trading on the final day of 2025, another banner year for markets",
-        "Wall Street falls in light trading on the final day of 2025, another banner year for markets"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.7075
-    },
-    {
-      "theme_id": "2026-W01_theme_16",
-      "week": "2026-W01",
-      "cluster_id": 16,
-      "label": "2025 | 2025 winds | slip",
-      "size": 7,
-      "top_companies": [
-        "Broadcom",
-        "NVIDIA"
-      ],
-      "top_keywords": [],
-      "example_titles": [
-        "Stocks slip on Wall Street as 2025 winds down",
-        "Stocks slip on Wall Street as 2025 winds down",
-        "Stocks slip on Wall Street as 2025 winds down",
-        "Stocks slip on Wall Street as 2025 winds down",
-        "Stocks slip on Wall Street as 2025 winds down"
-      ],
+      "source_count": 12,
+      "relevance": 0.377,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -440,71 +214,37 @@
         "2026-W02_theme_7"
       ],
       "out_degree": 1,
-      "emerging_score": 0.7075
+      "emerging_score": 0.865
     },
     {
-      "theme_id": "2026-W01_theme_1",
+      "theme_id": "2026-W01_theme_3",
       "week": "2026-W01",
-      "cluster_id": 1,
-      "label": "2025 | 2025 politics | politics",
-      "size": 6,
+      "cluster_id": 3,
+      "label": "Watch the NVIDIA CES 2026 keynote with CEO Jensen Huang live here: AI, robotics updates and more",
+      "size": 11,
       "top_companies": [
-        "Intel",
-        "Foxconn",
-        "Meta",
-        "Microsoft"
-      ],
-      "top_keywords": [
-        "chips",
-        "data center",
-        "datacenter",
-        "training"
-      ],
-      "example_titles": [
-        "2025 Wrap Up: Gov. Evers Highlights 2025 Accomplishments",
-        "2025 in politics: A recap of this year's top stories",
-        "2025 in politics: A recap of this year's top stories",
-        "2025 in politics: A recap of this year's top stories",
-        "2025 in politics: A recap of this year's top stories"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.685
-    },
-    {
-      "theme_id": "2026-W01_theme_7",
-      "week": "2026-W01",
-      "cluster_id": 7,
-      "label": "ai hype | ces gadgetfest | gadgetfest",
-      "size": 6,
-      "top_companies": [
-        "Lenovo",
-        "Meta",
+        "NVIDIA",
         "AMD",
         "Intel",
-        "Qualcomm"
+        "Lenovo",
+        "Samsung Electronics"
       ],
       "top_keywords": [
-        "chip",
-        "chips",
-        "memory",
-        "semiconductor"
+        "ces",
+        "huang",
+        "jensen",
+        "expect",
+        "keynote"
       ],
       "example_titles": [
-        "Sprawling CES gadgetfest a world stage for AI and its hype",
-        "Sprawling CES gadgetfest a world stage for AI and its hype",
-        "Sprawling CES gadgetfest a world stage for AI and its hype",
-        "Sprawling CES gadgetfest a world stage for AI and its hype | News",
-        "Sprawling CES gadgetfest a world stage for AI and its hype | Mint"
+        "Watch the NVIDIA CES 2026 keynote with CEO Jensen Huang live here: AI, robotics updates and more",
+        "How to watch the NVIDIA CES 2026 press conference with Jensen Huang live",
+        "CES 2026: What to expect from the tech industry’s biggest show of the year",
+        "Nvidia CES 2026 keynote LIVE — All the biggest announcements from Jensen Huang and what to expect from GeForce On",
+        "Nvidia, Lenovo and Samsung to test consumer appetite for AI at CES"
       ],
+      "source_count": 8,
+      "relevance": 0.397,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -514,30 +254,83 @@
       "is_new_theme": true,
       "is_emerging": true,
       "next_theme_ids": [
-        "2026-W02_theme_16"
+        "2026-W02_theme_12"
       ],
       "out_degree": 1,
-      "emerging_score": 0.685
+      "emerging_score": 0.7975
     },
     {
-      "theme_id": "2026-W01_theme_14",
+      "theme_id": "2026-W01_theme_11",
       "week": "2026-W01",
-      "cluster_id": 14,
-      "label": "gold | gold silver | rise",
-      "size": 6,
+      "cluster_id": 11,
+      "label": "Analysts Watch QUALCOMM Incorporated (QCOM)’s Expanding AI Data Center Footprint",
+      "size": 11,
       "top_companies": [
-        "Apple",
-        "Meta",
-        "NVIDIA"
+        "NVIDIA",
+        "Amazon",
+        "Google",
+        "Tesla",
+        "Microsoft"
       ],
-      "top_keywords": [],
+      "top_keywords": [
+        "billionaires",
+        "global",
+        "amid",
+        "boom",
+        "aem"
+      ],
       "example_titles": [
-        "Stocks edge lower while gold and silver rise",
-        "Stocks edge lower as 2025 winds down while gold and silver rise",
-        "Stocks waver as 2025 winds down while gold and silver rise",
-        "Stocks waver as 2025 winds down while gold and silver rise",
-        "Stocks waver as 2025 winds down while gold and silver rise"
+        "Analysts Watch QUALCOMM Incorporated (QCOM)’s Expanding AI Data Center Footprint",
+        "Buy Agnico Eagle (AEM) to Gain Exposure to Gold, Says Jim Cramer",
+        "Lucid Group, Inc. (LCID)’s SUV Arrives With High Hopes And Significant Risks",
+        "Intel (INTC) Draws Strategic Nvidia Investment as Chip Testing Plans Shift",
+        "How CEOs are using AI in their daily lives"
       ],
+      "source_count": 7,
+      "relevance": 0.487,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W02_theme_1"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.7975
+    },
+    {
+      "theme_id": "2026-W01_theme_4",
+      "week": "2026-W01",
+      "cluster_id": 4,
+      "label": "MSI Gaming Desktop PC Aegis RS2 AI C2NVP7-1444US Intel Core Ultra 7 265K 32GB DDR5 2TB NVMe SSD GeForce RTX 5070 Windows 11 Home Advance",
+      "size": 10,
+      "top_companies": [
+        "NVIDIA",
+        "Intel",
+        "AMD",
+        "Amazon",
+        "Google"
+      ],
+      "top_keywords": [
+        "pro",
+        "intel",
+        "gaming",
+        "arc",
+        "blackwell"
+      ],
+      "example_titles": [
+        "MSI Gaming Desktop PC Aegis RS2 AI C2NVP7-1444US Intel Core Ultra 7 265K 32GB DDR5 2TB NVMe SSD GeForce RTX 5070 Windows 11 Home Advance",
+        "Intel Arc B570 GPU kicks off new year at just $199 — save $30 on one of the best budget GPUs around",
+        "Score an Intel Arc B570 OC Graphics Card for Just $200 Today at Amazon",
+        "Nvidia RTX Pro 5000 Blackwell GPU: 72GB GDDR7, AI Power for Pros",
+        "Nvidia RTX Pro 5000 Blackwell packs huge memory for workstation workloads"
+      ],
+      "source_count": 8,
+      "relevance": 0.486,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -548,37 +341,162 @@
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.685
+      "emerging_score": 0.775
     },
     {
-      "theme_id": "2026-W01_theme_5",
+      "theme_id": "2026-W01_theme_6",
       "week": "2026-W01",
-      "cluster_id": 5,
-      "label": "price | gpu | 2026",
-      "size": 5,
+      "cluster_id": 6,
+      "label": "What to expect for AI in 2026",
+      "size": 10,
       "top_companies": [
-        "AMD",
-        "NVIDIA",
-        "Microsoft",
         "Google",
-        "Dell Technologies"
+        "NVIDIA",
+        "Meta",
+        "Intel",
+        "Amazon"
       ],
       "top_keywords": [
-        "gpu",
-        "memory",
-        "chips",
-        "compute",
-        "data center",
-        "chip",
-        "hbm"
+        "trump",
+        "expect",
+        "actually happens",
+        "aide",
+        "american"
       ],
       "example_titles": [
-        "Potential PS6 Delay, GPU Price Rises Talk",
-        "Nvidia & AMD GPU Price Hike 2026: AI Boom Drives Costs | Outlook Respawn",
-        "AI Is Fueling The First Gaming Price Hike Of 2026",
-        "NVIDIA GeForce RTX 5090 Founders Edition GPU Jumps To $3695 At Newegg, Almost Double Its MSRP",
-        "2026 GPU price rise: AMD, NVIDIA graphics card to get more expensive"
+        "What to expect for AI in 2026",
+        "Year in review: The highs (and lows) of AI in 2025",
+        "My 10 tech predictions for 2026",
+        "Future of AI: Top trends to expect in 2026",
+        "Will 2026 be the year when the great AI revolution actually happens?"
       ],
+      "source_count": 10,
+      "relevance": 0.487,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.775
+    },
+    {
+      "theme_id": "2026-W01_theme_7",
+      "week": "2026-W01",
+      "cluster_id": 7,
+      "label": "Nvidia Invests $5 Billion in Intel With Plans for Joint CPU Production",
+      "size": 10,
+      "top_companies": [
+        "Intel",
+        "NVIDIA",
+        "AMD",
+        "Groq",
+        "Qualcomm"
+      ],
+      "top_keywords": [
+        "intel",
+        "nvidia",
+        "invests",
+        "stake",
+        "intc"
+      ],
+      "example_titles": [
+        "Nvidia Invests $5 Billion in Intel With Plans for Joint CPU Production",
+        "Nvidia takes $5 billion stake in Intel under September agreement",
+        "Nvidia Finalizes $5 Billion Purchase of Intel Shares",
+        "Partnership sealed: Nvidia buys Intel shares",
+        "Nvidia secures major multi-billion dollar stake in Intel"
+      ],
+      "source_count": 8,
+      "relevance": 0.422,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.775
+    },
+    {
+      "theme_id": "2026-W01_theme_10",
+      "week": "2026-W01",
+      "cluster_id": 10,
+      "label": "Inside the AI-led resource race",
+      "size": 7,
+      "top_companies": [
+        "NVIDIA",
+        "Amazon",
+        "Google",
+        "Microsoft",
+        "Meta"
+      ],
+      "top_keywords": [
+        "data",
+        "colossus",
+        "musk xai",
+        "ai-led",
+        "amid frenzy"
+      ],
+      "example_titles": [
+        "Inside the AI-led resource race",
+        "The $600 Billion Silicon Supercycle: How AI Infrastructure is Powering the 2026 Market Surge",
+        "Brookfield to start cloud business amid AI frenzy, The Information reports",
+        "Musk’s xAI buys building to expand ‘colossus’ data center",
+        "If India data centre investments were landmark in 2025, look out for new players, peaks in 2026"
+      ],
+      "source_count": 7,
+      "relevance": 0.764,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W02_theme_2"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.7075
+    },
+    {
+      "theme_id": "2026-W01_theme_9",
+      "week": "2026-W01",
+      "cluster_id": 9,
+      "label": "'Am I Signing Up For A Lifetime Of Resentment?' — Man Earning $85K Learns Girlfriend's Debt Exploded From $60K To $160K",
+      "size": 5,
+      "top_companies": [
+        "NVIDIA",
+        "Intel",
+        "Tesla",
+        "Google",
+        "Arm Holdings"
+      ],
+      "top_keywords": [
+        "debt",
+        "earning",
+        "softbank",
+        "wealth",
+        "bln"
+      ],
+      "example_titles": [
+        "'Am I Signing Up For A Lifetime Of Resentment?' — Man Earning $85K Learns Girlfriend's Debt Exploded From $60K To $160K",
+        "'You Don't Have To Convince Your Parents Of Anything' — Dave Ramsey Tells 22-Year-Old Earning $100K As Mom And Dad Push A $30K Car Debt",
+        "Wife Says Her Healthy In-Laws, 65, Want To Live In Retirement Home So They Can Be 'Waited On'—But Won't Sell Their House and Expect Her to Pay",
+        "Wealth quote of the day by SoftBank CEO Masayoshi Son: “The greatest risk is not ....” — The Masa Wealth Rule: move with conviction, and money will chase you",
+        "Japan's SoftBank in $4 bln AI deal to buy DigitalBridge"
+      ],
+      "source_count": 4,
+      "relevance": 0.422,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -592,48 +510,47 @@
       "emerging_score": 0.6625
     },
     {
-      "theme_id": "2026-W01_theme_9",
+      "theme_id": "2026-W01_theme_8",
       "week": "2026-W01",
-      "cluster_id": 9,
-      "label": "nvidia | fool | motley",
-      "size": 10,
+      "cluster_id": 8,
+      "label": "From chips to clouds, firms pour billions into AI capacity race",
+      "size": 14,
       "top_companies": [
         "NVIDIA",
-        "Meta",
-        "Micron",
-        "Broadcom",
-        "Google"
+        "Google",
+        "Groq",
+        "Amazon",
+        "AMD"
       ],
       "top_keywords": [
-        "semiconductor",
-        "data center",
-        "chip",
-        "chips",
-        "memory",
-        "inference",
-        "ai accelerator",
-        "hbm"
+        "nvidia",
+        "ai21",
+        "buy israel",
+        "deals",
+        "firms"
       ],
       "example_titles": [
-        "4 Reasons to Buy Nvidia Stock Like There's No Tomorrow",
-        "Nvidia’s $65 Billion Forecast Highlights AI Boom’s Impact",
-        "Nvidia's $65 Billion Forecast Sends a Clear Message About the AI Boom | The Motley Fool",
-        "Nvidia's $65 Billion Forecast Sends a Clear Message About the AI Boom | The Motley Fool",
-        "5 Cheap Tech Stocks to Buy Right Now | The Motley Fool"
+        "From chips to clouds, firms pour billions into AI capacity race",
+        "Nvidia, OpenAI, Meta lead surge in mega AI investment deals",
+        "AI boom fuels billion-dollar infrastructure deals across Big Tech",
+        "Nvidia is getting creative as options to use its cash flood narrow",
+        "Nvidia's $20 billion Groq IP deal bolsters AI market domination — hardware stack and key engineer behind Google TPUs included in bombshell agreement"
       ],
-      "previous_theme_id": "2025-W52_theme_0",
+      "source_count": 13,
+      "relevance": 0.503,
+      "previous_theme_id": "2025-W52_theme_1",
       "previous_week": "2025-W52",
-      "previous_label": "2026 | ai | nvidia",
-      "previous_size": 54,
-      "similarity_to_previous": 0.9072,
-      "growth_rate": -0.8148,
+      "previous_label": "trump: From AI to chips, Big Tech is getting what it wants from Trump",
+      "previous_size": 15,
+      "similarity_to_previous": 0.8263,
+      "growth_rate": -0.0667,
       "is_new_theme": false,
       "is_emerging": false,
       "next_theme_ids": [
-        "2026-W02_theme_14"
+        "2026-W02_theme_10"
       ],
       "out_degree": 1,
-      "emerging_score": 0.4064
+      "emerging_score": 0.4803
     }
   ]
 }

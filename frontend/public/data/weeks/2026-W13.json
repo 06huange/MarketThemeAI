@@ -2,269 +2,198 @@
   "week": "2026-W13",
   "themes": [
     {
-      "theme_id": "2026-W13_theme_8",
+      "theme_id": "2026-W13_theme_2",
       "week": "2026-W13",
-      "cluster_id": 8,
-      "label": "10 | 10 october | dropping",
-      "size": 15,
+      "cluster_id": 2,
+      "label": "Intel confirms rumored Core Ultra 9 290K Plus has been scrapped — potential Core Ultra 9 285KS Special Edition also off the table as Arrow Lake refresh rolls out",
+      "size": 43,
       "top_companies": [
-        "NVIDIA",
+        "Intel",
         "Google",
-        "Meta",
-        "Micron",
-        "Amazon"
-      ],
-      "top_keywords": [
-        "chip",
-        "memory"
-      ],
-      "example_titles": [
-        "Stock Market Today, March 26: Nasdaq Falls 2.4% After Meta and Micron Drop Sharply",
-        "US Stock Market | Stocks tumble, Dow confirms correction territory, as Middle East tensions drag",
-        "Nasdaq Enters Correction Territory, Dropping Over 10% Since October High | Jet Radio 1400",
-        "Nasdaq Enters Correction Territory, Dropping Over 10% Since October High | 710 WOR",
-        "Nasdaq Enters Correction Territory, Dropping Over 10% Since October High | News Radio 1410 AM & 100.9 FM"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.8875
-    },
-    {
-      "theme_id": "2026-W13_theme_10",
-      "week": "2026-W13",
-      "cluster_id": 10,
-      "label": "chip | arm | ai",
-      "size": 13,
-      "top_companies": [
-        "Meta",
         "NVIDIA",
-        "Intel",
-        "Arm Holdings",
-        "Cerebras Systems"
-      ],
-      "top_keywords": [
-        "chip",
-        "chips",
-        "semiconductor",
-        "data center",
-        "memory",
-        "server",
-        "inference",
-        "training"
-      ],
-      "example_titles": [
-        "Here’s What The New AI Chip Means For Arm Holdings (ARM)",
-        "Arm Shoulders More of the Supply Chain by Making a Chip",
-        "Why Arm's New AI Chip Is a Game Changer. Time to Buy the Stock?",
-        "Arm flexes its chip-making muscles (with Meta’s help)",
-        "Arm Holdings shares jump 19% to 3-month high as company unveils first-ever data centre CPU | Stock Market News"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.8425
-    },
-    {
-      "theme_id": "2026-W13_theme_0",
-      "week": "2026-W13",
-      "cluster_id": 0,
-      "label": "gaming | ai | rtx",
-      "size": 10,
-      "top_companies": [
-        "NVIDIA",
-        "Intel",
         "AMD",
-        "Lenovo",
-        "Amazon"
+        "Apple"
       ],
       "top_keywords": [
-        "gpu",
-        "memory",
-        "compute",
-        "inference",
-        "chip"
+        "intel",
+        "ultra",
+        "core",
+        "apple",
+        "rtx"
       ],
       "example_titles": [
-        "Asus Gaming V16 to HP Victus, best 5 gaming laptop deals you should consider",
-        "RTX 5060 gaming laptop brings epic power for under $1,500 — save $580 on Dell's Alienware 16X Aurora",
-        "Lucky User Grabs NVIDIA GeForce RTX 5060 Ti 8 GB Edition For Just $80",
-        "DURABOOK Launches Z14I-HG: The World's first AI-ready Fully Rugged Mobile Workstation Delivering AI Performance up to 682 TOPS",
-        "DURABOOK Launches Z14I-HG: The World's first AI-ready Fully Rugged Mobile Workstation Delivering AI Performance up to 682 TOPS"
+        "Intel confirms rumored Core Ultra 9 290K Plus has been scrapped — potential Core Ultra 9 285KS Special Edition also off the table as Arrow Lake refresh rolls out",
+        "Intel Reportedly Cancels Ultra 9 290K Plus Launch As It No Longer Deems It Necessary For the Market",
+        "Intel Core Ultra 3 205 Spotted On PassMark; Here's How It Compares Against Other Chips",
+        "Intel’s long-awaited big GPU is just for AI and starts at nearly $1,000.",
+        "MAINGEAR Introduces Intel Core Ultra 200S Plus CPUs To Custom-Configured Desktops Under MG-1 Lineup"
       ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
+      "source_count": 28,
+      "relevance": 0.482,
+      "previous_theme_id": "2026-W12_theme_12",
+      "previous_week": "2026-W12",
+      "previous_label": "I benchmarked Samsung’s Galaxy S26 series against iPhone and Pixel — there was a clear loser",
+      "previous_size": 14,
+      "similarity_to_previous": 0.8872,
+      "growth_rate": 2.0714,
+      "is_new_theme": false,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.775
+      "emerging_score": 0.9774
     },
     {
-      "theme_id": "2026-W13_theme_4",
+      "theme_id": "2026-W13_theme_9",
       "week": "2026-W13",
-      "cluster_id": 4,
-      "label": "disrupts energy | energy supplies | supplies",
-      "size": 9,
+      "cluster_id": 9,
+      "label": "Kirk Greene: Everyone Knows AI Will Pay Off — and That Should Worry Investors",
+      "size": 40,
       "top_companies": [
-        "Google",
         "NVIDIA",
+        "Amazon",
+        "Intel",
         "Microsoft",
-        "Intel"
+        "Google"
       ],
       "top_keywords": [
-        "data center"
+        "nvidia",
+        "buy",
+        "magnificent",
+        "amazon",
+        "analysts"
       ],
       "example_titles": [
-        "Here's Why Nuclear Energy Stocks May Be the Smartest Buys of 2026",
-        "Southeast Asia revisits nuclear power plans for AI data centers as Iran war disrupts energy supplies",
-        "Southeast Asia turns to nuclear as Iran war disrupts energy supplies",
-        "Southeast Asia revisits nuclear power plans for AI data centers as Iran war disrupts energy supplies",
-        "Southeast Asia turns to nuclear as Iran war disrupts energy supplies"
+        "Kirk Greene: Everyone Knows AI Will Pay Off — and That Should Worry Investors",
+        "Amazon Stock at a Crossroads: Generational Buy or Massive Value Trap?",
+        "Analysts Nudge Their Nvidia (NVDA) Price Targets Higher After GTC",
+        "Every Magnificent Seven Stock Is Down This Year. This One Is a Screaming Buy",
+        "This Software Company Is Betting $25 Billion That Its Stock Is Severely Undervalued Right Now"
       ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
+      "source_count": 14,
+      "relevance": 0.479,
+      "previous_theme_id": "2026-W12_theme_6",
+      "previous_week": "2026-W12",
+      "previous_label": "The Artificial Intelligence (AI) Stock Most Likely to Mint New Millionaires",
+      "previous_size": 14,
+      "similarity_to_previous": 0.8769,
+      "growth_rate": 1.8571,
+      "is_new_theme": false,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.7525
-    },
-    {
-      "theme_id": "2026-W13_theme_3",
-      "week": "2026-W13",
-      "cluster_id": 3,
-      "label": "musk | elon | elon musk",
-      "size": 8,
-      "top_companies": [
-        "Tesla",
-        "NVIDIA",
-        "Samsung Electronics",
-        "TSMC",
-        "Intel"
-      ],
-      "top_keywords": [
-        "chip",
-        "chips",
-        "semiconductor",
-        "compute",
-        "lithography",
-        "memory",
-        "inference",
-        "data center"
-      ],
-      "example_titles": [
-        "Elon Musk’s Terafab fever dream exposes reality of the AI chip crunch",
-        "Elon Musk Launches $25 Billion Terafab Chip Manufacturing Project",
-        "Elon Musk Unwraps $25 Billion Terafab Chip-Building Project",
-        "Elon Musk Wants to Build the World's Largest Chip Manufacturing Facility and It Will Cost $20 Billion",
-        "Musk’s ‘Terafab’ Sparks Debate on the Future of AI Infrastructure"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.73
+      "emerging_score": 0.9754
     },
     {
       "theme_id": "2026-W13_theme_5",
       "week": "2026-W13",
       "cluster_id": 5,
-      "label": "intel | ultra | core",
-      "size": 8,
+      "label": "Arm Enters Data Center Chip Race With AGI CPU",
+      "size": 18,
       "top_companies": [
+        "NVIDIA",
+        "Meta",
         "Intel",
-        "Google",
-        "AMD",
-        "Lenovo",
-        "Dell Technologies"
+        "Cerebras Systems",
+        "Google"
       ],
       "top_keywords": [
-        "chips",
+        "arm",
         "chip",
-        "memory",
-        "semiconductor",
-        "gpu",
-        "server",
-        "data center",
-        "ai accelerator"
+        "cpu",
+        "data",
+        "unveils"
       ],
       "example_titles": [
-        "More price hikes: Laptop costs set to increase in SA",
-        "Intel Reportedly Cancels Ultra 9 290K Plus Launch As It No Longer Deems It Necessary For the Market",
-        "Intel confirms rumored Core Ultra 9 290K Plus has been scrapped — potential Core Ultra 9 285KS Special Edition also off the table as Arrow Lake refresh rolls out",
-        "Intel Exec Confirms CPU Price Increases For OEMs Amid Supply Crunch",
-        "Intel Core Ultra 3 205 Spotted On PassMark; Here's How It Compares Against Other Chips"
+        "Arm Enters Data Center Chip Race With AGI CPU",
+        "Arm unveils new AI chip, expects it to add billions in annual revenue",
+        "Chip Designer Giant ARM Unveils Its First Self Made Chip After 36 Years",
+        "Arm enters silicon production with new CPU designed for AI data centres",
+        "ARM Takes Matters Into Its Own Hands, Unveiling the 'AGI CPU' as Its First-Ever Silicon for Agentic AI"
       ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
+      "source_count": 15,
+      "relevance": 0.502,
+      "previous_theme_id": "2026-W12_theme_5",
+      "previous_week": "2026-W12",
+      "previous_label": "NVIDIA Corporation (NVDA) Unveils Agent Toolkit For Creating Specialized AI Agents",
+      "previous_size": 9,
+      "similarity_to_previous": 0.7353,
+      "growth_rate": 1.0,
+      "is_new_theme": false,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.73
+      "emerging_score": 0.9021
     },
     {
-      "theme_id": "2026-W13_theme_7",
+      "theme_id": "2026-W13_theme_0",
       "week": "2026-W13",
-      "cluster_id": 7,
-      "label": "ai | arm | high",
-      "size": 7,
+      "cluster_id": 0,
+      "label": "Elon Musk Launches $25 Billion Terafab Chip Manufacturing Project",
+      "size": 13,
       "top_companies": [
-        "Amazon",
-        "Google",
-        "Microsoft",
         "NVIDIA",
-        "Tesla"
+        "Tesla",
+        "Samsung Electronics",
+        "TSMC",
+        "Intel"
       ],
       "top_keywords": [
-        "chips",
-        "semiconductor",
-        "chip",
-        "compute",
-        "data center",
-        "server",
-        "training"
+        "musk",
+        "elon",
+        "terafab",
+        "manufacturing",
+        "chip"
       ],
       "example_titles": [
-        "Here’s What The New AI Chip Means For Arm Holdings (ARM)",
-        "5 High Growth Semiconductor Stocks to Buy",
-        "Analysts Nudge Their Nvidia (NVDA) Price Targets Higher After GTC",
-        "SoundHound AI (SOUN) Stock Down After Jim Cramer Said It Was “a Little Elevated”",
-        "Adecco Group Taps Salesforce, Inc. (CRM) for Agentforce Following Nvidia Pact"
+        "Elon Musk Launches $25 Billion Terafab Chip Manufacturing Project",
+        "Elon Musk’s TeraFab: Inside the $25 billion bet to build chips, robots and orbital AI",
+        "Elon Musk Wants to Build the World's Largest Chip Manufacturing Facility and It Will Cost $20 Billion",
+        "Elon Musk Unwraps $25 Billion Terafab Chip-Building Project",
+        "Elon Musk Announces Massive 'Terafab' Chip Factory in Austin to Power Tesla AI, SpaceX Satellites and Robotics"
       ],
+      "source_count": 12,
+      "relevance": 0.493,
+      "previous_theme_id": "2026-W12_theme_3",
+      "previous_week": "2026-W12",
+      "previous_label": "China’s Hua Hong prepares 7 nm chip production",
+      "previous_size": 6,
+      "similarity_to_previous": 0.7489,
+      "growth_rate": 1.1667,
+      "is_new_theme": false,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.7923
+    },
+    {
+      "theme_id": "2026-W13_theme_3",
+      "week": "2026-W13",
+      "cluster_id": 3,
+      "label": "Southeast Asia revisits nuclear power plans for AI data centers as Iran war disrupts",
+      "size": 7,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Microsoft",
+        "Intel",
+        "Amazon"
+      ],
+      "top_keywords": [
+        "iran",
+        "nuclear",
+        "war",
+        "data",
+        "asia"
+      ],
+      "example_titles": [
+        "Southeast Asia revisits nuclear power plans for AI data centers as Iran war disrupts",
+        "Here's Why Nuclear Energy Stocks May Be the Smartest Buys of 2026",
+        "Southeast Asia revisits nuclear power plans for AI data centers as Iran war disrupts energy supplies",
+        "Commentary: Trump's Middle East AI data center push under threat from Iran conflict",
+        "[DS] Has Lost Control Of Iran_Today Trump Took Control_Intel Will Be Used Against The [DS] ..."
+      ],
+      "source_count": 7,
+      "relevance": 0.441,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -278,63 +207,34 @@
       "emerging_score": 0.7075
     },
     {
-      "theme_id": "2026-W13_theme_2",
-      "week": "2026-W13",
-      "cluster_id": 2,
-      "label": "ai arrival | arrival | arrival complicates",
-      "size": 6,
-      "top_companies": [
-        "Amazon",
-        "Google",
-        "Meta",
-        "Microsoft",
-        "NVIDIA"
-      ],
-      "top_keywords": [
-        "data center",
-        "datacenter",
-        "server"
-      ],
-      "example_titles": [
-        "AI’s arrival complicates Big Tech climate goals, and some worry it’s locking in more fossil fuels",
-        "AI’s arrival complicates Big Tech climate goals, and some worry it’s locking in more fossil fuels",
-        "AI's arrival complicates Big Tech climate goals, and some worry it's locking in more fossil fuels - The Economic Times",
-        "AI's arrival complicates Big Tech climate goals, and some worry it's locking in more fossil fuels",
-        "AI's arrival complicates Big Tech climate goals, and some worry it's locking in more fossil fuels"
-      ],
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.685
-    },
-    {
       "theme_id": "2026-W13_theme_1",
       "week": "2026-W13",
       "cluster_id": 1,
-      "label": "trump | council | names",
+      "label": "Exclusive-Huawei's new AI chip finds favour with ByteDance, Alibaba which plan to place orders, sources say",
       "size": 5,
       "top_companies": [
-        "Google",
-        "Meta",
         "NVIDIA",
-        "AMD",
-        "Dell Technologies"
+        "Samsung Electronics",
+        "Intel",
+        "Microsoft",
+        "Seagate"
       ],
-      "top_keywords": [],
+      "top_keywords": [
+        "alibaba",
+        "bytedance",
+        "chip finds",
+        "favour",
+        "huawei"
+      ],
       "example_titles": [
-        "Trump names Nvidia, Meta CEOs to science and tech council - West Hawaii Today",
-        "Mark Zuckerberg, Jensen Huang and Sergey Brin join Trump's tech advisory panel",
-        "Trump names Zuckerberg, Brin, Huang to top science council",
-        "Trump names tech titans to science advisory council",
-        "EU antitrust chief meets Google, Meta, OpenAI, Amazon CEOs amidst AI scrutiny"
+        "Exclusive-Huawei's new AI chip finds favour with ByteDance, Alibaba which plan to place orders, sources say",
+        "Alibaba and ByteDance Set to Order Huawei's New 950PR AI Chip",
+        "Huawei's new AI chip finds favour with ByteDance, Alibaba which plan to place orders",
+        "Samsung Reveals Next-Gen AI Memory Built for NVIDIA’s Next AI Systems",
+        "Your SSD's manufacturer gave you a free tool that's better than anything Microsoft offers"
       ],
+      "source_count": 5,
+      "relevance": 0.41,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -348,149 +248,209 @@
       "emerging_score": 0.6625
     },
     {
-      "theme_id": "2026-W13_theme_9",
+      "theme_id": "2026-W13_theme_10",
       "week": "2026-W13",
-      "cluster_id": 9,
-      "label": "fool | motley | motley fool",
-      "size": 9,
+      "cluster_id": 10,
+      "label": "Trump names tech titans to science advisory council",
+      "size": 5,
       "top_companies": [
-        "NVIDIA",
-        "Meta",
-        "Amazon",
         "Google",
-        "Microsoft"
+        "Meta",
+        "NVIDIA",
+        "AMD",
+        "Dell Technologies"
       ],
       "top_keywords": [
-        "chip",
-        "chips",
-        "gpu",
-        "data center",
-        "training",
-        "inference",
-        "semiconductor",
-        "compute"
+        "trump",
+        "council",
+        "names",
+        "science",
+        "advisory"
       ],
       "example_titles": [
-        "NVIDIA (NVDA) Shares Higher After Jim Cramer Criticized Sellers",
-        "3 No-Brainer AI Stocks to Buy Before They Soar, According to Wall Street | The Motley Fool",
-        "Here's What Could Send Nvidia Stock to New All-Time Highs | The Motley Fool",
-        "Here's What Could Send Nvidia Stock to New All-Time Highs",
-        "AI Sell-Off: 3 Stocks Investors Should Load Up On | The Motley Fool"
+        "Trump names tech titans to science advisory council",
+        "Trump names Zuckerberg, Brin, Huang to top science council",
+        "Trump names Nvidia, Meta CEOs to science and tech council",
+        "Mark Zuckerberg, Jensen Huang and Sergey Brin join Trump's tech advisory panel",
+        "CU Boulder awarded $1.5M to support postdocs amid funding uncertainty"
       ],
-      "previous_theme_id": "2026-W12_theme_11",
-      "previous_week": "2026-W12",
-      "previous_label": "stock | ai | nebius",
-      "previous_size": 37,
-      "similarity_to_previous": 0.9411,
-      "growth_rate": -0.7568,
-      "is_new_theme": false,
-      "is_emerging": false,
+      "source_count": 5,
+      "relevance": 0.44,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.3907
+      "emerging_score": 0.6625
     },
     {
-      "theme_id": "2026-W13_theme_11",
+      "theme_id": "2026-W13_theme_4",
       "week": "2026-W13",
-      "cluster_id": 11,
-      "label": "iran | street | wall",
-      "size": 10,
+      "cluster_id": 4,
+      "label": "More Chinese links appear in ‘Nvidia AI chips smuggling case’ that has landed founder of American server company in jail",
+      "size": 13,
       "top_companies": [
+        "NVIDIA",
+        "Super Micro Computer",
+        "Qualcomm",
         "Amazon",
-        "Apple",
-        "Google",
-        "Meta",
-        "NVIDIA"
+        "Intel"
       ],
-      "top_keywords": [],
+      "top_keywords": [
+        "case",
+        "micro",
+        "smuggling",
+        "super",
+        "china"
+      ],
       "example_titles": [
-        "Wall Street suffers worst fall since war | Northwest Arkansas Democrat-Gazette",
-        "Wall Street falls to its worst drop since the Iran war as the Nasdaq sinks 10% below its record",
-        "Wall Street falls to its worst drop since the Iran war as the Nasdaq sinks 10% below its record",
-        "Wall Street has worst day since the war with Iran started as oil prices rise",
-        "U.S. stocks suffer worst day since start of Iran conflict; Nasdaq sinks 10% below its record"
+        "More Chinese links appear in ‘Nvidia AI chips smuggling case’ that has landed founder of American server company in jail",
+        "Chinese universities with military links bought Super Micro servers with restricted AI chips",
+        "The Super Micro AI accelerator smuggling scandal proves how cut-throat the global AI race has become — as global trade evolves, so does export control evasion",
+        "Feds allege multi-state plot to smuggle advanced AI tech to China * WorldNetDaily * by Fred Lucas, The Daily Signal",
+        "Feds Arrest Trio for Nvidia GPU Smuggling Scheme Involving Supermicro Servers"
       ],
-      "previous_theme_id": "2026-W12_theme_6",
+      "source_count": 11,
+      "relevance": 0.45,
+      "previous_theme_id": "2026-W12_theme_1",
       "previous_week": "2026-W12",
-      "previous_label": "cut rates | erase | erase wall",
+      "previous_label": "Co-founder of tech company charged with diverting $2.5 billion in Nvidia AI chips to China in violation of export laws",
       "previous_size": 13,
-      "similarity_to_previous": 0.7997,
-      "growth_rate": -0.2308,
-      "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.3849
-    },
-    {
-      "theme_id": "2026-W13_theme_12",
-      "week": "2026-W13",
-      "cluster_id": 12,
-      "label": "5th straight | drops | drops close",
-      "size": 8,
-      "top_companies": [
-        "Amazon",
-        "Meta",
-        "NVIDIA"
-      ],
-      "top_keywords": [],
-      "example_titles": [
-        "Markets close on 5th week of losses | Northwest Arkansas Democrat-Gazette",
-        "Wall Street drops again to close its 5th straight losing week and its worst since the Iran war",
-        "Wall Street drops again to close its 5th straight losing week and its worst since the Iran war",
-        "Wall Street drops again to close its 5th straight losing week and its worst since the Iran war",
-        "Wall Street drops again to close its 5th straight losing week and its worst since the Iran war"
-      ],
-      "previous_theme_id": "2026-W12_theme_7",
-      "previous_week": "2026-W12",
-      "previous_label": "oil prices | prices | oil",
-      "previous_size": 8,
-      "similarity_to_previous": 0.7621,
+      "similarity_to_previous": 0.9036,
       "growth_rate": 0.0,
       "is_new_theme": false,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.3324
+      "emerging_score": 0.4732
+    },
+    {
+      "theme_id": "2026-W13_theme_7",
+      "week": "2026-W13",
+      "cluster_id": 7,
+      "label": "NVIDIA CEO Jensen Huang's definition of AGI is telling",
+      "size": 7,
+      "top_companies": [
+        "NVIDIA",
+        "Amazon",
+        "Microsoft",
+        "Apple",
+        "AMD"
+      ],
+      "top_keywords": [
+        "jensen",
+        "huang",
+        "nvidia ceo",
+        "agi",
+        "don"
+      ],
+      "example_titles": [
+        "NVIDIA CEO Jensen Huang's definition of AGI is telling",
+        "NVIDIA CEO Jensen Huang breaks silence on human-like AI, 'AGI'",
+        "Nvidia CEO Jensen Huang to engineers in the company: You are not productive if you don't use a lot of ...",
+        "Jensen Huang shares his advice to young people on thriving in the AI era",
+        "Nvidia's CEO Says AGI Is Here, But Don't Get Too Excited"
+      ],
+      "source_count": 7,
+      "relevance": 0.45,
+      "previous_theme_id": "2026-W12_theme_16",
+      "previous_week": "2026-W12",
+      "previous_label": "Nvidia CEO forecasts $1 trillion AI chip order backlog surge",
+      "previous_size": 7,
+      "similarity_to_previous": 0.8583,
+      "growth_rate": 0.0,
+      "is_new_theme": false,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.3292
     },
     {
       "theme_id": "2026-W13_theme_6",
       "week": "2026-W13",
       "cluster_id": 6,
-      "label": "ai | micro | super",
-      "size": 5,
+      "label": "NVIDIA and Global Industrial Software Giants Bring Design, Engineering and Manufacturing Into the AI Era",
+      "size": 6,
       "top_companies": [
         "NVIDIA",
-        "Super Micro Computer",
-        "Amazon"
+        "Amazon",
+        "Dell Technologies",
+        "Google",
+        "Hewlett Packard Enterprise"
       ],
       "top_keywords": [
-        "chips",
-        "server",
-        "chip",
-        "gpu",
-        "ai accelerator",
-        "inference",
-        "training"
+        "expand",
+        "slb",
+        "nvidia",
+        "global",
+        "infrastructure"
       ],
       "example_titles": [
-        "Chinese universities with military links bought Super Micro servers with restricted AI chips",
-        "More Chinese links appear in ‘Nvidia AI chips smuggling case’ that has landed founder of American server company in jail - The Times of India",
-        "Super Micro sued by shareholders over China-related criminal case",
-        "Feds Arrest Trio for Nvidia GPU Smuggling Scheme Involving Supermicro Servers",
-        "The Super Micro AI accelerator smuggling scandal proves how cut-throat the global AI race has become — as global trade evolves, so does export control evasion"
+        "NVIDIA and Global Industrial Software Giants Bring Design, Engineering and Manufacturing Into the AI Era",
+        "SLB, NVIDIA expand partnership to deploy AI infrastructure for energy industry",
+        "Nvidia and SLB expand AI infrastructure collaboration with global implications",
+        "AI Is Rewiring Telecom, and It's Not About the Network",
+        "Nvidia’s Craig Weinstein: Groq AI Racks Will Become A Channel Play ‘Over Time’"
       ],
-      "previous_theme_id": "2026-W12_theme_10",
+      "source_count": 6,
+      "relevance": 0.566,
+      "previous_theme_id": "2026-W12_theme_15",
       "previous_week": "2026-W12",
-      "previous_label": "artificial | artificial intelligence | charged",
-      "previous_size": 7,
-      "similarity_to_previous": 0.8383,
-      "growth_rate": -0.2857,
+      "previous_label": "AI Innovation Unveiled: 14 Vendor Partners Helping Shape The Future Of Enterprise AI At Nvidia GTC 2026",
+      "previous_size": 16,
+      "similarity_to_previous": 0.8795,
+      "growth_rate": -0.625,
       "is_new_theme": false,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.2802
+      "emerging_score": 0.3109
+    },
+    {
+      "theme_id": "2026-W13_theme_11",
+      "week": "2026-W13",
+      "cluster_id": 11,
+      "label": "3 ways Cisco's DefenseClaw aims to make agentic AI safer",
+      "size": 5,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Meta",
+        "Amazon",
+        "Cisco"
+      ],
+      "top_keywords": [
+        "agentic",
+        "amazon",
+        "agent sensitive",
+        "aims",
+        "alexa"
+      ],
+      "example_titles": [
+        "3 ways Cisco's DefenseClaw aims to make agentic AI safer",
+        "Alexa is done waiting for the agentic AI future — I spoke to Amazon's Daniel Rausch to find out more",
+        "EU antitrust chief meets Google, Meta, OpenAI, Amazon CEOs amidst AI scrutiny",
+        "Beyond Intel Sharing: The Push Toward Cyber Disruption",
+        "OpenClaw creator says he got a token refund request for errors the AI agent made with 'sensitive financial documents'"
+      ],
+      "source_count": 5,
+      "relevance": 0.467,
+      "previous_theme_id": "2026-W12_theme_7",
+      "previous_week": "2026-W12",
+      "previous_label": "Is an OpenClaw Partnership the Next Big Thing for Nvidia Stock? How to Position Now.",
+      "previous_size": 6,
+      "similarity_to_previous": 0.7723,
+      "growth_rate": -0.1667,
+      "is_new_theme": false,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.267
     }
   ]
 }
