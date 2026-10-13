@@ -107,6 +107,15 @@ def build_trajectory_maps(links: list[dict]) -> tuple[dict[str, dict], dict[str,
     return best_incoming, dict(outgoing)
 
 
+# Themes rated at least this significant are what the dashboard leads with.
+MAJOR_SIGNIFICANCE = 4
+
+
+def theme_rank(theme: dict) -> tuple:
+    """Most significant first, then most emerging, then largest. Unrated themes sort as 0."""
+    return (theme.get("significance") or 0, theme.get("emerging_score", 0), theme.get("size", 0))
+
+
 def build_theme_records(
     weeks: list[str],
     weekly_themes_by_week: dict[str, list[dict]],
@@ -174,6 +183,9 @@ def build_theme_records(
                 "top_keywords": theme.get("top_keywords", []),
                 "example_titles": theme.get("example_titles", []),
                 "source_count": theme.get("source_count"),
+                "significance": theme.get("significance"),
+                "significance_category": theme.get("significance_category"),
+                "significance_reason": theme.get("significance_reason"),
                 "relevance": theme.get("relevance"),
                 "article_ids": theme.get("article_ids", []),
                 "centroid": theme.get("centroid", []),
@@ -202,13 +214,7 @@ def build_theme_records(
             records_by_id[theme_id] = enriched
             all_theme_records.append(enriched)
 
-        enriched_week_themes.sort(
-            key=lambda x: (
-                x["emerging_score"],
-                x["size"],
-            ),
-            reverse=True,
-        )
+        enriched_week_themes.sort(key=theme_rank, reverse=True)
         themes_by_week_out[week] = enriched_week_themes
 
     return all_theme_records, themes_by_week_out
@@ -246,15 +252,20 @@ def build_stats(themes: list[dict], weeks: list[str]) -> dict:
         sum(int(t.get("size", 0)) for t in themes) / total_themes, 2
     ) if total_themes else 0.0
 
+    major = [t for t in themes if (t.get("significance") or 0) >= MAJOR_SIGNIFICANCE]
+
+    # The hottest theme should be one that matters, not just the fastest-growing chatter.
     hottest = None
-    if themes:
-        hottest = max(themes, key=lambda x: (x.get("emerging_score", 0), x.get("size", 0)))
+    candidates = major or themes
+    if candidates:
+        hottest = max(candidates, key=lambda x: (x.get("emerging_score", 0), x.get("size", 0)))
 
     return {
         "num_weeks": len(weeks),
         "total_themes": total_themes,
         "emerging_themes": emerging_count,
         "new_themes": new_count,
+        "major_themes": len(major),
         "average_theme_size": avg_size,
         "hottest_theme": None if hottest is None else {
             "theme_id": hottest.get("theme_id"),

@@ -54,6 +54,18 @@ resource "aws_ssm_parameter" "gcp_credentials" {
   }
 }
 
+# Anthropic API key for rating theme significance. Same out-of-band pattern:
+#   aws ssm put-parameter --name <name> --type SecureString --overwrite --value <key>
+resource "aws_ssm_parameter" "anthropic_api_key" {
+  name  = "/${local.name}/anthropic-api-key"
+  type  = "SecureString"
+  value = "REPLACE_ME"
+
+  lifecycle {
+    ignore_changes = [value]
+  }
+}
+
 # Execution role: what ECS itself needs to start the task (pull image, write logs, read the secret).
 resource "aws_iam_role" "pipeline_execution" {
   name               = "${local.name}-pipeline-execution"
@@ -82,7 +94,7 @@ resource "aws_iam_role_policy" "pipeline_execution_secret" {
     Statement = [{
       Effect   = "Allow"
       Action   = ["ssm:GetParameters"]
-      Resource = aws_ssm_parameter.gcp_credentials.arn
+      Resource = [aws_ssm_parameter.gcp_credentials.arn, aws_ssm_parameter.anthropic_api_key.arn]
     }]
   })
 }
@@ -136,6 +148,7 @@ resource "aws_ecs_task_definition" "pipeline" {
     ]
     secrets = [
       { name = "GCP_SERVICE_ACCOUNT_JSON", valueFrom = aws_ssm_parameter.gcp_credentials.arn },
+      { name = "ANTHROPIC_API_KEY", valueFrom = aws_ssm_parameter.anthropic_api_key.arn },
     ]
     logConfiguration = {
       logDriver = "awslogs"

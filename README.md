@@ -79,12 +79,15 @@ Clustering all articles at once would blur time. Instead, each week is clustered
 **Measure similarity after removing what every theme shares.**
 Every article in this corpus is about AI and chips, so raw theme centroids all point in roughly the same direction: TSMC's earnings and a laptop review scored 0.86 cosine similarity. Subtracting the average theme before comparing leaves only what distinguishes each one, and linking uses that.
 
+**Let a model judge significance; let clustering judge coverage.**
+Clustering measures how much a story was covered, not whether it mattered: laptop deals drew 27 articles in a week, Musk's $25B chip fab drew 13, and Samsung's record quarterly profit drew 5. One Claude Haiku call per theme reads its headlines and rates significance from 1 (not industry news) to 5 (industry-shaping) against a written rubric, and the dashboard leads with themes rated 4 or 5. Ratings are cached by the theme's headlines, so a weekly run only pays for new themes (about a cent a week).
+
 **Start static, then add an API.**
 The first version exported JSON that the dashboard read directly: free to host, nothing to keep running, right for a prototype. Moving the data behind an API decoupled the two. The weekly refresh no longer needs a frontend redeploy, and the data can be queried by week, company, or status instead of shipped as one file.
 
 ## Tech stack
 
-**Data & ML:** Python, BigQuery (GDELT), trafilatura, sentence-transformers, UMAP, HDBSCAN, scikit-learn (class-based TF-IDF), NumPy  
+**Data & ML:** Python, BigQuery (GDELT), trafilatura, sentence-transformers, UMAP, HDBSCAN, scikit-learn (class-based TF-IDF), NumPy, Claude API (structured outputs)  
 **Frontend:** Next.js, React, TypeScript, Tailwind CSS, deployed on Vercel  
 **API:** FastAPI, uvicorn  
 **Infrastructure:** Docker, AWS (ECS Fargate, Lambda, S3, ECR, EventBridge Scheduler, IAM, SSM, CloudWatch, SNS), Terraform, GitHub Actions

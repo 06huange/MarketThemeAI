@@ -24,6 +24,7 @@ STEPS = [
     ("ingest", "src.ingest.fetch_news", "Download articles and extract text"),
     ("filter", "src.preprocess.filter_articles", "Filter for relevance and tag companies"),
     ("themes", "src.themes.build_weekly_themes", "Embed and cluster each week into themes"),
+    ("rate", "src.themes.rate_themes", "Rate each theme's significance with Claude"),
     ("link", "src.track.link_themes_over_time", "Link themes across weeks"),
     ("index", "src.themes.build_weekly_index", "Index available weeks"),
     ("export", "src.frontend_export.build_dashboard_data", "Score themes and export dashboard data"),
