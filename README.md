@@ -26,7 +26,7 @@ MarketThemeAI takes the opposite approach. It reads each week's news, groups art
 |---|---|
 | **Corpus** | 8,000+ English news articles from global coverage via GDELT, filtered to ~2,900 industry-news articles |
 | **Coverage** | 60 companies across 13 industry groups (AI compute, foundry, memory, equipment, networking, EDA, packaging, …) |
-| **Output** | 163 themes across 14 weeks, each titled by its most representative headline, linked to its history, and scored for "emergingness" |
+| **Output** | ~170 themes across 14 weeks, each titled by its most representative headline, grouped into multi-week storylines, and scored for "emergingness" |
 | **Dashboard** | Summary stats, the hottest theme, filters for emerging / new / continuing themes, and theme trajectories over time |
 
 ## How it works
@@ -37,7 +37,7 @@ flowchart LR
     I["<b>Download text</b><br/>parallel, de-duplicated"]
     F["<b>Filter + tag</b><br/>news only, de-duplicated"]
     T["<b>Weekly themes</b><br/>MiniLM → UMAP → HDBSCAN"]
-    L["<b>Link weeks</b><br/>cosine ≥ 0.72"]
+    L["<b>Link into storylines</b><br/>4-week lookback"]
     E["<b>Score + export</b><br/>emerging score"]
     Q --> I --> F --> T --> L --> E
 
@@ -73,8 +73,11 @@ Density is close to meaningless in 384 dimensions. Run directly on the embedding
 **Headlines as titles, keyphrases as tags.**
 Keyword labels ("beats · beats forecasts · expansion") were the least readable part of the dashboard. Each theme is now titled by the headline closest to its centroid, the way news aggregators do it. The tags come from class-based TF-IDF, which picks terms frequent in that theme but rare in the week's other themes ("musk, elon, terafab") instead of terms that are merely common.
 
-**Cluster week by week, then link.**
-Clustering all articles at once would blur time. Instead, each week is clustered independently, and themes are connected across weeks when their centroid embeddings have cosine similarity ≥ 0.72. This makes "new", "growing", and "fading" concrete, measurable ideas instead of guesses.
+**Cluster week by week, then link into storylines.**
+Clustering all articles at once would blur time. Instead, each week is clustered independently, and each theme is linked to its closest match among the previous four weeks that have data, so a story that skips a week, or spans a gap in the archive, still connects. Chains of links form storylines ("memory · shortage · prices", running for six weeks), which is what makes "new" and "ongoing" meaningful: a theme is new only if nothing like it appeared recently.
+
+**Measure similarity after removing what every theme shares.**
+Every article in this corpus is about AI and chips, so raw theme centroids all point in roughly the same direction: TSMC's earnings and a laptop review scored 0.86 cosine similarity. Subtracting the average theme before comparing leaves only what distinguishes each one, and linking uses that.
 
 **Start static, then add an API.**
 The first version exported JSON that the dashboard read directly: free to host, nothing to keep running, right for a prototype. Moving the data behind an API decoupled the two. The weekly refresh no longer needs a frontend redeploy, and the data can be queried by week, company, or status instead of shipped as one file.

@@ -30,58 +30,28 @@
       ],
       "source_count": 28,
       "relevance": 0.482,
-      "previous_theme_id": "2026-W12_theme_12",
-      "previous_week": "2026-W12",
-      "previous_label": "I benchmarked Samsung’s Galaxy S26 series against iPhone and Pixel — there was a clear loser",
-      "previous_size": 14,
-      "similarity_to_previous": 0.8872,
-      "growth_rate": 2.0714,
+      "previous_theme_id": "2026-W09_theme_5",
+      "previous_week": "2026-W09",
+      "previous_label": "Save $455 on the modern HP Omen 16 with a shiny new Intel Core Ultra 7 and an RTX 5060",
+      "previous_size": 10,
+      "similarity_to_previous": 0.7865,
+      "growth_rate": 3.3,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_4",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 5,
       "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.9774
-    },
-    {
-      "theme_id": "2026-W13_theme_9",
-      "week": "2026-W13",
-      "cluster_id": 9,
-      "label": "Kirk Greene: Everyone Knows AI Will Pay Off — and That Should Worry Investors",
-      "size": 40,
-      "top_companies": [
-        "NVIDIA",
-        "Amazon",
-        "Intel",
-        "Microsoft",
-        "Google"
+      "next_theme_ids": [
+        "2026-W41_theme_7"
       ],
-      "top_keywords": [
-        "nvidia",
-        "buy",
-        "magnificent",
-        "amazon",
-        "analysts"
-      ],
-      "example_titles": [
-        "Kirk Greene: Everyone Knows AI Will Pay Off — and That Should Worry Investors",
-        "Amazon Stock at a Crossroads: Generational Buy or Massive Value Trap?",
-        "Analysts Nudge Their Nvidia (NVDA) Price Targets Higher After GTC",
-        "Every Magnificent Seven Stock Is Down This Year. This One Is a Screaming Buy",
-        "This Software Company Is Betting $25 Billion That Its Stock Is Severely Undervalued Right Now"
-      ],
-      "source_count": 14,
-      "relevance": 0.479,
-      "previous_theme_id": "2026-W12_theme_6",
-      "previous_week": "2026-W12",
-      "previous_label": "The Artificial Intelligence (AI) Stock Most Likely to Mint New Millionaires",
-      "previous_size": 14,
-      "similarity_to_previous": 0.8769,
-      "growth_rate": 1.8571,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.9754
+      "out_degree": 1,
+      "emerging_score": 0.9573,
+      "storyline_keywords": [
+        "intel",
+        "ultra",
+        "core",
+        "macbook"
+      ]
     },
     {
       "theme_id": "2026-W13_theme_5",
@@ -112,88 +82,6 @@
       ],
       "source_count": 15,
       "relevance": 0.502,
-      "previous_theme_id": "2026-W12_theme_5",
-      "previous_week": "2026-W12",
-      "previous_label": "NVIDIA Corporation (NVDA) Unveils Agent Toolkit For Creating Specialized AI Agents",
-      "previous_size": 9,
-      "similarity_to_previous": 0.7353,
-      "growth_rate": 1.0,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.9021
-    },
-    {
-      "theme_id": "2026-W13_theme_0",
-      "week": "2026-W13",
-      "cluster_id": 0,
-      "label": "Elon Musk Launches $25 Billion Terafab Chip Manufacturing Project",
-      "size": 13,
-      "top_companies": [
-        "NVIDIA",
-        "Tesla",
-        "Samsung Electronics",
-        "TSMC",
-        "Intel"
-      ],
-      "top_keywords": [
-        "musk",
-        "elon",
-        "terafab",
-        "manufacturing",
-        "chip"
-      ],
-      "example_titles": [
-        "Elon Musk Launches $25 Billion Terafab Chip Manufacturing Project",
-        "Elon Musk’s TeraFab: Inside the $25 billion bet to build chips, robots and orbital AI",
-        "Elon Musk Wants to Build the World's Largest Chip Manufacturing Facility and It Will Cost $20 Billion",
-        "Elon Musk Unwraps $25 Billion Terafab Chip-Building Project",
-        "Elon Musk Announces Massive 'Terafab' Chip Factory in Austin to Power Tesla AI, SpaceX Satellites and Robotics"
-      ],
-      "source_count": 12,
-      "relevance": 0.493,
-      "previous_theme_id": "2026-W12_theme_3",
-      "previous_week": "2026-W12",
-      "previous_label": "China’s Hua Hong prepares 7 nm chip production",
-      "previous_size": 6,
-      "similarity_to_previous": 0.7489,
-      "growth_rate": 1.1667,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.7923
-    },
-    {
-      "theme_id": "2026-W13_theme_3",
-      "week": "2026-W13",
-      "cluster_id": 3,
-      "label": "Southeast Asia revisits nuclear power plans for AI data centers as Iran war disrupts",
-      "size": 7,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "Microsoft",
-        "Intel",
-        "Amazon"
-      ],
-      "top_keywords": [
-        "iran",
-        "nuclear",
-        "war",
-        "data",
-        "asia"
-      ],
-      "example_titles": [
-        "Southeast Asia revisits nuclear power plans for AI data centers as Iran war disrupts",
-        "Here's Why Nuclear Energy Stocks May Be the Smartest Buys of 2026",
-        "Southeast Asia revisits nuclear power plans for AI data centers as Iran war disrupts energy supplies",
-        "Commentary: Trump's Middle East AI data center push under threat from Iran conflict",
-        "[DS] Has Lost Control Of Iran_Today Trump Took Control_Intel Will Be Used Against The [DS] ..."
-      ],
-      "source_count": 7,
-      "relevance": 0.441,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -201,10 +89,64 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W13_theme_5",
+      "storyline_start_week": "2026-W13",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.7075
+      "emerging_score": 0.955,
+      "storyline_keywords": []
+    },
+    {
+      "theme_id": "2026-W13_theme_9",
+      "week": "2026-W13",
+      "cluster_id": 9,
+      "label": "Kirk Greene: Everyone Knows AI Will Pay Off — and That Should Worry Investors",
+      "size": 40,
+      "top_companies": [
+        "NVIDIA",
+        "Amazon",
+        "Intel",
+        "Microsoft",
+        "Google"
+      ],
+      "top_keywords": [
+        "nvidia",
+        "buy",
+        "magnificent",
+        "amazon",
+        "analysts"
+      ],
+      "example_titles": [
+        "Kirk Greene: Everyone Knows AI Will Pay Off — and That Should Worry Investors",
+        "Amazon Stock at a Crossroads: Generational Buy or Massive Value Trap?",
+        "Analysts Nudge Their Nvidia (NVDA) Price Targets Higher After GTC",
+        "Every Magnificent Seven Stock Is Down This Year. This One Is a Screaming Buy",
+        "This Software Company Is Betting $25 Billion That Its Stock Is Severely Undervalued Right Now"
+      ],
+      "source_count": 14,
+      "relevance": 0.479,
+      "previous_theme_id": "2026-W10_theme_17",
+      "previous_week": "2026-W10",
+      "previous_label": "Astera Labs Stock Is Interesting, but Here's What I'd Buy Instead",
+      "previous_size": 14,
+      "similarity_to_previous": 0.6792,
+      "growth_rate": 1.8571,
+      "is_new_theme": false,
+      "storyline_id": "2026-W02_theme_3",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 5,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.9358,
+      "storyline_keywords": [
+        "investors",
+        "spending",
+        "nvidia",
+        "earnings"
+      ]
     },
     {
       "theme_id": "2026-W13_theme_1",
@@ -242,10 +184,14 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W13_theme_1",
+      "storyline_start_week": "2026-W13",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.6625
+      "emerging_score": 0.6625,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W13_theme_10",
@@ -283,10 +229,64 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W13_theme_10",
+      "storyline_start_week": "2026-W13",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.6625
+      "emerging_score": 0.6625,
+      "storyline_keywords": []
+    },
+    {
+      "theme_id": "2026-W13_theme_0",
+      "week": "2026-W13",
+      "cluster_id": 0,
+      "label": "Elon Musk Launches $25 Billion Terafab Chip Manufacturing Project",
+      "size": 13,
+      "top_companies": [
+        "NVIDIA",
+        "Tesla",
+        "Samsung Electronics",
+        "TSMC",
+        "Intel"
+      ],
+      "top_keywords": [
+        "musk",
+        "elon",
+        "terafab",
+        "manufacturing",
+        "chip"
+      ],
+      "example_titles": [
+        "Elon Musk Launches $25 Billion Terafab Chip Manufacturing Project",
+        "Elon Musk’s TeraFab: Inside the $25 billion bet to build chips, robots and orbital AI",
+        "Elon Musk Wants to Build the World's Largest Chip Manufacturing Facility and It Will Cost $20 Billion",
+        "Elon Musk Unwraps $25 Billion Terafab Chip-Building Project",
+        "Elon Musk Announces Massive 'Terafab' Chip Factory in Austin to Power Tesla AI, SpaceX Satellites and Robotics"
+      ],
+      "source_count": 12,
+      "relevance": 0.493,
+      "previous_theme_id": "2026-W11_theme_1",
+      "previous_week": "2026-W11",
+      "previous_label": "Musk unveils timeline for Tesla’s mega AI chip fab launch",
+      "previous_size": 10,
+      "similarity_to_previous": 0.6879,
+      "growth_rate": 0.3,
+      "is_new_theme": false,
+      "storyline_id": "2026-W11_theme_1",
+      "storyline_start_week": "2026-W11",
+      "storyline_weeks": 2,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.5351,
+      "storyline_keywords": [
+        "musk",
+        "elon",
+        "project",
+        "terafab"
+      ]
     },
     {
       "theme_id": "2026-W13_theme_4",
@@ -321,13 +321,72 @@
       "previous_week": "2026-W12",
       "previous_label": "Co-founder of tech company charged with diverting $2.5 billion in Nvidia AI chips to China in violation of export laws",
       "previous_size": 13,
-      "similarity_to_previous": 0.9036,
+      "similarity_to_previous": 0.8224,
       "growth_rate": 0.0,
       "is_new_theme": false,
+      "storyline_id": "2026-W12_theme_1",
+      "storyline_start_week": "2026-W12",
+      "storyline_weeks": 2,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.4732
+      "emerging_score": 0.457,
+      "storyline_keywords": [
+        "charged",
+        "smuggling",
+        "smuggle",
+        "super micro"
+      ]
+    },
+    {
+      "theme_id": "2026-W13_theme_3",
+      "week": "2026-W13",
+      "cluster_id": 3,
+      "label": "Southeast Asia revisits nuclear power plans for AI data centers as Iran war disrupts",
+      "size": 7,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Microsoft",
+        "Intel",
+        "Amazon"
+      ],
+      "top_keywords": [
+        "iran",
+        "nuclear",
+        "war",
+        "data",
+        "asia"
+      ],
+      "example_titles": [
+        "Southeast Asia revisits nuclear power plans for AI data centers as Iran war disrupts",
+        "Here's Why Nuclear Energy Stocks May Be the Smartest Buys of 2026",
+        "Southeast Asia revisits nuclear power plans for AI data centers as Iran war disrupts energy supplies",
+        "Commentary: Trump's Middle East AI data center push under threat from Iran conflict",
+        "[DS] Has Lost Control Of Iran_Today Trump Took Control_Intel Will Be Used Against The [DS] ..."
+      ],
+      "source_count": 7,
+      "relevance": 0.441,
+      "previous_theme_id": "2026-W10_theme_5",
+      "previous_week": "2026-W10",
+      "previous_label": "Geopolitical Tensions Are Pushing Oil Stocks Higher, But Can the Rally Last?",
+      "previous_size": 17,
+      "similarity_to_previous": 0.7125,
+      "growth_rate": -0.5882,
+      "is_new_theme": false,
+      "storyline_id": "2026-W10_theme_5",
+      "storyline_start_week": "2026-W10",
+      "storyline_weeks": 2,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.3,
+      "storyline_keywords": [
+        "nuclear",
+        "tensions",
+        "war",
+        "iran"
+      ]
     },
     {
       "theme_id": "2026-W13_theme_7",
@@ -362,13 +421,22 @@
       "previous_week": "2026-W12",
       "previous_label": "Nvidia CEO forecasts $1 trillion AI chip order backlog surge",
       "previous_size": 7,
-      "similarity_to_previous": 0.8583,
+      "similarity_to_previous": 0.5955,
       "growth_rate": 0.0,
       "is_new_theme": false,
+      "storyline_id": "2026-W12_theme_16",
+      "storyline_start_week": "2026-W12",
+      "storyline_weeks": 2,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.3292
+      "emerging_score": 0.2766,
+      "storyline_keywords": [
+        "nvidia ceo",
+        "jensen",
+        "agi",
+        "huang"
+      ]
     },
     {
       "theme_id": "2026-W13_theme_6",
@@ -403,13 +471,22 @@
       "previous_week": "2026-W12",
       "previous_label": "AI Innovation Unveiled: 14 Vendor Partners Helping Shape The Future Of Enterprise AI At Nvidia GTC 2026",
       "previous_size": 16,
-      "similarity_to_previous": 0.8795,
+      "similarity_to_previous": 0.6555,
       "growth_rate": -0.625,
       "is_new_theme": false,
+      "storyline_id": "2026-W08_theme_7",
+      "storyline_start_week": "2026-W08",
+      "storyline_weeks": 3,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.3109
+      "emerging_score": 0.2661,
+      "storyline_keywords": [
+        "nvidia",
+        "meta",
+        "expand",
+        "millions"
+      ]
     },
     {
       "theme_id": "2026-W13_theme_11",
@@ -444,13 +521,24 @@
       "previous_week": "2026-W12",
       "previous_label": "Is an OpenClaw Partnership the Next Big Thing for Nvidia Stock? How to Position Now.",
       "previous_size": 6,
-      "similarity_to_previous": 0.7723,
+      "similarity_to_previous": 0.5772,
       "growth_rate": -0.1667,
       "is_new_theme": false,
+      "storyline_id": "2026-W12_theme_7",
+      "storyline_start_week": "2026-W12",
+      "storyline_weeks": 2,
       "is_emerging": false,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.267
+      "next_theme_ids": [
+        "2026-W41_theme_4"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.2279,
+      "storyline_keywords": [
+        "openclaw",
+        "agentic",
+        "force",
+        "safety"
+      ]
     }
   ]
 }

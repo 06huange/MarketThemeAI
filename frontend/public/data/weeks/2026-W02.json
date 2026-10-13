@@ -34,58 +34,22 @@
       "previous_week": "2026-W01",
       "previous_label": "Apple’s ‘affordable’ MacBook arrival rumors heat up",
       "previous_size": 16,
-      "similarity_to_previous": 0.8997,
+      "similarity_to_previous": 0.7929,
       "growth_rate": 2.1875,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_2",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 2,
       "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W03_theme_3"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.9799
-    },
-    {
-      "theme_id": "2026-W02_theme_4",
-      "week": "2026-W02",
-      "cluster_id": 4,
-      "label": "Trump's Intel Seal Of Approval Lifts Broadcom, Micron",
-      "size": 41,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "TSMC",
-        "Intel",
-        "Samsung Electronics"
-      ],
-      "top_keywords": [
-        "tsmc",
-        "intel",
-        "trump",
-        "nvidia",
-        "samsung"
-      ],
-      "example_titles": [
-        "Trump's Intel Seal Of Approval Lifts Broadcom, Micron",
-        "The Silicon Sovereign: How Nvidia’s 'Rubin' Era is Rewriting the Market Playbook in 2026",
-        "Samsung Eyes $66B Record Profits in 2026 Amid AI Chip Boom",
-        "AI memory prices may shoot up by 55% in 2026 as RAM market struggles to meet demand from Nvidia, Google, others",
-        "TSMC fourth-quarter revenue jumps 20%, beats forecasts"
-      ],
-      "source_count": 22,
-      "relevance": 0.424,
-      "previous_theme_id": "2026-W01_theme_0",
-      "previous_week": "2026-W01",
-      "previous_label": "China AI chipmaker Biren soars over 100% on Hong Kong debut as IPO wave builds",
-      "previous_size": 14,
-      "similarity_to_previous": 0.8645,
-      "growth_rate": 1.9286,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W03_theme_10"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.9729
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.9586,
+      "storyline_keywords": [
+        "samsung",
+        "iphone",
+        "galaxy",
+        "snapdragon"
+      ]
     },
     {
       "theme_id": "2026-W02_theme_6",
@@ -123,12 +87,170 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W02_theme_6",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [
         "2026-W03_theme_12"
       ],
       "out_degree": 1,
-      "emerging_score": 0.955
+      "emerging_score": 0.955,
+      "storyline_keywords": [
+        "tesla",
+        "ces",
+        "hyundai",
+        "motor"
+      ]
+    },
+    {
+      "theme_id": "2026-W02_theme_10",
+      "week": "2026-W02",
+      "cluster_id": 10,
+      "label": "Lenovo, Nvidia unveil AI Cloud Gigafactory programme for enterprises",
+      "size": 13,
+      "top_companies": [
+        "NVIDIA",
+        "Lenovo",
+        "Super Micro Computer",
+        "Samsung Electronics",
+        "AMD"
+      ],
+      "top_keywords": [
+        "lenovo",
+        "cloud",
+        "gigafactory",
+        "nvidia unveil",
+        "supermicro"
+      ],
+      "example_titles": [
+        "Lenovo, Nvidia unveil AI Cloud Gigafactory programme for enterprises",
+        "Lenovo And NVIDIA Unveil AI Cloud Gigafactory To Accelerate Hybrid AI Adoption",
+        "Lenovo, NVIDIA unveil AI Cloud Gigafactory programme to fuel enterprise AI scaling",
+        "Lenovo expands AI lineup with Nvidia tie-up, Qira platform",
+        "Lenovo teams up with Nvidia to slash AI data centre deployment time"
+      ],
+      "source_count": 12,
+      "relevance": 0.493,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "storyline_id": "2026-W02_theme_10",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 1,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W03_theme_6"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.8425,
+      "storyline_keywords": [
+        "lenovo",
+        "cloud",
+        "gigafactory",
+        "nvidia unveil"
+      ]
+    },
+    {
+      "theme_id": "2026-W02_theme_3",
+      "week": "2026-W02",
+      "cluster_id": 3,
+      "label": "In 2026, venture capital’s hunger for AI will be insatiable",
+      "size": 11,
+      "top_companies": [
+        "Microsoft",
+        "NVIDIA",
+        "Google",
+        "Meta",
+        "Broadcom"
+      ],
+      "top_keywords": [
+        "investors",
+        "altman",
+        "sam",
+        "biggest",
+        "openai"
+      ],
+      "example_titles": [
+        "In 2026, venture capital’s hunger for AI will be insatiable",
+        "Hot Picks: AI infrastructure seen as durable into 2026",
+        "Is the AI boom a bubble waiting to pop? History suggests caution, but not panic",
+        "AI winners and losers for 2026, according to AI investors",
+        "The AI Power List: The most influential people in artificial intelligence"
+      ],
+      "source_count": 10,
+      "relevance": 0.587,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "storyline_id": "2026-W02_theme_3",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 1,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W04_theme_9"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.7975,
+      "storyline_keywords": [
+        "investors",
+        "spending",
+        "nvidia",
+        "earnings"
+      ]
+    },
+    {
+      "theme_id": "2026-W02_theme_2",
+      "week": "2026-W02",
+      "cluster_id": 2,
+      "label": "Elon Musk’s xAI raises $20 billion in record funding round",
+      "size": 10,
+      "top_companies": [
+        "NVIDIA",
+        "Cisco",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "top_keywords": [
+        "xai",
+        "musk",
+        "elon",
+        "funding",
+        "raises"
+      ],
+      "example_titles": [
+        "Elon Musk’s xAI raises $20 billion in record funding round",
+        "xAI Raises $20 Billion in Series E to Accelerate AI Expansion : TechMoran",
+        "Elon Musk’s xAI Valued At $230 Billion In Funding Round",
+        "xAI Bags $20B As Elon Musk Celebrates a Funding Win that Could Reshape AI Power",
+        "xAI Cash Burn Highlights the High Cost of Competing in Generative AI"
+      ],
+      "source_count": 10,
+      "relevance": 0.496,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "storyline_id": "2026-W02_theme_2",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 1,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.775,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W02_theme_11",
@@ -166,10 +288,14 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W02_theme_11",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.775
+      "emerging_score": 0.775,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W02_theme_8",
@@ -207,10 +333,14 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W02_theme_8",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.73
+      "emerging_score": 0.73,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W02_theme_9",
@@ -248,10 +378,67 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W02_theme_9",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.73
+      "emerging_score": 0.73,
+      "storyline_keywords": []
+    },
+    {
+      "theme_id": "2026-W02_theme_4",
+      "week": "2026-W02",
+      "cluster_id": 4,
+      "label": "Trump's Intel Seal Of Approval Lifts Broadcom, Micron",
+      "size": 41,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "TSMC",
+        "Intel",
+        "Samsung Electronics"
+      ],
+      "top_keywords": [
+        "tsmc",
+        "intel",
+        "trump",
+        "nvidia",
+        "samsung"
+      ],
+      "example_titles": [
+        "Trump's Intel Seal Of Approval Lifts Broadcom, Micron",
+        "The Silicon Sovereign: How Nvidia’s 'Rubin' Era is Rewriting the Market Playbook in 2026",
+        "Samsung Eyes $66B Record Profits in 2026 Amid AI Chip Boom",
+        "AI memory prices may shoot up by 55% in 2026 as RAM market struggles to meet demand from Nvidia, Google, others",
+        "TSMC fourth-quarter revenue jumps 20%, beats forecasts"
+      ],
+      "source_count": 22,
+      "relevance": 0.424,
+      "previous_theme_id": "2026-W01_theme_12",
+      "previous_week": "2026-W01",
+      "previous_label": "The $5 Trillion Engine: How the 'AI Trade' Defied Gravity and Redefined the Market in 2025",
+      "previous_size": 28,
+      "similarity_to_previous": 0.5822,
+      "growth_rate": 0.4643,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_12",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 2,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W04_theme_0",
+        "2026-W05_theme_9"
+      ],
+      "out_degree": 2,
+      "emerging_score": 0.7289,
+      "storyline_keywords": [
+        "wall",
+        "street",
+        "plunge",
+        "amd"
+      ]
     },
     {
       "theme_id": "2026-W02_theme_12",
@@ -286,97 +473,22 @@
       "previous_week": "2026-W01",
       "previous_label": "Watch the NVIDIA CES 2026 keynote with CEO Jensen Huang live here: AI, robotics updates and more",
       "previous_size": 11,
-      "similarity_to_previous": 0.8678,
+      "similarity_to_previous": 0.6588,
       "growth_rate": 0.4545,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_3",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 2,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.6927
-    },
-    {
-      "theme_id": "2026-W02_theme_2",
-      "week": "2026-W02",
-      "cluster_id": 2,
-      "label": "Elon Musk’s xAI raises $20 billion in record funding round",
-      "size": 10,
-      "top_companies": [
-        "NVIDIA",
-        "Cisco",
-        "Google",
-        "Meta",
-        "Apple"
-      ],
-      "top_keywords": [
-        "xai",
-        "musk",
-        "elon",
-        "funding",
-        "raises"
-      ],
-      "example_titles": [
-        "Elon Musk’s xAI raises $20 billion in record funding round",
-        "xAI Raises $20 Billion in Series E to Accelerate AI Expansion : TechMoran",
-        "Elon Musk’s xAI Valued At $230 Billion In Funding Round",
-        "xAI Bags $20B As Elon Musk Celebrates a Funding Win that Could Reshape AI Power",
-        "xAI Cash Burn Highlights the High Cost of Competing in Generative AI"
-      ],
-      "source_count": 10,
-      "relevance": 0.496,
-      "previous_theme_id": "2026-W01_theme_10",
-      "previous_week": "2026-W01",
-      "previous_label": "Inside the AI-led resource race",
-      "previous_size": 7,
-      "similarity_to_previous": 0.7515,
-      "growth_rate": 0.4286,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.5253
-    },
-    {
-      "theme_id": "2026-W02_theme_10",
-      "week": "2026-W02",
-      "cluster_id": 10,
-      "label": "Lenovo, Nvidia unveil AI Cloud Gigafactory programme for enterprises",
-      "size": 13,
-      "top_companies": [
-        "NVIDIA",
-        "Lenovo",
-        "Super Micro Computer",
-        "Samsung Electronics",
-        "AMD"
-      ],
-      "top_keywords": [
-        "lenovo",
-        "cloud",
-        "gigafactory",
-        "nvidia unveil",
-        "supermicro"
-      ],
-      "example_titles": [
-        "Lenovo, Nvidia unveil AI Cloud Gigafactory programme for enterprises",
-        "Lenovo And NVIDIA Unveil AI Cloud Gigafactory To Accelerate Hybrid AI Adoption",
-        "Lenovo, NVIDIA unveil AI Cloud Gigafactory programme to fuel enterprise AI scaling",
-        "Lenovo expands AI lineup with Nvidia tie-up, Qira platform",
-        "Lenovo teams up with Nvidia to slash AI data centre deployment time"
-      ],
-      "source_count": 12,
-      "relevance": 0.493,
-      "previous_theme_id": "2026-W01_theme_8",
-      "previous_week": "2026-W01",
-      "previous_label": "From chips to clouds, firms pour billions into AI capacity race",
-      "previous_size": 14,
-      "similarity_to_previous": 0.7918,
-      "growth_rate": -0.0714,
-      "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W03_theme_6"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.4509
+      "emerging_score": 0.6509,
+      "storyline_keywords": [
+        "ces",
+        "expect",
+        "live",
+        "keynote"
+      ]
     },
     {
       "theme_id": "2026-W02_theme_5",
@@ -411,58 +523,25 @@
       "previous_week": "2026-W01",
       "previous_label": "Nvidia scrambling to meet demand for new H200 chip",
       "previous_size": 15,
-      "similarity_to_previous": 0.8829,
+      "similarity_to_previous": 0.6726,
       "growth_rate": -0.2667,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_1",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 2,
       "is_emerging": false,
       "next_theme_ids": [
-        "2026-W03_theme_0"
+        "2026-W03_theme_0",
+        "2026-W04_theme_1"
       ],
-      "out_degree": 1,
-      "emerging_score": 0.4241
-    },
-    {
-      "theme_id": "2026-W02_theme_3",
-      "week": "2026-W02",
-      "cluster_id": 3,
-      "label": "In 2026, venture capital’s hunger for AI will be insatiable",
-      "size": 11,
-      "top_companies": [
-        "Microsoft",
-        "NVIDIA",
-        "Google",
-        "Meta",
-        "Broadcom"
-      ],
-      "top_keywords": [
-        "investors",
-        "altman",
-        "sam",
-        "biggest",
-        "openai"
-      ],
-      "example_titles": [
-        "In 2026, venture capital’s hunger for AI will be insatiable",
-        "Hot Picks: AI infrastructure seen as durable into 2026",
-        "Is the AI boom a bubble waiting to pop? History suggests caution, but not panic",
-        "AI winners and losers for 2026, according to AI investors",
-        "The AI Power List: The most influential people in artificial intelligence"
-      ],
-      "source_count": 10,
-      "relevance": 0.587,
-      "previous_theme_id": "2026-W01_theme_12",
-      "previous_week": "2026-W01",
-      "previous_label": "The $5 Trillion Engine: How the 'AI Trade' Defied Gravity and Redefined the Market in 2025",
-      "previous_size": 28,
-      "similarity_to_previous": 0.813,
-      "growth_rate": -0.6071,
-      "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W03_theme_13"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.4101
+      "out_degree": 2,
+      "emerging_score": 0.382,
+      "storyline_keywords": [
+        "china",
+        "h200",
+        "nvidia",
+        "chips"
+      ]
     },
     {
       "theme_id": "2026-W02_theme_7",
@@ -497,15 +576,22 @@
       "previous_week": "2026-W01",
       "previous_label": "Nvidia & AMD GPU Price Hike 2026: AI Boom Drives Costs",
       "previous_size": 14,
-      "similarity_to_previous": 0.8622,
+      "similarity_to_previous": 0.6486,
       "growth_rate": -0.2857,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_5",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 2,
       "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W03_theme_14"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.3974
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.3547,
+      "storyline_keywords": [
+        "rtx",
+        "gpu",
+        "geforce",
+        "gaming"
+      ]
     },
     {
       "theme_id": "2026-W02_theme_1",
@@ -540,15 +626,25 @@
       "previous_week": "2026-W01",
       "previous_label": "Analysts Watch QUALCOMM Incorporated (QCOM)’s Expanding AI Data Center Footprint",
       "previous_size": 11,
-      "similarity_to_previous": 0.9275,
+      "similarity_to_previous": 0.8284,
       "growth_rate": -0.3636,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_11",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 2,
       "is_emerging": false,
       "next_theme_ids": [
-        "2026-W03_theme_11"
+        "2026-W04_theme_11",
+        "2026-W05_theme_11"
       ],
-      "out_degree": 1,
-      "emerging_score": 0.343
+      "out_degree": 2,
+      "emerging_score": 0.3232,
+      "storyline_keywords": [
+        "cramer",
+        "jim",
+        "buy",
+        "valuation"
+      ]
     }
   ]
 }

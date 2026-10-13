@@ -2,49 +2,6 @@
   "week": "2026-W08",
   "themes": [
     {
-      "theme_id": "2026-W08_theme_9",
-      "week": "2026-W08",
-      "cluster_id": 9,
-      "label": "Nvidia, software reports pose next tests for AI-sensitive stock market",
-      "size": 43,
-      "top_companies": [
-        "NVIDIA",
-        "Amazon",
-        "Microsoft",
-        "Google",
-        "Meta"
-      ],
-      "top_keywords": [
-        "nvidia",
-        "ai-sensitive",
-        "higher",
-        "trading",
-        "earnings"
-      ],
-      "example_titles": [
-        "Nvidia, software reports pose next tests for AI-sensitive stock market",
-        "Nvidia’s results to test AI-sensitive US stock market",
-        "Nvidia results pose next tests for AI-sensitive stock market",
-        "AI investment fears erase value from tech giants",
-        "Nvidia Earnings Preview: AI Growth Outlook Remains Strong Beyond 2026"
-      ],
-      "source_count": 28,
-      "relevance": 0.467,
-      "previous_theme_id": "2026-W07_theme_9",
-      "previous_week": "2026-W07",
-      "previous_label": "Nvidia shares go cold even as Big Tech spending on AI balloons",
-      "previous_size": 15,
-      "similarity_to_previous": 0.9473,
-      "growth_rate": 1.8667,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W09_theme_14"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.9895
-    },
-    {
       "theme_id": "2026-W08_theme_4",
       "week": "2026-W08",
       "cluster_id": 4,
@@ -77,45 +34,107 @@
       "previous_week": "2026-W07",
       "previous_label": "AI Impact Summit: India gears up for global dialogue on Artificial Intelligence",
       "previous_size": 15,
-      "similarity_to_previous": 0.9224,
+      "similarity_to_previous": 0.8205,
       "growth_rate": 1.8,
       "is_new_theme": false,
+      "storyline_id": "2026-W07_theme_7",
+      "storyline_start_week": "2026-W07",
+      "storyline_weeks": 2,
       "is_emerging": true,
       "next_theme_ids": [
         "2026-W09_theme_7"
       ],
       "out_degree": 1,
-      "emerging_score": 0.9845
+      "emerging_score": 0.9641,
+      "storyline_keywords": [
+        "india",
+        "impact",
+        "summit",
+        "global"
+      ]
     },
     {
-      "theme_id": "2026-W08_theme_2",
+      "theme_id": "2026-W08_theme_9",
       "week": "2026-W08",
-      "cluster_id": 2,
-      "label": "AI will be central to 6G, fundamentally change in how we think about mobile devices: Qualcomm CEO",
-      "size": 10,
+      "cluster_id": 9,
+      "label": "Nvidia, software reports pose next tests for AI-sensitive stock market",
+      "size": 43,
       "top_companies": [
-        "Qualcomm",
-        "Apple",
-        "MediaTek",
-        "Samsung Electronics",
-        "NVIDIA"
+        "NVIDIA",
+        "Amazon",
+        "Microsoft",
+        "Google",
+        "Meta"
       ],
       "top_keywords": [
-        "qualcomm",
-        "ceo",
-        "india",
-        "amon",
-        "commits"
+        "nvidia",
+        "ai-sensitive",
+        "higher",
+        "trading",
+        "earnings"
       ],
       "example_titles": [
-        "AI will be central to 6G, fundamentally change in how we think about mobile devices: Qualcomm CEO",
-        "Qualcomm Commits Up To $150 Million For Strategic AI Venture Fund In India",
-        "AI to Be Central to 6G, Transform Mobile Tech: Qualcomm CEO",
-        "PM Modi Meets Qualcomm CEO at India AI Summit 2026",
-        "Qualcomm to Invest $150 Million in India AI Startups, Strengthening Presence in Growing Market"
+        "Nvidia, software reports pose next tests for AI-sensitive stock market",
+        "Nvidia’s results to test AI-sensitive US stock market",
+        "Nvidia results pose next tests for AI-sensitive stock market",
+        "AI investment fears erase value from tech giants",
+        "Nvidia Earnings Preview: AI Growth Outlook Remains Strong Beyond 2026"
       ],
-      "source_count": 9,
-      "relevance": 0.487,
+      "source_count": 28,
+      "relevance": 0.467,
+      "previous_theme_id": "2026-W07_theme_9",
+      "previous_week": "2026-W07",
+      "previous_label": "Nvidia shares go cold even as Big Tech spending on AI balloons",
+      "previous_size": 15,
+      "similarity_to_previous": 0.7668,
+      "growth_rate": 1.8667,
+      "is_new_theme": false,
+      "storyline_id": "2026-W02_theme_3",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 4,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W09_theme_12",
+        "2026-W09_theme_14"
+      ],
+      "out_degree": 2,
+      "emerging_score": 0.9534,
+      "storyline_keywords": [
+        "investors",
+        "spending",
+        "nvidia",
+        "earnings"
+      ]
+    },
+    {
+      "theme_id": "2026-W08_theme_7",
+      "week": "2026-W08",
+      "cluster_id": 7,
+      "label": "Meta integrates Nvidia GPUs, CPUs, and confidential computing tools",
+      "size": 17,
+      "top_companies": [
+        "NVIDIA",
+        "Intel",
+        "Meta",
+        "Google",
+        "AMD"
+      ],
+      "top_keywords": [
+        "meta",
+        "nvidia",
+        "millions",
+        "gpu",
+        "computing"
+      ],
+      "example_titles": [
+        "Meta integrates Nvidia GPUs, CPUs, and confidential computing tools",
+        "Nvidia to sell Meta millions of chips in multiyear deal",
+        "Meta Partners with Nvidia to Scale AI Using Advanced GPUs",
+        "Nvidia and Meta expand GPU team up with millions of additional AI chips",
+        "Nvidia Expands Partnership with Meta to Deploy Millions of GPUs"
+      ],
+      "source_count": 16,
+      "relevance": 0.543,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -123,10 +142,74 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W08_theme_7",
+      "storyline_start_week": "2026-W08",
+      "storyline_weeks": 1,
       "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.775
+      "next_theme_ids": [
+        "2026-W09_theme_10",
+        "2026-W12_theme_15"
+      ],
+      "out_degree": 2,
+      "emerging_score": 0.9325,
+      "storyline_keywords": [
+        "nvidia",
+        "meta",
+        "expand",
+        "millions"
+      ]
+    },
+    {
+      "theme_id": "2026-W08_theme_5",
+      "week": "2026-W08",
+      "cluster_id": 5,
+      "label": "Nvidia poised to back OpenAI in $100 bln raise",
+      "size": 16,
+      "top_companies": [
+        "NVIDIA",
+        "Amazon",
+        "Microsoft",
+        "Google",
+        "Meta"
+      ],
+      "top_keywords": [
+        "openai",
+        "investment",
+        "nears",
+        "nvidia",
+        "compute"
+      ],
+      "example_titles": [
+        "Nvidia poised to back OpenAI in $100 bln raise",
+        "Nvidia nears deal for scaled-down investment in OpenAI",
+        "Nvidia nears deal for scaled-down investment in OpenAI: Report",
+        "Openai Valuation in Focus as Nvidia Eyes $30 Billion Stake, $100 Billion Round Nears",
+        "Nvidia moves to deepen ties with OpenAI"
+      ],
+      "source_count": 16,
+      "relevance": 0.522,
+      "previous_theme_id": "2026-W05_theme_1",
+      "previous_week": "2026-W05",
+      "previous_label": "Nvidia, Microsoft, Amazon in talks to invest up to US$60 billion in OpenAI, The Information reports",
+      "previous_size": 7,
+      "similarity_to_previous": 0.8115,
+      "growth_rate": 1.2857,
+      "is_new_theme": false,
+      "storyline_id": "2026-W04_theme_12",
+      "storyline_start_week": "2026-W04",
+      "storyline_weeks": 3,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W09_theme_4"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.8723,
+      "storyline_keywords": [
+        "openai",
+        "round",
+        "amazon",
+        "funding"
+      ]
     },
     {
       "theme_id": "2026-W08_theme_0",
@@ -164,10 +247,111 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W08_theme_0",
+      "storyline_start_week": "2026-W08",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.73
+      "emerging_score": 0.73,
+      "storyline_keywords": []
+    },
+    {
+      "theme_id": "2026-W08_theme_1",
+      "week": "2026-W08",
+      "cluster_id": 1,
+      "label": "World Labs secures $1 billion for spatial AI push",
+      "size": 7,
+      "top_companies": [
+        "NVIDIA",
+        "AMD",
+        "Google",
+        "Meta",
+        "Microsoft"
+      ],
+      "top_keywords": [
+        "labs",
+        "world",
+        "fei-fei",
+        "li",
+        "pioneer"
+      ],
+      "example_titles": [
+        "World Labs secures $1 billion for spatial AI push",
+        "AI pioneer Fei-Fei Li's World Labs raises $1 billion in funding",
+        "AI pioneer Fei-Fei Li lands $1 billion for startup",
+        "David Silver is chasing superhuman intelligence with a $1bn seed",
+        "Are DeepSeek Moments Now the New Normal?"
+      ],
+      "source_count": 7,
+      "relevance": 0.566,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "storyline_id": "2026-W08_theme_1",
+      "storyline_start_week": "2026-W08",
+      "storyline_weeks": 1,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.7075,
+      "storyline_keywords": []
+    },
+    {
+      "theme_id": "2026-W08_theme_6",
+      "week": "2026-W08",
+      "cluster_id": 6,
+      "label": "AMD Zen 6 and Intel Nova Lake CPUs reportedly arriving late, delayed to CES 2027 — next-gen chips rocked by industry turmoil",
+      "size": 16,
+      "top_companies": [
+        "Google",
+        "NVIDIA",
+        "Intel",
+        "AMD",
+        "Microsoft"
+      ],
+      "top_keywords": [
+        "rtx",
+        "delayed",
+        "intel nova",
+        "next-gen",
+        "reportedly"
+      ],
+      "example_titles": [
+        "AMD Zen 6 and Intel Nova Lake CPUs reportedly arriving late, delayed to CES 2027 — next-gen chips rocked by industry turmoil",
+        "Even CPUs Aren’t Safe from ‘Delayed Launches’ Anymore, With Intel’s Nova Lake-S Reportedly Pushed to 2027",
+        "Nvidia's Jensen Huang says it will ‘surprise the world’ with a new mystery chip — here's what to expect",
+        "Global chip shortages may lead to PS6 delay, Nintendo Switch 2 price increase: report",
+        "NVIDIA's CEO to Unveil Chips the “World Has Never Seen Before” at This Year’s GTC, Likely Pointing Toward Rubin or Next-Gen Feynman AI Lineups"
+      ],
+      "source_count": 12,
+      "relevance": 0.481,
+      "previous_theme_id": "2026-W06_theme_3",
+      "previous_week": "2026-W06",
+      "previous_label": "NVIDIA’s Replacement for the RTX 50 SUPER Series Could Be a “Mega” RTX 5090 GPU, but It’s Unlikely to Change Anything for Gamers",
+      "previous_size": 10,
+      "similarity_to_previous": 0.6082,
+      "growth_rate": 0.6,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_5",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 4,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W10_theme_12"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.6916,
+      "storyline_keywords": [
+        "rtx",
+        "gpu",
+        "geforce",
+        "gaming"
+      ]
     },
     {
       "theme_id": "2026-W08_theme_3",
@@ -205,139 +389,64 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W08_theme_3",
+      "storyline_start_week": "2026-W08",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.685
+      "emerging_score": 0.685,
+      "storyline_keywords": []
     },
     {
-      "theme_id": "2026-W08_theme_5",
+      "theme_id": "2026-W08_theme_2",
       "week": "2026-W08",
-      "cluster_id": 5,
-      "label": "Nvidia poised to back OpenAI in $100 bln raise",
-      "size": 16,
+      "cluster_id": 2,
+      "label": "AI will be central to 6G, fundamentally change in how we think about mobile devices: Qualcomm CEO",
+      "size": 10,
       "top_companies": [
-        "NVIDIA",
-        "Amazon",
-        "Microsoft",
-        "Google",
-        "Meta"
+        "Qualcomm",
+        "Apple",
+        "MediaTek",
+        "Samsung Electronics",
+        "NVIDIA"
       ],
       "top_keywords": [
-        "openai",
-        "investment",
-        "nears",
-        "nvidia",
-        "compute"
+        "qualcomm",
+        "ceo",
+        "india",
+        "amon",
+        "commits"
       ],
       "example_titles": [
-        "Nvidia poised to back OpenAI in $100 bln raise",
-        "Nvidia nears deal for scaled-down investment in OpenAI",
-        "Nvidia nears deal for scaled-down investment in OpenAI: Report",
-        "Openai Valuation in Focus as Nvidia Eyes $30 Billion Stake, $100 Billion Round Nears",
-        "Nvidia moves to deepen ties with OpenAI"
+        "AI will be central to 6G, fundamentally change in how we think about mobile devices: Qualcomm CEO",
+        "Qualcomm Commits Up To $150 Million For Strategic AI Venture Fund In India",
+        "AI to Be Central to 6G, Transform Mobile Tech: Qualcomm CEO",
+        "PM Modi Meets Qualcomm CEO at India AI Summit 2026",
+        "Qualcomm to Invest $150 Million in India AI Startups, Strengthening Presence in Growing Market"
       ],
-      "source_count": 16,
-      "relevance": 0.522,
-      "previous_theme_id": "2026-W07_theme_0",
-      "previous_week": "2026-W07",
-      "previous_label": "Anthropic’s $30 billion mega-funding catapults Claude AI maker to $380 billion valuation",
-      "previous_size": 27,
-      "similarity_to_previous": 0.8656,
-      "growth_rate": -0.4074,
+      "source_count": 9,
+      "relevance": 0.487,
+      "previous_theme_id": "2026-W06_theme_2",
+      "previous_week": "2026-W06",
+      "previous_label": "Qualcomm’s 2nm breakthrough puts India at the centre of global chip design",
+      "previous_size": 8,
+      "similarity_to_previous": 0.5971,
+      "growth_rate": 0.25,
       "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W09_theme_4"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.5331
-    },
-    {
-      "theme_id": "2026-W08_theme_7",
-      "week": "2026-W08",
-      "cluster_id": 7,
-      "label": "Meta integrates Nvidia GPUs, CPUs, and confidential computing tools",
-      "size": 17,
-      "top_companies": [
-        "NVIDIA",
-        "Intel",
-        "Meta",
-        "Google",
-        "AMD"
-      ],
-      "top_keywords": [
-        "meta",
-        "nvidia",
-        "millions",
-        "gpu",
-        "computing"
-      ],
-      "example_titles": [
-        "Meta integrates Nvidia GPUs, CPUs, and confidential computing tools",
-        "Nvidia to sell Meta millions of chips in multiyear deal",
-        "Meta Partners with Nvidia to Scale AI Using Advanced GPUs",
-        "Nvidia and Meta expand GPU team up with millions of additional AI chips",
-        "Nvidia Expands Partnership with Meta to Deploy Millions of GPUs"
-      ],
-      "source_count": 16,
-      "relevance": 0.543,
-      "previous_theme_id": "2026-W07_theme_4",
-      "previous_week": "2026-W07",
-      "previous_label": "GeForce NOW Expands to Amazon Fire TV, Adding ReAnimal, Kingdom Come: Deliverance, Mega Man 11 And 5 Other Titles This Week",
-      "previous_size": 19,
-      "similarity_to_previous": 0.7352,
-      "growth_rate": -0.1053,
-      "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W09_theme_10"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.5295
-    },
-    {
-      "theme_id": "2026-W08_theme_6",
-      "week": "2026-W08",
-      "cluster_id": 6,
-      "label": "AMD Zen 6 and Intel Nova Lake CPUs reportedly arriving late, delayed to CES 2027 — next-gen chips rocked by industry turmoil",
-      "size": 16,
-      "top_companies": [
-        "Google",
-        "NVIDIA",
-        "Intel",
-        "AMD",
-        "Microsoft"
-      ],
-      "top_keywords": [
-        "rtx",
-        "delayed",
-        "intel nova",
-        "next-gen",
-        "reportedly"
-      ],
-      "example_titles": [
-        "AMD Zen 6 and Intel Nova Lake CPUs reportedly arriving late, delayed to CES 2027 — next-gen chips rocked by industry turmoil",
-        "Even CPUs Aren’t Safe from ‘Delayed Launches’ Anymore, With Intel’s Nova Lake-S Reportedly Pushed to 2027",
-        "Nvidia's Jensen Huang says it will ‘surprise the world’ with a new mystery chip — here's what to expect",
-        "Global chip shortages may lead to PS6 delay, Nintendo Switch 2 price increase: report",
-        "NVIDIA's CEO to Unveil Chips the “World Has Never Seen Before” at This Year’s GTC, Likely Pointing Toward Rubin or Next-Gen Feynman AI Lineups"
-      ],
-      "source_count": 12,
-      "relevance": 0.481,
-      "previous_theme_id": "2026-W07_theme_5",
-      "previous_week": "2026-W07",
-      "previous_label": "New Snapdragon X2 Elite benchmarks surface — and Apple and Intel should be worried",
-      "previous_size": 20,
-      "similarity_to_previous": 0.7968,
-      "growth_rate": -0.2,
-      "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W09_theme_5"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.5194
+      "storyline_id": "2026-W06_theme_2",
+      "storyline_start_week": "2026-W06",
+      "storyline_weeks": 2,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.4319,
+      "storyline_keywords": [
+        "qualcomm",
+        "india",
+        "central",
+        "tape-out"
+      ]
     },
     {
       "theme_id": "2026-W08_theme_8",
@@ -368,62 +477,28 @@
       ],
       "source_count": 7,
       "relevance": 0.481,
-      "previous_theme_id": "2026-W07_theme_3",
-      "previous_week": "2026-W07",
-      "previous_label": "ByteDance Advances AI Chip Development With Samsung Manufacturing Talks",
-      "previous_size": 8,
-      "similarity_to_previous": 0.8749,
-      "growth_rate": -0.125,
+      "previous_theme_id": "2026-W06_theme_11",
+      "previous_week": "2026-W06",
+      "previous_label": "Qualcomm Shares Drop By 9% Due To Shortage Of Memory Chips For Phones - Trak.in",
+      "previous_size": 10,
+      "similarity_to_previous": 0.5582,
+      "growth_rate": -0.3,
       "is_new_theme": false,
+      "storyline_id": "2026-W06_theme_11",
+      "storyline_start_week": "2026-W06",
+      "storyline_weeks": 2,
       "is_emerging": false,
       "next_theme_ids": [
         "2026-W09_theme_6"
       ],
       "out_degree": 1,
-      "emerging_score": 0.3325
-    },
-    {
-      "theme_id": "2026-W08_theme_1",
-      "week": "2026-W08",
-      "cluster_id": 1,
-      "label": "World Labs secures $1 billion for spatial AI push",
-      "size": 7,
-      "top_companies": [
-        "NVIDIA",
-        "AMD",
-        "Google",
-        "Meta",
-        "Microsoft"
-      ],
-      "top_keywords": [
-        "labs",
-        "world",
-        "fei-fei",
-        "li",
-        "pioneer"
-      ],
-      "example_titles": [
-        "World Labs secures $1 billion for spatial AI push",
-        "AI pioneer Fei-Fei Li's World Labs raises $1 billion in funding",
-        "AI pioneer Fei-Fei Li lands $1 billion for startup",
-        "David Silver is chasing superhuman intelligence with a $1bn seed",
-        "Are DeepSeek Moments Now the New Normal?"
-      ],
-      "source_count": 7,
-      "relevance": 0.566,
-      "previous_theme_id": "2026-W07_theme_2",
-      "previous_week": "2026-W07",
-      "previous_label": "Low-cost AI models surge as Chinese firms compete",
-      "previous_size": 9,
-      "similarity_to_previous": 0.7438,
-      "growth_rate": -0.2222,
-      "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W09_theme_8"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.3063
+      "emerging_score": 0.2691,
+      "storyline_keywords": [
+        "memory",
+        "micron",
+        "shortage",
+        "prices"
+      ]
     }
   ]
 }

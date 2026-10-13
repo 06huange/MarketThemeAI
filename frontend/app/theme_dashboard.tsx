@@ -31,6 +31,10 @@ type Theme = {
   growth_rate?: number | null;
   is_new_theme?: boolean;
   is_emerging?: boolean;
+  storyline_id?: string;
+  storyline_start_week?: string;
+  storyline_weeks?: number;
+  storyline_keywords?: string[];
   next_theme_ids?: string[];
   out_degree?: number;
   emerging_score?: number;
@@ -274,7 +278,10 @@ function ThemeCard({ theme }: { theme: Theme }) {
                 <Badge variant="subtle">{theme.size} articles</Badge>
                 {theme.is_new_theme ? (
                   <Badge>New</Badge>
-                ) : theme.growth_rate != null ? (
+                ) : (theme.storyline_weeks ?? 1) > 1 ? (
+                  <Badge variant="outline">Ongoing · {theme.storyline_weeks} weeks</Badge>
+                ) : null}
+                {!theme.is_new_theme && theme.growth_rate != null ? (
                   <Badge variant="outline">Growth {formatPct(theme.growth_rate)}</Badge>
                 ) : null}
                 {theme.is_emerging ? <Badge variant="outline">Emerging</Badge> : null}
@@ -292,6 +299,15 @@ function ThemeCard({ theme }: { theme: Theme }) {
           </div>
 
           <div className="mt-6 space-y-5">
+            {(theme.storyline_weeks ?? 1) > 1 ? (
+              <div>
+                <SectionLabel>Storyline since {theme.storyline_start_week}</SectionLabel>
+                <div className="text-sm font-medium text-slate-800">
+                  {(theme.storyline_keywords || []).join(" · ") || "Ongoing coverage"}
+                </div>
+              </div>
+            ) : null}
+
             {displayCompanies.length > 0 ? (
               <div>
                 <SectionLabel>Top companies</SectionLabel>
@@ -341,10 +357,10 @@ function ThemeCard({ theme }: { theme: Theme }) {
             <div className="flex items-center justify-between border-t border-slate-200 pt-4 text-sm text-slate-600">
               <div className="pr-4">
                 {theme.previous_week
-                  ? `Linked from ${theme.previous_week} · similarity ${formatScore(
-                      theme.similarity_to_previous
+                  ? `Continues from ${theme.previous_week}: ${prettifyThemeLabel(
+                      theme.previous_label ?? ""
                     )}`
-                  : "No linked prior theme"}
+                  : "No earlier coverage of this story"}
               </div>
               <ArrowRight className="h-4 w-4 shrink-0 text-slate-500" />
             </div>

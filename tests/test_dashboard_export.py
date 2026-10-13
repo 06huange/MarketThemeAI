@@ -2,6 +2,7 @@
 frontend/app/theme_dashboard.tsx. These tests pin that contract."""
 
 from src.frontend_export.build_dashboard_data import (
+    add_storyline_keywords,
     build_stats,
     build_theme_records,
     build_trajectory_maps,
@@ -70,6 +71,33 @@ def test_linked_theme_reports_growth():
     assert t["previous_theme_id"] == "w1_a"
     assert t["growth_rate"] == 1.0
     assert t["is_emerging"]
+
+
+def test_storyline_follows_the_chain_of_links():
+    themes = records()
+
+    assert themes["w2_a"]["storyline_id"] == "w1_a"
+    assert themes["w2_a"]["storyline_start_week"] == "W1"
+    assert themes["w2_a"]["storyline_weeks"] == 2
+    assert themes["w2_b"]["storyline_id"] == "w2_b"
+    assert themes["w2_b"]["storyline_weeks"] == 1
+
+
+def test_only_multi_week_storylines_get_keywords():
+    themes = list(records().values())
+    for t in themes:
+        t["example_titles"] = (
+            ["Samsung memory shortage worsens", "Memory prices climb"]
+            if t["storyline_id"] == "w1_a"
+            else ["Huawei signs patent deal"]
+        )
+
+    add_storyline_keywords(themes)
+    by_id = {t["theme_id"]: t for t in themes}
+
+    assert "memory" in by_id["w2_a"]["storyline_keywords"]
+    assert by_id["w1_a"]["storyline_keywords"] == by_id["w2_a"]["storyline_keywords"]
+    assert by_id["w2_b"]["storyline_keywords"] == []
 
 
 def test_exported_theme_matches_frontend_type():

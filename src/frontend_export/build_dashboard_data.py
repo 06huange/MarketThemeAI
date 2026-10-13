@@ -5,6 +5,8 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
+from src.themes.build_weekly_themes import keyphrases_by_cluster
+
 
 THEMES_DIR = Path("data/themes")
 WEEKLY_INDEX_PATH = THEMES_DIR / "weekly_index.json"
@@ -16,7 +18,6 @@ OUT_WEEKS_DIR = OUT_DIR / "weeks"
 DASHBOARD_OUT_PATH = OUT_DIR / "dashboard.json"
 
 EMERGING_GROWTH_THRESHOLD = 0.25
-MIN_SIMILARITY_FOR_CONTINUATION = 0.60
 
 # Per-theme fields the dashboard never reads. Centroids alone are 384 floats per
 # theme and made up most of dashboard.json, so they stay in data/themes only.
@@ -114,6 +115,8 @@ def build_theme_records(
 ) -> tuple[list[dict], dict[str, list[dict]]]:
     all_theme_records: list[dict] = []
     themes_by_week_out: dict[str, list[dict]] = {}
+    # Weeks are processed in order, so a theme's predecessor is always already here.
+    records_by_id: dict[str, dict] = {}
 
     for week in weeks:
         week_themes = weekly_themes_by_week.get(week, [])
@@ -141,13 +144,19 @@ def build_theme_records(
                 growth_rate = compute_growth_rate(previous_size, size)
 
             # The first week has nothing to compare against, so none of its
-            # themes can be called "new"; they are the baseline.
+            # themes can be called "new"; they are the baseline. Links are already
+            # thresholded, so any incoming link means the story continues.
             is_baseline_week = week == weeks[0]
-            is_new = not is_baseline_week and (
-                incoming is None
-                or similarity is None
-                or similarity < MIN_SIMILARITY_FOR_CONTINUATION
-            )
+            is_new = not is_baseline_week and incoming is None
+
+            # A storyline is the chain of linked themes this one belongs to.
+            previous = records_by_id.get(previous_theme_id) if previous_theme_id else None
+            if previous is not None:
+                storyline_id = previous["storyline_id"]
+                storyline_start_week = previous["storyline_start_week"]
+                storyline_weeks = previous["storyline_weeks"] + 1
+            else:
+                storyline_id, storyline_start_week, storyline_weeks = theme_id, week, 1
 
             is_emerging = is_new or (
                 growth_rate is not None and growth_rate >= EMERGING_GROWTH_THRESHOLD
@@ -175,6 +184,9 @@ def build_theme_records(
                 "similarity_to_previous": similarity,
                 "growth_rate": None if growth_rate is None else round(growth_rate, 4),
                 "is_new_theme": is_new,
+                "storyline_id": storyline_id,
+                "storyline_start_week": storyline_start_week,
+                "storyline_weeks": storyline_weeks,
                 "is_emerging": is_emerging,
                 "next_theme_ids": next_theme_ids,
                 "out_degree": len(next_theme_ids),
@@ -187,6 +199,7 @@ def build_theme_records(
             }
 
             enriched_week_themes.append(enriched)
+            records_by_id[theme_id] = enriched
             all_theme_records.append(enriched)
 
         enriched_week_themes.sort(
@@ -199,6 +212,26 @@ def build_theme_records(
         themes_by_week_out[week] = enriched_week_themes
 
     return all_theme_records, themes_by_week_out
+
+
+def add_storyline_keywords(themes: list[dict], k: int = 4) -> None:
+    """Name each multi-week storyline by the terms that set its headlines apart.
+
+    A theme's own label is one specific headline; these keywords describe the
+    broader thread it belongs to (e.g. "memory · shortage · prices").
+    """
+    storylines: dict[str, list[dict]] = defaultdict(list)
+    for theme in themes:
+        storylines[theme["storyline_id"]].append(theme)
+
+    ongoing = [sid for sid, members in storylines.items() if len(members) > 1]
+    phrases = keyphrases_by_cluster(
+        [[title for t in storylines[sid] for title in t.get("example_titles", [])] for sid in ongoing],
+        k=k,
+    )
+    keywords = dict(zip(ongoing, phrases))
+    for theme in themes:
+        theme["storyline_keywords"] = keywords.get(theme["storyline_id"], [])
 
 
 def strip_backend_fields(theme: dict) -> dict:
@@ -257,6 +290,7 @@ def main() -> None:
         best_incoming=best_incoming,
         outgoing=outgoing,
     )
+    add_storyline_keywords(all_themes)
 
     stats = build_stats(all_themes, weeks)
 
@@ -266,7 +300,10 @@ def main() -> None:
         reverse=True,
     )
 
-    # Write per-week frontend files
+    # Write per-week frontend files, removing weeks that no longer have themes
+    for stale in OUT_WEEKS_DIR.glob("*.json"):
+        if stale.stem not in weeks:
+            stale.unlink()
     for week in weeks:
         payload = {
             "week": week,

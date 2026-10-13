@@ -37,96 +37,14 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W12_theme_8",
+      "storyline_start_week": "2026-W12",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.955
-    },
-    {
-      "theme_id": "2026-W12_theme_15",
-      "week": "2026-W12",
-      "cluster_id": 15,
-      "label": "AI Innovation Unveiled: 14 Vendor Partners Helping Shape The Future Of Enterprise AI At Nvidia GTC 2026",
-      "size": 16,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "AMD",
-        "Groq",
-        "Intel"
-      ],
-      "top_keywords": [
-        "nvidia",
-        "gtc",
-        "mitac",
-        "rubin",
-        "vera"
-      ],
-      "example_titles": [
-        "AI Innovation Unveiled: 14 Vendor Partners Helping Shape The Future Of Enterprise AI At Nvidia GTC 2026",
-        "Nvidia LPU/LPX Racks Poised For 10x Growth By 2027 As AI Demand Surges, Says Analyst Ming-Chi Kuo",
-        "Vera Rubin targets every wasted watt in AI",
-        "MiTAC Computing Technology Corporation: MiTAC Accelerates Next-Gen AI with Turnkey Solutions and Flexible NVIDIA MGX at NVIDIA GTC 2026",
-        "NVIDIA Vera Rubin Achieves 40 Million Times More Compute In 10 Years: 288 GB HBM4, 22 TB/s Bandwidth, 50 PFLOPs of AI Horsepower"
-      ],
-      "source_count": 11,
-      "relevance": 0.525,
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W13_theme_6"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.91
-    },
-    {
-      "theme_id": "2026-W12_theme_6",
-      "week": "2026-W12",
-      "cluster_id": 6,
-      "label": "The Artificial Intelligence (AI) Stock Most Likely to Mint New Millionaires",
-      "size": 14,
-      "top_companies": [
-        "NVIDIA",
-        "Intel",
-        "Meta",
-        "Amazon",
-        "Google"
-      ],
-      "top_keywords": [
-        "win",
-        "activity",
-        "adoption outpaces",
-        "advisory",
-        "amazon investors"
-      ],
-      "example_titles": [
-        "The Artificial Intelligence (AI) Stock Most Likely to Mint New Millionaires",
-        "Warning: the AI Theme is Officially Dead",
-        "The Market's Fear Gauge Just Spiked to 24. History Says This Is What Happens Next for Artificial Intelligence (AI) Stocks.",
-        "Why I'm Buying ServiceNow Stock While Everyone Else Is Panicking About AI Disruption",
-        "Amazon Stock Investors Just Got Fantastic News From CEO Andy Jassy"
-      ],
-      "source_count": 6,
-      "relevance": 0.564,
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W13_theme_9"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.865
+      "emerging_score": 0.955,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W12_theme_1",
@@ -164,53 +82,21 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W12_theme_1",
+      "storyline_start_week": "2026-W12",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [
         "2026-W13_theme_4"
       ],
       "out_degree": 1,
-      "emerging_score": 0.8425
-    },
-    {
-      "theme_id": "2026-W12_theme_9",
-      "week": "2026-W12",
-      "cluster_id": 9,
-      "label": "Will DLSS 5 Move the Needle for Nvidia Stock?",
-      "size": 11,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "Meta",
-        "Micron",
-        "Amazon"
-      ],
-      "top_keywords": [
-        "nvda",
-        "nvidia",
-        "bagger",
-        "list",
-        "analyst"
-      ],
-      "example_titles": [
-        "Will DLSS 5 Move the Needle for Nvidia Stock?",
-        "Nvidia Could Be A 'Double Bagger' By 2027 As Analyst Adds NVDA To Best Ideas List",
-        "Technology Stocks To Consider",
-        "The AI Sovereign: A Deep-Dive Research Feature on NVIDIA (NVDA) in 2026",
-        "Tuesday's big stock stories: What’s likely to move the market in the next trading session"
-      ],
-      "source_count": 9,
-      "relevance": 0.321,
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.7975
+      "emerging_score": 0.8425,
+      "storyline_keywords": [
+        "charged",
+        "smuggling",
+        "smuggle",
+        "super micro"
+      ]
     },
     {
       "theme_id": "2026-W12_theme_4",
@@ -248,90 +134,14 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W12_theme_4",
+      "storyline_start_week": "2026-W12",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.775
-    },
-    {
-      "theme_id": "2026-W12_theme_13",
-      "week": "2026-W12",
-      "cluster_id": 13,
-      "label": "Is Micron a Buy as Revenue Explodes Higher?",
-      "size": 10,
-      "top_companies": [
-        "Micron",
-        "NVIDIA",
-        "Intel",
-        "Samsung Electronics",
-        "AMD"
-      ],
-      "top_keywords": [
-        "micron",
-        "earnings",
-        "memory",
-        "revenue",
-        "growth"
-      ],
-      "example_titles": [
-        "Is Micron a Buy as Revenue Explodes Higher?",
-        "Where Will Micron Stock Be in 3 Years?",
-        "Micron Technology (MU) Earnings Preview: Wedbush Targets $500 Amid HBM Explosion",
-        "Micron CEO drops a bombshell after Micron’s huge earnings beat",
-        "Memory crisis: Micron's revenue equals AMD and Intel combined"
-      ],
-      "source_count": 7,
-      "relevance": 0.429,
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.775
-    },
-    {
-      "theme_id": "2026-W12_theme_2",
-      "week": "2026-W12",
-      "cluster_id": 2,
-      "label": "Nvidia gets China nod for H200 chip sales",
-      "size": 9,
-      "top_companies": [
-        "NVIDIA",
-        "Groq",
-        "Google"
-      ],
-      "top_keywords": [
-        "h200",
-        "chip",
-        "sales",
-        "china",
-        "chinese"
-      ],
-      "example_titles": [
-        "Nvidia gets China nod for H200 chip sales",
-        "Nvidia prepares new Groq AI chip for Chinese market as trade curbs ease",
-        "Nvidia gets Beijing's nod for H200 chip sales, adapts Groq chip for China, sources say",
-        "Chinese authorities approve of Nvidia’s H200 chip sales",
-        "Nvidia Fires Up H200 AI Chip Production for China As Beijing Clears Sales; Jensen Huang Confirms 'Many Customers'"
-      ],
-      "source_count": 8,
-      "relevance": 0.516,
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.7525
+      "emerging_score": 0.775,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W12_theme_5",
@@ -369,12 +179,14 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W12_theme_5",
+      "storyline_start_week": "2026-W12",
+      "storyline_weeks": 1,
       "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W13_theme_5"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.7525
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.7525,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W12_theme_17",
@@ -412,10 +224,66 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W12_theme_17",
+      "storyline_start_week": "2026-W12",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.7525
+      "emerging_score": 0.7525,
+      "storyline_keywords": []
+    },
+    {
+      "theme_id": "2026-W12_theme_16",
+      "week": "2026-W12",
+      "cluster_id": 16,
+      "label": "Nvidia CEO forecasts $1 trillion AI chip order backlog surge",
+      "size": 7,
+      "top_companies": [
+        "NVIDIA",
+        "Meta",
+        "Google",
+        "Groq",
+        "Apple"
+      ],
+      "top_keywords": [
+        "ceo",
+        "trillion",
+        "phase",
+        "boom",
+        "inference"
+      ],
+      "example_titles": [
+        "Nvidia CEO forecasts $1 trillion AI chip order backlog surge",
+        "Nvidia CEO details firm’s AI goals",
+        "Nvidia bets on inference phase as AI boom enters new stage",
+        "Nvidia CEO heralds ‘inference inflection’ as next phase of AI boom, backed by $1 trillion in orders",
+        "Nvidia Shares Pump & Dump After CEO Jensen Expects \"At Least\" $1 Trillion In Revenue By 2027"
+      ],
+      "source_count": 7,
+      "relevance": 0.525,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "storyline_id": "2026-W12_theme_16",
+      "storyline_start_week": "2026-W12",
+      "storyline_weeks": 1,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W13_theme_7"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.7075,
+      "storyline_keywords": [
+        "nvidia ceo",
+        "jensen",
+        "agi",
+        "huang"
+      ]
     },
     {
       "theme_id": "2026-W12_theme_3",
@@ -453,12 +321,14 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W12_theme_3",
+      "storyline_start_week": "2026-W12",
+      "storyline_weeks": 1,
       "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W13_theme_0"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.685
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.685,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W12_theme_7",
@@ -496,12 +366,174 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W12_theme_7",
+      "storyline_start_week": "2026-W12",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [
         "2026-W13_theme_11"
       ],
       "out_degree": 1,
-      "emerging_score": 0.685
+      "emerging_score": 0.685,
+      "storyline_keywords": [
+        "openclaw",
+        "agentic",
+        "force",
+        "safety"
+      ]
+    },
+    {
+      "theme_id": "2026-W12_theme_2",
+      "week": "2026-W12",
+      "cluster_id": 2,
+      "label": "Nvidia gets China nod for H200 chip sales",
+      "size": 9,
+      "top_companies": [
+        "NVIDIA",
+        "Groq",
+        "Google"
+      ],
+      "top_keywords": [
+        "h200",
+        "chip",
+        "sales",
+        "china",
+        "chinese"
+      ],
+      "example_titles": [
+        "Nvidia gets China nod for H200 chip sales",
+        "Nvidia prepares new Groq AI chip for Chinese market as trade curbs ease",
+        "Nvidia gets Beijing's nod for H200 chip sales, adapts Groq chip for China, sources say",
+        "Chinese authorities approve of Nvidia’s H200 chip sales",
+        "Nvidia Fires Up H200 AI Chip Production for China As Beijing Clears Sales; Jensen Huang Confirms 'Many Customers'"
+      ],
+      "source_count": 8,
+      "relevance": 0.516,
+      "previous_theme_id": "2026-W10_theme_8",
+      "previous_week": "2026-W10",
+      "previous_label": "U.S. considers caps on Nvidia chips for China",
+      "previous_size": 6,
+      "similarity_to_previous": 0.7,
+      "growth_rate": 0.5,
+      "is_new_theme": false,
+      "storyline_id": "2026-W10_theme_8",
+      "storyline_start_week": "2026-W10",
+      "storyline_weeks": 2,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.5175,
+      "storyline_keywords": [
+        "sales",
+        "chip",
+        "considers",
+        "h200"
+      ]
+    },
+    {
+      "theme_id": "2026-W12_theme_15",
+      "week": "2026-W12",
+      "cluster_id": 15,
+      "label": "AI Innovation Unveiled: 14 Vendor Partners Helping Shape The Future Of Enterprise AI At Nvidia GTC 2026",
+      "size": 16,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "AMD",
+        "Groq",
+        "Intel"
+      ],
+      "top_keywords": [
+        "nvidia",
+        "gtc",
+        "mitac",
+        "rubin",
+        "vera"
+      ],
+      "example_titles": [
+        "AI Innovation Unveiled: 14 Vendor Partners Helping Shape The Future Of Enterprise AI At Nvidia GTC 2026",
+        "Nvidia LPU/LPX Racks Poised For 10x Growth By 2027 As AI Demand Surges, Says Analyst Ming-Chi Kuo",
+        "Vera Rubin targets every wasted watt in AI",
+        "MiTAC Computing Technology Corporation: MiTAC Accelerates Next-Gen AI with Turnkey Solutions and Flexible NVIDIA MGX at NVIDIA GTC 2026",
+        "NVIDIA Vera Rubin Achieves 40 Million Times More Compute In 10 Years: 288 GB HBM4, 22 TB/s Bandwidth, 50 PFLOPs of AI Horsepower"
+      ],
+      "source_count": 11,
+      "relevance": 0.525,
+      "previous_theme_id": "2026-W08_theme_7",
+      "previous_week": "2026-W08",
+      "previous_label": "Meta integrates Nvidia GPUs, CPUs, and confidential computing tools",
+      "previous_size": 17,
+      "similarity_to_previous": 0.6104,
+      "growth_rate": -0.0588,
+      "is_new_theme": false,
+      "storyline_id": "2026-W08_theme_7",
+      "storyline_start_week": "2026-W08",
+      "storyline_weeks": 2,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W13_theme_6",
+        "2026-W41_theme_8"
+      ],
+      "out_degree": 2,
+      "emerging_score": 0.4821,
+      "storyline_keywords": [
+        "nvidia",
+        "meta",
+        "expand",
+        "millions"
+      ]
+    },
+    {
+      "theme_id": "2026-W12_theme_6",
+      "week": "2026-W12",
+      "cluster_id": 6,
+      "label": "The Artificial Intelligence (AI) Stock Most Likely to Mint New Millionaires",
+      "size": 14,
+      "top_companies": [
+        "NVIDIA",
+        "Intel",
+        "Meta",
+        "Amazon",
+        "Google"
+      ],
+      "top_keywords": [
+        "win",
+        "activity",
+        "adoption outpaces",
+        "advisory",
+        "amazon investors"
+      ],
+      "example_titles": [
+        "The Artificial Intelligence (AI) Stock Most Likely to Mint New Millionaires",
+        "Warning: the AI Theme is Officially Dead",
+        "The Market's Fear Gauge Just Spiked to 24. History Says This Is What Happens Next for Artificial Intelligence (AI) Stocks.",
+        "Why I'm Buying ServiceNow Stock While Everyone Else Is Panicking About AI Disruption",
+        "Amazon Stock Investors Just Got Fantastic News From CEO Andy Jassy"
+      ],
+      "source_count": 6,
+      "relevance": 0.564,
+      "previous_theme_id": "2026-W09_theme_8",
+      "previous_week": "2026-W09",
+      "previous_label": "Could AI Crash the Economy in 2 Years? One Research Firm Says Yes.",
+      "previous_size": 14,
+      "similarity_to_previous": 0.7743,
+      "growth_rate": 0.0,
+      "is_new_theme": false,
+      "storyline_id": "2026-W02_theme_3",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 5,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W41_theme_10"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.4699,
+      "storyline_keywords": [
+        "investors",
+        "spending",
+        "nvidia",
+        "earnings"
+      ]
     },
     {
       "theme_id": "2026-W12_theme_12",
@@ -532,19 +564,76 @@
       ],
       "source_count": 12,
       "relevance": 0.459,
-      "previous_theme_id": "2026-W11_theme_4",
-      "previous_week": "2026-W11",
-      "previous_label": "Intel reveals Core Ultra 200S Plus duo as its fastest desktop gaming processors ever",
-      "previous_size": 16,
-      "similarity_to_previous": 0.7986,
-      "growth_rate": -0.125,
+      "previous_theme_id": "2026-W10_theme_4",
+      "previous_week": "2026-W10",
+      "previous_label": "Apple launches new MacBooks with M5 chips, bigger base storage",
+      "previous_size": 14,
+      "similarity_to_previous": 0.7488,
+      "growth_rate": 0.0,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_4",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 5,
       "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W13_theme_2"
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.4648,
+      "storyline_keywords": [
+        "intel",
+        "ultra",
+        "core",
+        "macbook"
+      ]
+    },
+    {
+      "theme_id": "2026-W12_theme_9",
+      "week": "2026-W12",
+      "cluster_id": 9,
+      "label": "Will DLSS 5 Move the Needle for Nvidia Stock?",
+      "size": 11,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Meta",
+        "Micron",
+        "Amazon"
       ],
-      "out_degree": 1,
-      "emerging_score": 0.4747
+      "top_keywords": [
+        "nvda",
+        "nvidia",
+        "bagger",
+        "list",
+        "analyst"
+      ],
+      "example_titles": [
+        "Will DLSS 5 Move the Needle for Nvidia Stock?",
+        "Nvidia Could Be A 'Double Bagger' By 2027 As Analyst Adds NVDA To Best Ideas List",
+        "Technology Stocks To Consider",
+        "The AI Sovereign: A Deep-Dive Research Feature on NVIDIA (NVDA) in 2026",
+        "Tuesday's big stock stories: What’s likely to move the market in the next trading session"
+      ],
+      "source_count": 9,
+      "relevance": 0.321,
+      "previous_theme_id": "2026-W09_theme_14",
+      "previous_week": "2026-W09",
+      "previous_label": "NVIDIA (NVDA) Set to Report Q4 FY2026 Earnings After Bell on February 25, 2026: Wall Street Eyes AI Demand",
+      "previous_size": 20,
+      "similarity_to_previous": 0.7923,
+      "growth_rate": -0.45,
+      "is_new_theme": false,
+      "storyline_id": "2026-W02_theme_3",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 6,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.406,
+      "storyline_keywords": [
+        "investors",
+        "spending",
+        "nvidia",
+        "earnings"
+      ]
     },
     {
       "theme_id": "2026-W12_theme_11",
@@ -579,56 +668,74 @@
       "previous_week": "2026-W11",
       "previous_label": "NVIDIA vs AMD 2026: Ultimate GPU Showdown for Gaming, AI, and Performance",
       "previous_size": 18,
-      "similarity_to_previous": 0.8726,
+      "similarity_to_previous": 0.7781,
       "growth_rate": -0.4444,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_5",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 6,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.3995
+      "emerging_score": 0.3806,
+      "storyline_keywords": [
+        "rtx",
+        "gpu",
+        "geforce",
+        "gaming"
+      ]
     },
     {
-      "theme_id": "2026-W12_theme_16",
+      "theme_id": "2026-W12_theme_13",
       "week": "2026-W12",
-      "cluster_id": 16,
-      "label": "Nvidia CEO forecasts $1 trillion AI chip order backlog surge",
-      "size": 7,
+      "cluster_id": 13,
+      "label": "Is Micron a Buy as Revenue Explodes Higher?",
+      "size": 10,
       "top_companies": [
+        "Micron",
         "NVIDIA",
-        "Meta",
-        "Google",
-        "Groq",
-        "Apple"
+        "Intel",
+        "Samsung Electronics",
+        "AMD"
       ],
       "top_keywords": [
-        "ceo",
-        "trillion",
-        "phase",
-        "boom",
-        "inference"
+        "micron",
+        "earnings",
+        "memory",
+        "revenue",
+        "growth"
       ],
       "example_titles": [
-        "Nvidia CEO forecasts $1 trillion AI chip order backlog surge",
-        "Nvidia CEO details firm’s AI goals",
-        "Nvidia bets on inference phase as AI boom enters new stage",
-        "Nvidia CEO heralds ‘inference inflection’ as next phase of AI boom, backed by $1 trillion in orders",
-        "Nvidia Shares Pump & Dump After CEO Jensen Expects \"At Least\" $1 Trillion In Revenue By 2027"
+        "Is Micron a Buy as Revenue Explodes Higher?",
+        "Where Will Micron Stock Be in 3 Years?",
+        "Micron Technology (MU) Earnings Preview: Wedbush Targets $500 Amid HBM Explosion",
+        "Micron CEO drops a bombshell after Micron’s huge earnings beat",
+        "Memory crisis: Micron's revenue equals AMD and Intel combined"
       ],
       "source_count": 7,
-      "relevance": 0.525,
-      "previous_theme_id": "2026-W11_theme_0",
-      "previous_week": "2026-W11",
-      "previous_label": "What's Going On With Nvidia Stock Thursday?",
-      "previous_size": 151,
-      "similarity_to_previous": 0.894,
-      "growth_rate": -0.9536,
+      "relevance": 0.429,
+      "previous_theme_id": "2026-W09_theme_6",
+      "previous_week": "2026-W09",
+      "previous_label": "AI is gobbling up the world’s memory chips, sending smartphone prices to record highs, report says",
+      "previous_size": 9,
+      "similarity_to_previous": 0.5835,
+      "growth_rate": 0.1111,
       "is_new_theme": false,
+      "storyline_id": "2026-W06_theme_11",
+      "storyline_start_week": "2026-W06",
+      "storyline_weeks": 4,
       "is_emerging": false,
       "next_theme_ids": [
-        "2026-W13_theme_7"
+        "2026-W41_theme_5"
       ],
       "out_degree": 1,
-      "emerging_score": 0.3363
+      "emerging_score": 0.3806,
+      "storyline_keywords": [
+        "memory",
+        "micron",
+        "shortage",
+        "prices"
+      ]
     }
   ]
 }
