@@ -31,6 +31,13 @@ type Theme = {
   growth_rate?: number | null;
   is_new_theme?: boolean;
   is_emerging?: boolean;
+  storyline_id?: string;
+  storyline_start_week?: string;
+  storyline_weeks?: number;
+  storyline_keywords?: string[];
+  significance?: number | null;
+  significance_category?: string | null;
+  significance_reason?: string | null;
   next_theme_ids?: string[];
   out_degree?: number;
   emerging_score?: number;
@@ -55,6 +62,7 @@ type DashboardData = {
     total_themes: number;
     emerging_themes: number;
     new_themes: number;
+    major_themes?: number;
     average_theme_size: number;
     hottest_theme?: {
       theme_id: string;
@@ -154,6 +162,13 @@ function matchesSearch(theme: Theme, q: string) {
     .toLowerCase();
 
   return haystack.includes(q);
+}
+
+// Themes rated this significant (out of 5) are what the dashboard leads with.
+const MAJOR_SIGNIFICANCE = 4;
+
+function isMajor(theme: Theme) {
+  return (theme.significance ?? 0) >= MAJOR_SIGNIFICANCE;
 }
 
 function buildTrajectory(theme: Theme, themeMap: Map<string, Theme>) {
@@ -274,10 +289,18 @@ function ThemeCard({ theme }: { theme: Theme }) {
                 <Badge variant="subtle">{theme.size} articles</Badge>
                 {theme.is_new_theme ? (
                   <Badge>New</Badge>
-                ) : theme.growth_rate != null ? (
+                ) : (theme.storyline_weeks ?? 1) > 1 ? (
+                  <Badge variant="outline">Ongoing · {theme.storyline_weeks} weeks</Badge>
+                ) : null}
+                {!theme.is_new_theme && theme.growth_rate != null ? (
                   <Badge variant="outline">Growth {formatPct(theme.growth_rate)}</Badge>
                 ) : null}
                 {theme.is_emerging ? <Badge variant="outline">Emerging</Badge> : null}
+                {theme.significance != null ? (
+                  <Badge variant={isMajor(theme) ? "default" : "subtle"}>
+                    Significance {theme.significance}/5
+                  </Badge>
+                ) : null}
               </div>
             </div>
 
@@ -292,6 +315,19 @@ function ThemeCard({ theme }: { theme: Theme }) {
           </div>
 
           <div className="mt-6 space-y-5">
+            {theme.significance_reason ? (
+              <div className="text-sm leading-6 text-slate-700">{theme.significance_reason}</div>
+            ) : null}
+
+            {(theme.storyline_weeks ?? 1) > 1 ? (
+              <div>
+                <SectionLabel>Storyline since {theme.storyline_start_week}</SectionLabel>
+                <div className="text-sm font-medium text-slate-800">
+                  {(theme.storyline_keywords || []).join(" · ") || "Ongoing coverage"}
+                </div>
+              </div>
+            ) : null}
+
             {displayCompanies.length > 0 ? (
               <div>
                 <SectionLabel>Top companies</SectionLabel>
@@ -341,10 +377,10 @@ function ThemeCard({ theme }: { theme: Theme }) {
             <div className="flex items-center justify-between border-t border-slate-200 pt-4 text-sm text-slate-600">
               <div className="pr-4">
                 {theme.previous_week
-                  ? `Linked from ${theme.previous_week} · similarity ${formatScore(
-                      theme.similarity_to_previous
+                  ? `Continues from ${theme.previous_week}: ${prettifyThemeLabel(
+                      theme.previous_label ?? ""
                     )}`
-                  : "No linked prior theme"}
+                  : "No earlier coverage of this story"}
               </div>
               <ArrowRight className="h-4 w-4 shrink-0 text-slate-500" />
             </div>
@@ -409,7 +445,7 @@ export default function ThemeDashboard() {
   const [error, setError] = useState<string | null>(null);
   const [search, setSearch] = useState("");
   const [selectedWeek, setSelectedWeek] = useState("all");
-  const [selectedTab, setSelectedTab] = useState("emerging");
+  const [selectedTab, setSelectedTab] = useState("major");
 
   useEffect(() => {
     let cancelled = false;
@@ -444,7 +480,7 @@ export default function ThemeDashboard() {
   }, []);
 
   const weeks = dashboard?.weeks ?? [];
-  const themes = dashboard?.themes ?? [];
+  const themes = useMemo(() => dashboard?.themes ?? [], [dashboard]);
   const q = normalizeText(search);
 
   const themeMap = useMemo(() => {
@@ -453,6 +489,9 @@ export default function ThemeDashboard() {
     return map;
   }, [themes]);
 
+  // Without ratings (no API key in the pipeline), fall back to the emerging view.
+  const hasRatings = useMemo(() => themes.some((theme) => theme.significance != null), [themes]);
+
   const filteredThemes = useMemo(() => {
     let items = themes.filter((theme) => matchesSearch(theme, q));
 
@@ -460,7 +499,9 @@ export default function ThemeDashboard() {
       items = items.filter((theme) => theme.week === selectedWeek);
     }
 
-    if (selectedTab === "emerging") {
+    if (selectedTab === "major" && hasRatings) {
+      items = items.filter(isMajor);
+    } else if (selectedTab === "emerging" || selectedTab === "major") {
       items = items.filter((theme) => theme.is_emerging);
     } else if (selectedTab === "new") {
       items = items.filter((theme) => theme.is_new_theme);
@@ -469,13 +510,15 @@ export default function ThemeDashboard() {
     }
 
     items.sort((a, b) => {
+      const significanceDiff = (b.significance ?? 0) - (a.significance ?? 0);
+      if (significanceDiff !== 0) return significanceDiff;
       const scoreDiff = (b.emerging_score ?? 0) - (a.emerging_score ?? 0);
       if (scoreDiff !== 0) return scoreDiff;
       return b.size - a.size;
     });
 
     return items;
-  }, [themes, q, selectedWeek, selectedTab]);
+  }, [themes, q, selectedWeek, selectedTab, hasRatings]);
 
   const trajectories = useMemo(() => {
     const candidates = filteredThemes.slice(0, 12);
@@ -540,7 +583,11 @@ export default function ThemeDashboard() {
           <StatCard
             title="Total themes"
             value={dashboard.stats.total_themes}
-            subtitle="Across all weeks"
+            subtitle={
+              dashboard.stats.major_themes
+                ? `${dashboard.stats.major_themes} rated major`
+                : "Across all weeks"
+            }
             icon={Newspaper}
           />
           <StatCard
@@ -578,6 +625,7 @@ export default function ThemeDashboard() {
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
               <div className="flex rounded-2xl border border-slate-200 bg-slate-50 p-1">
                 {[
+                  ...(hasRatings ? [{ key: "major", label: "Major" }] : []),
                   { key: "emerging", label: "Emerging" },
                   { key: "new", label: "New" },
                   { key: "continuing", label: "Continuing" },
@@ -587,7 +635,7 @@ export default function ThemeDashboard() {
                     key={tab.key}
                     onClick={() => setSelectedTab(tab.key)}
                     className={`rounded-xl px-3 py-2 text-sm font-medium transition ${
-                      selectedTab === tab.key
+                      selectedTab === tab.key || (!hasRatings && selectedTab === "major" && tab.key === "emerging")
                         ? "bg-slate-900 text-white shadow-sm"
                         : "text-slate-700 hover:bg-white"
                     }`}

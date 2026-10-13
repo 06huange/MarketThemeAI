@@ -14,4 +14,5 @@ pynndescent==0.5.13
 trafilatura==2.3.0
 google-cloud-bigquery==3.46.1
 boto3==1.40.55
+anthropic==0.125.0
 

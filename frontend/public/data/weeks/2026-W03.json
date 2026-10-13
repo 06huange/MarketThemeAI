@@ -30,19 +30,28 @@
       ],
       "source_count": 20,
       "relevance": 0.418,
-      "previous_theme_id": "2026-W02_theme_7",
-      "previous_week": "2026-W02",
-      "previous_label": "Nvidia Eyes RTX 3060 Revival with AI Boost to Tackle GPU Shortages",
-      "previous_size": 10,
-      "similarity_to_previous": 0.8789,
-      "growth_rate": 1.6,
-      "is_new_theme": false,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "storyline_id": "2026-W03_theme_14",
+      "storyline_start_week": "2026-W03",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [
         "2026-W04_theme_6"
       ],
       "out_degree": 1,
-      "emerging_score": 0.9758
+      "emerging_score": 1.0,
+      "storyline_keywords": [
+        "nvda",
+        "largest customer",
+        "reason",
+        "nvidia"
+      ]
     },
     {
       "theme_id": "2026-W03_theme_11",
@@ -73,49 +82,6 @@
       ],
       "source_count": 19,
       "relevance": 0.483,
-      "previous_theme_id": "2026-W02_theme_1",
-      "previous_week": "2026-W02",
-      "previous_label": "Analysts Are Bullish on Taiwan Semiconductor Manufacturing (TSM)",
-      "previous_size": 7,
-      "similarity_to_previous": 0.7266,
-      "growth_rate": 2.0,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W04_theme_9"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.9453
-    },
-    {
-      "theme_id": "2026-W03_theme_2",
-      "week": "2026-W03",
-      "cluster_id": 2,
-      "label": "Nvidia says all RTX 50-series GPUs will 'continue to ship,' but stock and supply tell a different story",
-      "size": 15,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "AMD",
-        "Intel",
-        "Micron"
-      ],
-      "top_keywords": [
-        "rtx",
-        "ti",
-        "gpus",
-        "supply",
-        "nvidia"
-      ],
-      "example_titles": [
-        "Nvidia says all RTX 50-series GPUs will 'continue to ship,' but stock and supply tell a different story",
-        "Asus says it’s dropping the RTX 5070 Ti as the memory shortage squeezes supply",
-        "Nvidia May Prioritize RTX 5060, 5060 Ti Production in 2026",
-        "'Demand for GeForce RTX GPUs is strong': Nvidia reportedly won't discontinue RTX 5070 Ti GPU",
-        "Exclusive: RTX 50 Series Supply Crisis Explained: Why GPUs Are Scarce & What NVIDIA Is Doing"
-      ],
-      "source_count": 11,
-      "relevance": 0.355,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -123,10 +89,67 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W03_theme_11",
+      "storyline_start_week": "2026-W03",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.8875
+      "emerging_score": 1.0,
+      "storyline_keywords": []
+    },
+    {
+      "theme_id": "2026-W03_theme_13",
+      "week": "2026-W03",
+      "cluster_id": 13,
+      "label": "‘We could hit a wall’: why trillions of dollars of risk is no guarantee of AI reward",
+      "size": 14,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Meta"
+      ],
+      "top_keywords": [
+        "cisco",
+        "infrastructure",
+        "work",
+        "wall",
+        "advise"
+      ],
+      "example_titles": [
+        "‘We could hit a wall’: why trillions of dollars of risk is no guarantee of AI reward",
+        "AGI? GPUs? Learn the definitions of the most common AI terms to enter our vocabulary",
+        "How Expedia’s CTO is using AI to transform work for 17,000 employees—and travel for millions",
+        "Fox News AI Newsletter: Data center alarm",
+        "The Infinite Forge: Why AI Infrastructure Spending Defies the 'Bubble' Narrative in 2026"
+      ],
+      "source_count": 13,
+      "relevance": 0.606,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "storyline_id": "2026-W03_theme_13",
+      "storyline_start_week": "2026-W03",
+      "storyline_weeks": 1,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W04_theme_3",
+        "2026-W05_theme_12"
+      ],
+      "out_degree": 2,
+      "emerging_score": 0.865,
+      "storyline_keywords": [
+        "davos",
+        "fca",
+        "trials",
+        "antitrust"
+      ]
     },
     {
       "theme_id": "2026-W03_theme_0",
@@ -161,15 +184,79 @@
       "previous_week": "2026-W02",
       "previous_label": "Nvidia CEO says purchase orders, not formal declaration, will signal Chinese approval of H200",
       "previous_size": 11,
-      "similarity_to_previous": 0.921,
+      "similarity_to_previous": 0.8331,
       "growth_rate": 0.7273,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_1",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 3,
       "is_emerging": true,
       "next_theme_ids": [
-        "2026-W04_theme_1"
+        "2026-W05_theme_0"
       ],
       "out_degree": 1,
-      "emerging_score": 0.8662
+      "emerging_score": 0.8487,
+      "storyline_keywords": [
+        "china",
+        "h200",
+        "nvidia",
+        "chips"
+      ]
+    },
+    {
+      "theme_id": "2026-W03_theme_3",
+      "week": "2026-W03",
+      "cluster_id": 3,
+      "label": "Intel Core Ultra 9 290HX Plus Outperforms 285HX by Up to 12%",
+      "size": 18,
+      "top_companies": [
+        "Intel",
+        "AMD",
+        "Google",
+        "NVIDIA",
+        "Samsung Electronics"
+      ],
+      "top_keywords": [
+        "intel",
+        "core",
+        "plus",
+        "pro",
+        "ultra"
+      ],
+      "example_titles": [
+        "Intel Core Ultra 9 290HX Plus Outperforms 285HX by Up to 12%",
+        "Intel Core Ultra 9 290HX Plus Crushes All Mainstream x86 Mobile CPUs In PassMark; Delivers A Solid ~15% MT Uplift Vs 285HX",
+        "Intel Core Ultra 9 290K Plus \"Arrow Lake Refresh\" CPU Benchmark Leaks Out: Up To 9% Faster Than 285K, 11% Faster Vs 9950X3D In Multi-Threading",
+        "Lenovo Reveals Super Light Sub-1kg Laptop with 2.8K OLED Display",
+        "Intel Arc B770 Still Missing; Manufacturers Await Test Units and Final Specifications"
+      ],
+      "source_count": 11,
+      "relevance": 0.447,
+      "previous_theme_id": "2026-W01_theme_4",
+      "previous_week": "2026-W01",
+      "previous_label": "MSI Gaming Desktop PC Aegis RS2 AI C2NVP7-1444US Intel Core Ultra 7 265K 32GB DDR5 2TB NVMe SSD GeForce RTX 5070 Windows 11 Home Advance",
+      "previous_size": 10,
+      "similarity_to_previous": 0.7631,
+      "growth_rate": 0.8,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_4",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 2,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W04_theme_7",
+        "2026-W06_theme_4",
+        "2026-W06_theme_5",
+        "2026-W07_theme_5"
+      ],
+      "out_degree": 4,
+      "emerging_score": 0.8376,
+      "storyline_keywords": [
+        "intel",
+        "ultra",
+        "core",
+        "macbook"
+      ]
     },
     {
       "theme_id": "2026-W03_theme_1",
@@ -207,10 +294,21 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W03_theme_1",
+      "storyline_start_week": "2026-W03",
+      "storyline_weeks": 1,
       "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.7975
+      "next_theme_ids": [
+        "2026-W07_theme_6"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.7975,
+      "storyline_keywords": [
+        "tariff",
+        "separate",
+        "countries",
+        "official"
+      ]
     },
     {
       "theme_id": "2026-W03_theme_8",
@@ -248,53 +346,14 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W03_theme_8",
+      "storyline_start_week": "2026-W03",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.7975
-    },
-    {
-      "theme_id": "2026-W03_theme_9",
-      "week": "2026-W03",
-      "cluster_id": 9,
-      "label": "Wall St Week Ahead-Investors bank on US earnings strength as policy noise grows louder",
-      "size": 9,
-      "top_companies": [
-        "NVIDIA",
-        "Intel",
-        "Broadcom",
-        "TSMC",
-        "Google"
-      ],
-      "top_keywords": [
-        "earnings",
-        "bank",
-        "grows",
-        "louder",
-        "netflix"
-      ],
-      "example_titles": [
-        "Wall St Week Ahead-Investors bank on US earnings strength as policy noise grows louder",
-        "Investors bank on strong corporate earnings as policy noise grows louder",
-        "North American Morning Briefing : Futures Rise, Tech Stocks Look Poised to Continue Rally",
-        "Earnings playbook: Netflix and this chipmaker are among the companies set to report",
-        "Tentative opening up for Wall Street ahead of a long weekend"
-      ],
-      "source_count": 8,
-      "relevance": 0.302,
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W04_theme_0"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.7525
+      "emerging_score": 0.7975,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W03_theme_4",
@@ -332,53 +391,14 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W03_theme_4",
+      "storyline_start_week": "2026-W03",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.73
-    },
-    {
-      "theme_id": "2026-W03_theme_6",
-      "week": "2026-W03",
-      "cluster_id": 6,
-      "label": "OpenAI Bets $10 Billion on Cerebras to Challenge Nvidia’s Grip on AI Computing",
-      "size": 18,
-      "top_companies": [
-        "NVIDIA",
-        "Intel",
-        "AMD",
-        "Google",
-        "Broadcom"
-      ],
-      "top_keywords": [
-        "cloud",
-        "applications",
-        "aws",
-        "cerebras",
-        "fujitsu"
-      ],
-      "example_titles": [
-        "OpenAI Bets $10 Billion on Cerebras to Challenge Nvidia’s Grip on AI Computing",
-        "Bitdeer AI Accelerates Global AI Cloud Expansion with NVIDIA GB200 NVL72 Deployment",
-        "Orbiting AI: The Billionaire Race to Launch Data Centers into Space",
-        "Bitzero Holdings Inc. Partners with CBRE & Hydra Host to Commercialize & Deploy AI Compute Capability Across Hyperscale & GPU Demand Channels",
-        "OpenAI signs $10 billion computing deal with chipmaker Cerebras"
-      ],
-      "source_count": 18,
-      "relevance": 0.607,
-      "previous_theme_id": "2026-W02_theme_10",
-      "previous_week": "2026-W02",
-      "previous_label": "Lenovo, Nvidia unveil AI Cloud Gigafactory programme for enterprises",
-      "previous_size": 13,
-      "similarity_to_previous": 0.8759,
-      "growth_rate": 0.3846,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W04_theme_4"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.7148
+      "emerging_score": 0.73,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W03_theme_5",
@@ -413,51 +433,14 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W03_theme_5",
+      "storyline_start_week": "2026-W03",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.685
-    },
-    {
-      "theme_id": "2026-W03_theme_7",
-      "week": "2026-W03",
-      "cluster_id": 7,
-      "label": "6 Ways Android Phones Will Change In 2026",
-      "size": 5,
-      "top_companies": [
-        "Google",
-        "Qualcomm",
-        "Samsung Electronics",
-        "Apple",
-        "NVIDIA"
-      ],
-      "top_keywords": [
-        "samsung",
-        "android",
-        "phones",
-        "apple received",
-        "bothered"
-      ],
-      "example_titles": [
-        "6 Ways Android Phones Will Change In 2026",
-        "5 Android Phones More Powerful Than The Samsung Galaxy S25",
-        "Apple Received Fewer Patents In 2025 Than Samsung, TSMC, Qualcomm, And Huawei",
-        "MediaTek reveals 'new' Snapdragon 8 Gen 5 rival, but it shouldn't have bothered",
-        "Here's everything we know about the Samsung S95H OLED, the successor to our 2025 TV of the Year"
-      ],
-      "source_count": 4,
-      "relevance": 0.338,
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.6625
+      "emerging_score": 0.685,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W03_theme_10",
@@ -488,105 +471,180 @@
       ],
       "source_count": 19,
       "relevance": 0.439,
-      "previous_theme_id": "2026-W02_theme_4",
-      "previous_week": "2026-W02",
-      "previous_label": "Trump's Intel Seal Of Approval Lifts Broadcom, Micron",
-      "previous_size": 41,
-      "similarity_to_previous": 0.8752,
-      "growth_rate": -0.5366,
+      "previous_theme_id": "2026-W01_theme_0",
+      "previous_week": "2026-W01",
+      "previous_label": "China AI chipmaker Biren soars over 100% on Hong Kong debut as IPO wave builds",
+      "previous_size": 14,
+      "similarity_to_previous": 0.5674,
+      "growth_rate": 0.3571,
       "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W04_theme_8"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.6025
-    },
-    {
-      "theme_id": "2026-W03_theme_13",
-      "week": "2026-W03",
-      "cluster_id": 13,
-      "label": "‘We could hit a wall’: why trillions of dollars of risk is no guarantee of AI reward",
-      "size": 14,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "Microsoft",
-        "Amazon",
-        "Meta"
-      ],
-      "top_keywords": [
-        "cisco",
-        "infrastructure",
-        "work",
-        "wall",
-        "advise"
-      ],
-      "example_titles": [
-        "‘We could hit a wall’: why trillions of dollars of risk is no guarantee of AI reward",
-        "AGI? GPUs? Learn the definitions of the most common AI terms to enter our vocabulary",
-        "How Expedia’s CTO is using AI to transform work for 17,000 employees—and travel for millions",
-        "Fox News AI Newsletter: Data center alarm",
-        "The Infinite Forge: Why AI Infrastructure Spending Defies the 'Bubble' Narrative in 2026"
-      ],
-      "source_count": 13,
-      "relevance": 0.606,
-      "previous_theme_id": "2026-W02_theme_3",
-      "previous_week": "2026-W02",
-      "previous_label": "In 2026, venture capital’s hunger for AI will be insatiable",
-      "previous_size": 11,
-      "similarity_to_previous": 0.8562,
-      "growth_rate": 0.2727,
-      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_0",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 2,
       "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W04_theme_3"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.5817
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.666,
+      "storyline_keywords": [
+        "tsmc",
+        "profit",
+        "biren",
+        "debut"
+      ]
     },
     {
-      "theme_id": "2026-W03_theme_3",
+      "theme_id": "2026-W03_theme_6",
       "week": "2026-W03",
-      "cluster_id": 3,
-      "label": "Intel Core Ultra 9 290HX Plus Outperforms 285HX by Up to 12%",
+      "cluster_id": 6,
+      "label": "OpenAI Bets $10 Billion on Cerebras to Challenge Nvidia’s Grip on AI Computing",
       "size": 18,
       "top_companies": [
+        "NVIDIA",
         "Intel",
         "AMD",
         "Google",
-        "NVIDIA",
-        "Samsung Electronics"
+        "Broadcom"
       ],
       "top_keywords": [
-        "intel",
-        "core",
-        "plus",
-        "pro",
-        "ultra"
+        "cloud",
+        "applications",
+        "aws",
+        "cerebras",
+        "fujitsu"
       ],
       "example_titles": [
-        "Intel Core Ultra 9 290HX Plus Outperforms 285HX by Up to 12%",
-        "Intel Core Ultra 9 290HX Plus Crushes All Mainstream x86 Mobile CPUs In PassMark; Delivers A Solid ~15% MT Uplift Vs 285HX",
-        "Intel Core Ultra 9 290K Plus \"Arrow Lake Refresh\" CPU Benchmark Leaks Out: Up To 9% Faster Than 285K, 11% Faster Vs 9950X3D In Multi-Threading",
-        "Lenovo Reveals Super Light Sub-1kg Laptop with 2.8K OLED Display",
-        "Intel Arc B770 Still Missing; Manufacturers Await Test Units and Final Specifications"
+        "OpenAI Bets $10 Billion on Cerebras to Challenge Nvidia’s Grip on AI Computing",
+        "Bitdeer AI Accelerates Global AI Cloud Expansion with NVIDIA GB200 NVL72 Deployment",
+        "Orbiting AI: The Billionaire Race to Launch Data Centers into Space",
+        "Bitzero Holdings Inc. Partners with CBRE & Hydra Host to Commercialize & Deploy AI Compute Capability Across Hyperscale & GPU Demand Channels",
+        "OpenAI signs $10 billion computing deal with chipmaker Cerebras"
+      ],
+      "source_count": 18,
+      "relevance": 0.607,
+      "previous_theme_id": "2026-W02_theme_10",
+      "previous_week": "2026-W02",
+      "previous_label": "Lenovo, Nvidia unveil AI Cloud Gigafactory programme for enterprises",
+      "previous_size": 13,
+      "similarity_to_previous": 0.5518,
+      "growth_rate": 0.3846,
+      "is_new_theme": false,
+      "storyline_id": "2026-W02_theme_10",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 2,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.65,
+      "storyline_keywords": [
+        "lenovo",
+        "cloud",
+        "gigafactory",
+        "nvidia unveil"
+      ]
+    },
+    {
+      "theme_id": "2026-W03_theme_2",
+      "week": "2026-W03",
+      "cluster_id": 2,
+      "label": "Nvidia says all RTX 50-series GPUs will 'continue to ship,' but stock and supply tell a different story",
+      "size": 15,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "AMD",
+        "Intel",
+        "Micron"
+      ],
+      "top_keywords": [
+        "rtx",
+        "ti",
+        "gpus",
+        "supply",
+        "nvidia"
+      ],
+      "example_titles": [
+        "Nvidia says all RTX 50-series GPUs will 'continue to ship,' but stock and supply tell a different story",
+        "Asus says it’s dropping the RTX 5070 Ti as the memory shortage squeezes supply",
+        "Nvidia May Prioritize RTX 5060, 5060 Ti Production in 2026",
+        "'Demand for GeForce RTX GPUs is strong': Nvidia reportedly won't discontinue RTX 5070 Ti GPU",
+        "Exclusive: RTX 50 Series Supply Crisis Explained: Why GPUs Are Scarce & What NVIDIA Is Doing"
       ],
       "source_count": 11,
-      "relevance": 0.447,
-      "previous_theme_id": "2026-W02_theme_0",
-      "previous_week": "2026-W02",
-      "previous_label": "Asus' Zenbook lineup gets 2026 refresh — ZenBook 14, Duo return with new AMD, Intel, and Snapdragon chips",
-      "previous_size": 51,
-      "similarity_to_previous": 0.879,
-      "growth_rate": -0.6471,
+      "relevance": 0.355,
+      "previous_theme_id": "2026-W01_theme_5",
+      "previous_week": "2026-W01",
+      "previous_label": "Nvidia & AMD GPU Price Hike 2026: AI Boom Drives Costs",
+      "previous_size": 14,
+      "similarity_to_previous": 0.8712,
+      "growth_rate": 0.0714,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_5",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 2,
       "is_emerging": false,
       "next_theme_ids": [
-        "2026-W04_theme_7"
+        "2026-W06_theme_3"
       ],
       "out_degree": 1,
-      "emerging_score": 0.5808
+      "emerging_score": 0.5367,
+      "storyline_keywords": [
+        "rtx",
+        "gpu",
+        "geforce",
+        "gaming"
+      ]
+    },
+    {
+      "theme_id": "2026-W03_theme_9",
+      "week": "2026-W03",
+      "cluster_id": 9,
+      "label": "Wall St Week Ahead-Investors bank on US earnings strength as policy noise grows louder",
+      "size": 9,
+      "top_companies": [
+        "NVIDIA",
+        "Intel",
+        "Broadcom",
+        "TSMC",
+        "Google"
+      ],
+      "top_keywords": [
+        "earnings",
+        "bank",
+        "grows",
+        "louder",
+        "netflix"
+      ],
+      "example_titles": [
+        "Wall St Week Ahead-Investors bank on US earnings strength as policy noise grows louder",
+        "Investors bank on strong corporate earnings as policy noise grows louder",
+        "North American Morning Briefing : Futures Rise, Tech Stocks Look Poised to Continue Rally",
+        "Earnings playbook: Netflix and this chipmaker are among the companies set to report",
+        "Tentative opening up for Wall Street ahead of a long weekend"
+      ],
+      "source_count": 8,
+      "relevance": 0.302,
+      "previous_theme_id": "2026-W01_theme_12",
+      "previous_week": "2026-W01",
+      "previous_label": "The $5 Trillion Engine: How the 'AI Trade' Defied Gravity and Redefined the Market in 2025",
+      "previous_size": 28,
+      "similarity_to_previous": 0.7947,
+      "growth_rate": -0.6786,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_12",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 2,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W06_theme_12"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.3614,
+      "storyline_keywords": [
+        "wall",
+        "street",
+        "plunge",
+        "amd"
+      ]
     },
     {
       "theme_id": "2026-W03_theme_12",
@@ -621,15 +679,76 @@
       "previous_week": "2026-W02",
       "previous_label": "Musk Says Nvidia's AV Models Won't Threaten Tesla's FSD For Several Years",
       "previous_size": 18,
-      "similarity_to_previous": 0.8911,
+      "similarity_to_previous": 0.7786,
       "growth_rate": -0.6667,
       "is_new_theme": false,
+      "storyline_id": "2026-W02_theme_6",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 2,
       "is_emerging": false,
       "next_theme_ids": [
         "2026-W04_theme_10"
       ],
       "out_degree": 1,
-      "emerging_score": 0.3132
+      "emerging_score": 0.2907,
+      "storyline_keywords": [
+        "tesla",
+        "ces",
+        "hyundai",
+        "motor"
+      ]
+    },
+    {
+      "theme_id": "2026-W03_theme_7",
+      "week": "2026-W03",
+      "cluster_id": 7,
+      "label": "6 Ways Android Phones Will Change In 2026",
+      "size": 5,
+      "top_companies": [
+        "Google",
+        "Qualcomm",
+        "Samsung Electronics",
+        "Apple",
+        "NVIDIA"
+      ],
+      "top_keywords": [
+        "samsung",
+        "android",
+        "phones",
+        "apple received",
+        "bothered"
+      ],
+      "example_titles": [
+        "6 Ways Android Phones Will Change In 2026",
+        "5 Android Phones More Powerful Than The Samsung Galaxy S25",
+        "Apple Received Fewer Patents In 2025 Than Samsung, TSMC, Qualcomm, And Huawei",
+        "MediaTek reveals 'new' Snapdragon 8 Gen 5 rival, but it shouldn't have bothered",
+        "Here's everything we know about the Samsung S95H OLED, the successor to our 2025 TV of the Year"
+      ],
+      "source_count": 4,
+      "relevance": 0.338,
+      "previous_theme_id": "2026-W01_theme_2",
+      "previous_week": "2026-W01",
+      "previous_label": "Apple’s ‘affordable’ MacBook arrival rumors heat up",
+      "previous_size": 16,
+      "similarity_to_previous": 0.6726,
+      "growth_rate": -0.6875,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_2",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 2,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W06_theme_8"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.247,
+      "storyline_keywords": [
+        "samsung",
+        "iphone",
+        "galaxy",
+        "snapdragon"
+      ]
     }
   ]
 }

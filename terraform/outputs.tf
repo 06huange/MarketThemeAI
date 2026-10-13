@@ -35,3 +35,7 @@ output "pipeline_network" {
 output "gcp_credentials_parameter" {
   value = aws_ssm_parameter.gcp_credentials.name
 }
+
+output "anthropic_api_key_parameter" {
+  value = aws_ssm_parameter.anthropic_api_key.name
+}
