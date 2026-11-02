@@ -30,19 +30,29 @@
       ],
       "source_count": 17,
       "relevance": 0.352,
-      "previous_theme_id": "2025-W52_theme_0",
-      "previous_week": "2025-W52",
-      "previous_label": "Silver overtakes Apple, Alphabet in market value, expected to surpass NVIDIA",
-      "previous_size": 7,
-      "similarity_to_previous": 0.7878,
-      "growth_rate": 3.0,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
       "is_new_theme": false,
-      "is_emerging": true,
+      "storyline_id": "2026-W01_theme_12",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 1,
+      "is_emerging": false,
       "next_theme_ids": [
-        "2026-W02_theme_3"
+        "2026-W02_theme_4",
+        "2026-W03_theme_9"
       ],
-      "out_degree": 1,
-      "emerging_score": 0.9576
+      "out_degree": 2,
+      "emerging_score": 0.45,
+      "storyline_keywords": [
+        "wall",
+        "street",
+        "plunge",
+        "amd"
+      ]
     },
     {
       "theme_id": "2026-W01_theme_2",
@@ -79,13 +89,24 @@
       "previous_size": null,
       "similarity_to_previous": null,
       "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_2",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 1,
+      "is_emerging": false,
       "next_theme_ids": [
-        "2026-W02_theme_0"
+        "2026-W02_theme_0",
+        "2026-W03_theme_7",
+        "2026-W05_theme_3"
       ],
-      "out_degree": 1,
-      "emerging_score": 0.91
+      "out_degree": 3,
+      "emerging_score": 0.36,
+      "storyline_keywords": [
+        "samsung",
+        "iphone",
+        "galaxy",
+        "snapdragon"
+      ]
     },
     {
       "theme_id": "2026-W01_theme_1",
@@ -122,13 +143,22 @@
       "previous_size": null,
       "similarity_to_previous": null,
       "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_1",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 1,
+      "is_emerging": false,
       "next_theme_ids": [
         "2026-W02_theme_5"
       ],
       "out_degree": 1,
-      "emerging_score": 0.8875
+      "emerging_score": 0.3375,
+      "storyline_keywords": [
+        "china",
+        "h200",
+        "nvidia",
+        "chips"
+      ]
     },
     {
       "theme_id": "2026-W01_theme_0",
@@ -165,13 +195,22 @@
       "previous_size": null,
       "similarity_to_previous": null,
       "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_0",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 1,
+      "is_emerging": false,
       "next_theme_ids": [
-        "2026-W02_theme_4"
+        "2026-W03_theme_10"
       ],
       "out_degree": 1,
-      "emerging_score": 0.865
+      "emerging_score": 0.315,
+      "storyline_keywords": [
+        "tsmc",
+        "profit",
+        "biren",
+        "debut"
+      ]
     },
     {
       "theme_id": "2026-W01_theme_5",
@@ -208,13 +247,68 @@
       "previous_size": null,
       "similarity_to_previous": null,
       "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_5",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 1,
+      "is_emerging": false,
       "next_theme_ids": [
-        "2026-W02_theme_7"
+        "2026-W02_theme_7",
+        "2026-W03_theme_2"
       ],
-      "out_degree": 1,
-      "emerging_score": 0.865
+      "out_degree": 2,
+      "emerging_score": 0.315,
+      "storyline_keywords": [
+        "rtx",
+        "gpu",
+        "geforce",
+        "gaming"
+      ]
+    },
+    {
+      "theme_id": "2026-W01_theme_8",
+      "week": "2026-W01",
+      "cluster_id": 8,
+      "label": "From chips to clouds, firms pour billions into AI capacity race",
+      "size": 14,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Groq",
+        "Amazon",
+        "AMD"
+      ],
+      "top_keywords": [
+        "nvidia",
+        "ai21",
+        "buy israel",
+        "deals",
+        "firms"
+      ],
+      "example_titles": [
+        "From chips to clouds, firms pour billions into AI capacity race",
+        "Nvidia, OpenAI, Meta lead surge in mega AI investment deals",
+        "AI boom fuels billion-dollar infrastructure deals across Big Tech",
+        "Nvidia is getting creative as options to use its cash flood narrow",
+        "Nvidia's $20 billion Groq IP deal bolsters AI market domination — hardware stack and key engineer behind Google TPUs included in bombshell agreement"
+      ],
+      "source_count": 13,
+      "relevance": 0.503,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_8",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 1,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.315,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W01_theme_3",
@@ -251,13 +345,22 @@
       "previous_size": null,
       "similarity_to_previous": null,
       "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_3",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 1,
+      "is_emerging": false,
       "next_theme_ids": [
         "2026-W02_theme_12"
       ],
       "out_degree": 1,
-      "emerging_score": 0.7975
+      "emerging_score": 0.2475,
+      "storyline_keywords": [
+        "ces",
+        "expect",
+        "live",
+        "keynote"
+      ]
     },
     {
       "theme_id": "2026-W01_theme_11",
@@ -294,13 +397,22 @@
       "previous_size": null,
       "similarity_to_previous": null,
       "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_11",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 1,
+      "is_emerging": false,
       "next_theme_ids": [
         "2026-W02_theme_1"
       ],
       "out_degree": 1,
-      "emerging_score": 0.7975
+      "emerging_score": 0.2475,
+      "storyline_keywords": [
+        "cramer",
+        "jim",
+        "buy",
+        "valuation"
+      ]
     },
     {
       "theme_id": "2026-W01_theme_4",
@@ -337,11 +449,23 @@
       "previous_size": null,
       "similarity_to_previous": null,
       "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.775
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_4",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 1,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W03_theme_3",
+        "2026-W05_theme_5"
+      ],
+      "out_degree": 2,
+      "emerging_score": 0.225,
+      "storyline_keywords": [
+        "intel",
+        "ultra",
+        "core",
+        "macbook"
+      ]
     },
     {
       "theme_id": "2026-W01_theme_6",
@@ -378,11 +502,15 @@
       "previous_size": null,
       "similarity_to_previous": null,
       "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_6",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 1,
+      "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.775
+      "emerging_score": 0.225,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W01_theme_7",
@@ -419,11 +547,15 @@
       "previous_size": null,
       "similarity_to_previous": null,
       "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_7",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 1,
+      "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.775
+      "emerging_score": 0.225,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W01_theme_10",
@@ -460,13 +592,22 @@
       "previous_size": null,
       "similarity_to_previous": null,
       "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_10",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 1,
+      "is_emerging": false,
       "next_theme_ids": [
-        "2026-W02_theme_2"
+        "2026-W05_theme_8"
       ],
       "out_degree": 1,
-      "emerging_score": 0.7075
+      "emerging_score": 0.1575,
+      "storyline_keywords": [
+        "infrastructure",
+        "data",
+        "brookfield",
+        "centre"
+      ]
     },
     {
       "theme_id": "2026-W01_theme_9",
@@ -503,54 +644,15 @@
       "previous_size": null,
       "similarity_to_previous": null,
       "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_9",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 1,
+      "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.6625
-    },
-    {
-      "theme_id": "2026-W01_theme_8",
-      "week": "2026-W01",
-      "cluster_id": 8,
-      "label": "From chips to clouds, firms pour billions into AI capacity race",
-      "size": 14,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "Groq",
-        "Amazon",
-        "AMD"
-      ],
-      "top_keywords": [
-        "nvidia",
-        "ai21",
-        "buy israel",
-        "deals",
-        "firms"
-      ],
-      "example_titles": [
-        "From chips to clouds, firms pour billions into AI capacity race",
-        "Nvidia, OpenAI, Meta lead surge in mega AI investment deals",
-        "AI boom fuels billion-dollar infrastructure deals across Big Tech",
-        "Nvidia is getting creative as options to use its cash flood narrow",
-        "Nvidia's $20 billion Groq IP deal bolsters AI market domination — hardware stack and key engineer behind Google TPUs included in bombshell agreement"
-      ],
-      "source_count": 13,
-      "relevance": 0.503,
-      "previous_theme_id": "2025-W52_theme_1",
-      "previous_week": "2025-W52",
-      "previous_label": "trump: From AI to chips, Big Tech is getting what it wants from Trump",
-      "previous_size": 15,
-      "similarity_to_previous": 0.8263,
-      "growth_rate": -0.0667,
-      "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W02_theme_10"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.4803
+      "emerging_score": 0.1125,
+      "storyline_keywords": []
     }
   ]
 }

@@ -36,6 +36,11 @@ RANDOM_STATE = 42
 # A theme is a story several outlets cover, not one site's recurring format.
 MIN_SOURCES = 3
 
+# A week with only a day or two of news (the edges of a backfill, or the current
+# week when the pipeline runs on Monday) yields a few arbitrary clusters. It is
+# skipped until a later run fills it in.
+MIN_DAYS_PER_WEEK = 5
+
 # Themes whose centroid is far from every scope description are off-topic
 # (consumer finance, oil, politics). Deliberately a low floor: centroid similarity
 # is noisy, so this only removes the clearly unrelated.
@@ -87,6 +92,10 @@ def group_by_week(articles: list[dict]) -> dict[str, list[dict]]:
         week = get_week(article["date"])
         weekly[week].append(article)
     return dict(weekly)
+
+
+def days_covered(articles: list[dict]) -> int:
+    return len({(a.get("date") or "")[:8] for a in articles})
 
 
 def make_embedding_text(article: dict, max_chars: int = 2000) -> str:
@@ -193,6 +202,7 @@ def build_theme_objects(
             "cluster_id": int(cluster_id),
             "size": len(ranked),
             # The most representative headline reads better than any keyword list.
+            # rate_themes replaces it with a title that covers all the theme's headlines.
             "label": titles[0] if titles else " · ".join(phrases[:3]) or "untitled theme",
             "top_companies": get_top_items(companies, TOP_K_COMPANIES),
             "top_keywords": phrases,
@@ -299,6 +309,10 @@ def main() -> None:
         stale.unlink()
 
     for week, articles_in_week in sorted(weekly_articles.items()):
+        days = days_covered(articles_in_week)
+        if days < MIN_DAYS_PER_WEEK:
+            print(f"{week}: skipped, only {days} day(s) of news")
+            continue
         print(f"{week}: {len(articles_in_week)} articles")
 
         embeddings = embed_articles(articles_in_week, model, cache)

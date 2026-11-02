@@ -1,0 +1,530 @@
+{
+  "week": "2026-W41",
+  "themes": [
+    {
+      "theme_id": "2026-W41_theme_6",
+      "week": "2026-W41",
+      "cluster_id": 6,
+      "label": "AI Revenue Questions Pull Semiconductor Stocks Off October Highs",
+      "size": 28,
+      "top_companies": [
+        "NVIDIA",
+        "Intel",
+        "TSMC",
+        "Apple",
+        "Tesla"
+      ],
+      "top_keywords": [
+        "nvidia",
+        "nvda",
+        "musk",
+        "terafab",
+        "record"
+      ],
+      "example_titles": [
+        "AI Revenue Questions Pull Semiconductor Stocks Off October Highs",
+        "Arm Stock Is Up 143% This Year: Take Profits, or Hold On for the Ride?",
+        "NVIDIA (NASDAQ:NVDA) Stock Falls 2.9%",
+        "Nvidia GPUs are everywhere. Here are the ways companies are accessing them",
+        "Nvidia soars near $6 trillion market cap with stock back at high"
+      ],
+      "source_count": 19,
+      "relevance": 0.432,
+      "previous_theme_id": "2026-W10_theme_14",
+      "previous_week": "2026-W10",
+      "previous_label": "UBS makes bold new call on Nvidia stock",
+      "previous_size": 10,
+      "similarity_to_previous": 0.5806,
+      "growth_rate": 1.8,
+      "is_new_theme": false,
+      "storyline_id": "2026-W02_theme_3",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 7,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.9161,
+      "storyline_keywords": [
+        "investors",
+        "spending",
+        "nvidia",
+        "earnings"
+      ]
+    },
+    {
+      "theme_id": "2026-W41_theme_8",
+      "week": "2026-W41",
+      "cluster_id": 8,
+      "label": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+      "size": 38,
+      "top_companies": [
+        "NVIDIA",
+        "Microsoft",
+        "Intel",
+        "Apple",
+        "Dell Technologies"
+      ],
+      "top_keywords": [
+        "microsoft",
+        "laptop",
+        "nvidia",
+        "rtx",
+        "windows"
+      ],
+      "example_titles": [
+        "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+        "Microsoft’s Nvidia powered Surface Ultra laptop put a price on its hybrid AI ambitions: All details",
+        "MSI Prestige N16 Flip AI+: very powerful tablet-notebook with Nvidia RTX Spark",
+        "Too many quantum startups, too little money to keep them alive",
+        "microsoft: Microsoft, Nvidia CEOs to unveil new AI laptop at San Francisco event"
+      ],
+      "source_count": 33,
+      "relevance": 0.482,
+      "previous_theme_id": "2026-W12_theme_15",
+      "previous_week": "2026-W12",
+      "previous_label": "AI Innovation Unveiled: 14 Vendor Partners Helping Shape The Future Of Enterprise AI At Nvidia GTC 2026",
+      "previous_size": 16,
+      "similarity_to_previous": 0.5678,
+      "growth_rate": 1.375,
+      "is_new_theme": false,
+      "storyline_id": "2026-W08_theme_7",
+      "storyline_start_week": "2026-W08",
+      "storyline_weeks": 3,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.9136,
+      "storyline_keywords": [
+        "nvidia",
+        "meta",
+        "expand",
+        "millions"
+      ]
+    },
+    {
+      "theme_id": "2026-W41_theme_4",
+      "week": "2026-W41",
+      "cluster_id": 4,
+      "label": "In Silicon Valley, AI founders cheer Trump’s calls for the industry to police itself on safety",
+      "size": 17,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Meta",
+        "Microsoft",
+        "Dell Technologies"
+      ],
+      "top_keywords": [
+        "trump",
+        "medals",
+        "science",
+        "musk",
+        "award"
+      ],
+      "example_titles": [
+        "In Silicon Valley, AI founders cheer Trump’s calls for the industry to police itself on safety",
+        "How to Make the AI Task Force a Success",
+        "Jon Stewart Exposes Donald Trump’s Potentially World-Ending Grift",
+        "AI and SI: What's our choice?",
+        "Trump Forms ‘Super Intelligence Force’ to Coordinate Federal Efforts"
+      ],
+      "source_count": 16,
+      "relevance": 0.511,
+      "previous_theme_id": "2026-W13_theme_11",
+      "previous_week": "2026-W13",
+      "previous_label": "3 ways Cisco's DefenseClaw aims to make agentic AI safer",
+      "previous_size": 5,
+      "similarity_to_previous": 0.5761,
+      "growth_rate": 2.4,
+      "is_new_theme": false,
+      "storyline_id": "2026-W12_theme_7",
+      "storyline_start_week": "2026-W12",
+      "storyline_weeks": 3,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.8477,
+      "storyline_keywords": [
+        "openclaw",
+        "agentic",
+        "force",
+        "safety"
+      ]
+    },
+    {
+      "theme_id": "2026-W41_theme_2",
+      "week": "2026-W41",
+      "cluster_id": 2,
+      "label": "Data centre operator Firmus pulls blockbuster ASX float after lacklustre demand",
+      "size": 10,
+      "top_companies": [
+        "NVIDIA",
+        "Meta",
+        "Google",
+        "Microsoft",
+        "Amazon"
+      ],
+      "top_keywords": [
+        "firmus",
+        "centre",
+        "float",
+        "ipo",
+        "data"
+      ],
+      "example_titles": [
+        "Data centre operator Firmus pulls blockbuster ASX float after lacklustre demand",
+        "Datacentre company Firmus’s high flying valuation may be coming back down to earth ahead of expected ASX debut",
+        "Firmus fizzles out: AI factory firm pulls $44b float",
+        "Nvidia-backed data centre firm scraps IPO as AI valuation concerns deepen",
+        "Two tech outsiders tried to sell a $44b tech company. It didn’t work"
+      ],
+      "source_count": 9,
+      "relevance": 0.379,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "storyline_id": "2026-W41_theme_2",
+      "storyline_start_week": "2026-W41",
+      "storyline_weeks": 1,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.775,
+      "storyline_keywords": []
+    },
+    {
+      "theme_id": "2026-W41_theme_3",
+      "week": "2026-W41",
+      "cluster_id": 3,
+      "label": "Huawei, Qualcomm Sign Multi-Year AI and 5G Patent Deal",
+      "size": 10,
+      "top_companies": [
+        "Qualcomm",
+        "NVIDIA",
+        "Meta",
+        "Google",
+        "Arm Holdings"
+      ],
+      "top_keywords": [
+        "patent",
+        "qualcomm",
+        "huawei",
+        "deal",
+        "dispute"
+      ],
+      "example_titles": [
+        "Huawei, Qualcomm Sign Multi-Year AI and 5G Patent Deal",
+        "NewswireToday Leading Press Releases & Newswire Distribution Service",
+        "Huawei patent licensing deal: Huawei agrees to a multi-year patent licensing deal with Qualcomm",
+        "Qualcomm and Arm set for jury verdict in contract breach feud",
+        "Micron enters $600 million settlement of Netlist patent dispute"
+      ],
+      "source_count": 8,
+      "relevance": 0.403,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "storyline_id": "2026-W41_theme_3",
+      "storyline_start_week": "2026-W41",
+      "storyline_weeks": 1,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.775,
+      "storyline_keywords": []
+    },
+    {
+      "theme_id": "2026-W41_theme_9",
+      "week": "2026-W41",
+      "cluster_id": 9,
+      "label": "SpaceX seeks $40b financing led by Apollo to buy Nvidia chips",
+      "size": 7,
+      "top_companies": [
+        "NVIDIA",
+        "Broadcom",
+        "Google",
+        "Amazon",
+        "Schneider Electric"
+      ],
+      "top_keywords": [
+        "financing",
+        "broadcom",
+        "anthropic",
+        "apollo",
+        "spacex"
+      ],
+      "example_titles": [
+        "SpaceX seeks $40b financing led by Apollo to buy Nvidia chips",
+        "SpaceX in talks with Apollo Capital and banks to raise $40 billion for Nvidia GPU purchases - Report",
+        "Anthropic turns to Broadcom for up to $42 billion in financing",
+        "Broadcom offers Anthropic up to $42 billion in financing",
+        "Morning Bid: Sovereign bonds shouldered aside as AI takes their turf"
+      ],
+      "source_count": 7,
+      "relevance": 0.479,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "storyline_id": "2026-W41_theme_9",
+      "storyline_start_week": "2026-W41",
+      "storyline_weeks": 1,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.7075,
+      "storyline_keywords": []
+    },
+    {
+      "theme_id": "2026-W41_theme_11",
+      "week": "2026-W41",
+      "cluster_id": 11,
+      "label": "$25 Billion Reflection AI, Backed By Nvidia (NASDAQ: NVDA), Prepares To Launch Open-Source Model That Could Reshape Enterprise AI",
+      "size": 6,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Meta",
+        "Intel",
+        "TSMC"
+      ],
+      "top_keywords": [
+        "reflection",
+        "model",
+        "accelerates",
+        "anthropic threat",
+        "backed"
+      ],
+      "example_titles": [
+        "$25 Billion Reflection AI, Backed By Nvidia (NASDAQ: NVDA), Prepares To Launch Open-Source Model That Could Reshape Enterprise AI",
+        "Nvidia-Backed Reflection AI Enters Competitive Open-Weight Model Market",
+        "Nvidia in talks to invest further in Reflection AI or buy it, FT reports",
+        "OpenAI and Anthropic Have a New Threat to Worry About—and It Isn't China",
+        "Econet unleashes bold AI revolution: Zimbabwe's telecom giant accelerates digital transformation"
+      ],
+      "source_count": 6,
+      "relevance": 0.571,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "storyline_id": "2026-W41_theme_11",
+      "storyline_start_week": "2026-W41",
+      "storyline_weeks": 1,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.685,
+      "storyline_keywords": []
+    },
+    {
+      "theme_id": "2026-W41_theme_12",
+      "week": "2026-W41",
+      "cluster_id": 12,
+      "label": "The desperate hunt for AI computing power is upending Silicon Valley",
+      "size": 5,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Amazon",
+        "Meta",
+        "Intel"
+      ],
+      "top_keywords": [
+        "silicon valley",
+        "bet path",
+        "billions",
+        "breakthroughs",
+        "center race"
+      ],
+      "example_titles": [
+        "The desperate hunt for AI computing power is upending Silicon Valley",
+        "AI sector gathers at Ai Everything event in Abu Dhabi",
+        "Inside Silicon Valley's bet on a new path to landing a job in the AI era",
+        "As companies pour billions into Earth-based AI infrastructure, Google taking the data center race off-planet",
+        "As AI cos make math breakthroughs not everyone is cheering"
+      ],
+      "source_count": 5,
+      "relevance": 0.581,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "storyline_id": "2026-W41_theme_12",
+      "storyline_start_week": "2026-W41",
+      "storyline_weeks": 1,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.6625,
+      "storyline_keywords": []
+    },
+    {
+      "theme_id": "2026-W41_theme_7",
+      "week": "2026-W41",
+      "cluster_id": 7,
+      "label": "October Prime Day laptop deals 2026: MacBook Air, Microsoft Surface Laptop 8",
+      "size": 27,
+      "top_companies": [
+        "Intel",
+        "Google",
+        "Apple",
+        "Amazon",
+        "Lenovo"
+      ],
+      "top_keywords": [
+        "prime",
+        "deals",
+        "amazon",
+        "android",
+        "save"
+      ],
+      "example_titles": [
+        "October Prime Day laptop deals 2026: MacBook Air, Microsoft Surface Laptop 8",
+        "Microsoft's Surface Pro 2026 OLED 2-in-1 gets a huge $450 discount",
+        "Asus Googlebook 14 Review: For Android, By Android",
+        "Snag A Gaming Laptop Or Desktop For Less With These Early Amazon Prime Day Deals",
+        "The Asus Googlebook 14 is sprinkled with hints of greatness"
+      ],
+      "source_count": 19,
+      "relevance": 0.404,
+      "previous_theme_id": "2026-W13_theme_2",
+      "previous_week": "2026-W13",
+      "previous_label": "Intel confirms rumored Core Ultra 9 290K Plus has been scrapped — potential Core Ultra 9 285KS Special Edition also off the table as Arrow Lake refresh rolls out",
+      "previous_size": 43,
+      "similarity_to_previous": 0.6976,
+      "growth_rate": -0.3721,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_4",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 6,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.5895,
+      "storyline_keywords": [
+        "intel",
+        "ultra",
+        "core",
+        "macbook"
+      ]
+    },
+    {
+      "theme_id": "2026-W41_theme_10",
+      "week": "2026-W41",
+      "cluster_id": 10,
+      "label": "AI's race to change the world before the money runs out",
+      "size": 13,
+      "top_companies": [
+        "NVIDIA",
+        "Amazon",
+        "Google",
+        "Microsoft",
+        "Micron"
+      ],
+      "top_keywords": [
+        "anthropic",
+        "balance",
+        "open",
+        "boom",
+        "amodei"
+      ],
+      "example_titles": [
+        "AI's race to change the world before the money runs out",
+        "When will the AI investment boom deliver on its promises?",
+        "OpenAI projected to bring in $20bn less in revenue than expected",
+        "Trillions are being ‘wasted’ on the AI boom, Arthur Hayes says. He’s betting on what comes next",
+        "The AI Rally Trapdoor Just Swung Open Violently"
+      ],
+      "source_count": 13,
+      "relevance": 0.634,
+      "previous_theme_id": "2026-W12_theme_6",
+      "previous_week": "2026-W12",
+      "previous_label": "The Artificial Intelligence (AI) Stock Most Likely to Mint New Millionaires",
+      "previous_size": 14,
+      "similarity_to_previous": 0.5595,
+      "growth_rate": -0.0714,
+      "is_new_theme": false,
+      "storyline_id": "2026-W02_theme_3",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 6,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.4044,
+      "storyline_keywords": [
+        "investors",
+        "spending",
+        "nvidia",
+        "earnings"
+      ]
+    },
+    {
+      "theme_id": "2026-W41_theme_5",
+      "week": "2026-W41",
+      "cluster_id": 5,
+      "label": "Samsung flags $80 billion profit on AI boom, highest quarterly for any tech company",
+      "size": 5,
+      "top_companies": [
+        "Micron",
+        "Samsung Electronics",
+        "NVIDIA",
+        "SK hynix",
+        "Apple"
+      ],
+      "top_keywords": [
+        "samsung",
+        "profit",
+        "quarterly",
+        "trillion",
+        "boom"
+      ],
+      "example_titles": [
+        "Samsung flags $80 billion profit on AI boom, highest quarterly for any tech company",
+        "AI chip boom pushes Samsung profits to record $80bn",
+        "Samsung Electronics posts 100 trillion won in quarterly profit, a first in Korea",
+        "Almost half a trillion dollars sucked up by memory industry",
+        "Promising Large Cap Stocks To Keep An Eye On"
+      ],
+      "source_count": 5,
+      "relevance": 0.407,
+      "previous_theme_id": "2026-W12_theme_13",
+      "previous_week": "2026-W12",
+      "previous_label": "Is Micron a Buy as Revenue Explodes Higher?",
+      "previous_size": 10,
+      "similarity_to_previous": 0.5565,
+      "growth_rate": -0.5,
+      "is_new_theme": false,
+      "storyline_id": "2026-W06_theme_11",
+      "storyline_start_week": "2026-W06",
+      "storyline_weeks": 5,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.2238,
+      "storyline_keywords": [
+        "memory",
+        "micron",
+        "shortage",
+        "prices"
+      ]
+    }
+  ]
+}

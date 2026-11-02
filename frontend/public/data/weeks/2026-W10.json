@@ -37,51 +37,21 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W10_theme_5",
+      "storyline_start_week": "2026-W10",
+      "storyline_weeks": 1,
       "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.9325
-    },
-    {
-      "theme_id": "2026-W10_theme_3",
-      "week": "2026-W10",
-      "cluster_id": 3,
-      "label": "Vodafone, Samsung Advance Open RAN with vRAN Test Using Latest Chipset",
-      "size": 17,
-      "top_companies": [
-        "Intel",
-        "NVIDIA",
-        "AMD",
-        "Samsung Electronics",
-        "Google"
+      "next_theme_ids": [
+        "2026-W13_theme_3"
       ],
-      "top_keywords": [
-        "telco",
-        "cloud",
-        "performance",
-        "ai-ready",
-        "computing"
-      ],
-      "example_titles": [
-        "Vodafone, Samsung Advance Open RAN with vRAN Test Using Latest Chipset",
-        "Broadcom launches VMware Telco Cloud Platform 9 to drive AI monetisation, sovereign services",
-        "Intel showcases AI-ready network vision - IT-Online",
-        "Ericsson and Intel Deepen AI-Native 6G Partnership to Accelerate Readiness at MWC 2026",
-        "Auk Computing partners with Qualcomm to introduce AI On-Prem Appliance"
-      ],
-      "source_count": 16,
-      "relevance": 0.556,
-      "previous_theme_id": "2026-W09_theme_3",
-      "previous_week": "2026-W09",
-      "previous_label": "OpenAI Raises $110 Billion to Build Global AI Infrastructure",
-      "previous_size": 7,
-      "similarity_to_previous": 0.8272,
-      "growth_rate": 1.4286,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.8979
+      "out_degree": 1,
+      "emerging_score": 0.9325,
+      "storyline_keywords": [
+        "nuclear",
+        "tensions",
+        "war",
+        "iran"
+      ]
     },
     {
       "theme_id": "2026-W10_theme_11",
@@ -119,10 +89,64 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W10_theme_11",
+      "storyline_start_week": "2026-W10",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.8875
+      "emerging_score": 0.8875,
+      "storyline_keywords": []
+    },
+    {
+      "theme_id": "2026-W10_theme_3",
+      "week": "2026-W10",
+      "cluster_id": 3,
+      "label": "Vodafone, Samsung Advance Open RAN with vRAN Test Using Latest Chipset",
+      "size": 17,
+      "top_companies": [
+        "Intel",
+        "NVIDIA",
+        "AMD",
+        "Samsung Electronics",
+        "Google"
+      ],
+      "top_keywords": [
+        "telco",
+        "cloud",
+        "performance",
+        "ai-ready",
+        "computing"
+      ],
+      "example_titles": [
+        "Vodafone, Samsung Advance Open RAN with vRAN Test Using Latest Chipset",
+        "Broadcom launches VMware Telco Cloud Platform 9 to drive AI monetisation, sovereign services",
+        "Intel showcases AI-ready network vision - IT-Online",
+        "Ericsson and Intel Deepen AI-Native 6G Partnership to Accelerate Readiness at MWC 2026",
+        "Auk Computing partners with Qualcomm to introduce AI On-Prem Appliance"
+      ],
+      "source_count": 16,
+      "relevance": 0.556,
+      "previous_theme_id": "2026-W09_theme_9",
+      "previous_week": "2026-W09",
+      "previous_label": "Ahead of MWC Barcelona, Nvidia bets AI-native platforms will carry telecom into 6G",
+      "previous_size": 7,
+      "similarity_to_previous": 0.6669,
+      "growth_rate": 1.4286,
+      "is_new_theme": false,
+      "storyline_id": "2026-W09_theme_9",
+      "storyline_start_week": "2026-W09",
+      "storyline_weeks": 2,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.8659,
+      "storyline_keywords": [
+        "mwc",
+        "partners",
+        "ai-native",
+        "telecom"
+      ]
     },
     {
       "theme_id": "2026-W10_theme_0",
@@ -160,10 +184,14 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W10_theme_0",
+      "storyline_start_week": "2026-W10",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.865
+      "emerging_score": 0.865,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W10_theme_6",
@@ -201,10 +229,14 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W10_theme_6",
+      "storyline_start_week": "2026-W10",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.865
+      "emerging_score": 0.865,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W10_theme_15",
@@ -242,51 +274,14 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W10_theme_15",
+      "storyline_start_week": "2026-W10",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.775
-    },
-    {
-      "theme_id": "2026-W10_theme_13",
-      "week": "2026-W10",
-      "cluster_id": 13,
-      "label": "Why AI Will Not Take Over the World",
-      "size": 9,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "Meta",
-        "Amazon",
-        "Microsoft"
-      ],
-      "top_keywords": [
-        "problem",
-        "future",
-        "war",
-        "agents",
-        "algorithms"
-      ],
-      "example_titles": [
-        "Why AI Will Not Take Over the World",
-        "The AI problem nobody is talking about",
-        "Exploring the future of Artificial Intelligence — today's models, tomorrow's agents, and the big privacy problem",
-        "Israeli team moves along with new AI technique",
-        "Dueling documentaries illuminate the promise and perils of artificial intelligence"
-      ],
-      "source_count": 9,
-      "relevance": 0.621,
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.7525
+      "emerging_score": 0.775,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W10_theme_8",
@@ -324,94 +319,73 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.685
-    },
-    {
-      "theme_id": "2026-W10_theme_4",
-      "week": "2026-W10",
-      "cluster_id": 4,
-      "label": "Apple launches new MacBooks with M5 chips, bigger base storage",
-      "size": 14,
-      "top_companies": [
-        "Apple",
-        "Intel",
-        "Google",
-        "Qualcomm",
-        "Lenovo"
-      ],
-      "top_keywords": [
-        "m5",
-        "apple",
-        "macbook",
-        "ultra",
-        "cores"
-      ],
-      "example_titles": [
-        "Apple launches new MacBooks with M5 chips, bigger base storage",
-        "Apple unveils the M5 Pro and M5 Max chips, which feature new, faster 'super cores'",
-        "Apple Doubling Down On High-End \"Ultra\" Products Even If The MacBook Neo Proves To Be A Success",
-        "M4 iPad Air Benchmarks Surfaces",
-        "New MacBook M5 Buyers to Pay for Speed But Lose the Charger in UK and EU"
-      ],
-      "source_count": 11,
-      "relevance": 0.448,
-      "previous_theme_id": "2026-W09_theme_5",
-      "previous_week": "2026-W09",
-      "previous_label": "Save $455 on the modern HP Omen 16 with a shiny new Intel Core Ultra 7 and an RTX 5060",
-      "previous_size": 10,
-      "similarity_to_previous": 0.8165,
-      "growth_rate": 0.4,
-      "is_new_theme": false,
+      "storyline_id": "2026-W10_theme_8",
+      "storyline_start_week": "2026-W10",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [
-        "2026-W11_theme_6"
+        "2026-W12_theme_2"
       ],
       "out_degree": 1,
-      "emerging_score": 0.6183
+      "emerging_score": 0.685,
+      "storyline_keywords": [
+        "sales",
+        "chip",
+        "considers",
+        "h200"
+      ]
     },
     {
-      "theme_id": "2026-W10_theme_16",
+      "theme_id": "2026-W10_theme_1",
       "week": "2026-W10",
-      "cluster_id": 16,
-      "label": "OpenAI clinches $840b valuation with mega funding from Amazon, Nvidia, SoftBank",
+      "cluster_id": 1,
+      "label": "MSI Gaming Desktop PC Codex Z2 A8NVM-485US AMD Ryzen 7 8700F 16GB DDR5 2TB NVMe SSD GeForce RTX 5060 Ti Windows 11 Home",
       "size": 14,
       "top_companies": [
         "NVIDIA",
+        "Intel",
         "Google",
-        "Amazon",
-        "Microsoft",
-        "Tesla"
+        "AMD",
+        "Micron"
       ],
       "top_keywords": [
-        "openai",
-        "round",
-        "nvidia",
-        "funding",
-        "softbank"
+        "rtx",
+        "pc",
+        "geforce",
+        "gaming",
+        "ddr5"
       ],
       "example_titles": [
-        "OpenAI clinches $840b valuation with mega funding from Amazon, Nvidia, SoftBank",
-        "Nvidia signals pause in backing AI start-ups",
-        "OpenAI Secures $110 Billion Funding Round at $840 Billion Valuation Ahead of IPO",
-        "What Nvidia Ending OpenAI Investments Means",
-        "Amazon, Nvidia back OpenAI in $110 billion round"
+        "MSI Gaming Desktop PC Codex Z2 A8NVM-485US AMD Ryzen 7 8700F 16GB DDR5 2TB NVMe SSD GeForce RTX 5060 Ti Windows 11 Home",
+        "MSI Gaming Desktop PC Codex R2 B14NVL5-449US Intel Core i5-14400F 32GB DDR5 2TB SSD GeForce RTX 5060 Windows 11 Home",
+        "Latest Steam Hardware Survey Reveals NVIDIA RTX 5070 Share Grew by 228%",
+        "Nvidia Nearly Has Complete Control of the PC Graphics Cards Market",
+        "Alienware's Flagship Area-51 Ryzen X3D Edition RTX 5090 Gaming PC Drops to $4,650"
       ],
-      "source_count": 12,
-      "relevance": 0.523,
-      "previous_theme_id": "2026-W09_theme_4",
-      "previous_week": "2026-W09",
-      "previous_label": "OpenAI announces $110 billion investment round at $730 billion pre-money valuation",
-      "previous_size": 16,
-      "similarity_to_previous": 0.9477,
-      "growth_rate": -0.125,
+      "source_count": 7,
+      "relevance": 0.382,
+      "previous_theme_id": "2026-W06_theme_3",
+      "previous_week": "2026-W06",
+      "previous_label": "NVIDIA’s Replacement for the RTX 50 SUPER Series Could Be a “Mega” RTX 5090 GPU, but It’s Unlikely to Change Anything for Gamers",
+      "previous_size": 10,
+      "similarity_to_previous": 0.7922,
+      "growth_rate": 0.4,
       "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.5045
+      "storyline_id": "2026-W01_theme_5",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 4,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W11_theme_5"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.6134,
+      "storyline_keywords": [
+        "rtx",
+        "gpu",
+        "geforce",
+        "gaming"
+      ]
     },
     {
       "theme_id": "2026-W10_theme_9",
@@ -446,15 +420,125 @@
       "previous_week": "2026-W09",
       "previous_label": "Hegseth warns Anthropic to let the military use the company’s AI tech as it sees fit, AP sources say",
       "previous_size": 8,
-      "similarity_to_previous": 0.9553,
+      "similarity_to_previous": 0.9299,
       "growth_rate": 0.25,
       "is_new_theme": false,
+      "storyline_id": "2026-W09_theme_2",
+      "storyline_start_week": "2026-W09",
+      "storyline_weeks": 2,
       "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W11_theme_2"
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.4985,
+      "storyline_keywords": [
+        "anthropic",
+        "pentagon",
+        "risk",
+        "administration"
+      ]
+    },
+    {
+      "theme_id": "2026-W10_theme_16",
+      "week": "2026-W10",
+      "cluster_id": 16,
+      "label": "OpenAI clinches $840b valuation with mega funding from Amazon, Nvidia, SoftBank",
+      "size": 14,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Tesla"
       ],
-      "out_degree": 1,
-      "emerging_score": 0.5036
+      "top_keywords": [
+        "openai",
+        "round",
+        "nvidia",
+        "funding",
+        "softbank"
+      ],
+      "example_titles": [
+        "OpenAI clinches $840b valuation with mega funding from Amazon, Nvidia, SoftBank",
+        "Nvidia signals pause in backing AI start-ups",
+        "OpenAI Secures $110 Billion Funding Round at $840 Billion Valuation Ahead of IPO",
+        "What Nvidia Ending OpenAI Investments Means",
+        "Amazon, Nvidia back OpenAI in $110 billion round"
+      ],
+      "source_count": 12,
+      "relevance": 0.523,
+      "previous_theme_id": "2026-W09_theme_4",
+      "previous_week": "2026-W09",
+      "previous_label": "OpenAI announces $110 billion investment round at $730 billion pre-money valuation",
+      "previous_size": 16,
+      "similarity_to_previous": 0.8486,
+      "growth_rate": -0.125,
+      "is_new_theme": false,
+      "storyline_id": "2026-W04_theme_12",
+      "storyline_start_week": "2026-W04",
+      "storyline_weeks": 5,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.4847,
+      "storyline_keywords": [
+        "openai",
+        "round",
+        "amazon",
+        "funding"
+      ]
+    },
+    {
+      "theme_id": "2026-W10_theme_4",
+      "week": "2026-W10",
+      "cluster_id": 4,
+      "label": "Apple launches new MacBooks with M5 chips, bigger base storage",
+      "size": 14,
+      "top_companies": [
+        "Apple",
+        "Intel",
+        "Google",
+        "Qualcomm",
+        "Lenovo"
+      ],
+      "top_keywords": [
+        "m5",
+        "apple",
+        "macbook",
+        "ultra",
+        "cores"
+      ],
+      "example_titles": [
+        "Apple launches new MacBooks with M5 chips, bigger base storage",
+        "Apple unveils the M5 Pro and M5 Max chips, which feature new, faster 'super cores'",
+        "Apple Doubling Down On High-End \"Ultra\" Products Even If The MacBook Neo Proves To Be A Success",
+        "M4 iPad Air Benchmarks Surfaces",
+        "New MacBook M5 Buyers to Pay for Speed But Lose the Charger in UK and EU"
+      ],
+      "source_count": 11,
+      "relevance": 0.448,
+      "previous_theme_id": "2026-W07_theme_5",
+      "previous_week": "2026-W07",
+      "previous_label": "New Snapdragon X2 Elite benchmarks surface — and Apple and Intel should be worried",
+      "previous_size": 20,
+      "similarity_to_previous": 0.7839,
+      "growth_rate": -0.3,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_4",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 4,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W11_theme_6",
+        "2026-W12_theme_12"
+      ],
+      "out_degree": 2,
+      "emerging_score": 0.4718,
+      "storyline_keywords": [
+        "intel",
+        "ultra",
+        "core",
+        "macbook"
+      ]
     },
     {
       "theme_id": "2026-W10_theme_17",
@@ -485,62 +569,28 @@
       ],
       "source_count": 3,
       "relevance": 0.454,
-      "previous_theme_id": "2026-W09_theme_8",
-      "previous_week": "2026-W09",
-      "previous_label": "Could AI Crash the Economy in 2 Years? One Research Firm Says Yes.",
-      "previous_size": 14,
-      "similarity_to_previous": 0.8693,
-      "growth_rate": 0.0,
+      "previous_theme_id": "2026-W07_theme_9",
+      "previous_week": "2026-W07",
+      "previous_label": "Nvidia shares go cold even as Big Tech spending on AI balloons",
+      "previous_size": 15,
+      "similarity_to_previous": 0.7068,
+      "growth_rate": -0.0667,
       "is_new_theme": false,
+      "storyline_id": "2026-W02_theme_3",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 4,
       "is_emerging": false,
       "next_theme_ids": [
-        "2026-W11_theme_0"
+        "2026-W13_theme_9"
       ],
       "out_degree": 1,
-      "emerging_score": 0.4889
-    },
-    {
-      "theme_id": "2026-W10_theme_1",
-      "week": "2026-W10",
-      "cluster_id": 1,
-      "label": "MSI Gaming Desktop PC Codex Z2 A8NVM-485US AMD Ryzen 7 8700F 16GB DDR5 2TB NVMe SSD GeForce RTX 5060 Ti Windows 11 Home",
-      "size": 14,
-      "top_companies": [
-        "NVIDIA",
-        "Intel",
-        "Google",
-        "AMD",
-        "Micron"
-      ],
-      "top_keywords": [
-        "rtx",
-        "pc",
-        "geforce",
-        "gaming",
-        "ddr5"
-      ],
-      "example_titles": [
-        "MSI Gaming Desktop PC Codex Z2 A8NVM-485US AMD Ryzen 7 8700F 16GB DDR5 2TB NVMe SSD GeForce RTX 5060 Ti Windows 11 Home",
-        "MSI Gaming Desktop PC Codex R2 B14NVL5-449US Intel Core i5-14400F 32GB DDR5 2TB SSD GeForce RTX 5060 Windows 11 Home",
-        "Latest Steam Hardware Survey Reveals NVIDIA RTX 5070 Share Grew by 228%",
-        "Nvidia Nearly Has Complete Control of the PC Graphics Cards Market",
-        "Alienware's Flagship Area-51 Ryzen X3D Edition RTX 5090 Gaming PC Drops to $4,650"
-      ],
-      "source_count": 7,
-      "relevance": 0.382,
-      "previous_theme_id": "2026-W09_theme_10",
-      "previous_week": "2026-W09",
-      "previous_label": "Nvidia developing new chip to boost AI speed",
-      "previous_size": 17,
-      "similarity_to_previous": 0.7579,
-      "growth_rate": -0.1765,
-      "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W11_theme_5"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.4666
+      "emerging_score": 0.4564,
+      "storyline_keywords": [
+        "investors",
+        "spending",
+        "nvidia",
+        "earnings"
+      ]
     },
     {
       "theme_id": "2026-W10_theme_14",
@@ -575,13 +625,74 @@
       "previous_week": "2026-W09",
       "previous_label": "NVIDIA (NVDA) Set to Report Q4 FY2026 Earnings After Bell on February 25, 2026: Wall Street Eyes AI Demand",
       "previous_size": 20,
-      "similarity_to_previous": 0.9608,
+      "similarity_to_previous": 0.8981,
       "growth_rate": -0.5,
       "is_new_theme": false,
+      "storyline_id": "2026-W02_theme_3",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 6,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W41_theme_6"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.4046,
+      "storyline_keywords": [
+        "investors",
+        "spending",
+        "nvidia",
+        "earnings"
+      ]
+    },
+    {
+      "theme_id": "2026-W10_theme_13",
+      "week": "2026-W10",
+      "cluster_id": 13,
+      "label": "Why AI Will Not Take Over the World",
+      "size": 9,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Meta",
+        "Amazon",
+        "Microsoft"
+      ],
+      "top_keywords": [
+        "problem",
+        "future",
+        "war",
+        "agents",
+        "algorithms"
+      ],
+      "example_titles": [
+        "Why AI Will Not Take Over the World",
+        "The AI problem nobody is talking about",
+        "Exploring the future of Artificial Intelligence — today's models, tomorrow's agents, and the big privacy problem",
+        "Israeli team moves along with new AI technique",
+        "Dueling documentaries illuminate the promise and perils of artificial intelligence"
+      ],
+      "source_count": 9,
+      "relevance": 0.621,
+      "previous_theme_id": "2026-W06_theme_6",
+      "previous_week": "2026-W06",
+      "previous_label": "Jim Cramer Discusses Key Factor For Advanced Micro Devices (AMD)",
+      "previous_size": 24,
+      "similarity_to_previous": 0.5827,
+      "growth_rate": -0.625,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_11",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 5,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.4172
+      "emerging_score": 0.319,
+      "storyline_keywords": [
+        "cramer",
+        "jim",
+        "buy",
+        "valuation"
+      ]
     },
     {
       "theme_id": "2026-W10_theme_7",
@@ -616,13 +727,22 @@
       "previous_week": "2026-W09",
       "previous_label": "Ahead of MWC Barcelona, Nvidia bets AI-native platforms will carry telecom into 6G",
       "previous_size": 7,
-      "similarity_to_previous": 0.726,
+      "similarity_to_previous": 0.5965,
       "growth_rate": 0.0,
       "is_new_theme": false,
+      "storyline_id": "2026-W09_theme_9",
+      "storyline_start_week": "2026-W09",
+      "storyline_weeks": 2,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.3027
+      "emerging_score": 0.2768,
+      "storyline_keywords": [
+        "mwc",
+        "partners",
+        "ai-native",
+        "telecom"
+      ]
     },
     {
       "theme_id": "2026-W10_theme_12",
@@ -653,17 +773,26 @@
       ],
       "source_count": 5,
       "relevance": 0.487,
-      "previous_theme_id": "2026-W09_theme_6",
-      "previous_week": "2026-W09",
-      "previous_label": "AI is gobbling up the world’s memory chips, sending smartphone prices to record highs, report says",
-      "previous_size": 9,
-      "similarity_to_previous": 0.7651,
-      "growth_rate": -0.4444,
+      "previous_theme_id": "2026-W08_theme_6",
+      "previous_week": "2026-W08",
+      "previous_label": "AMD Zen 6 and Intel Nova Lake CPUs reportedly arriving late, delayed to CES 2027 — next-gen chips rocked by industry turmoil",
+      "previous_size": 16,
+      "similarity_to_previous": 0.6083,
+      "growth_rate": -0.6875,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_5",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 5,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.2655
+      "emerging_score": 0.2342,
+      "storyline_keywords": [
+        "rtx",
+        "gpu",
+        "geforce",
+        "gaming"
+      ]
     }
   ]
 }

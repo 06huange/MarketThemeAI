@@ -37,53 +37,14 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W09_theme_1",
+      "storyline_start_week": "2026-W09",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.955
-    },
-    {
-      "theme_id": "2026-W09_theme_8",
-      "week": "2026-W09",
-      "cluster_id": 8,
-      "label": "Could AI Crash the Economy in 2 Years? One Research Firm Says Yes.",
-      "size": 14,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "Microsoft",
-        "Intel",
-        "Amazon"
-      ],
-      "top_keywords": [
-        "economy",
-        "work",
-        "trillion",
-        "anthropic tool",
-        "appears"
-      ],
-      "example_titles": [
-        "Could AI Crash the Economy in 2 Years? One Research Firm Says Yes.",
-        "Heavyweights take centre stage",
-        "The AI Economy May Be Built on Hype, Not Hard Data — And Researchers Say That Should Worry Everyone",
-        "Skittish investors spooked as dystopian AI outlooks go viral",
-        "The $2 Trillion Software Boom: Why Dan Ives Believes AI’s Next Chapter Will Mint a New Class of Tech Giants"
-      ],
-      "source_count": 9,
-      "relevance": 0.578,
-      "previous_theme_id": "2026-W08_theme_1",
-      "previous_week": "2026-W08",
-      "previous_label": "World Labs secures $1 billion for spatial AI push",
-      "previous_size": 7,
-      "similarity_to_previous": 0.7542,
-      "growth_rate": 1.0,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W10_theme_17"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.8158
+      "emerging_score": 0.955,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W09_theme_2",
@@ -121,55 +82,22 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W09_theme_2",
+      "storyline_start_week": "2026-W09",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [
-        "2026-W10_theme_9"
+        "2026-W10_theme_9",
+        "2026-W11_theme_2"
       ],
-      "out_degree": 1,
-      "emerging_score": 0.73
-    },
-    {
-      "theme_id": "2026-W09_theme_3",
-      "week": "2026-W09",
-      "cluster_id": 3,
-      "label": "OpenAI Raises $110 Billion to Build Global AI Infrastructure",
-      "size": 7,
-      "top_companies": [
-        "NVIDIA",
-        "Amazon",
-        "Google",
-        "Microsoft",
-        "AMD"
-      ],
-      "top_keywords": [
-        "infrastructure",
-        "global",
-        "acceleration",
-        "address",
-        "amazon invest"
-      ],
-      "example_titles": [
-        "OpenAI Raises $110 Billion to Build Global AI Infrastructure",
-        "Neoclouds: Meeting demand for AI acceleration",
-        "Amazon to invest $50 billion in OpenAI under new AI partnership",
-        "Brookfield Launches Radiant as first vertically integrated AI Infrastructure Company Through Merger with Ori Industries",
-        "ORNL Forms Institute to Address AI's Energy Demands"
-      ],
-      "source_count": 7,
-      "relevance": 0.68,
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W10_theme_3"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.7075
+      "out_degree": 2,
+      "emerging_score": 0.73,
+      "storyline_keywords": [
+        "anthropic",
+        "pentagon",
+        "risk",
+        "administration"
+      ]
     },
     {
       "theme_id": "2026-W09_theme_9",
@@ -207,53 +135,22 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W09_theme_9",
+      "storyline_start_week": "2026-W09",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [
+        "2026-W10_theme_3",
         "2026-W10_theme_7"
       ],
-      "out_degree": 1,
-      "emerging_score": 0.7075
-    },
-    {
-      "theme_id": "2026-W09_theme_12",
-      "week": "2026-W09",
-      "cluster_id": 12,
-      "label": "Nvidia earnings report collides with Wall Street skepticism over AI spending",
-      "size": 5,
-      "top_companies": [
-        "NVIDIA",
-        "Meta",
-        "Amazon",
-        "Google",
-        "Groq"
-      ],
-      "top_keywords": [
-        "forecast",
-        "nvidia",
-        "earnings",
-        "better latest",
-        "blowout"
-      ],
-      "example_titles": [
-        "Nvidia earnings report collides with Wall Street skepticism over AI spending",
-        "Nvidia shares slide after sales forecast underwhelms investors",
-        "Nvidia forecast: market hunting for a fresh, decisive signal",
-        "Gene Munster Questions Nvidia Selloff After Blowout Earnings: 'Will Fundamentals Ever Be Enough?'",
-        "The NVIDIA Shield is still getting better with the latest update"
-      ],
-      "source_count": 5,
-      "relevance": 0.311,
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.6625
+      "out_degree": 2,
+      "emerging_score": 0.7075,
+      "storyline_keywords": [
+        "mwc",
+        "partners",
+        "ai-native",
+        "telecom"
+      ]
     },
     {
       "theme_id": "2026-W09_theme_14",
@@ -288,58 +185,25 @@
       "previous_week": "2026-W08",
       "previous_label": "Nvidia, software reports pose next tests for AI-sensitive stock market",
       "previous_size": 43,
-      "similarity_to_previous": 0.8723,
+      "similarity_to_previous": 0.6011,
       "growth_rate": -0.5349,
       "is_new_theme": false,
+      "storyline_id": "2026-W02_theme_3",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 5,
       "is_emerging": false,
       "next_theme_ids": [
-        "2026-W10_theme_14"
+        "2026-W10_theme_14",
+        "2026-W12_theme_9"
       ],
-      "out_degree": 1,
-      "emerging_score": 0.6245
-    },
-    {
-      "theme_id": "2026-W09_theme_10",
-      "week": "2026-W09",
-      "cluster_id": 10,
-      "label": "Nvidia developing new chip to boost AI speed",
-      "size": 17,
-      "top_companies": [
-        "NVIDIA",
-        "Groq",
-        "Google",
-        "Meta",
-        "Cerebras Systems"
-      ],
-      "top_keywords": [
+      "out_degree": 2,
+      "emerging_score": 0.5702,
+      "storyline_keywords": [
+        "investors",
+        "spending",
         "nvidia",
-        "chip",
-        "speed",
-        "plans",
-        "processing"
-      ],
-      "example_titles": [
-        "Nvidia developing new chip to boost AI speed",
-        "Nvidia results are AI market's biggest test amid competitive worries",
-        "Nvidia plans new chip to speed AI processing: WSJ",
-        "Nvidia plans new chip to speed AI processing, WSJ reports",
-        "OpenAI Becomes Top Buyer for New NVIDIA-Groq AI Chip, Securing 3GW Capacity"
-      ],
-      "source_count": 15,
-      "relevance": 0.532,
-      "previous_theme_id": "2026-W08_theme_7",
-      "previous_week": "2026-W08",
-      "previous_label": "Meta integrates Nvidia GPUs, CPUs, and confidential computing tools",
-      "previous_size": 17,
-      "similarity_to_previous": 0.8922,
-      "growth_rate": 0.0,
-      "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W10_theme_1"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.5609
+        "earnings"
+      ]
     },
     {
       "theme_id": "2026-W09_theme_4",
@@ -374,15 +238,126 @@
       "previous_week": "2026-W08",
       "previous_label": "Nvidia poised to back OpenAI in $100 bln raise",
       "previous_size": 16,
-      "similarity_to_previous": 0.9517,
+      "similarity_to_previous": 0.8627,
       "growth_rate": 0.0,
       "is_new_theme": false,
+      "storyline_id": "2026-W04_theme_12",
+      "storyline_start_week": "2026-W04",
+      "storyline_weeks": 4,
       "is_emerging": false,
       "next_theme_ids": [
         "2026-W10_theme_16"
       ],
       "out_degree": 1,
-      "emerging_score": 0.5503
+      "emerging_score": 0.5325,
+      "storyline_keywords": [
+        "openai",
+        "round",
+        "amazon",
+        "funding"
+      ]
+    },
+    {
+      "theme_id": "2026-W09_theme_10",
+      "week": "2026-W09",
+      "cluster_id": 10,
+      "label": "Nvidia developing new chip to boost AI speed",
+      "size": 17,
+      "top_companies": [
+        "NVIDIA",
+        "Groq",
+        "Google",
+        "Meta",
+        "Cerebras Systems"
+      ],
+      "top_keywords": [
+        "nvidia",
+        "chip",
+        "speed",
+        "plans",
+        "processing"
+      ],
+      "example_titles": [
+        "Nvidia developing new chip to boost AI speed",
+        "Nvidia results are AI market's biggest test amid competitive worries",
+        "Nvidia plans new chip to speed AI processing: WSJ",
+        "Nvidia plans new chip to speed AI processing, WSJ reports",
+        "OpenAI Becomes Top Buyer for New NVIDIA-Groq AI Chip, Securing 3GW Capacity"
+      ],
+      "source_count": 15,
+      "relevance": 0.532,
+      "previous_theme_id": "2026-W08_theme_7",
+      "previous_week": "2026-W08",
+      "previous_label": "Meta integrates Nvidia GPUs, CPUs, and confidential computing tools",
+      "previous_size": 17,
+      "similarity_to_previous": 0.6422,
+      "growth_rate": 0.0,
+      "is_new_theme": false,
+      "storyline_id": "2026-W08_theme_7",
+      "storyline_start_week": "2026-W08",
+      "storyline_weeks": 2,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.5109,
+      "storyline_keywords": [
+        "nvidia",
+        "meta",
+        "expand",
+        "millions"
+      ]
+    },
+    {
+      "theme_id": "2026-W09_theme_8",
+      "week": "2026-W09",
+      "cluster_id": 8,
+      "label": "Could AI Crash the Economy in 2 Years? One Research Firm Says Yes.",
+      "size": 14,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Microsoft",
+        "Intel",
+        "Amazon"
+      ],
+      "top_keywords": [
+        "economy",
+        "work",
+        "trillion",
+        "anthropic tool",
+        "appears"
+      ],
+      "example_titles": [
+        "Could AI Crash the Economy in 2 Years? One Research Firm Says Yes.",
+        "Heavyweights take centre stage",
+        "The AI Economy May Be Built on Hype, Not Hard Data — And Researchers Say That Should Worry Everyone",
+        "Skittish investors spooked as dystopian AI outlooks go viral",
+        "The $2 Trillion Software Boom: Why Dan Ives Believes AI’s Next Chapter Will Mint a New Class of Tech Giants"
+      ],
+      "source_count": 9,
+      "relevance": 0.578,
+      "previous_theme_id": "2026-W07_theme_9",
+      "previous_week": "2026-W07",
+      "previous_label": "Nvidia shares go cold even as Big Tech spending on AI balloons",
+      "previous_size": 15,
+      "similarity_to_previous": 0.6218,
+      "growth_rate": -0.0667,
+      "is_new_theme": false,
+      "storyline_id": "2026-W02_theme_3",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 4,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W12_theme_6"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.4394,
+      "storyline_keywords": [
+        "investors",
+        "spending",
+        "nvidia",
+        "earnings"
+      ]
     },
     {
       "theme_id": "2026-W09_theme_6",
@@ -417,15 +392,25 @@
       "previous_week": "2026-W08",
       "previous_label": "Rampant AI demand for memory is fueling a growing chip crisis",
       "previous_size": 7,
-      "similarity_to_previous": 0.8966,
+      "similarity_to_previous": 0.6607,
       "growth_rate": 0.2857,
       "is_new_theme": false,
+      "storyline_id": "2026-W06_theme_11",
+      "storyline_start_week": "2026-W06",
+      "storyline_weeks": 3,
       "is_emerging": true,
       "next_theme_ids": [
-        "2026-W10_theme_12"
+        "2026-W11_theme_3",
+        "2026-W12_theme_13"
       ],
-      "out_degree": 1,
-      "emerging_score": 0.4818
+      "out_degree": 2,
+      "emerging_score": 0.4346,
+      "storyline_keywords": [
+        "memory",
+        "micron",
+        "shortage",
+        "prices"
+      ]
     },
     {
       "theme_id": "2026-W09_theme_7",
@@ -460,13 +445,22 @@
       "previous_week": "2026-W08",
       "previous_label": "AI boom! What Nvidia wants from India to put New Delhi on the global manufacturing map",
       "previous_size": 42,
-      "similarity_to_previous": 0.9271,
+      "similarity_to_previous": 0.8272,
       "growth_rate": -0.7857,
       "is_new_theme": false,
+      "storyline_id": "2026-W07_theme_7",
+      "storyline_start_week": "2026-W07",
+      "storyline_weeks": 3,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.3879
+      "emerging_score": 0.3679,
+      "storyline_keywords": [
+        "india",
+        "impact",
+        "summit",
+        "global"
+      ]
     },
     {
       "theme_id": "2026-W09_theme_5",
@@ -497,19 +491,128 @@
       ],
       "source_count": 8,
       "relevance": 0.424,
-      "previous_theme_id": "2026-W08_theme_6",
-      "previous_week": "2026-W08",
-      "previous_label": "AMD Zen 6 and Intel Nova Lake CPUs reportedly arriving late, delayed to CES 2027 — next-gen chips rocked by industry turmoil",
-      "previous_size": 16,
-      "similarity_to_previous": 0.7956,
-      "growth_rate": -0.375,
+      "previous_theme_id": "2026-W07_theme_5",
+      "previous_week": "2026-W07",
+      "previous_label": "New Snapdragon X2 Elite benchmarks surface — and Apple and Intel should be worried",
+      "previous_size": 20,
+      "similarity_to_previous": 0.6817,
+      "growth_rate": -0.5,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_4",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 4,
       "is_emerging": false,
       "next_theme_ids": [
-        "2026-W10_theme_4"
+        "2026-W13_theme_2"
       ],
       "out_degree": 1,
-      "emerging_score": 0.3841
+      "emerging_score": 0.3613,
+      "storyline_keywords": [
+        "intel",
+        "ultra",
+        "core",
+        "macbook"
+      ]
+    },
+    {
+      "theme_id": "2026-W09_theme_3",
+      "week": "2026-W09",
+      "cluster_id": 3,
+      "label": "OpenAI Raises $110 Billion to Build Global AI Infrastructure",
+      "size": 7,
+      "top_companies": [
+        "NVIDIA",
+        "Amazon",
+        "Google",
+        "Microsoft",
+        "AMD"
+      ],
+      "top_keywords": [
+        "infrastructure",
+        "global",
+        "acceleration",
+        "address",
+        "amazon invest"
+      ],
+      "example_titles": [
+        "OpenAI Raises $110 Billion to Build Global AI Infrastructure",
+        "Neoclouds: Meeting demand for AI acceleration",
+        "Amazon to invest $50 billion in OpenAI under new AI partnership",
+        "Brookfield Launches Radiant as first vertically integrated AI Infrastructure Company Through Merger with Ori Industries",
+        "ORNL Forms Institute to Address AI's Energy Demands"
+      ],
+      "source_count": 7,
+      "relevance": 0.68,
+      "previous_theme_id": "2026-W05_theme_8",
+      "previous_week": "2026-W05",
+      "previous_label": "Ivana Delevska’s Top Picks for Jan. 28, 2026",
+      "previous_size": 10,
+      "similarity_to_previous": 0.6281,
+      "growth_rate": -0.3,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_10",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 3,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.2831,
+      "storyline_keywords": [
+        "infrastructure",
+        "data",
+        "brookfield",
+        "centre"
+      ]
+    },
+    {
+      "theme_id": "2026-W09_theme_12",
+      "week": "2026-W09",
+      "cluster_id": 12,
+      "label": "Nvidia earnings report collides with Wall Street skepticism over AI spending",
+      "size": 5,
+      "top_companies": [
+        "NVIDIA",
+        "Meta",
+        "Amazon",
+        "Google",
+        "Groq"
+      ],
+      "top_keywords": [
+        "forecast",
+        "nvidia",
+        "earnings",
+        "better latest",
+        "blowout"
+      ],
+      "example_titles": [
+        "Nvidia earnings report collides with Wall Street skepticism over AI spending",
+        "Nvidia shares slide after sales forecast underwhelms investors",
+        "Nvidia forecast: market hunting for a fresh, decisive signal",
+        "Gene Munster Questions Nvidia Selloff After Blowout Earnings: 'Will Fundamentals Ever Be Enough?'",
+        "The NVIDIA Shield is still getting better with the latest update"
+      ],
+      "source_count": 5,
+      "relevance": 0.311,
+      "previous_theme_id": "2026-W08_theme_9",
+      "previous_week": "2026-W08",
+      "previous_label": "Nvidia, software reports pose next tests for AI-sensitive stock market",
+      "previous_size": 43,
+      "similarity_to_previous": 0.5527,
+      "growth_rate": -0.8837,
+      "is_new_theme": false,
+      "storyline_id": "2026-W02_theme_3",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 5,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.223,
+      "storyline_keywords": [
+        "investors",
+        "spending",
+        "nvidia",
+        "earnings"
+      ]
     }
   ]
 }

@@ -2,77 +2,34 @@
   "week": "2026-W05",
   "themes": [
     {
-      "theme_id": "2026-W05_theme_6",
+      "theme_id": "2026-W05_theme_2",
       "week": "2026-W05",
-      "cluster_id": 6,
-      "label": "I tested Intel XeSS 3 vs Nvidia DLSS 4: my laptop tests made me rethink the future of integrated graphics",
-      "size": 30,
+      "cluster_id": 2,
+      "label": "Nvidia boss insists 'huge' investment in OpenAI on track",
+      "size": 17,
       "top_companies": [
         "NVIDIA",
-        "Intel",
-        "AMD",
         "Google",
-        "Apple"
+        "Amazon",
+        "Microsoft",
+        "TSMC"
       ],
       "top_keywords": [
-        "rtx",
-        "intel",
-        "gaming",
+        "openai",
+        "ceo",
+        "investment",
         "nvidia",
-        "geforce"
+        "huge"
       ],
       "example_titles": [
-        "I tested Intel XeSS 3 vs Nvidia DLSS 4: my laptop tests made me rethink the future of integrated graphics",
-        "Intel's XeSS 3 update brings smoother gameplay and better pacing",
-        "GeForce NOW Introduces RTX Gaming for Linux PCs",
-        "MSI Gaming Desktop PC Codex Z2 A8NVP-486US AMD Ryzen 7 8700F 32GB DDR5 2TB NVMe SSD GeForce RTX 5070 Windows 11 Home",
-        "Intel Panther Lake Is the Answer to Apple Silicon We’ve All Been Waiting for"
+        "Nvidia boss insists 'huge' investment in OpenAI on track",
+        "Nvidia Confirms Major OpenAI Investment Amid AI Funding Race",
+        "Nvidia CEO Huang denies he is unhappy with OpenAI, says 'huge' investment planned at 'trillion-dollar dinner'",
+        "Nvidia CEO Huang denies he is unhappy with OpenAI, says 'huge' investment planned",
+        "NVIDIA is still planning to make a 'huge' investment in OpenAI, CEO says"
       ],
-      "source_count": 22,
-      "relevance": 0.435,
-      "previous_theme_id": "2026-W04_theme_7",
-      "previous_week": "2026-W04",
-      "previous_label": "Laptops to look forward to in 2026",
-      "previous_size": 18,
-      "similarity_to_previous": 0.8823,
-      "growth_rate": 0.6667,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W06_theme_3"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.8598
-    },
-    {
-      "theme_id": "2026-W05_theme_3",
-      "week": "2026-W05",
-      "cluster_id": 3,
-      "label": "iPhone 18 Pro rumoured upgrades point to smaller Dynamic Island, bigger battery, and major chip leap- Moneycontrol.com",
-      "size": 13,
-      "top_companies": [
-        "Qualcomm",
-        "Samsung Electronics",
-        "Apple",
-        "Google",
-        "MediaTek"
-      ],
-      "top_keywords": [
-        "iphone",
-        "battery",
-        "pro",
-        "apple",
-        "camera"
-      ],
-      "example_titles": [
-        "iPhone 18 Pro rumoured upgrades point to smaller Dynamic Island, bigger battery, and major chip leap- Moneycontrol.com",
-        "iPhone 18 Pro Max Leaks: Top 10 Features You Need to Know",
-        "iPhone 18 Pro Max Design Updates: Smaller Dynamic Island & More",
-        "The 5 Most Anticipated Features For Apple's iPhone 17e",
-        "OnePlus 16 leaks hint at 240Hz display, 200MP cameras and 9000mAh battery: All you need to know"
-      ],
-      "source_count": 12,
-      "relevance": 0.372,
+      "source_count": 15,
+      "relevance": 0.4,
       "previous_theme_id": null,
       "previous_week": null,
       "previous_label": null,
@@ -80,12 +37,71 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W05_theme_2",
+      "storyline_start_week": "2026-W05",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [
-        "2026-W06_theme_8"
+        "2026-W06_theme_1"
       ],
       "out_degree": 1,
-      "emerging_score": 0.8425
+      "emerging_score": 0.9325,
+      "storyline_keywords": [
+        "openai",
+        "investment",
+        "huge",
+        "denies"
+      ]
+    },
+    {
+      "theme_id": "2026-W05_theme_11",
+      "week": "2026-W05",
+      "cluster_id": 11,
+      "label": "Analysts Are Trying To Badly Catch Up To Applied Materials, (AMAT) Says Jim Cramer",
+      "size": 14,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Tesla",
+        "Amazon",
+        "Microsoft"
+      ],
+      "top_keywords": [
+        "jim",
+        "tesla",
+        "cramer",
+        "catch",
+        "energy"
+      ],
+      "example_titles": [
+        "Analysts Are Trying To Badly Catch Up To Applied Materials, (AMAT) Says Jim Cramer",
+        "T1 Energy (TE) Climbs 12% on Renewed AI Optimism",
+        "BofA Reaffirms Buy on Hesai Group (HSAI) Amid New Chips, L3 Regulation, and Growth Drivers",
+        "Super Micro Computer (SMCI): Hyperscaler Data Center Spending Is Robust, Says Citi",
+        "Jim Cramer on NVIDIA: “I Think It Should Catch Up With the Rest of Some of These Big Mag Seven Names”"
+      ],
+      "source_count": 6,
+      "relevance": 0.528,
+      "previous_theme_id": "2026-W02_theme_1",
+      "previous_week": "2026-W02",
+      "previous_label": "Analysts Are Bullish on Taiwan Semiconductor Manufacturing (TSM)",
+      "previous_size": 7,
+      "similarity_to_previous": 0.899,
+      "growth_rate": 1.0,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_11",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 3,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.8448,
+      "storyline_keywords": [
+        "cramer",
+        "jim",
+        "buy",
+        "valuation"
+      ]
     },
     {
       "theme_id": "2026-W05_theme_4",
@@ -123,10 +139,64 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W05_theme_4",
+      "storyline_start_week": "2026-W05",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.8425
+      "emerging_score": 0.8425,
+      "storyline_keywords": []
+    },
+    {
+      "theme_id": "2026-W05_theme_6",
+      "week": "2026-W05",
+      "cluster_id": 6,
+      "label": "I tested Intel XeSS 3 vs Nvidia DLSS 4: my laptop tests made me rethink the future of integrated graphics",
+      "size": 30,
+      "top_companies": [
+        "NVIDIA",
+        "Intel",
+        "AMD",
+        "Google",
+        "Apple"
+      ],
+      "top_keywords": [
+        "rtx",
+        "intel",
+        "gaming",
+        "nvidia",
+        "geforce"
+      ],
+      "example_titles": [
+        "I tested Intel XeSS 3 vs Nvidia DLSS 4: my laptop tests made me rethink the future of integrated graphics",
+        "Intel's XeSS 3 update brings smoother gameplay and better pacing",
+        "GeForce NOW Introduces RTX Gaming for Linux PCs",
+        "MSI Gaming Desktop PC Codex Z2 A8NVP-486US AMD Ryzen 7 8700F 32GB DDR5 2TB NVMe SSD GeForce RTX 5070 Windows 11 Home",
+        "Intel Panther Lake Is the Answer to Apple Silicon We’ve All Been Waiting for"
+      ],
+      "source_count": 22,
+      "relevance": 0.435,
+      "previous_theme_id": "2026-W04_theme_7",
+      "previous_week": "2026-W04",
+      "previous_label": "Laptops to look forward to in 2026",
+      "previous_size": 18,
+      "similarity_to_previous": 0.734,
+      "growth_rate": 0.6667,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_4",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 4,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.8301,
+      "storyline_keywords": [
+        "intel",
+        "ultra",
+        "core",
+        "macbook"
+      ]
     },
     {
       "theme_id": "2026-W05_theme_7",
@@ -164,10 +234,14 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W05_theme_7",
+      "storyline_start_week": "2026-W05",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.7975
+      "emerging_score": 0.7975,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W05_theme_10",
@@ -202,144 +276,24 @@
       "previous_week": "2026-W04",
       "previous_label": "Magnificent Seven Profits Seen Climbing to $181bn as AI Spending Accelerates",
       "previous_size": 12,
-      "similarity_to_previous": 0.8519,
+      "similarity_to_previous": 0.564,
       "growth_rate": 0.5,
       "is_new_theme": false,
+      "storyline_id": "2026-W02_theme_3",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 3,
       "is_emerging": true,
       "next_theme_ids": [
         "2026-W06_theme_9"
       ],
       "out_degree": 1,
-      "emerging_score": 0.7504
-    },
-    {
-      "theme_id": "2026-W05_theme_12",
-      "week": "2026-W05",
-      "cluster_id": 12,
-      "label": "AI gains ground in drug trials and regulatory submissions",
-      "size": 10,
-      "top_companies": [
-        "NVIDIA",
-        "Microsoft",
-        "Qualcomm",
-        "Lenovo",
-        "Google"
-      ],
-      "top_keywords": [
-        "claude",
-        "fca",
-        "regulatory",
-        "trials",
-        "code"
-      ],
-      "example_titles": [
-        "AI gains ground in drug trials and regulatory submissions",
-        "Pharma firms use AI to streamline trials, regulatory filings",
-        "FCA launches AI review to examine ‘implications of advanced AI’ on retail financial services",
-        "FCA puts the Consumer Duty at heart of AI review",
-        "Exploring the Future: 2026 Neuro-Symbolic Artificial Intelligence (AI) Market Outlook and Growth Projections Through 2035"
-      ],
-      "source_count": 10,
-      "relevance": 0.596,
-      "previous_theme_id": "2026-W04_theme_5",
-      "previous_week": "2026-W04",
-      "previous_label": "Intel India calls for privacy-driven AI growth as Centre advances data protection laws",
-      "previous_size": 5,
-      "similarity_to_previous": 0.7462,
-      "growth_rate": 1.0,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W06_theme_13"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.7242
-    },
-    {
-      "theme_id": "2026-W05_theme_11",
-      "week": "2026-W05",
-      "cluster_id": 11,
-      "label": "Analysts Are Trying To Badly Catch Up To Applied Materials, (AMAT) Says Jim Cramer",
-      "size": 14,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "Tesla",
-        "Amazon",
-        "Microsoft"
-      ],
-      "top_keywords": [
-        "jim",
-        "tesla",
-        "cramer",
-        "catch",
-        "energy"
-      ],
-      "example_titles": [
-        "Analysts Are Trying To Badly Catch Up To Applied Materials, (AMAT) Says Jim Cramer",
-        "T1 Energy (TE) Climbs 12% on Renewed AI Optimism",
-        "BofA Reaffirms Buy on Hesai Group (HSAI) Amid New Chips, L3 Regulation, and Growth Drivers",
-        "Super Micro Computer (SMCI): Hyperscaler Data Center Spending Is Robust, Says Citi",
-        "Jim Cramer on NVIDIA: “I Think It Should Catch Up With the Rest of Some of These Big Mag Seven Names”"
-      ],
-      "source_count": 6,
-      "relevance": 0.528,
-      "previous_theme_id": "2026-W04_theme_11",
-      "previous_week": "2026-W04",
-      "previous_label": "Jefferies Raises PT on NVIDIA Corporation From $250 to $275, Keeps Buy Rating",
-      "previous_size": 9,
-      "similarity_to_previous": 0.9289,
-      "growth_rate": 0.5556,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W06_theme_6"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.6952
-    },
-    {
-      "theme_id": "2026-W05_theme_5",
-      "week": "2026-W05",
-      "cluster_id": 5,
-      "label": "Microsoft says its Maia AI chip will not replace Nvidia or AMD as cloud demand keeps rising- Moneycontrol.com",
-      "size": 5,
-      "top_companies": [
-        "NVIDIA",
-        "AMD",
-        "Intel",
-        "TSMC",
-        "Amazon"
-      ],
-      "top_keywords": [
-        "built",
-        "maia",
+      "emerging_score": 0.6928,
+      "storyline_keywords": [
+        "investors",
+        "spending",
         "nvidia",
-        "amd",
-        "chips"
-      ],
-      "example_titles": [
-        "Microsoft says its Maia AI chip will not replace Nvidia or AMD as cloud demand keeps rising- Moneycontrol.com",
-        "Microsoft introduces newest in-house AI chip — Maia 200 is faster than other bespoke Nvidia competitors, built on TSMC 3nm with 216GB of HBM3e",
-        "Nvidia DGX Spark review: the GB10 Superchip powers a fast and fun AI toolbox that beats out AMD’s Ryzen AI Max+ 395",
-        "Nvidia reportedly looking to Intel to produce some chips for its Feynman chips",
-        "Giga Computing Announces New Server Built on NVIDIA GB200 NVL4 Platform at SCA/HPCAsia 2026"
-      ],
-      "source_count": 4,
-      "relevance": 0.543,
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W06_theme_4"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.6625
+        "earnings"
+      ]
     },
     {
       "theme_id": "2026-W05_theme_9",
@@ -370,103 +324,26 @@
       ],
       "source_count": 18,
       "relevance": 0.44,
-      "previous_theme_id": "2026-W04_theme_0",
-      "previous_week": "2026-W04",
-      "previous_label": "Intel Stock Plummets: What Led to the Sharp Decline?",
-      "previous_size": 35,
-      "similarity_to_previous": 0.8845,
-      "growth_rate": -0.2286,
+      "previous_theme_id": "2026-W02_theme_4",
+      "previous_week": "2026-W02",
+      "previous_label": "Trump's Intel Seal Of Approval Lifts Broadcom, Micron",
+      "previous_size": 41,
+      "similarity_to_previous": 0.7751,
+      "growth_rate": -0.3415,
       "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W06_theme_12"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.6269
-    },
-    {
-      "theme_id": "2026-W05_theme_2",
-      "week": "2026-W05",
-      "cluster_id": 2,
-      "label": "Nvidia boss insists 'huge' investment in OpenAI on track",
-      "size": 17,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "Amazon",
-        "Microsoft",
-        "TSMC"
-      ],
-      "top_keywords": [
-        "openai",
-        "ceo",
-        "investment",
-        "nvidia",
-        "huge"
-      ],
-      "example_titles": [
-        "Nvidia boss insists 'huge' investment in OpenAI on track",
-        "Nvidia Confirms Major OpenAI Investment Amid AI Funding Race",
-        "Nvidia CEO Huang denies he is unhappy with OpenAI, says 'huge' investment planned at 'trillion-dollar dinner'",
-        "Nvidia CEO Huang denies he is unhappy with OpenAI, says 'huge' investment planned",
-        "NVIDIA is still planning to make a 'huge' investment in OpenAI, CEO says"
-      ],
-      "source_count": 15,
-      "relevance": 0.4,
-      "previous_theme_id": "2026-W04_theme_6",
-      "previous_week": "2026-W04",
-      "previous_label": "The Surprising Reason Nvidia Looks Recession-Proof in 2026",
-      "previous_size": 14,
-      "similarity_to_previous": 0.8118,
-      "growth_rate": 0.2143,
-      "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W06_theme_1"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.6199
-    },
-    {
-      "theme_id": "2026-W05_theme_0",
-      "week": "2026-W05",
-      "cluster_id": 0,
-      "label": "China approves first imports of Nvidia’s H200 AI chips",
-      "size": 13,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "ASML",
-        "Micron",
-        "TSMC"
-      ],
-      "top_keywords": [
-        "china",
-        "h200",
-        "chips",
-        "nvidia",
-        "buy"
-      ],
-      "example_titles": [
-        "China approves first imports of Nvidia’s H200 AI chips",
-        "Jensen Huang says Nvidia’s H200 sales to China now depend on Beijing’s approval- Moneycontrol.com",
-        "DeepSeek Turns Nvidia Customer As China Approves H200 Chip Purchases: Report",
-        "China gives nod to ByteDance, Alibaba and Tencent to buy Nvidia’s H200 chips",
-        "China allows ByteDance, Alibaba & Tencent to buy Nvidia's H200 chips"
-      ],
-      "source_count": 13,
-      "relevance": 0.483,
-      "previous_theme_id": "2026-W04_theme_1",
-      "previous_week": "2026-W04",
-      "previous_label": "Nvidia’s CEO plans to visit China as he works to reopen market",
-      "previous_size": 12,
-      "similarity_to_previous": 0.9194,
-      "growth_rate": 0.0833,
-      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_12",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 3,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.5055
+      "emerging_score": 0.605,
+      "storyline_keywords": [
+        "wall",
+        "street",
+        "plunge",
+        "amd"
+      ]
     },
     {
       "theme_id": "2026-W05_theme_8",
@@ -497,17 +374,180 @@
       ],
       "source_count": 9,
       "relevance": 0.764,
-      "previous_theme_id": "2026-W04_theme_3",
-      "previous_week": "2026-W04",
-      "previous_label": "Nvidia CEO: Trump-backed AI boom has launched ‘largest infrastructure buildout in human history’",
-      "previous_size": 20,
-      "similarity_to_previous": 0.8283,
-      "growth_rate": -0.5,
+      "previous_theme_id": "2026-W01_theme_10",
+      "previous_week": "2026-W01",
+      "previous_label": "Inside the AI-led resource race",
+      "previous_size": 7,
+      "similarity_to_previous": 0.6736,
+      "growth_rate": 0.4286,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_10",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 2,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W09_theme_3"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.5097,
+      "storyline_keywords": [
+        "infrastructure",
+        "data",
+        "brookfield",
+        "centre"
+      ]
+    },
+    {
+      "theme_id": "2026-W05_theme_0",
+      "week": "2026-W05",
+      "cluster_id": 0,
+      "label": "China approves first imports of Nvidia’s H200 AI chips",
+      "size": 13,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "ASML",
+        "Micron",
+        "TSMC"
+      ],
+      "top_keywords": [
+        "china",
+        "h200",
+        "chips",
+        "nvidia",
+        "buy"
+      ],
+      "example_titles": [
+        "China approves first imports of Nvidia’s H200 AI chips",
+        "Jensen Huang says Nvidia’s H200 sales to China now depend on Beijing’s approval- Moneycontrol.com",
+        "DeepSeek Turns Nvidia Customer As China Approves H200 Chip Purchases: Report",
+        "China gives nod to ByteDance, Alibaba and Tencent to buy Nvidia’s H200 chips",
+        "China allows ByteDance, Alibaba & Tencent to buy Nvidia's H200 chips"
+      ],
+      "source_count": 13,
+      "relevance": 0.483,
+      "previous_theme_id": "2026-W03_theme_0",
+      "previous_week": "2026-W03",
+      "previous_label": "US approves Nvidia H200 chip exports to China with some conditions",
+      "previous_size": 19,
+      "similarity_to_previous": 0.849,
+      "growth_rate": -0.3158,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_1",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 4,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.3907
+      "emerging_score": 0.4623,
+      "storyline_keywords": [
+        "china",
+        "h200",
+        "nvidia",
+        "chips"
+      ]
+    },
+    {
+      "theme_id": "2026-W05_theme_3",
+      "week": "2026-W05",
+      "cluster_id": 3,
+      "label": "iPhone 18 Pro rumoured upgrades point to smaller Dynamic Island, bigger battery, and major chip leap- Moneycontrol.com",
+      "size": 13,
+      "top_companies": [
+        "Qualcomm",
+        "Samsung Electronics",
+        "Apple",
+        "Google",
+        "MediaTek"
+      ],
+      "top_keywords": [
+        "iphone",
+        "battery",
+        "pro",
+        "apple",
+        "camera"
+      ],
+      "example_titles": [
+        "iPhone 18 Pro rumoured upgrades point to smaller Dynamic Island, bigger battery, and major chip leap- Moneycontrol.com",
+        "iPhone 18 Pro Max Leaks: Top 10 Features You Need to Know",
+        "iPhone 18 Pro Max Design Updates: Smaller Dynamic Island & More",
+        "The 5 Most Anticipated Features For Apple's iPhone 17e",
+        "OnePlus 16 leaks hint at 240Hz display, 200MP cameras and 9000mAh battery: All you need to know"
+      ],
+      "source_count": 12,
+      "relevance": 0.372,
+      "previous_theme_id": "2026-W01_theme_2",
+      "previous_week": "2026-W01",
+      "previous_label": "Apple’s ‘affordable’ MacBook arrival rumors heat up",
+      "previous_size": 16,
+      "similarity_to_previous": 0.8101,
+      "growth_rate": -0.1875,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_2",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 2,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.4545,
+      "storyline_keywords": [
+        "samsung",
+        "iphone",
+        "galaxy",
+        "snapdragon"
+      ]
+    },
+    {
+      "theme_id": "2026-W05_theme_12",
+      "week": "2026-W05",
+      "cluster_id": 12,
+      "label": "AI gains ground in drug trials and regulatory submissions",
+      "size": 10,
+      "top_companies": [
+        "NVIDIA",
+        "Microsoft",
+        "Qualcomm",
+        "Lenovo",
+        "Google"
+      ],
+      "top_keywords": [
+        "claude",
+        "fca",
+        "regulatory",
+        "trials",
+        "code"
+      ],
+      "example_titles": [
+        "AI gains ground in drug trials and regulatory submissions",
+        "Pharma firms use AI to streamline trials, regulatory filings",
+        "FCA launches AI review to examine ‘implications of advanced AI’ on retail financial services",
+        "FCA puts the Consumer Duty at heart of AI review",
+        "Exploring the Future: 2026 Neuro-Symbolic Artificial Intelligence (AI) Market Outlook and Growth Projections Through 2035"
+      ],
+      "source_count": 10,
+      "relevance": 0.596,
+      "previous_theme_id": "2026-W03_theme_13",
+      "previous_week": "2026-W03",
+      "previous_label": "‘We could hit a wall’: why trillions of dollars of risk is no guarantee of AI reward",
+      "previous_size": 14,
+      "similarity_to_previous": 0.5716,
+      "growth_rate": -0.2857,
+      "is_new_theme": false,
+      "storyline_id": "2026-W03_theme_13",
+      "storyline_start_week": "2026-W03",
+      "storyline_weeks": 2,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W07_theme_8"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.3393,
+      "storyline_keywords": [
+        "davos",
+        "fca",
+        "trials",
+        "antitrust"
+      ]
     },
     {
       "theme_id": "2026-W05_theme_1",
@@ -542,13 +582,74 @@
       "previous_week": "2026-W04",
       "previous_label": "OpenAI finance chief says the company will focus on ‘practical adoption’ in 2026",
       "previous_size": 9,
-      "similarity_to_previous": 0.8229,
+      "similarity_to_previous": 0.6,
       "growth_rate": -0.2222,
       "is_new_theme": false,
+      "storyline_id": "2026-W04_theme_12",
+      "storyline_start_week": "2026-W04",
+      "storyline_weeks": 2,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W08_theme_5"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.2775,
+      "storyline_keywords": [
+        "openai",
+        "round",
+        "amazon",
+        "funding"
+      ]
+    },
+    {
+      "theme_id": "2026-W05_theme_5",
+      "week": "2026-W05",
+      "cluster_id": 5,
+      "label": "Microsoft says its Maia AI chip will not replace Nvidia or AMD as cloud demand keeps rising- Moneycontrol.com",
+      "size": 5,
+      "top_companies": [
+        "NVIDIA",
+        "AMD",
+        "Intel",
+        "TSMC",
+        "Amazon"
+      ],
+      "top_keywords": [
+        "built",
+        "maia",
+        "nvidia",
+        "amd",
+        "chips"
+      ],
+      "example_titles": [
+        "Microsoft says its Maia AI chip will not replace Nvidia or AMD as cloud demand keeps rising- Moneycontrol.com",
+        "Microsoft introduces newest in-house AI chip — Maia 200 is faster than other bespoke Nvidia competitors, built on TSMC 3nm with 216GB of HBM3e",
+        "Nvidia DGX Spark review: the GB10 Superchip powers a fast and fun AI toolbox that beats out AMD’s Ryzen AI Max+ 395",
+        "Nvidia reportedly looking to Intel to produce some chips for its Feynman chips",
+        "Giga Computing Announces New Server Built on NVIDIA GB200 NVL4 Platform at SCA/HPCAsia 2026"
+      ],
+      "source_count": 4,
+      "relevance": 0.543,
+      "previous_theme_id": "2026-W01_theme_4",
+      "previous_week": "2026-W01",
+      "previous_label": "MSI Gaming Desktop PC Aegis RS2 AI C2NVP7-1444US Intel Core Ultra 7 265K 32GB DDR5 2TB NVMe SSD GeForce RTX 5070 Windows 11 Home Advance",
+      "previous_size": 10,
+      "similarity_to_previous": 0.5994,
+      "growth_rate": -0.5,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_4",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 2,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.3221
+      "emerging_score": 0.2324,
+      "storyline_keywords": [
+        "intel",
+        "ultra",
+        "core",
+        "macbook"
+      ]
     }
   ]
 }

@@ -34,15 +34,22 @@
       "previous_week": "2026-W05",
       "previous_label": "Nvidia boss insists 'huge' investment in OpenAI on track",
       "previous_size": 17,
-      "similarity_to_previous": 0.9096,
+      "similarity_to_previous": 0.7181,
       "growth_rate": 2.2941,
       "is_new_theme": false,
+      "storyline_id": "2026-W05_theme_2",
+      "storyline_start_week": "2026-W05",
+      "storyline_weeks": 2,
       "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W07_theme_6"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.9819
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.9436,
+      "storyline_keywords": [
+        "openai",
+        "investment",
+        "huge",
+        "denies"
+      ]
     },
     {
       "theme_id": "2026-W06_theme_6",
@@ -73,62 +80,28 @@
       ],
       "source_count": 19,
       "relevance": 0.692,
-      "previous_theme_id": "2026-W05_theme_11",
-      "previous_week": "2026-W05",
-      "previous_label": "Analysts Are Trying To Badly Catch Up To Applied Materials, (AMAT) Says Jim Cramer",
-      "previous_size": 14,
-      "similarity_to_previous": 0.872,
-      "growth_rate": 0.7143,
+      "previous_theme_id": "2026-W04_theme_11",
+      "previous_week": "2026-W04",
+      "previous_label": "Jefferies Raises PT on NVIDIA Corporation From $250 to $275, Keeps Buy Rating",
+      "previous_size": 9,
+      "similarity_to_previous": 0.6619,
+      "growth_rate": 1.6667,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_11",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 4,
       "is_emerging": true,
       "next_theme_ids": [
-        "2026-W07_theme_0"
+        "2026-W10_theme_13"
       ],
       "out_degree": 1,
-      "emerging_score": 0.8744
-    },
-    {
-      "theme_id": "2026-W06_theme_7",
-      "week": "2026-W06",
-      "cluster_id": 7,
-      "label": "AMD suffers worst rout since 2018 on disappointing forecast",
-      "size": 11,
-      "top_companies": [
-        "AMD",
-        "Intel",
-        "NVIDIA",
-        "Google",
-        "TSMC"
-      ],
-      "top_keywords": [
-        "amd",
-        "china",
-        "cpus",
-        "customers",
-        "waits"
-      ],
-      "example_titles": [
-        "AMD suffers worst rout since 2018 on disappointing forecast",
-        "AMD Slumps Despite China Sales Boosting AI Revenue, Lacking Major Customer Wins",
-        "Exclusive-Intel, AMD notify customers in China of lengthy waits for CPUs",
-        "Micron Slides After AMD's China-Driven Crash",
-        "AMD shares jump ahead of key Q4 earnings report"
-      ],
-      "source_count": 10,
-      "relevance": 0.447,
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W07_theme_3"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.7975
+      "emerging_score": 0.9324,
+      "storyline_keywords": [
+        "cramer",
+        "jim",
+        "buy",
+        "valuation"
+      ]
     },
     {
       "theme_id": "2026-W06_theme_11",
@@ -166,10 +139,66 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W06_theme_11",
+      "storyline_start_week": "2026-W06",
+      "storyline_weeks": 1,
+      "is_emerging": true,
+      "next_theme_ids": [
+        "2026-W08_theme_8"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.775,
+      "storyline_keywords": [
+        "memory",
+        "micron",
+        "shortage",
+        "prices"
+      ]
+    },
+    {
+      "theme_id": "2026-W06_theme_13",
+      "week": "2026-W06",
+      "cluster_id": 13,
+      "label": "Selloff wipes out nearly $1 trillion from software and services stocks as investors debate AI's existential threat",
+      "size": 9,
+      "top_companies": [
+        "NVIDIA",
+        "Meta",
+        "Google",
+        "Microsoft",
+        "Amazon"
+      ],
+      "top_keywords": [
+        "selloff",
+        "anthropic",
+        "software",
+        "investors",
+        "debate"
+      ],
+      "example_titles": [
+        "Selloff wipes out nearly $1 trillion from software and services stocks as investors debate AI's existential threat",
+        "Selloff wipes out nearly $1t from software and services stocks as investors debate AI's existential threat",
+        "Why did Anthropic’s Claude Cowork plugins spook markets?",
+        "Infosys, TCS to HCL Tech: IT stocks crash up to 6% — What's behind the selloff?",
+        "Infosys, TCS, other IT stocks plunge up to 8% after global tech selloff led by Anthropic's AI tool- Moneycontrol.com"
+      ],
+      "source_count": 8,
+      "relevance": 0.47,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "storyline_id": "2026-W06_theme_13",
+      "storyline_start_week": "2026-W06",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.775
+      "emerging_score": 0.7525,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W06_theme_0",
@@ -207,10 +236,14 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W06_theme_0",
+      "storyline_start_week": "2026-W06",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.73
+      "emerging_score": 0.73,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W06_theme_2",
@@ -246,96 +279,21 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.73
-    },
-    {
-      "theme_id": "2026-W06_theme_5",
-      "week": "2026-W06",
-      "cluster_id": 5,
-      "label": "After years of Apple’s dominance, Intel wants its mojo back",
-      "size": 6,
-      "top_companies": [
-        "Intel",
-        "AMD",
-        "Qualcomm",
-        "Apple",
-        "Microsoft"
-      ],
-      "top_keywords": [
-        "old",
-        "processor",
-        "accelerates open-source",
-        "apple dominance",
-        "ces pc"
-      ],
-      "example_titles": [
-        "After years of Apple’s dominance, Intel wants its mojo back",
-        "Intel Launches Core Ultra Series 3 on 18A Tech at CES 2026",
-        "PC Motherboards for Computers",
-        "SpacemiT’s RISC-V Chip Gains Ubuntu Support as China Accelerates Open-Source Processor Push",
-        "Upgrading An Old Macbook With An Old Processor"
-      ],
-      "source_count": 6,
-      "relevance": 0.552,
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
+      "storyline_id": "2026-W06_theme_2",
+      "storyline_start_week": "2026-W06",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [
-        "2026-W07_theme_5"
+        "2026-W08_theme_2"
       ],
       "out_degree": 1,
-      "emerging_score": 0.685
-    },
-    {
-      "theme_id": "2026-W06_theme_9",
-      "week": "2026-W06",
-      "cluster_id": 9,
-      "label": "Big Tech's $600 billion spending plans exacerbate investors' AI headache",
-      "size": 20,
-      "top_companies": [
-        "Google",
-        "Meta",
-        "NVIDIA",
-        "Microsoft",
-        "Amazon"
-      ],
-      "top_keywords": [
-        "spending",
-        "amazon",
-        "big",
-        "earnings",
-        "broadcom"
-      ],
-      "example_titles": [
-        "Big Tech's $600 billion spending plans exacerbate investors' AI headache",
-        "Amazon stock crashes after $200 billion AI spending shocks investors",
-        "Big Tech stocks plummet on record AI spending",
-        "Microsoft Shares Tumble 10% as Azure Growth Hits AI Infrastructure Wall",
-        "Cloud earnings bring capex clarity, concern and confusion"
-      ],
-      "source_count": 12,
-      "relevance": 0.469,
-      "previous_theme_id": "2026-W05_theme_10",
-      "previous_week": "2026-W05",
-      "previous_label": "Microsoft suffers $357 billion rout over AI spending fears",
-      "previous_size": 18,
-      "similarity_to_previous": 0.9082,
-      "growth_rate": 0.1111,
-      "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W07_theme_9"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.6705
+      "emerging_score": 0.73,
+      "storyline_keywords": [
+        "qualcomm",
+        "india",
+        "central",
+        "tape-out"
+      ]
     },
     {
       "theme_id": "2026-W06_theme_10",
@@ -373,180 +331,64 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W06_theme_10",
+      "storyline_start_week": "2026-W06",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.6625
+      "emerging_score": 0.6625,
+      "storyline_keywords": []
     },
     {
-      "theme_id": "2026-W06_theme_4",
+      "theme_id": "2026-W06_theme_9",
       "week": "2026-W06",
-      "cluster_id": 4,
-      "label": "Pushing The Intel Panther Lake CPU Performance Further On Linux Review",
-      "size": 9,
-      "top_companies": [
-        "AMD",
-        "Intel",
-        "Dell Technologies",
-        "Microsoft",
-        "Lenovo"
-      ],
-      "top_keywords": [
-        "lake",
-        "intel",
-        "panther",
-        "review",
-        "arc"
-      ],
-      "example_titles": [
-        "Pushing The Intel Panther Lake CPU Performance Further On Linux Review",
-        "Intel Arc B390 Beats Radeon 890M In Linux Benchmarks",
-        "Intel Panther Lake Core Ultra review: Intel's best laptop CPU in a very long time",
-        "Panther Lake vs Z1 and Z2 Extreme : FPS at 17W & 25W Handheld Benchmarks",
-        "Intel Arc B390 Matches Xbox Series S Performance in New Tests"
-      ],
-      "source_count": 6,
-      "relevance": 0.409,
-      "previous_theme_id": "2026-W05_theme_5",
-      "previous_week": "2026-W05",
-      "previous_label": "Microsoft says its Maia AI chip will not replace Nvidia or AMD as cloud demand keeps rising- Moneycontrol.com",
-      "previous_size": 5,
-      "similarity_to_previous": 0.7545,
-      "growth_rate": 0.8,
-      "is_new_theme": false,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.6334
-    },
-    {
-      "theme_id": "2026-W06_theme_12",
-      "week": "2026-W06",
-      "cluster_id": 12,
-      "label": "Tech stocks pull Wall Street lower as gold and silver prices bounce back",
-      "size": 11,
+      "cluster_id": 9,
+      "label": "Big Tech's $600 billion spending plans exacerbate investors' AI headache",
+      "size": 20,
       "top_companies": [
         "Google",
-        "NVIDIA",
-        "Amazon",
-        "Microsoft",
-        "Broadcom"
-      ],
-      "top_keywords": [
-        "bitcoin",
-        "wall street",
-        "plunge",
-        "advice",
-        "agentforce"
-      ],
-      "example_titles": [
-        "Tech stocks pull Wall Street lower as gold and silver prices bounce back",
-        "It’s time to rethink the standard investment advice. But not too much",
-        "Falling tech stocks and a plunge for bitcoin hit Wall Street",
-        "History: Dow tops 50,000; US stocks soar to best day since May",
-        "The dark side of AI weighs on the stock market after tech plunge"
-      ],
-      "source_count": 9,
-      "relevance": 0.329,
-      "previous_theme_id": "2026-W05_theme_9",
-      "previous_week": "2026-W05",
-      "previous_label": "Semiconductor Stocks May Lead Early Advance On Wall Street",
-      "previous_size": 27,
-      "similarity_to_previous": 0.8561,
-      "growth_rate": -0.5926,
-      "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W07_theme_1"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.4187
-    },
-    {
-      "theme_id": "2026-W06_theme_3",
-      "week": "2026-W06",
-      "cluster_id": 3,
-      "label": "NVIDIA’s Replacement for the RTX 50 SUPER Series Could Be a “Mega” RTX 5090 GPU, but It’s Unlikely to Change Anything for Gamers",
-      "size": 10,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "AMD",
-        "Intel",
-        "Samsung Electronics"
-      ],
-      "top_keywords": [
-        "rtx",
-        "gaming",
-        "nvidia",
-        "gpu",
-        "launch"
-      ],
-      "example_titles": [
-        "NVIDIA’s Replacement for the RTX 50 SUPER Series Could Be a “Mega” RTX 5090 GPU, but It’s Unlikely to Change Anything for Gamers",
-        "NVIDIA RTX 5060 And RTX 5070 See A Sudden Jump In Popularity As Per The Latest Steam Hardware Survey",
-        "NVIDIA May Push Back Launch Of RTX 50 Super And Next-Gen RTX 60 GPUs",
-        "NVIDIA Delays Gaming GPU Launch Amid Memory Shortage",
-        "GeForce NOW Turns Six (Users Streamed Over 1B Hours to Date); 24 New Games Coming This Month"
-      ],
-      "source_count": 8,
-      "relevance": 0.334,
-      "previous_theme_id": "2026-W05_theme_6",
-      "previous_week": "2026-W05",
-      "previous_label": "I tested Intel XeSS 3 vs Nvidia DLSS 4: my laptop tests made me rethink the future of integrated graphics",
-      "previous_size": 30,
-      "similarity_to_previous": 0.8924,
-      "growth_rate": -0.6667,
-      "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W07_theme_4"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.4035
-    },
-    {
-      "theme_id": "2026-W06_theme_13",
-      "week": "2026-W06",
-      "cluster_id": 13,
-      "label": "Selloff wipes out nearly $1 trillion from software and services stocks as investors debate AI's existential threat",
-      "size": 9,
-      "top_companies": [
-        "NVIDIA",
         "Meta",
-        "Google",
+        "NVIDIA",
         "Microsoft",
         "Amazon"
       ],
       "top_keywords": [
-        "selloff",
-        "anthropic",
-        "software",
-        "investors",
-        "debate"
+        "spending",
+        "amazon",
+        "big",
+        "earnings",
+        "broadcom"
       ],
       "example_titles": [
-        "Selloff wipes out nearly $1 trillion from software and services stocks as investors debate AI's existential threat",
-        "Selloff wipes out nearly $1t from software and services stocks as investors debate AI's existential threat",
-        "Why did Anthropic’s Claude Cowork plugins spook markets?",
-        "Infosys, TCS to HCL Tech: IT stocks crash up to 6% — What's behind the selloff?",
-        "Infosys, TCS, other IT stocks plunge up to 8% after global tech selloff led by Anthropic's AI tool- Moneycontrol.com"
+        "Big Tech's $600 billion spending plans exacerbate investors' AI headache",
+        "Amazon stock crashes after $200 billion AI spending shocks investors",
+        "Big Tech stocks plummet on record AI spending",
+        "Microsoft Shares Tumble 10% as Azure Growth Hits AI Infrastructure Wall",
+        "Cloud earnings bring capex clarity, concern and confusion"
       ],
-      "source_count": 8,
-      "relevance": 0.47,
-      "previous_theme_id": "2026-W05_theme_12",
+      "source_count": 12,
+      "relevance": 0.469,
+      "previous_theme_id": "2026-W05_theme_10",
       "previous_week": "2026-W05",
-      "previous_label": "AI gains ground in drug trials and regulatory submissions",
-      "previous_size": 10,
-      "similarity_to_previous": 0.739,
-      "growth_rate": -0.1,
+      "previous_label": "Microsoft suffers $357 billion rout over AI spending fears",
+      "previous_size": 18,
+      "similarity_to_previous": 0.7361,
+      "growth_rate": 0.1111,
       "is_new_theme": false,
+      "storyline_id": "2026-W02_theme_3",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 4,
       "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W07_theme_8"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.3503
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.6361,
+      "storyline_keywords": [
+        "investors",
+        "spending",
+        "nvidia",
+        "earnings"
+      ]
     },
     {
       "theme_id": "2026-W06_theme_8",
@@ -577,17 +419,282 @@
       ],
       "source_count": 7,
       "relevance": 0.381,
-      "previous_theme_id": "2026-W05_theme_3",
-      "previous_week": "2026-W05",
-      "previous_label": "iPhone 18 Pro rumoured upgrades point to smaller Dynamic Island, bigger battery, and major chip leap- Moneycontrol.com",
-      "previous_size": 13,
-      "similarity_to_previous": 0.842,
-      "growth_rate": -0.3846,
+      "previous_theme_id": "2026-W03_theme_7",
+      "previous_week": "2026-W03",
+      "previous_label": "6 Ways Android Phones Will Change In 2026",
+      "previous_size": 5,
+      "similarity_to_previous": 0.7538,
+      "growth_rate": 0.6,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_2",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 3,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.5408,
+      "storyline_keywords": [
+        "samsung",
+        "iphone",
+        "galaxy",
+        "snapdragon"
+      ]
+    },
+    {
+      "theme_id": "2026-W06_theme_12",
+      "week": "2026-W06",
+      "cluster_id": 12,
+      "label": "Tech stocks pull Wall Street lower as gold and silver prices bounce back",
+      "size": 11,
+      "top_companies": [
+        "Google",
+        "NVIDIA",
+        "Amazon",
+        "Microsoft",
+        "Broadcom"
+      ],
+      "top_keywords": [
+        "bitcoin",
+        "wall street",
+        "plunge",
+        "advice",
+        "agentforce"
+      ],
+      "example_titles": [
+        "Tech stocks pull Wall Street lower as gold and silver prices bounce back",
+        "It’s time to rethink the standard investment advice. But not too much",
+        "Falling tech stocks and a plunge for bitcoin hit Wall Street",
+        "History: Dow tops 50,000; US stocks soar to best day since May",
+        "The dark side of AI weighs on the stock market after tech plunge"
+      ],
+      "source_count": 9,
+      "relevance": 0.329,
+      "previous_theme_id": "2026-W03_theme_9",
+      "previous_week": "2026-W03",
+      "previous_label": "Wall St Week Ahead-Investors bank on US earnings strength as policy noise grows louder",
+      "previous_size": 9,
+      "similarity_to_previous": 0.7451,
+      "growth_rate": 0.2222,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_12",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 3,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W07_theme_1"
+      ],
+      "out_degree": 1,
+      "emerging_score": 0.4743,
+      "storyline_keywords": [
+        "wall",
+        "street",
+        "plunge",
+        "amd"
+      ]
+    },
+    {
+      "theme_id": "2026-W06_theme_3",
+      "week": "2026-W06",
+      "cluster_id": 3,
+      "label": "NVIDIA’s Replacement for the RTX 50 SUPER Series Could Be a “Mega” RTX 5090 GPU, but It’s Unlikely to Change Anything for Gamers",
+      "size": 10,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "AMD",
+        "Intel",
+        "Samsung Electronics"
+      ],
+      "top_keywords": [
+        "rtx",
+        "gaming",
+        "nvidia",
+        "gpu",
+        "launch"
+      ],
+      "example_titles": [
+        "NVIDIA’s Replacement for the RTX 50 SUPER Series Could Be a “Mega” RTX 5090 GPU, but It’s Unlikely to Change Anything for Gamers",
+        "NVIDIA RTX 5060 And RTX 5070 See A Sudden Jump In Popularity As Per The Latest Steam Hardware Survey",
+        "NVIDIA May Push Back Launch Of RTX 50 Super And Next-Gen RTX 60 GPUs",
+        "NVIDIA Delays Gaming GPU Launch Amid Memory Shortage",
+        "GeForce NOW Turns Six (Users Streamed Over 1B Hours to Date); 24 New Games Coming This Month"
+      ],
+      "source_count": 8,
+      "relevance": 0.334,
+      "previous_theme_id": "2026-W03_theme_2",
+      "previous_week": "2026-W03",
+      "previous_label": "Nvidia says all RTX 50-series GPUs will 'continue to ship,' but stock and supply tell a different story",
+      "previous_size": 15,
+      "similarity_to_previous": 0.8237,
+      "growth_rate": -0.3333,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_5",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 3,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W07_theme_4",
+        "2026-W08_theme_6",
+        "2026-W10_theme_1"
+      ],
+      "out_degree": 3,
+      "emerging_score": 0.3897,
+      "storyline_keywords": [
+        "rtx",
+        "gpu",
+        "geforce",
+        "gaming"
+      ]
+    },
+    {
+      "theme_id": "2026-W06_theme_7",
+      "week": "2026-W06",
+      "cluster_id": 7,
+      "label": "AMD suffers worst rout since 2018 on disappointing forecast",
+      "size": 11,
+      "top_companies": [
+        "AMD",
+        "Intel",
+        "NVIDIA",
+        "Google",
+        "TSMC"
+      ],
+      "top_keywords": [
+        "amd",
+        "china",
+        "cpus",
+        "customers",
+        "waits"
+      ],
+      "example_titles": [
+        "AMD suffers worst rout since 2018 on disappointing forecast",
+        "AMD Slumps Despite China Sales Boosting AI Revenue, Lacking Major Customer Wins",
+        "Exclusive-Intel, AMD notify customers in China of lengthy waits for CPUs",
+        "Micron Slides After AMD's China-Driven Crash",
+        "AMD shares jump ahead of key Q4 earnings report"
+      ],
+      "source_count": 10,
+      "relevance": 0.447,
+      "previous_theme_id": "2026-W04_theme_0",
+      "previous_week": "2026-W04",
+      "previous_label": "Intel Stock Plummets: What Led to the Sharp Decline?",
+      "previous_size": 35,
+      "similarity_to_previous": 0.6557,
+      "growth_rate": -0.6857,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_12",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 4,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.3484
+      "emerging_score": 0.3786,
+      "storyline_keywords": [
+        "wall",
+        "street",
+        "plunge",
+        "amd"
+      ]
+    },
+    {
+      "theme_id": "2026-W06_theme_4",
+      "week": "2026-W06",
+      "cluster_id": 4,
+      "label": "Pushing The Intel Panther Lake CPU Performance Further On Linux Review",
+      "size": 9,
+      "top_companies": [
+        "AMD",
+        "Intel",
+        "Dell Technologies",
+        "Microsoft",
+        "Lenovo"
+      ],
+      "top_keywords": [
+        "lake",
+        "intel",
+        "panther",
+        "review",
+        "arc"
+      ],
+      "example_titles": [
+        "Pushing The Intel Panther Lake CPU Performance Further On Linux Review",
+        "Intel Arc B390 Beats Radeon 890M In Linux Benchmarks",
+        "Intel Panther Lake Core Ultra review: Intel's best laptop CPU in a very long time",
+        "Panther Lake vs Z1 and Z2 Extreme : FPS at 17W & 25W Handheld Benchmarks",
+        "Intel Arc B390 Matches Xbox Series S Performance in New Tests"
+      ],
+      "source_count": 6,
+      "relevance": 0.409,
+      "previous_theme_id": "2026-W03_theme_3",
+      "previous_week": "2026-W03",
+      "previous_label": "Intel Core Ultra 9 290HX Plus Outperforms 285HX by Up to 12%",
+      "previous_size": 18,
+      "similarity_to_previous": 0.7891,
+      "growth_rate": -0.5,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_4",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 3,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.3603,
+      "storyline_keywords": [
+        "intel",
+        "ultra",
+        "core",
+        "macbook"
+      ]
+    },
+    {
+      "theme_id": "2026-W06_theme_5",
+      "week": "2026-W06",
+      "cluster_id": 5,
+      "label": "After years of Apple’s dominance, Intel wants its mojo back",
+      "size": 6,
+      "top_companies": [
+        "Intel",
+        "AMD",
+        "Qualcomm",
+        "Apple",
+        "Microsoft"
+      ],
+      "top_keywords": [
+        "old",
+        "processor",
+        "accelerates open-source",
+        "apple dominance",
+        "ces pc"
+      ],
+      "example_titles": [
+        "After years of Apple’s dominance, Intel wants its mojo back",
+        "Intel Launches Core Ultra Series 3 on 18A Tech at CES 2026",
+        "PC Motherboards for Computers",
+        "SpacemiT’s RISC-V Chip Gains Ubuntu Support as China Accelerates Open-Source Processor Push",
+        "Upgrading An Old Macbook With An Old Processor"
+      ],
+      "source_count": 6,
+      "relevance": 0.552,
+      "previous_theme_id": "2026-W03_theme_3",
+      "previous_week": "2026-W03",
+      "previous_label": "Intel Core Ultra 9 290HX Plus Outperforms 285HX by Up to 12%",
+      "previous_size": 18,
+      "similarity_to_previous": 0.5856,
+      "growth_rate": -0.6667,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_4",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 3,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.2521,
+      "storyline_keywords": [
+        "intel",
+        "ultra",
+        "core",
+        "macbook"
+      ]
     }
   ]
 }

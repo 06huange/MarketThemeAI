@@ -30,19 +30,21 @@
       ],
       "source_count": 66,
       "relevance": 0.515,
-      "previous_theme_id": "2026-W10_theme_17",
-      "previous_week": "2026-W10",
-      "previous_label": "Astera Labs Stock Is Interesting, but Here's What I'd Buy Instead",
-      "previous_size": 14,
-      "similarity_to_previous": 0.892,
-      "growth_rate": 9.7857,
-      "is_new_theme": false,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "storyline_id": "2026-W11_theme_0",
+      "storyline_start_week": "2026-W11",
+      "storyline_weeks": 1,
       "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W12_theme_16"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.9784
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 1.0,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W11_theme_2",
@@ -73,60 +75,26 @@
       ],
       "source_count": 19,
       "relevance": 0.448,
-      "previous_theme_id": "2026-W10_theme_9",
-      "previous_week": "2026-W10",
-      "previous_label": "Anthropic says that the Pentagon has declared it a national security risk",
-      "previous_size": 10,
-      "similarity_to_previous": 0.8586,
-      "growth_rate": 1.1,
+      "previous_theme_id": "2026-W09_theme_2",
+      "previous_week": "2026-W09",
+      "previous_label": "Hegseth warns Anthropic to let the military use the company’s AI tech as it sees fit, AP sources say",
+      "previous_size": 8,
+      "similarity_to_previous": 0.7589,
+      "growth_rate": 1.625,
       "is_new_theme": false,
+      "storyline_id": "2026-W09_theme_2",
+      "storyline_start_week": "2026-W09",
+      "storyline_weeks": 2,
       "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.9717
-    },
-    {
-      "theme_id": "2026-W11_theme_4",
-      "week": "2026-W11",
-      "cluster_id": 4,
-      "label": "Intel reveals Core Ultra 200S Plus duo as its fastest desktop gaming processors ever",
-      "size": 16,
-      "top_companies": [
-        "Intel",
-        "AMD",
-        "Google",
-        "NVIDIA",
-        "Microsoft"
-      ],
-      "top_keywords": [
-        "intel",
-        "core",
-        "ultra",
-        "lake",
-        "plus"
-      ],
-      "example_titles": [
-        "Intel reveals Core Ultra 200S Plus duo as its fastest desktop gaming processors ever",
-        "Intel Core Ultra 200K Plus Processors Will Be Presented on March 17",
-        "Intel unveils its \"fastest gaming desktop processors ever,\" and prices start at just $199",
-        "Intel announces Arrow Lake Refresh CPUs, claims 15% higher gaming performance and multi-threaded boost — Core Ultra 7 270K and Core Ultra 5 250K come with more cores, faster memory, and a price cut",
-        "Intel announces Core Ultra 200 Plus desktop processors"
-      ],
-      "source_count": 11,
-      "relevance": 0.484,
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W12_theme_12"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.91
+      "emerging_score": 0.9518,
+      "storyline_keywords": [
+        "anthropic",
+        "pentagon",
+        "risk",
+        "administration"
+      ]
     },
     {
       "theme_id": "2026-W11_theme_1",
@@ -164,51 +132,21 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W11_theme_1",
+      "storyline_start_week": "2026-W11",
+      "storyline_weeks": 1,
       "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.775
-    },
-    {
-      "theme_id": "2026-W11_theme_3",
-      "week": "2026-W11",
-      "cluster_id": 3,
-      "label": "Laptop Prices Expected To Rise By 40% As Memory And CPU Prices Continue To Soar",
-      "size": 6,
-      "top_companies": [
-        "Intel",
-        "NVIDIA",
-        "AMD",
-        "Amazon",
-        "Dell Technologies"
+      "next_theme_ids": [
+        "2026-W13_theme_0"
       ],
-      "top_keywords": [
-        "price",
-        "memory",
-        "cpu",
-        "analysts",
-        "bloodbath coming"
-      ],
-      "example_titles": [
-        "Laptop Prices Expected To Rise By 40% As Memory And CPU Prices Continue To Soar",
-        "Memory and CPU price hikes could push notebook prices up by 40%",
-        "Memory chip crunch fuels global phone price surge",
-        "Analysts predict bloodbath coming to the price of laptops, and you must clutch your wallet",
-        "8 Gadgets That Could Jump In Price Due To The RAM Shortage"
-      ],
-      "source_count": 6,
-      "relevance": 0.454,
-      "previous_theme_id": null,
-      "previous_week": null,
-      "previous_label": null,
-      "previous_size": null,
-      "similarity_to_previous": null,
-      "growth_rate": null,
-      "is_new_theme": true,
-      "is_emerging": true,
-      "next_theme_ids": [],
-      "out_degree": 0,
-      "emerging_score": 0.685
+      "out_degree": 1,
+      "emerging_score": 0.775,
+      "storyline_keywords": [
+        "musk",
+        "elon",
+        "project",
+        "terafab"
+      ]
     },
     {
       "theme_id": "2026-W11_theme_5",
@@ -243,15 +181,74 @@
       "previous_week": "2026-W10",
       "previous_label": "MSI Gaming Desktop PC Codex Z2 A8NVM-485US AMD Ryzen 7 8700F 16GB DDR5 2TB NVMe SSD GeForce RTX 5060 Ti Windows 11 Home",
       "previous_size": 14,
-      "similarity_to_previous": 0.877,
+      "similarity_to_previous": 0.7831,
       "growth_rate": 0.2857,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_5",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 5,
       "is_emerging": true,
       "next_theme_ids": [
         "2026-W12_theme_11"
       ],
       "out_degree": 1,
-      "emerging_score": 0.6804
+      "emerging_score": 0.6616,
+      "storyline_keywords": [
+        "rtx",
+        "gpu",
+        "geforce",
+        "gaming"
+      ]
+    },
+    {
+      "theme_id": "2026-W11_theme_4",
+      "week": "2026-W11",
+      "cluster_id": 4,
+      "label": "Intel reveals Core Ultra 200S Plus duo as its fastest desktop gaming processors ever",
+      "size": 16,
+      "top_companies": [
+        "Intel",
+        "AMD",
+        "Google",
+        "NVIDIA",
+        "Microsoft"
+      ],
+      "top_keywords": [
+        "intel",
+        "core",
+        "ultra",
+        "lake",
+        "plus"
+      ],
+      "example_titles": [
+        "Intel reveals Core Ultra 200S Plus duo as its fastest desktop gaming processors ever",
+        "Intel Core Ultra 200K Plus Processors Will Be Presented on March 17",
+        "Intel unveils its \"fastest gaming desktop processors ever,\" and prices start at just $199",
+        "Intel announces Arrow Lake Refresh CPUs, claims 15% higher gaming performance and multi-threaded boost — Core Ultra 7 270K and Core Ultra 5 250K come with more cores, faster memory, and a price cut",
+        "Intel announces Core Ultra 200 Plus desktop processors"
+      ],
+      "source_count": 11,
+      "relevance": 0.484,
+      "previous_theme_id": "2026-W07_theme_5",
+      "previous_week": "2026-W07",
+      "previous_label": "New Snapdragon X2 Elite benchmarks surface — and Apple and Intel should be worried",
+      "previous_size": 20,
+      "similarity_to_previous": 0.6681,
+      "growth_rate": -0.2,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_4",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 4,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.4936,
+      "storyline_keywords": [
+        "intel",
+        "ultra",
+        "core",
+        "macbook"
+      ]
     },
     {
       "theme_id": "2026-W11_theme_6",
@@ -286,13 +283,72 @@
       "previous_week": "2026-W10",
       "previous_label": "Apple launches new MacBooks with M5 chips, bigger base storage",
       "previous_size": 14,
-      "similarity_to_previous": 0.8609,
+      "similarity_to_previous": 0.7647,
       "growth_rate": -0.4286,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_4",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 5,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.3522
+      "emerging_score": 0.3329,
+      "storyline_keywords": [
+        "intel",
+        "ultra",
+        "core",
+        "macbook"
+      ]
+    },
+    {
+      "theme_id": "2026-W11_theme_3",
+      "week": "2026-W11",
+      "cluster_id": 3,
+      "label": "Laptop Prices Expected To Rise By 40% As Memory And CPU Prices Continue To Soar",
+      "size": 6,
+      "top_companies": [
+        "Intel",
+        "NVIDIA",
+        "AMD",
+        "Amazon",
+        "Dell Technologies"
+      ],
+      "top_keywords": [
+        "price",
+        "memory",
+        "cpu",
+        "analysts",
+        "bloodbath coming"
+      ],
+      "example_titles": [
+        "Laptop Prices Expected To Rise By 40% As Memory And CPU Prices Continue To Soar",
+        "Memory and CPU price hikes could push notebook prices up by 40%",
+        "Memory chip crunch fuels global phone price surge",
+        "Analysts predict bloodbath coming to the price of laptops, and you must clutch your wallet",
+        "8 Gadgets That Could Jump In Price Due To The RAM Shortage"
+      ],
+      "source_count": 6,
+      "relevance": 0.454,
+      "previous_theme_id": "2026-W09_theme_6",
+      "previous_week": "2026-W09",
+      "previous_label": "AI is gobbling up the world’s memory chips, sending smartphone prices to record highs, report says",
+      "previous_size": 9,
+      "similarity_to_previous": 0.5924,
+      "growth_rate": -0.3333,
+      "is_new_theme": false,
+      "storyline_id": "2026-W06_theme_11",
+      "storyline_start_week": "2026-W06",
+      "storyline_weeks": 4,
+      "is_emerging": false,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.2535,
+      "storyline_keywords": [
+        "memory",
+        "micron",
+        "shortage",
+        "prices"
+      ]
     }
   ]
 }

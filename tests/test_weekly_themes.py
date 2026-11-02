@@ -3,6 +3,7 @@ import pytest
 
 from src.themes.build_weekly_themes import (
     build_theme_objects,
+    days_covered,
     embed_articles,
     get_week,
     headline,
@@ -134,3 +135,9 @@ def test_keyphrases_favor_terms_distinct_to_each_theme():
 def test_headline_strips_site_suffix():
     assert headline("Nvidia to invest $20B in OpenAI | Reuters") == "Nvidia to invest $20B in OpenAI"
     assert headline("Intel - AMD rivalry heats up - CNBC") == "Intel - AMD rivalry heats up"
+
+
+def test_days_covered_counts_distinct_days():
+    articles = [{"date": "20261012090000"}, {"date": "20261012170000"}, {"date": "20261013T080000Z"}]
+
+    assert days_covered(articles) == 2

@@ -2,47 +2,54 @@
   "week": "2026-W07",
   "themes": [
     {
-      "theme_id": "2026-W07_theme_5",
+      "theme_id": "2026-W07_theme_0",
       "week": "2026-W07",
-      "cluster_id": 5,
-      "label": "New Snapdragon X2 Elite benchmarks surface — and Apple and Intel should be worried",
-      "size": 20,
+      "cluster_id": 0,
+      "label": "Anthropic’s $30 billion mega-funding catapults Claude AI maker to $380 billion valuation",
+      "size": 27,
       "top_companies": [
-        "Apple",
-        "Intel",
+        "NVIDIA",
+        "Amazon",
         "Google",
-        "Qualcomm",
-        "AMD"
+        "Microsoft",
+        "Tesla"
       ],
       "top_keywords": [
-        "pro",
-        "apple",
-        "m5",
-        "elite",
-        "gen"
+        "anthropic",
+        "openai",
+        "valuation",
+        "cramer",
+        "funding"
       ],
       "example_titles": [
-        "New Snapdragon X2 Elite benchmarks surface — and Apple and Intel should be worried",
-        "M5 Pro & M5 Max Rumors Double-Down On ‘Excellent’ Heat Dissipation Coupled With Slightly Higher Transistor Density Than M4 Pro, M4 Max",
-        "Snapdragon 8 Elite Gen 6 Pro Schematic Showing Samsung’s New Heatsink Solution Has Been Spotted In One Of The Biggest Leaks Of The Year",
-        "The Xiaomi 18 might miss out on the next-gen Snapdragon 8 Elite Gen 6 Pro",
-        "This Apple silicon theory has us even more excited for the M5 MacBook Pro"
+        "Anthropic’s $30 billion mega-funding catapults Claude AI maker to $380 billion valuation",
+        "Anthropic clinches $380 billion valuation after $30 billion funding round",
+        "Anthropic doubles valuation to $380 billion in fresh funding",
+        "Anthropic secures $30 billion, boosting value to $380 billion",
+        "Anthropic hits a $380B valuation as it heightens competition with OpenAI"
       ],
-      "source_count": 14,
-      "relevance": 0.526,
-      "previous_theme_id": "2026-W06_theme_5",
-      "previous_week": "2026-W06",
-      "previous_label": "After years of Apple’s dominance, Intel wants its mojo back",
-      "previous_size": 6,
-      "similarity_to_previous": 0.8187,
-      "growth_rate": 2.3333,
+      "source_count": 24,
+      "relevance": 0.598,
+      "previous_theme_id": "2026-W04_theme_11",
+      "previous_week": "2026-W04",
+      "previous_label": "Jefferies Raises PT on NVIDIA Corporation From $250 to $275, Keeps Buy Rating",
+      "previous_size": 9,
+      "similarity_to_previous": 0.6757,
+      "growth_rate": 2.0,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_11",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 4,
       "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W08_theme_6"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.9637
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.9351,
+      "storyline_keywords": [
+        "cramer",
+        "jim",
+        "buy",
+        "valuation"
+      ]
     },
     {
       "theme_id": "2026-W07_theme_4",
@@ -77,15 +84,22 @@
       "previous_week": "2026-W06",
       "previous_label": "NVIDIA’s Replacement for the RTX 50 SUPER Series Could Be a “Mega” RTX 5090 GPU, but It’s Unlikely to Change Anything for Gamers",
       "previous_size": 10,
-      "similarity_to_previous": 0.887,
+      "similarity_to_previous": 0.7777,
       "growth_rate": 0.9,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_5",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 4,
       "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W08_theme_7"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.9199
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.898,
+      "storyline_keywords": [
+        "rtx",
+        "gpu",
+        "geforce",
+        "gaming"
+      ]
     },
     {
       "theme_id": "2026-W07_theme_7",
@@ -123,12 +137,21 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W07_theme_7",
+      "storyline_start_week": "2026-W07",
+      "storyline_weeks": 1,
       "is_emerging": true,
       "next_theme_ids": [
         "2026-W08_theme_4"
       ],
       "out_degree": 1,
-      "emerging_score": 0.8875
+      "emerging_score": 0.8875,
+      "storyline_keywords": [
+        "india",
+        "impact",
+        "summit",
+        "global"
+      ]
     },
     {
       "theme_id": "2026-W07_theme_2",
@@ -166,55 +189,14 @@
       "similarity_to_previous": null,
       "growth_rate": null,
       "is_new_theme": true,
+      "storyline_id": "2026-W07_theme_2",
+      "storyline_start_week": "2026-W07",
+      "storyline_weeks": 1,
       "is_emerging": true,
-      "next_theme_ids": [
-        "2026-W08_theme_1"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.7525
-    },
-    {
-      "theme_id": "2026-W07_theme_0",
-      "week": "2026-W07",
-      "cluster_id": 0,
-      "label": "Anthropic’s $30 billion mega-funding catapults Claude AI maker to $380 billion valuation",
-      "size": 27,
-      "top_companies": [
-        "NVIDIA",
-        "Amazon",
-        "Google",
-        "Microsoft",
-        "Tesla"
-      ],
-      "top_keywords": [
-        "anthropic",
-        "openai",
-        "valuation",
-        "cramer",
-        "funding"
-      ],
-      "example_titles": [
-        "Anthropic’s $30 billion mega-funding catapults Claude AI maker to $380 billion valuation",
-        "Anthropic clinches $380 billion valuation after $30 billion funding round",
-        "Anthropic doubles valuation to $380 billion in fresh funding",
-        "Anthropic secures $30 billion, boosting value to $380 billion",
-        "Anthropic hits a $380B valuation as it heightens competition with OpenAI"
-      ],
-      "source_count": 24,
-      "relevance": 0.598,
-      "previous_theme_id": "2026-W06_theme_6",
-      "previous_week": "2026-W06",
-      "previous_label": "Jim Cramer Discusses Key Factor For Advanced Micro Devices (AMD)",
-      "previous_size": 24,
-      "similarity_to_previous": 0.8315,
-      "growth_rate": 0.125,
-      "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W08_theme_5"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.6601
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.7525,
+      "storyline_keywords": []
     },
     {
       "theme_id": "2026-W07_theme_6",
@@ -245,17 +227,125 @@
       ],
       "source_count": 14,
       "relevance": 0.576,
-      "previous_theme_id": "2026-W06_theme_1",
-      "previous_week": "2026-W06",
-      "previous_label": "Nvidia Set to Pour $20 Billion Into OpenAI in Massive AI Investment",
-      "previous_size": 56,
-      "similarity_to_previous": 0.8413,
-      "growth_rate": -0.6786,
+      "previous_theme_id": "2026-W03_theme_1",
+      "previous_week": "2026-W03",
+      "previous_label": "US sets 25 percent tariff on select chips",
+      "previous_size": 11,
+      "similarity_to_previous": 0.5617,
+      "growth_rate": 0.6364,
       "is_new_theme": false,
-      "is_emerging": false,
+      "storyline_id": "2026-W03_theme_1",
+      "storyline_start_week": "2026-W03",
+      "storyline_weeks": 2,
+      "is_emerging": true,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.5733
+      "emerging_score": 0.7401,
+      "storyline_keywords": [
+        "tariff",
+        "separate",
+        "countries",
+        "official"
+      ]
+    },
+    {
+      "theme_id": "2026-W07_theme_3",
+      "week": "2026-W07",
+      "cluster_id": 3,
+      "label": "ByteDance Advances AI Chip Development With Samsung Manufacturing Talks",
+      "size": 8,
+      "top_companies": [
+        "NVIDIA",
+        "Google",
+        "Samsung Electronics",
+        "AMD",
+        "Intel"
+      ],
+      "top_keywords": [
+        "chip",
+        "bytedance",
+        "samsung",
+        "global",
+        "pc"
+      ],
+      "example_titles": [
+        "ByteDance Advances AI Chip Development With Samsung Manufacturing Talks",
+        "ByteDance Eyes Homegrown AI Chip Deal With Samsung Amid Global Tech Rivalry",
+        "AI boom set to push memory revenues far beyond foundry market by 2026",
+        "World’s largest PC maker Lenovo’s CEO Yang Yuanqin has a memory chip shortage warning: We expect sales to …",
+        "Investor Outlook: Applied Materials shares surge 12% after earnings beat"
+      ],
+      "source_count": 8,
+      "relevance": 0.477,
+      "previous_theme_id": null,
+      "previous_week": null,
+      "previous_label": null,
+      "previous_size": null,
+      "similarity_to_previous": null,
+      "growth_rate": null,
+      "is_new_theme": true,
+      "storyline_id": "2026-W07_theme_3",
+      "storyline_start_week": "2026-W07",
+      "storyline_weeks": 1,
+      "is_emerging": true,
+      "next_theme_ids": [],
+      "out_degree": 0,
+      "emerging_score": 0.73,
+      "storyline_keywords": []
+    },
+    {
+      "theme_id": "2026-W07_theme_5",
+      "week": "2026-W07",
+      "cluster_id": 5,
+      "label": "New Snapdragon X2 Elite benchmarks surface — and Apple and Intel should be worried",
+      "size": 20,
+      "top_companies": [
+        "Apple",
+        "Intel",
+        "Google",
+        "Qualcomm",
+        "AMD"
+      ],
+      "top_keywords": [
+        "pro",
+        "apple",
+        "m5",
+        "elite",
+        "gen"
+      ],
+      "example_titles": [
+        "New Snapdragon X2 Elite benchmarks surface — and Apple and Intel should be worried",
+        "M5 Pro & M5 Max Rumors Double-Down On ‘Excellent’ Heat Dissipation Coupled With Slightly Higher Transistor Density Than M4 Pro, M4 Max",
+        "Snapdragon 8 Elite Gen 6 Pro Schematic Showing Samsung’s New Heatsink Solution Has Been Spotted In One Of The Biggest Leaks Of The Year",
+        "The Xiaomi 18 might miss out on the next-gen Snapdragon 8 Elite Gen 6 Pro",
+        "This Apple silicon theory has us even more excited for the M5 MacBook Pro"
+      ],
+      "source_count": 14,
+      "relevance": 0.526,
+      "previous_theme_id": "2026-W03_theme_3",
+      "previous_week": "2026-W03",
+      "previous_label": "Intel Core Ultra 9 290HX Plus Outperforms 285HX by Up to 12%",
+      "previous_size": 18,
+      "similarity_to_previous": 0.7013,
+      "growth_rate": 0.1111,
+      "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_4",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 3,
+      "is_emerging": false,
+      "next_theme_ids": [
+        "2026-W09_theme_5",
+        "2026-W10_theme_4",
+        "2026-W11_theme_4"
+      ],
+      "out_degree": 3,
+      "emerging_score": 0.6291,
+      "storyline_keywords": [
+        "intel",
+        "ultra",
+        "core",
+        "macbook"
+      ]
     },
     {
       "theme_id": "2026-W07_theme_9",
@@ -286,19 +376,30 @@
       ],
       "source_count": 8,
       "relevance": 0.474,
-      "previous_theme_id": "2026-W06_theme_9",
-      "previous_week": "2026-W06",
-      "previous_label": "Big Tech's $600 billion spending plans exacerbate investors' AI headache",
-      "previous_size": 20,
-      "similarity_to_previous": 0.8666,
-      "growth_rate": -0.25,
+      "previous_theme_id": "2026-W04_theme_9",
+      "previous_week": "2026-W04",
+      "previous_label": "Magnificent Seven Profits Seen Climbing to $181bn as AI Spending Accelerates",
+      "previous_size": 12,
+      "similarity_to_previous": 0.6269,
+      "growth_rate": 0.25,
       "is_new_theme": false,
-      "is_emerging": false,
+      "storyline_id": "2026-W02_theme_3",
+      "storyline_start_week": "2026-W02",
+      "storyline_weeks": 3,
+      "is_emerging": true,
       "next_theme_ids": [
-        "2026-W08_theme_9"
+        "2026-W08_theme_9",
+        "2026-W09_theme_8",
+        "2026-W10_theme_17"
       ],
-      "out_degree": 1,
-      "emerging_score": 0.5108
+      "out_degree": 3,
+      "emerging_score": 0.5504,
+      "storyline_keywords": [
+        "investors",
+        "spending",
+        "nvidia",
+        "earnings"
+      ]
     },
     {
       "theme_id": "2026-W07_theme_1",
@@ -333,56 +434,22 @@
       "previous_week": "2026-W06",
       "previous_label": "Tech stocks pull Wall Street lower as gold and silver prices bounce back",
       "previous_size": 11,
-      "similarity_to_previous": 0.8633,
+      "similarity_to_previous": 0.7281,
       "growth_rate": -0.2727,
       "is_new_theme": false,
+      "storyline_id": "2026-W01_theme_12",
+      "storyline_start_week": "2026-W01",
+      "storyline_weeks": 4,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.3527
-    },
-    {
-      "theme_id": "2026-W07_theme_3",
-      "week": "2026-W07",
-      "cluster_id": 3,
-      "label": "ByteDance Advances AI Chip Development With Samsung Manufacturing Talks",
-      "size": 8,
-      "top_companies": [
-        "NVIDIA",
-        "Google",
-        "Samsung Electronics",
-        "AMD",
-        "Intel"
-      ],
-      "top_keywords": [
-        "chip",
-        "bytedance",
-        "samsung",
-        "global",
-        "pc"
-      ],
-      "example_titles": [
-        "ByteDance Advances AI Chip Development With Samsung Manufacturing Talks",
-        "ByteDance Eyes Homegrown AI Chip Deal With Samsung Amid Global Tech Rivalry",
-        "AI boom set to push memory revenues far beyond foundry market by 2026",
-        "World’s largest PC maker Lenovo’s CEO Yang Yuanqin has a memory chip shortage warning: We expect sales to …",
-        "Investor Outlook: Applied Materials shares surge 12% after earnings beat"
-      ],
-      "source_count": 8,
-      "relevance": 0.477,
-      "previous_theme_id": "2026-W06_theme_7",
-      "previous_week": "2026-W06",
-      "previous_label": "AMD suffers worst rout since 2018 on disappointing forecast",
-      "previous_size": 11,
-      "similarity_to_previous": 0.8174,
-      "growth_rate": -0.2727,
-      "is_new_theme": false,
-      "is_emerging": false,
-      "next_theme_ids": [
-        "2026-W08_theme_8"
-      ],
-      "out_degree": 1,
-      "emerging_score": 0.3435
+      "emerging_score": 0.3256,
+      "storyline_keywords": [
+        "wall",
+        "street",
+        "plunge",
+        "amd"
+      ]
     },
     {
       "theme_id": "2026-W07_theme_8",
@@ -412,17 +479,26 @@
       ],
       "source_count": 5,
       "relevance": 0.535,
-      "previous_theme_id": "2026-W06_theme_13",
-      "previous_week": "2026-W06",
-      "previous_label": "Selloff wipes out nearly $1 trillion from software and services stocks as investors debate AI's existential threat",
-      "previous_size": 9,
-      "similarity_to_previous": 0.7613,
-      "growth_rate": -0.4444,
+      "previous_theme_id": "2026-W05_theme_12",
+      "previous_week": "2026-W05",
+      "previous_label": "AI gains ground in drug trials and regulatory submissions",
+      "previous_size": 10,
+      "similarity_to_previous": 0.5571,
+      "growth_rate": -0.5,
       "is_new_theme": false,
+      "storyline_id": "2026-W03_theme_13",
+      "storyline_start_week": "2026-W03",
+      "storyline_weeks": 3,
       "is_emerging": false,
       "next_theme_ids": [],
       "out_degree": 0,
-      "emerging_score": 0.2648
+      "emerging_score": 0.2239,
+      "storyline_keywords": [
+        "davos",
+        "fca",
+        "trials",
+        "antitrust"
+      ]
     }
   ]
 }

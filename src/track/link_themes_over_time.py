@@ -10,8 +10,14 @@ import numpy as np
 WEEKLY_DIR = Path("data/themes/weekly")
 OUT_PATH = Path("data/themes/theme_links.json")
 
-SIMILARITY_THRESHOLD = 0.72
-MAX_LINKS_PER_THEME = 1
+# Every theme in this corpus is about AI and chips, so raw centroids all point the
+# same way and unrelated themes still score ~0.85. Similarity is measured after
+# subtracting the average theme, which leaves what distinguishes each one.
+SIMILARITY_THRESHOLD = 0.55
+
+# A story often skips a week of coverage, and the archive has gaps, so a theme is
+# compared with themes from the last few weeks that have data, not just the last one.
+LOOKBACK_WEEKS = 4
 
 
 def load_week_files() -> list[Path]:
@@ -28,10 +34,6 @@ def l2_normalize(v: np.ndarray) -> np.ndarray:
     if norm == 0:
         return v
     return v / norm
-
-
-def cosine_similarity(a: np.ndarray, b: np.ndarray) -> float:
-    return float(np.dot(a, b))
 
 
 def parse_theme(theme: dict[str, Any], week: str) -> dict[str, Any] | None:
@@ -83,93 +85,69 @@ def load_weekly_themes() -> list[tuple[str, list[dict[str, Any]]]]:
     return weekly
 
 
-def build_links_between_weeks(
-    prev_week: str,
-    prev_themes: list[dict[str, Any]],
-    curr_week: str,
-    curr_themes: list[dict[str, Any]],
-    threshold: float,
-    max_links_per_theme: int,
+def center_centroids(weekly: list[tuple[str, list[dict[str, Any]]]]) -> None:
+    """Subtract the mean theme centroid in place, then renormalize."""
+    themes = [t for _, week_themes in weekly for t in week_themes]
+    if len(themes) < 2:
+        return
+    mean = np.mean([t["centroid"] for t in themes], axis=0)
+    for t in themes:
+        t["centroid"] = l2_normalize(t["centroid"] - mean)
+
+
+def build_links(
+    weekly: list[tuple[str, list[dict[str, Any]]]],
+    threshold: float = SIMILARITY_THRESHOLD,
+    lookback: int = LOOKBACK_WEEKS,
 ) -> list[dict[str, Any]]:
-    if not prev_themes or not curr_themes:
-        return []
+    """Link each theme to its most similar theme in the preceding `lookback` weeks.
 
-    candidates = []
-    for i, prev_theme in enumerate(prev_themes):
-        for j, curr_theme in enumerate(curr_themes):
-            sim = cosine_similarity(prev_theme["centroid"], curr_theme["centroid"])
-            if sim >= threshold:
-                candidates.append(
-                    {
-                        "prev_idx": i,
-                        "curr_idx": j,
-                        "similarity": sim,
-                    }
-                )
-
-    candidates.sort(key=lambda x: x["similarity"], reverse=True)
-
-    used_prev = set()
-    used_curr = set()
+    A theme has at most one predecessor, but a predecessor can continue into
+    several themes (a story that splits), so linked themes form storylines.
+    """
     links = []
+    for k, (week, themes) in enumerate(weekly):
+        earlier = [t for _, week_themes in weekly[max(0, k - lookback):k] for t in week_themes]
+        if not earlier:
+            continue
+        earlier_matrix = np.stack([t["centroid"] for t in earlier])
 
-    for c in candidates:
-        prev_idx = c["prev_idx"]
-        curr_idx = c["curr_idx"]
-
-        if max_links_per_theme == 1:
-            if prev_idx in used_prev or curr_idx in used_curr:
+        for theme in themes:
+            sims = earlier_matrix @ theme["centroid"]
+            # Highest similarity; on a tie, the more recent week.
+            best = max(range(len(earlier)), key=lambda i: (sims[i], earlier[i]["week"]))
+            if sims[best] < threshold:
                 continue
-
-        prev_theme = prev_themes[prev_idx]
-        curr_theme = curr_themes[curr_idx]
-
-        links.append(
-            {
-                "from_week": prev_week,
-                "to_week": curr_week,
-                "from_theme_id": prev_theme["theme_id"],
-                "to_theme_id": curr_theme["theme_id"],
-                "from_label": prev_theme["label"],
-                "to_label": curr_theme["label"],
-                "from_size": prev_theme["size"],
-                "to_size": curr_theme["size"],
-                "similarity": round(c["similarity"], 4),
-            }
-        )
-
-        used_prev.add(prev_idx)
-        used_curr.add(curr_idx)
-
+            prev = earlier[best]
+            links.append(
+                {
+                    "from_week": prev["week"],
+                    "to_week": week,
+                    "from_theme_id": prev["theme_id"],
+                    "to_theme_id": theme["theme_id"],
+                    "from_label": prev["label"],
+                    "to_label": theme["label"],
+                    "from_size": prev["size"],
+                    "to_size": theme["size"],
+                    "similarity": round(float(sims[best]), 4),
+                }
+            )
     return links
 
 
 def main() -> None:
     weekly = load_weekly_themes()
+    center_centroids(weekly)
+    all_links = build_links(weekly)
 
-    all_links = []
-
-    for k in range(len(weekly) - 1):
-        prev_week, prev_themes = weekly[k]
-        curr_week, curr_themes = weekly[k + 1]
-
-        links = build_links_between_weeks(
-            prev_week=prev_week,
-            prev_themes=prev_themes,
-            curr_week=curr_week,
-            curr_themes=curr_themes,
-            threshold=SIMILARITY_THRESHOLD,
-            max_links_per_theme=MAX_LINKS_PER_THEME,
-        )
-
-        print(f"{prev_week} -> {curr_week}: {len(links)} links")
-        for link in links[:10]:
-            print(
-                f"  {link['from_label']}  -->  {link['to_label']}  "
-                f"(sim={link['similarity']})"
-            )
-
-        all_links.extend(links)
+    by_week: dict[str, list[dict[str, Any]]] = {}
+    for link in all_links:
+        by_week.setdefault(link["to_week"], []).append(link)
+    for week, themes in weekly:
+        links = by_week.get(week, [])
+        print(f"{week}: {len(links)} of {len(themes)} themes continue an earlier one")
+        for link in links[:5]:
+            print(f"  {link['from_week']} {link['from_label'][:60]}  -->  {link['to_label'][:60]}  (sim={link['similarity']})")
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT_PATH, "w", encoding="utf-8") as f:
