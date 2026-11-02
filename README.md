@@ -26,7 +26,7 @@ MarketThemeAI takes the opposite approach. It reads each week's news, groups art
 |---|---|
 | **Corpus** | 8,000+ English news articles from global coverage via GDELT, filtered to ~2,900 industry-news articles |
 | **Coverage** | 60 companies across 13 industry groups (AI compute, foundry, memory, equipment, networking, EDA, packaging, …) |
-| **Output** | ~170 themes across 14 weeks, each titled by its most representative headline, grouped into multi-week storylines, and scored for "emergingness" |
+| **Output** | ~170 themes across 14 weeks, each titled by the thread that runs through its headlines, grouped into multi-week storylines, and scored for "emergingness" |
 | **Dashboard** | Summary stats, the hottest theme, filters for emerging / new / continuing themes, and theme trajectories over time |
 
 ## How it works
@@ -70,8 +70,8 @@ The number of themes changes every week, and many articles don't belong to any t
 **UMAP before HDBSCAN.**
 Density is close to meaningless in 384 dimensions. Run directly on the embeddings, HDBSCAN either discarded about 70% of articles as noise or, once duplicates were removed, merged a whole week into one 300-article blob. Reducing to 5 dimensions with UMAP first (the approach BERTopic popularized) puts about 80% of filtered articles into themes. A theme must also be covered by at least 3 different outlets, which rules out one site's recurring format.
 
-**Headlines as titles, keyphrases as tags.**
-Keyword labels ("beats · beats forecasts · expansion") were the least readable part of the dashboard. Each theme is now titled by the headline closest to its centroid, the way news aggregators do it. The tags come from class-based TF-IDF, which picks terms frequent in that theme but rare in the week's other themes ("musk, elon, terafab") instead of terms that are merely common.
+**Umbrella titles, keyphrases as tags.**
+Keyword labels ("beats · beats forecasts · expansion") were the least readable part of the dashboard. Titling each theme by the headline closest to its centroid read better, but it made the theme look like one article with the others filed under it. Now the Claude call that rates each theme also writes its title, naming the thread that covers all of its headlines; the central headline remains the fallback when no API key is set. The tags come from class-based TF-IDF, which picks terms frequent in that theme but rare in the week's other themes ("musk, elon, terafab") instead of terms that are merely common.
 
 **Cluster week by week, then link into storylines.**
 Clustering all articles at once would blur time. Instead, each week is clustered independently, and each theme is linked to its closest match among the previous four weeks that have data, so a story that skips a week, or spans a gap in the archive, still connects. Chains of links form storylines ("memory · shortage · prices", running for six weeks), which is what makes "new" and "ongoing" meaningful: a theme is new only if nothing like it appeared recently.

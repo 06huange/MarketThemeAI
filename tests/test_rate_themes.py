@@ -11,6 +11,7 @@ def theme(theme_id: str, titles: list[str]) -> dict:
         "size": 13,
         "source_count": 12,
         "top_companies": ["Tesla", "Intel"],
+        "label": titles[0],
         "example_titles": titles,
     }
 
@@ -33,8 +34,18 @@ def fake_client(ratings):
     return SimpleNamespace(messages=FakeMessages(ratings))
 
 
-FAB = ThemeRating(significance=5, category="manufacturing", reason="A $25B chip fab reshapes US supply.")
-SUMMIT = ThemeRating(significance=2, category="policy_and_trade", reason="A regional summit with no concrete action.")
+FAB = ThemeRating(
+    title="Musk plans Terafab chip plant with Tesla and Intel",
+    significance=5,
+    category="manufacturing",
+    reason="A $25B chip fab reshapes US supply.",
+)
+SUMMIT = ThemeRating(
+    title="India hosts national AI summit",
+    significance=2,
+    category="policy_and_trade",
+    reason="A regional summit with no concrete action.",
+)
 
 
 def test_prompt_shows_headlines_companies_and_coverage():
@@ -57,6 +68,16 @@ def test_rates_unseen_themes_and_reuses_cached_ones():
     assert fab["significance"] == 5 and fab["significance_category"] == "manufacturing"
     assert summit["significance"] == 2
     assert cache_key(fab) in cache
+
+
+def test_title_replaces_headline_label_only_when_rated():
+    rated = theme("a", ["Musk launches Terafab", "Intel joins Tesla chip fab plan"])
+    unrated = theme("b", ["Something odd"])
+
+    rate_all({"w": [rated, unrated]}, {}, fake_client({"Terafab": FAB, "odd": None}))
+
+    assert rated["label"] == FAB.title
+    assert unrated["label"] == "Something odd"
 
 
 def test_failed_rating_leaves_theme_unrated_and_uncached():
