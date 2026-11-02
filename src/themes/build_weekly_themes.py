@@ -202,6 +202,7 @@ def build_theme_objects(
             "cluster_id": int(cluster_id),
             "size": len(ranked),
             # The most representative headline reads better than any keyword list.
+            # rate_themes replaces it with a title that covers all the theme's headlines.
             "label": titles[0] if titles else " · ".join(phrases[:3]) or "untitled theme",
             "top_companies": get_top_items(companies, TOP_K_COMPANIES),
             "top_keywords": phrases,

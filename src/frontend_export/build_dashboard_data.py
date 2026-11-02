@@ -223,7 +223,7 @@ def build_theme_records(
 def add_storyline_keywords(themes: list[dict], k: int = 4) -> None:
     """Name each multi-week storyline by the terms that set its headlines apart.
 
-    A theme's own label is one specific headline; these keywords describe the
+    A theme's own label sums up one week's headlines; these keywords describe the
     broader thread it belongs to (e.g. "memory · shortage · prices").
     """
     storylines: dict[str, list[dict]] = defaultdict(list)

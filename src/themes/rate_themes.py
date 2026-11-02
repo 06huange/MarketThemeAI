@@ -5,8 +5,12 @@ articles than a $25B chip fab. A short Claude call per theme reads its headlines
 and scores significance from 1 (not industry news) to 5 (industry-shaping), which
 the dashboard uses to lead with pivotal themes.
 
+The same call writes the theme's title: the common thread that covers all of its
+headlines, replacing the single representative headline clustering picks as the label.
+
 Ratings are cached by the theme's headlines, so a weekly run only rates themes it
-hasn't seen. Without ANTHROPIC_API_KEY the step is skipped and themes are unrated.
+hasn't seen. Without ANTHROPIC_API_KEY the step is skipped: themes are unrated and
+keep the headline label.
 """
 
 from __future__ import annotations
@@ -25,13 +29,15 @@ CACHE_PATH = Path("data/themes/ratings_cache.json")
 
 MODEL = "claude-haiku-5-5"
 # Bump when the prompt or rubric changes so every theme is re-rated.
-PROMPT_VERSION = "1"
+PROMPT_VERSION = "2"
 MAX_HEADLINES = 8
 WORKERS = 4
 
 SYSTEM_PROMPT = """You are the editor of a weekly briefing on the AI and semiconductor industry, read by engineers and investors who want to know what changed the industry, not everything that was published.
 
-You will get one news theme: a cluster of articles from the same week, shown as its headlines, the companies it mentions, and how widely it was covered. Rate how significant the underlying development is for the global AI and semiconductor industry.
+You will get one news theme: a cluster of articles from the same week, shown as its headlines, the companies it mentions, and how widely it was covered. Give the theme a title, and rate how significant the underlying development is for the global AI and semiconductor industry.
+
+The title names the theme that all of the headlines belong to, in about 4 to 10 words. It should cover every headline, not describe any single article: a reader should see why each headline is filed under it. For example, headlines about Samsung raising DRAM prices, Micron selling out of HBM, and PC makers warning about component costs share the title "Memory chip shortage drives up prices across the industry". Name a company only if most of the headlines are about it. Write it as plain news: no outlet names, hype, or questions.
 
 Significance scale:
 5 - Industry-shaping. Changes the competitive landscape, supply, or rules for the whole industry. Examples: a new multi-billion-dollar fab or chip megaproject, an acquisition or investment above roughly $10B between major players, a major change to export controls or tariffs on chips, a dominant company's strategy shift.
@@ -40,10 +46,11 @@ Significance scale:
 2 - Minor. Regional or niche: national AI summits and initiatives, conference recaps, small partnerships, routine product refreshes, executive commentary without action.
 1 - Not industry news. Consumer product reviews and shopping deals, stock-price moves and investment advice, analyst ratings, general opinion pieces.
 
-Judge the development, not the amount of coverage: a widely covered summit can still be a 2, and a thinly covered fab announcement can still be a 5. If the headlines mix several stories, rate the dominant one."""
+Judge the development, not the amount of coverage: a widely covered summit can still be a 2, and a thinly covered fab announcement can still be a 5. If the headlines mix several stories, title the thread that connects them and rate the dominant one."""
 
 
 class ThemeRating(BaseModel):
+    title: str = Field(description="4-10 word title that covers all of the theme's headlines, not any single one")
     significance: int = Field(ge=1, le=5, description="1-5 on the scale in the instructions")
     category: Literal[
         "manufacturing", "deals_and_funding", "policy_and_trade", "products_and_tech",
@@ -108,6 +115,8 @@ def apply_rating(theme: dict, rating: dict | None) -> None:
     theme["significance"] = rating["significance"] if rating else None
     theme["significance_category"] = rating["category"] if rating else None
     theme["significance_reason"] = rating["reason"] if rating else None
+    if rating and rating.get("title"):
+        theme["label"] = rating["title"]
 
 
 def rate_all(weekly: dict[Path, list[dict]], cache: dict[str, dict], client) -> int:
