@@ -195,7 +195,8 @@ aws ssm put-parameter --name /marketthemeai-prod/gcp-service-account-json \
   --type SecureString --overwrite --value file://service-account.json
 
 # 6. GitHub: set repo variable AWS_DEPLOY_ROLE_ARN to the github_deploy_role_arn output
-#    Vercel: set NEXT_PUBLIC_API_URL to the api_url output
+#    Vercel: set NEXT_PUBLIC_API_URL to the api_url output, and enable Web Analytics
+#    (Project → Analytics → Enable) to count visitors
 ```
 
 After that, every push to `main` that passes tests deploys automatically.
