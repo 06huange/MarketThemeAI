@@ -99,8 +99,22 @@ jobs:
       - name: Deploy pipeline (new task revision; the schedule runs the latest)
         run: |
           aws ecs describe-task-definition --task-definition "$NAME-pipeline" --query taskDefinition > current.json
-          jq --arg image "${{ steps.ecr.outputs.registry }}/$NAME-pipeline:$TAG" '
+          # Terraform ignores container changes (so it won't roll back the image), which
+          # means secrets added there never reach the live task. Wire in the Anthropic key
+          # here, but only once `terraform apply` has created its parameter: a task that
+          # references a missing parameter fails to start at all.
+          key_arn=$(aws ssm describe-parameters --parameter-filters "Key=Name,Values=/$NAME/anthropic-api-key" \
+            --query 'Parameters[0].ARN' --output text 2>/dev/null || true)
+          if [[ "$key_arn" != arn:* ]]; then
+            echo "::warning::/$NAME/anthropic-api-key not found; the pipeline will run without theme titles and ratings"
+            key_arn=""
+          fi
+          jq --arg image "${{ steps.ecr.outputs.registry }}/$NAME-pipeline:$TAG" --arg key "$key_arn" '
             .containerDefinitions[0].image = $image
+            | if $key == "" then . else
+                .containerDefinitions[0].secrets = [(.containerDefinitions[0].secrets // [])[] | select(.name != "ANTHROPIC_API_KEY")]
+                  + [{name: "ANTHROPIC_API_KEY", valueFrom: $key}]
+              end
             | {family, containerDefinitions, executionRoleArn, taskRoleArn, networkMode,
                requiresCompatibilities, cpu, memory, runtimePlatform}' current.json > next.json
           aws ecs register-task-definition --cli-input-json file://next.json \

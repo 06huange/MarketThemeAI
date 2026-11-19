@@ -1,7 +1,8 @@
 # GitHub Actions authenticates with short-lived OIDC tokens; no AWS keys are stored
 # in GitHub. The role can only deploy images: push to the two ECR repos, point the
-# Lambda at a new image, and register new pipeline task revisions. Infrastructure
-# changes go through `terraform apply`, not CI.
+# Lambda at a new image, and register new pipeline task revisions (looking up, but
+# never reading, the Anthropic key parameter). Infrastructure changes go through
+# `terraform apply`, not CI.
 
 resource "aws_iam_openid_connect_provider" "github" {
   url            = "https://token.actions.githubusercontent.com"
@@ -59,6 +60,13 @@ resource "aws_iam_role_policy" "github_deploy" {
         Effect   = "Allow"
         Action   = ["ecs:DescribeTaskDefinition", "ecs:RegisterTaskDefinition"]
         Resource = "*" # these actions don't support resource scoping
+      },
+      {
+        # Metadata only, never values: lets the deploy check the Anthropic key's
+        # parameter exists before wiring it into the pipeline task.
+        Effect   = "Allow"
+        Action   = ["ssm:DescribeParameters"]
+        Resource = "*" # this action doesn't support resource scoping
       },
       {
         Effect   = "Allow"
