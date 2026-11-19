@@ -200,7 +200,12 @@ terraform apply -var-file=environments/prod.tfvars
 aws ssm put-parameter --name /marketthemeai-prod/gcp-service-account-json \
   --type SecureString --overwrite --value file://service-account.json
 
-# 6. GitHub: set repo variable AWS_DEPLOY_ROLE_ARN to the github_deploy_role_arn output
+# 6. Anthropic key, for theme titles and significance ratings. The next deploy
+#    wires it into the pipeline task; without it, themes keep headline labels.
+aws ssm put-parameter --name /marketthemeai-prod/anthropic-api-key \
+  --type SecureString --overwrite --value <key>
+
+# 7. GitHub: set repo variable AWS_DEPLOY_ROLE_ARN to the github_deploy_role_arn output
 #    Vercel: set NEXT_PUBLIC_API_URL to the api_url output, and enable Web Analytics
 #    (Project → Analytics → Enable) to count visitors
 ```
